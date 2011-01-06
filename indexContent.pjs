@@ -1,0 +1,196 @@
+// projectSelector written by fabiantheblind for
+// http://www.the-moron.net;
+// using processingjs from http://processingjs.org/
+
+// the font
+PFont font;
+int fontsize = 32;
+// the links
+String links [] = new String []{
+"http://www.the-moron.net/blog/",
+"http://project.the-moron.net/projectsIndex.html",
+"http://project.the-moron.net/UELaerm/",
+"http://fabiantheblind.github.com/theGrids/",
+"http://fabiantheblind.github.com/rigPuppet/",
+"http://fabiantheblind.github.com/IDSnippets/",
+"http://fabiantheblind.github.com/theMoronNet/",
+"http://fabiantheblind.github.com/vFFF/",
+"http://fabiantheblind.github.com/",
+"http://www.delicious.com/fabiantheblind",
+"http://twitter.com/fabiantheblind",
+"http://incom.org/profil/270",
+"http://vimeo.com/fabiantheblind"
+};
+// the titel to the links. If there is no title to the link
+// it takes the link
+String titles [] = new String []{
+"3xW.T-M.N/BLOG",
+"projects Index",
+"U.E. LAERM",
+"theGrids @ gitHub.com",
+"rigPuppet @ gitHub.com",
+"IDSnippets @ gitHub.com",
+"the-moron.net @ github.com",
+"vFFF @ github.com",
+"fabiantheblind @ github.com",
+"fabiantheblind @ delicious.com",
+"fabiantheblind @ twitter.com",
+"fabiantheblind @ incom.org",
+"fabiantheblind @ vimeo.com"
+
+};
+//the steps for the display
+int step = 25;
+// a list of projects
+Project [] projs;
+// a list of colors
+color [] clrs;
+void setup(){
+	// build new projects from links
+	int x = step;
+	int y = step;
+	
+	projs = new Project[links.length];
+	clrs = new color[links.length];
+	for(int i = 0; i < links.length; i++){
+		clrs [i] = color(random(100,200),random(100,255),random(100,200),200);
+		if(titles[i] == null){
+			projs[i] = new Project(links[i],links[i],x,y,clrs [i]);	
+		}else{
+			projs[i] = new Project(links[i],titles[i],x,y,clrs [i]);
+		}
+	// to break when the row is full.
+	// needs testing
+	x+=step;
+	if(x > width){
+		y+= step;
+		x = step;
+	}
+}
+// the font of choice 
+font = loadFont("Times");
+  //font = loadFont("DejaVuSerif-13.vlw");
+// the sketch size
+size(800, 200);
+// black
+background(0);
+smooth();
+}
+
+void draw(){
+	// the inital message
+	if(frameCount < 25){
+		textFont(font, fontsize);
+		fill(255, 255 -(frameCount*10));
+		noStroke();
+		textAlign(CENTER);
+		text("hover over the points to find projects",width/2,height/2);
+	}
+noStroke();
+// this clears the screen
+fill(0,10);
+rect(0,0,width,height);
+// just for styling
+buildDots(step);
+
+// display all projects
+for(int ps = 0; ps < projs.length; ps++ ){
+	projs[ps].display();
+}
+// write title/link on screen
+writeText(projs.length);
+}
+// the dots for styling
+void buildDots(int s){
+	for(int w = s; w < width;w+=s ){
+		for(int h = s; h < height; h+=s){
+				stroke(255,50);
+				strokeWeight(0.1+random(1));
+				float aBit_W_Noise = random(-5,5);
+				float aBit_H_Noise = random(-5,5);
+				point(w+aBit_W_Noise,h+aBit_H_Noise);
+		}// end inner loop	
+	}// end outer loop
+}
+void mousePressed() {
+	// check if the mouse is pressed over a project
+	for(int o = 0; o < projs.length; o++){		
+		if(projs[o].over){
+			// println(" open: the-moron.net/blog");
+			link(projs[o].lynk);
+		}
+	}	
+}
+void mouseMoved() {
+	// check if the mouse is over
+checkButtons();
+}
+
+// check if the mouse is over
+void checkButtons() {
+	int bDiam = 5;
+for(int p =0; p <projs.length;p++ ){
+	if(mouseX >  projs[p].x -bDiam && mouseX < projs[p].x +bDiam &&  
+		mouseY > projs[p].y -bDiam && mouseY < projs[p].y +bDiam ) {  
+		projs[p].over = true;   
+		// println(" open: I am a project");  
+	} else {  
+		projs[p].over = false;  
+		}
+	}
+}
+
+// write title/link on screen
+void writeText(int theLength){
+smooth();
+textFont(font,fontsize);
+	for(int l = 0; l < theLength; l ++){
+		if(projs[l].over){
+			fill(255,100);
+			noStroke();
+			textAlign(CENTER);
+			text("press and go to "+ projs[l].title,width/2,height/2);
+		}
+	}
+}
+// the Project
+class Project {
+	boolean  over;
+	String  lynk;
+	String title;
+	int x;
+	int y;
+	color c;
+	Project (String l, String t, int _x, int _y,color _c){
+		lynk = l;
+		title = t;
+		over = false;
+		x = _x;
+		y = _y;
+		c = _c;
+	}
+	
+	// display the projects same as the dots
+	public void display(){
+		// when the mouse is over the project
+		if(over == true ){
+			stroke(c);
+			strokeWeight(random(23));
+			point(x,y);
+		}else{
+			int r,g,b,a;
+			r = red(c);
+			g = green(c);
+			b = blue(c);
+			a = alpha(c);
+			stroke(r,g,b,50);
+			strokeWeight(1+random(1));
+			float aBit_W_Noise = random(-5,5);
+			float aBit_H_Noise = random(-5,5);
+			point(x+aBit_W_Noise,y+aBit_H_Noise);
+			// the ellipse is for debbugging
+			//	fill(c);
+			ellipse(x,y,10,10);
+		}
+	}
+}
