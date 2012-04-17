@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<!-- Build by fabiantheblind http://the-moron.net
+		how to Center a video in the browserwindow using CSS and Javascript
+		build on this example: http://www.alistapart.com/d/footers/footer_variation1.html
+		-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>fabiantheblind</title>
+<link href="./style.css" rel="stylesheet" media="all" type="text/css" />
+</style>
+<script src="processing.js"></script>
+	<script type="text/javascript">
+	<!--
+	function getWindowHeight() {
+		var windowHeight = 0;
+		if (typeof(window.innerHeight) == 'number') {
+			windowHeight = window.innerHeight;
+		}
+		else {
+			if (document.documentElement && document.documentElement.clientHeight) {
+				windowHeight = document.documentElement.clientHeight;
+			}
+			else {
+				if (document.body && document.body.clientHeight) {
+					windowHeight = document.body.clientHeight;
+				}
+			}
+		}
+		return windowHeight;
+	}
+	function setContent() {
+		if (document.getElementById) {
+			var windowHeight = getWindowHeight();
+			if (windowHeight > 0) {
+				var contentElement = document.getElementById('myObject');
+				var contentHeight = contentElement.offsetHeight;
+				if (windowHeight - contentHeight > 0) {
+					contentElement.style.position = 'relative';
+					contentElement.style.top = ((windowHeight / 2) - (contentHeight / 2)) + 'px';
+				}
+				else {
+					contentElement.style.position = 'static';
+				}
+			}
+		}
+	}
+	window.onload = function() {
+		setContent();
+	}
+	window.onresize = function() {
+		setContent();
+	}
+	//-->
+	</script>
+</style>
+</head>
+
+<body>
+	<div id="myObject">
+	<object>
+	<canvas data-processing-sources="indexContent.pjs" width="800" height="450"></canvas>
+	</object>
+	</div>
+</body>
+</html>
