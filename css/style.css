@@ -1,0 +1,78 @@
+body {
+  margin-top: 1.1em;
+/*  font-family: "calluna", Georgia, "Times New Roman", Times, serif;*/
+  color: #000000;
+  font: normal 400 1.0em/1em "calluna","Georgia";
+}
+
+#welcome{
+	line-height: 1em;
+	font-size:1.2em;
+	}
+
+#container {
+  margin: 0 auto;
+  width: 75%;
+  max-width: 700px;
+  
+}
+#name{
+	  font-size: 1.4em;
+	font-weight: bold;
+}
+h1.hello{
+	padding-bottom: 0;
+	font: normal 900 6em "calluna","Georgia";
+	margin-bottom: -35px;
+	margin-top: 35px;
+}
+
+img.gravatar{
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+#player{
+	margin-top: -11px;
+}
+
+
+iframe{
+	height: 46%;
+	width: 100%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+h1 { font-size: 6em; color: #000000; margin-bottom: 3px;
+}
+h1.small { font-size: 0.4em; }
+h1 a { text-decoration: none }
+h2 { font-size: 1.6em; color: #000000; }
+h3 { font-size: 1.4em; color: #000000; }
+h4{font-size: 1.3em;}
+a { color: #000000; }
+
+img#head{
+  width: 100%;
+  border: 1px dashed #cccccc;
+  opacity: 1;
+}
+
+.connect{
+	text-align: center;
+	padding-top: 35px;
+}
+img.connect{
+	
+	width: 32px;
+	height: 32px;
+}
+
+
+.description { font-size: 1.3em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
+.download { float: right; }
+pre { background: #000; color: #fff; padding: 15px;}
+hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+.footer { text-align:center; padding-top:30px; font-style: italic; }
+
