@@ -37,11 +37,21 @@ img.gravatar{
 }
 
 
+#idl{
+ text-align:center;
+padding-top: 3em;
+
+}
+
+img#idl{
+
+	max-width: 128px;
+	max-height: 128px;
+}
+
 iframe{
-	height: 46%;
+	min-height: 70%;
 	width: 100%;
-	padding-top: 16px;
-	padding-bottom: 16px;
 }
 
 h1 { font-size: 6em; color: #000000; margin-bottom: 3px;
