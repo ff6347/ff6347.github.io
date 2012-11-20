@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="en">
   <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="description" content="fabiantheblind.info" />
+    <meta name="author" content="fabiantheblind" />
   <title>{{ page.title }}</title>
-  <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>  
- <script type="text/javascript" src="js/jquery.jqplugin.1.0.2.min.js"></script>  
+  <script type="text/javascript" src="assets/js/jquery-1.8.0.min.js"></script>  
+ <script type="text/javascript" src="assets/js/jquery.jqplugin.1.0.2.min.js"></script>
+     <script type="text/javascript" src="assets/js/lightbox.js"></script>
+
 
 <script type="text/javascript" src="http://use.typekit.com/jdb0zac.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 <!--<link href='http://fonts.googleapis.com/css?family=Brawler' rel='stylesheet' type='text/css'>-->
-<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+
+<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+<link rel="stylesheet" href="assets/css/syntax.css" type="text/css" />
+<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
+  
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -24,43 +34,15 @@
 
 </script>
 </head>
-<body onload="">
+<body>
   
-  <div id="container">
+  <div class="container">
+  {{ content }}
+  {% include footer.html %}
 
-{{ content }}
 
 
-  <div id="idl"><a href="http://internetdefenseleague.org" target="blanc"><img src="http://internetdefenseleague.org/images/badges/final/shield_badge.png" alt="Member of The Internet Defense League" id="idl" /></a></div>
 
-   <div class="connect" >
-        
-        <a href="http://twitter.com/fabiantheblind"><img class="connect" src="styling/twitter.png"  /></a>  <span >&middot;</span>  
-        <a href="http://vimeo.com/fabiantheblind"><img class="connect" src="styling/vimeo.png" /></a>    <span >&middot;</span>    
-        <a href="http://www.flickr.com/photos/fabiantheblind/show/"><img class="connect" src="styling/flickr.png"  /></a>  <span >&middot;</span>  
-  <!--       <a href="http://www.delicious.com/fabiantheblind">delicious</a> -->
-        <a href="https://github.com/fabiantheblind"><img class="connect" src="styling/github.png" /></a>  <span >&middot;</span>  
-        <a href="http://fabiantheblind.tumblr.com/"><img class="connect" src="styling/tumblr.png"  /></a>  <span >&middot;</span>  
-              <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#101;&#108;&#108;&#111;&#64;&#102;&#97;&#98;&#105;&#97;&#110;&#116;&#104;&#101;&#98;&#108;&#105;&#110;&#100;&#46;&#105;&#110;&#102;&#111;"><img class="connect" src="styling/e-mail.png"  /></a> 
-<!--            <span >&middot;</span>  -->
-<!--        <a href="http://fabiantheblind.info/scripts.html"><img class="connect" src="/styling/jsx.png"  /></a>       -->
-        <span ></span>            
-  </div>
-
-      </div> <!-- close connect -->
-
-      <script type="text/javascript">
-    window._idl = {};
-    _idl.variant = "modal";
-    _idl.campaign = "idl_launch";
-    (function() {
-        var idl = document.createElement('script');
-        idl.type = 'text/javascript';
-        idl.async = true;
-        idl.src = 'https://members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'banner');
-        document.getElementsByTagName('body')[0].appendChild(idl);
-    })();
-</script>
-
+</div>
 </body>
 </html>

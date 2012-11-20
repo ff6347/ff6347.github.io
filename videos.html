@@ -1,24 +1,54 @@
 ---
 layout: default
-title: vimeo videos
+title: Some Video Eye Candy
 ---
 
-<script type="text/javascript">
+<div class="span8 offset2">
+  
+  {% include welcome.html %}
 
-$.getJSON('vimeoalbum1905654.json', function(data) {
-    alert(data);
+<p id="welcome">this is an overview of some projects I've made. You can find more videos on my <a href="https://vimeo.com/fabiantheblind">vimeo channel</a>, but this is what I consider my "eye candy".</a>
+  </p>
+   
+  </div>
+  
+ 
+    
+<div class="vids">
+
+</div>
+
+
+
+ <script type="text/javascript">
+
+
+    window.onpaint = preloadFunc();
+
+
+function preloadFunc(){
+// load data from here
+// http://vimeo.com/api/v2/album/1905654/videos.json
+// http://vimeo.com/api/v2/album/2156424/videos.json
+
+$.getJSON('2156424.json', function(data) {
+    // alert(data);
    var items = [];
   for (var i in data){
-    var title = data[i].title;
-    var iframe = 
-    items.push();
+
+    // var title = '<span class="videotitle">' +data[i].title + '</span>';
+    var iframe = '<iframe src="http://player.vimeo.com/video/'+data[i].id+'?byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>';
+    items.push('<div class="span4" id="iframediv">' + iframe + "");
 
   };
   // $.each(data, function(key, val) {
   //   items.push('<li id="' + key + '">' + val + '</li>');
   // });
+$('.vids').append('<div class="row">' + items.join('') + '</div>');
 
-  $('<ul/>', { 'class': 'my-new-list',  html: items.join('') }).appendTo('body');
+  // $('<ul/>', { 'class': 'my-new-list',  html: items.join('') }).appendTo('body');
 });
+}
 
-</script>
+
+// </script> 
