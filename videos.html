@@ -1,0 +1,24 @@
+---
+layout: default
+title: vimeo videos
+---
+
+<script type="text/javascript">
+
+$.getJSON('vimeoalbum1905654.json', function(data) {
+    alert(data);
+   var items = [];
+  for (var i in data){
+    var title = data[i].title;
+    var iframe = 
+    items.push();
+
+  };
+  // $.each(data, function(key, val) {
+  //   items.push('<li id="' + key + '">' + val + '</li>');
+  // });
+
+  $('<ul/>', { 'class': 'my-new-list',  html: items.join('') }).appendTo('body');
+});
+
+</script>
