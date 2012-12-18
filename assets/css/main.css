@@ -5932,7 +5932,7 @@ ol {
   text-align: center;
 }
 #showreel {
-  max-width: 350px;
+  max-width: 375px;
   -webkit-border-top-right-radius: 13px;
   -webkit-border-bottom-right-radius: 13px;
   -webkit-border-bottom-left-radius: 13px;
@@ -5974,7 +5974,7 @@ ol {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  max-width: 350px;
+  max-width: 375px;
   text-align: center;
 }
 .depth {
