@@ -18,6 +18,7 @@
 		<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
 		<link rel="stylesheet" href="assets/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
 		<!-- scripts -->
+		<!-- <script type="text/javascript" src="assets/js/modernizr.custom.70055.js"></script> -->
 		<script type="text/javascript" src="assets/js/jquery-1.8.0.min.js"></script>
 		<script type="text/javascript" src="assets/js/jquery.prettyPhoto.js"></script>
 		<!-- Google Analytics -->
@@ -31,6 +32,7 @@
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
 		</script>
+
 	</head>
 	<body>
 		<div class="container">
@@ -40,13 +42,19 @@
 
 		<script type="text/javascript" charset="utf-8">
 		$(document).ready(function(){
-			$("a[rel^='prettyPhoto']").prettyPhoto({
+
+			var prettyPhotoSettings = {
 				social_tools:'',
-				default_width: 500,
-				default_height: 281,
+				default_width: 1000,
+				default_height: 562,
 				opacity: 0.95, /* Value between 0 and 1 */
-				show_title: false /* true/false */
-				});
+				show_title: false, /* true/false */
+				deeplinking: false,
+				slideshow: false
+			};
+			 $("a[rel^='prettyPhoto']").prettyPhoto(prettyPhotoSettings);
+
+
 		});
 		</script>
 	</body>
