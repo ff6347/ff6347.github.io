@@ -18,7 +18,7 @@ social networks
 
 ##work experience:  
 
-###Programming Script-Plugins for [Adobe After Effects](http://www.adobe.com/products/aftereffects.html)  
+###Programming Script-Plugins for Adobe After Effects  
 
 - [Obj Vertex Export](http://aescripts.com/obj-vertex-export/), November 2012  
 - [Locations](http://aescripts.com/locations), November 2012  
