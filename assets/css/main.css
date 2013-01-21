@@ -6046,6 +6046,14 @@ code {
   font-size: 0.7em;
   text-align: center;
 }
+.connect {
+  text-align: center;
+  padding-bottom: 3em;
+}
+img.connect {
+  width: 32px;
+  height: 32px;
+}
 /*****************************************************************************
 /* 
 /* MEDIA QUERIES
