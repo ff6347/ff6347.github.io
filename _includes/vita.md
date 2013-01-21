@@ -28,7 +28,7 @@ social networks
 
 ###Teachings  
 
-- two weeks workshop at the University of Applied Sciences, Potsdam [Typographie und Automation](http://fabiantheblind.github.com/Typography-And-Automation/), October 2012  
+- two weeks workshop at the University of Applied Sciences, Potsdam [Typography und Automation](http://fabiantheblind.github.com/Typography-And-Automation/), October 2012  
 - After Effects Tutorials for [ae.tuts+](http://ae.tutsplus.com/tutorials/motion-graphics/how-to-isolate-and-style-motion-blur-in-your-animation-part-1/), October 2012  
 
 ###Motion Design, Animation and Postproduction  
@@ -47,16 +47,16 @@ in cooperation with [forseesense](http://forseesense.com)
 
 
 
-###Programming of semiautomatic Layout Prcesses  
+###Programming of semiautomatic Layout Processes  
 
 - [mediaplanungonline.de](http://mediaplanungonline.de), 2009 - 2012  
 
 ###Layout, Pre-Press  
 
-- [JustMusic](http://www.justmusic.de/de-de) product cataloges, 2007 - 2012  
-- [Sound Service](http://www.sound-service.eu) delaer cataloges, 2009 - 2012  
+- [JustMusic](http://www.justmusic.de/de-de) product catalogues, 2007 - 2012  
+- [Sound Service](http://www.sound-service.eu) dealer catalogues, 2009 - 2012  
 
-###Textil-Printproduction, Customer- and Shopsupport  
+###Textile & Print-production, Customer & Shop-support  
 
 - [Mazooka](http://mazooka.de) Berlin, 2006 - 2008  
 - Titus Store Braunschweig, 2001 - 2003   
