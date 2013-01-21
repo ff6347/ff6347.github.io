@@ -1,39 +1,85 @@
 ---
-layout: standard
+layout: newdefault
 title: Hello Handsome Stranger
 ---
-
-
- <script type="text/javascript">  
- $(document).ready(function() {  
- $("#withflash").hide();  
- $("#noflash").hide();  
- if ($.browser.flash == true)  
-   $("#withflash").show ();  
- else  
-   $("#noflash").show ();  
-  });  
- </script>  
-
-<!--  <div id="withflash">Flash Supported</div>  
- <div id="noflash">Flash Not Supported</div>  --> 
-
-<!-- 	<h1 class="hello"><a href="/"><img src="assets/images/gravatar.png" class="gravatar" alt="" /></a> Hello</h1> -->
-{% include welcome.html %}
-
-	<p id="welcome">my name is fabiantheblind a.k.a. Fabian Morón Zirfas. I am a freelance designer, motion grapher and coder living in Berlin who occasionally does stuff that involves things.<br />
-	Have a look at some videos below or on the <a href="/videos.html">video overview</a>. Maybe you like to visit the <a href="coding.html">coding page.</a>  If you'd like to contact me use one of the social networks or write me an email. Oh and there is also that boring <a href="impressum.html">legal stuff.</a>
-	</p>
-
-<div id="player">
-
-<div id="withflash">
-	<iframe src="http://player.vimeo.com/hubnut/album/1905654?color=000000&amp;background=ffffff&amp;slideshow=1&amp;video_title=1&amp;video_byline=0" width="100%" height="512px" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
- </div>
-
- <div id="noflash">
- <iframe src="http://player.vimeo.com/video/48392006" width="100%" height="281px" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
- </div>
+<header>
+<div class="span10 offset1">
+	<div class="hero-unit">
+		<h1>Hello</h1>
+		<p>
+			my name is Fabian Morón Zirfas a.k.a. fabiantheblind. I am a freelance motiongrapher and coder living in Berlin who occasionally does stuff that involves things.<br />
+	Have a look at my showreel below. If you'd like to contact me use one of the social networks or write me an email. Oh and there is also that boring <a href="impressum.html">legal stuff.</a>
+	{% comment %}
+	 and browse through my favorite <a href="/motiongraphics.html">motiongraphics</a> and <a href="programming.html">programming</a> projects. 
+	{% endcomment %}
+	
+		</p>
+	</div>
 </div>
+</header>
+<section>
+	<!-- showreel -->
+	<div class="row">
+		<div class="span6 offset4">
+			<div id="showreel">
+				<a href="http://vimeo.com/56188646" rel="prettyPhoto[grouped]" title="">
+					<img src="assets/images/thumbnails/showreel.png" alt="" width="100%" />
+				</a>
+			</div>
+			
+		</div>
+	</div>
+</section>
+<section>
+	<div class="row">
+		<div class="span5 offset1">
+			<h2 class="sections">Motion Graphics</h2>
+			<!-- Motion Graphics block -->
+			<p>{% include motiongraphics.html %}</p>
+		</div> <!-- end MG -->
+		<div class="span5">
+			<h2 class="sections">Programming</h2>
+			<!-- Programming block -->
+			<p>
+				{% include programming.html %}
+			</p>
+		</div> <!-- end prog -->
+	</div>
+</section>
 
-<br />
+<section>
+		<div class="row">
+			<div class="span10 offset1">
+				<!-- <h3>gallery</h3> -->
+				<!-- gallery -->
+			</div>
+		</div>
+</section>
+
+<section>
+	<div class="row">
+		<div class="span10 offset1">
+			<!-- vita and contact -->
+			<!-- <h3>vita and contact</h3> -->
+
+			
+<!-- NEEDS TO BE UNINTENDED -->
+{% capture vita %}
+{% include vita.md %}
+{% endcapture %}
+{{ vita | markdownify }}
+			
+		</div> <!-- end vita and contact -->
+	</div>
+</section>
+<footer>
+	<hr>
+<div class="row">
+	<div class="span10
+	offset1">
+	<p id="foot">
+		 This site is generated with <a href="http://pages.github.com">gh-pages</a>, <a href="http://jekyllrb.com">jekyll</a> and <a href="http://twitter.github.com/bootstrap/index.html">twitter bootstrap</a> by <a href="http://fabiantheblind.info">fabiantheblind</a>. Get the source files <a href="https://github.com/fabiantheblind/fabiantheblind.github.com">over here</a>.</p>
+	
+</div>
+</div>
+</footer>

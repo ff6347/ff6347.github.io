@@ -20,6 +20,7 @@
 @smallFontSize:          1em;
 @std_border_rad: 13px;
 @meImageMaxWidth: 375px;
+@linkColor: #41787b;
 
 @serifFontFamily:       "calluna", Georgia, serif;
 @sansFontFamily:        @serifFontFamily;
@@ -27,11 +28,12 @@
 @altFontFamily:         @serifFontFamily;
 
 @headingsFontFamily:    "calluna",Georgia, serif;
-@subpageh1          :   128px;
 @simpleShadowCol: 0px 1px 3px @grayDarker;
 
-@contrib_margin:           5px;
 // mixins
+.letterPressShadow (@color) {
+    text-shadow: 0 -1px 1px darken(@color, 25%), 0 1px 1px lighten(@color, 25%);
+}
 
 .fancyBorder(){
     border-style:solid !important;
@@ -82,6 +84,7 @@ list-style-type: upper-roman;
 
     background-color: @bodyBackground;
     h1{
+        font-size: 5em;
         .serifbold;
         // padding-bottom: 1.5em;
     }
@@ -110,23 +113,26 @@ list-style-type: upper-roman;
     }
 }
 
-.depth {
-    display: block;
-    // padding: 50px;
-    color: black;
-    // font: bold 7em Arial, sans-serif;
-    position: relative;
-}
+// .depth {
+// .letterPressShadow (#ad4400) {
+//     text-shadow: 0 -1px 1px darken(@color, 25%), 0 1px 1px lighten(@color, 25%);
+// }
+    // display: block;
+    // // padding: 50px;
+    // color: black;
+    // // font: bold 7em Arial, sans-serif;
+    // position: relative;
+// }
 
-.depth:before, .depth:after {
-    content: attr(title);
-    // padding: 50px;
-    color: rgba(255,255,255,.1);
-    position: absolute;
-}
+// .depth:before, .depth:after {
+//     content: attr(title);
+//     // padding: 50px;
+//     color: rgba(255,255,255,.1);
+//     position: absolute;
+// }
 
-.depth:before { top: 1px; left: 1px }
-.depth:after  { top: 2px; left: 2px }
+// .depth:before { top: 1px; left: 1px }
+// .depth:after  { top: 2px; left: 2px }
 
 
 
@@ -153,7 +159,28 @@ word-wrap: break-word !important; /* Internet Explorer 5.5+ */
 
 }
 
+/** LETTER PRESS START **/
+.depth {
+    display: block;
+    color: black;
+    /*font: bold 5em serif;*/
+    position: relative;
+}
+.depth:before, .depth:after {
+    content: attr(title);
+    color: rgba(255,255,255,.1);
+    position: absolute;
+}
+.depth:before { top: 1px; left: 1px }
+.depth:after  { top: 2px; left: 2px }
+/** LETTER PRESS END **/
 
+
+
+#foot{
+    font-size: 0.7em;
+    text-align: center;
+}
 
 
 /*****************************************************************************

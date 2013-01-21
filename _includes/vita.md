@@ -31,7 +31,7 @@ social networks
 - two weeks workshop at the University of Applied Sciences, Potsdam [Typographie und Automation](http://fabiantheblind.github.com/Typography-And-Automation/), October 2012  
 - After Effects Tutorials for [ae.tuts+](http://ae.tutsplus.com/tutorials/motion-graphics/how-to-isolate-and-style-motion-blur-in-your-animation-part-1/), October 2012  
 
-###Motion Design, Animation and Postproduction in cooperation with [forseesense](http://forseesense.com)  
+###Motion Design, Animation and Postproduction  
 
 - [Welios Energie Erlebnis Haus](http://www.welios.at/de/startseite.html), 2011  
 - [Rattenfängertheater Hameln](http://www.hameln.de/kultur/kultur/museum/Rattenfaenger-Theater.htm), 2011  
@@ -42,6 +42,8 @@ social networks
 - Technisches Museum Berlin "Dialogstation", 2010  
 - [Experimenta Heilbronn](http://www.experimenta-heilbronn.de), 2009  
 - [Geysir Andernach](http://www.geysir-andernach.de), 2009   
+
+in cooperation with [forseesense](http://forseesense.com)  
 
 
 
@@ -63,30 +65,30 @@ social networks
 ##Education:  
 
 - October 2004 till July 2012 University of Applied Sciences, Potsdam. studies communications design Bachelor of Arts  
-- January 2003  advanced technical college entrance qualification by Beendigung der vorhergehenden Ausbildung  
+- January 2003  advanced technical college entrance qualification by _"Beendigung der vorhergehenden Ausbildung"_  
 - August 2001 till January 2003  apprenticeship as merchant  
 
 ##Technical Skills:  
 
-- Adobe After Effects, InDesign, Photoshop, Illustrator  
+- Adobe After Effects, InDesign, Photoshop, Illustrator, Coding  
 
 ###Languages  
-- German  
-- English  
-- Spanish  
+- German (native)  
+- English (good)  
+- Spanish (okay)  
 
 ###Programming languages  
 
-- JavaScript  
-- Processing, Java  
-- HTML, CSS, Less, jQuery  
-- Python, Ruby, Shell  
-- C, C++  
+- JavaScript (good)  
+- Processing, Java (good)  
+- HTML, CSS, Less, jQuery (okay)  
+- Python, Ruby, Shell (occasionally)  
+- C, C++ (occasionally)  
 
 ###Private things I love to do  
 
 - Kung Fu  
-- Cooking  
-- to sing out of tune  
+- cooking  
+- sing out of tune  
 
 
