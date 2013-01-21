@@ -8,6 +8,7 @@
 
  @import "bootstrap.less";
  @import "elements.less";
+ @import "animate.less";
  // @import "fonts.less";
 // @import "lightbox.less";
 
@@ -111,7 +112,13 @@ list-style-type: upper-roman;
 
 
     }
+   
 }
+
+#showreel:hover{
+        .animated; // Initiate animation library
+        .pulse; // Initiate bounce effect
+    }
 
 // .depth {
 // .letterPressShadow (#ad4400) {
@@ -185,12 +192,16 @@ word-wrap: break-word !important; /* Internet Explorer 5.5+ */
     text-align: center;
     // padding-top: 35px;
     padding-bottom: 3em;
-}
-img.connect{
-    
+    img{
     width: 32px;
     height: 32px;
+    }
+    img:hover{
+      .animated; // Initiate animation library
+  .wobble; // Initiate bounce effect
+    }
 }
+
 
 
 /*****************************************************************************
