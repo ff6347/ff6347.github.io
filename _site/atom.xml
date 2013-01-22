@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>fabiantheblogger</title>
+ <link href="http://fabiantheblind.github.com/atom.xml" rel="self"/>
+ <link href="http://fabiantheblind.github.com/"/>
+ <updated>2013-01-21T15:36:05+01:00</updated>
+ <id>http://fabiantheblind.github.com/</id>
+ <author>
+   <name>fabiantheblind</name>
+   <email>hello@fabiantheblind.info</email>
+ </author>
+
+ 
+ <entry>
+   <title>Hello World</title>
+   <link href="http://fabiantheblind.github.com//blog/2012/08/31/hello-world.html"/>
+   <updated>2012-08-31T00:00:00+02:00</updated>
+   <id>http://fabiantheblind.github.com//blog/2012/08/31/hello-world</id>
+   <content type="html">&lt;p&gt;Hello World. I will try start blogging here.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

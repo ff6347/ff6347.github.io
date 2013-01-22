@@ -1,0 +1,283 @@
+    /***********************
+    Main CSS based on twitter 
+    bootstrap build with .less
+    by fabiantheblind
+    Copyright © 2012
+
+    ************************/
+
+ @import "bootstrap.less";
+ @import "elements.less";
+ @import "animate.less";
+ // @import "fonts.less";
+// @import "lightbox.less";
+
+
+// overwrite bs less variables
+@bodyBackground:        @white;
+@baseLineHeight:        1.5em;
+@baseFontSize:          1.2em;
+@smallLineHeight:        1.4em;
+@smallFontSize:          1em;
+@std_border_rad: 13px;
+@meImageMaxWidth: 375px;
+@linkColor: #41787b;
+
+@serifFontFamily:       "calluna", Georgia, serif;
+@sansFontFamily:        @serifFontFamily;
+@baseFontFamily:        @serifFontFamily;
+@altFontFamily:         @serifFontFamily;
+
+@headingsFontFamily:    "calluna",Georgia, serif;
+@simpleShadowCol: 0px 1px 3px @grayDarker;
+
+// mixins
+.letterPressShadow (@color) {
+    text-shadow: 0 -1px 1px darken(@color, 25%), 0 1px 1px lighten(@color, 25%);
+}
+
+.fancyBorder(){
+    border-style:solid !important;
+    border-width:2px !important; 
+    border-color: #e1e1e1 !important;
+}
+.simpleShadow(){
+
+  -moz-box-shadow: @simpleShadowCol;//5px 5px 5px #e2e2e2; /* FF3.5+ */
+  -webkit-box-shadow: @simpleShadowCol;//5px 5px 5px #e2e2e2;/*Saf3+, Chr*/
+  box-shadow: @simpleShadowCol;//5px 5px 5px #e2e2e2; /*Op10.5, IE 9, FF4*/
+  // filter:progid:DXImageTransform.Microsoft.Shadow  ⏎
+  // (color=#e2e2e2, Direction=135, Strength=5); /* IE6-7 */
+   -ms-filter:"progid:DXImageTransform.Microsoft.Shadow  (color=#222222, Direction=180, Strength=3)"; /* IE8 */
+  // zoom:1; /* trigger hasLayout */
+}
+
+.serifbold(){
+font-family: "calluna","Georgia",serif;
+font-style: normal;
+font-weight: 900;
+
+    
+}
+
+.serifregular(){
+
+font-family: "calluna","Georgia",serif;
+font-style: normal;
+font-weight: 400;
+}
+
+// overwrite bs classes
+
+body {
+    padding-top: 0em;
+    .serifregular;
+
+    font-size: @baseFontSize;
+}
+
+ol{
+list-style-type: upper-roman;
+}
+
+.hero-unit{
+    padding: 0px;
+
+    background-color: @bodyBackground;
+    h1{
+        font-size: 5em;
+        .serifbold;
+        // padding-bottom: 1.5em;
+    }
+    p{
+        font-size: @baseFontSize;
+        line-height: @baseLineHeight;
+    }
+
+}
+
+.sections{
+    text-align: center;
+}
+#showreel{
+        max-width: @meImageMaxWidth;
+        .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
+        .fancyBorder;
+        .simpleShadow;
+    img{
+        .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
+
+        max-width: @meImageMaxWidth;
+        text-align: center;
+
+
+    }
+   
+}
+
+#showreel:hover{
+        .animated; // Initiate animation library
+        .pulse; // Initiate bounce effect
+    }
+
+// .depth {
+// .letterPressShadow (#ad4400) {
+//     text-shadow: 0 -1px 1px darken(@color, 25%), 0 1px 1px lighten(@color, 25%);
+// }
+    // display: block;
+    // // padding: 50px;
+    // color: black;
+    // // font: bold 7em Arial, sans-serif;
+    // position: relative;
+// }
+
+// .depth:before, .depth:after {
+//     content: attr(title);
+//     // padding: 50px;
+//     color: rgba(255,255,255,.1);
+//     position: absolute;
+// }
+
+// .depth:before { top: 1px; left: 1px }
+// .depth:after  { top: 2px; left: 2px }
+
+
+
+pre{
+
+    // width: 100%;                          /* specify width  */
+    white-space: pre-wrap !important;                 /* CSS3 browsers  */
+    white-space: -moz-pre-wrap !important; /* 1999+ Mozilla  */
+    white-space: -pre-wrap !important;                /* Opera 4 thru 6 */
+    white-space: -o-pre-wrap;              /* Opera 7 and up */
+    word-wrap: break-word !important;                 /* IE 5.5+ and up */
+    /* overflow-x: auto; */                /* Firefox 2 only */
+    /* width: 99%; */              /* only if needed */
+}
+
+
+code{
+    font-size: 1.0em;
+white-space: pre-wrap !important; /* css-3 */
+white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+white-space: -pre-wrap !important; /* Opera 4-6 */
+white-space: -o-pre-wrap !important; /* Opera 7 */
+word-wrap: break-word !important; /* Internet Explorer 5.5+ */
+
+}
+
+/** LETTER PRESS START **/
+.depth {
+    display: block;
+    color: black;
+    /*font: bold 5em serif;*/
+    position: relative;
+}
+.depth:before, .depth:after {
+    content: attr(title);
+    color: rgba(255,255,255,.1);
+    position: absolute;
+}
+.depth:before { top: 1px; left: 1px }
+.depth:after  { top: 2px; left: 2px }
+/** LETTER PRESS END **/
+
+
+
+#foot{
+    font-size: 0.7em;
+    text-align: center;
+}
+.connect{
+    text-align: center;
+    // padding-top: 35px;
+    padding-bottom: 3em;
+    img{
+    width: 32px;
+    height: 32px;
+    }
+    img:hover{
+      .animated; // Initiate animation library
+  .wobble; // Initiate bounce effect
+    }
+}
+
+
+
+/*****************************************************************************
+/* 
+/* MEDIA QUERIES
+**********************************************************/
+
+.smalltext(){
+    body {
+        font-size: @smallFontSize;
+        line-height: @smallLineHeight;
+    }
+
+}
+
+/* Landscape phones and down*/
+ @media (max-width: 480px) {
+
+p{
+.smalltext;
+}
+
+
+
+
+// .forkmemedia(48px);
+
+ }
+
+/* Landscape phone to portrait tablet*/
+
+ @media (max-width: 767px) { 
+
+p{
+  .smalltext;  
+}
+
+
+// .forkmemedia(64px);
+
+  }
+
+
+
+/*Portrait tablet to landscape and desktop*/
+ @media (min-width: 768px) and (max-width: 979px) {
+
+
+
+// .forkmemedia(96px);
+
+ }
+
+/* Large desktop*/
+
+ @media (min-width: 980px) and (max-width: 1199px) {
+
+
+
+// .forkmemedia(128px);
+
+ }
+ 
+
+ @media (min-width: 1200px) {  }
+
+ @media (min-width: 1280px) {  
+
+    // #hero-carousel{
+    //     background-color: #000000;
+    //     #myCarousel{
+
+    //     max-width: 1280px;
+    //     margin-left: auto;
+    //    margin-right: auto;
+    //     }
+  
+    // }
+ }
