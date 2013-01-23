@@ -1,5 +1,6 @@
 _theme_packages/*
-
+github.php
+gitpull.sh
 Thumbs.db
 .DS_Store
 
