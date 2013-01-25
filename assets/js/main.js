@@ -21,7 +21,18 @@
 
 // see also http://www.opensource.org/licenses/mit-license.php
 
+// jQuery(window).resize(function($) {
 
+// var width = $(this).width();
+// if (width <=480) {
+
+// $('a#showreellink').attr('rel','');
+//     }else{
+
+//     $('a#showreellink').attr('rel','prettyPhoto[grouped]');
+//     }
+
+// });
 
 
 jQuery(document).ready(function($){
@@ -36,9 +47,17 @@ jQuery(document).ready(function($){
  * Add better letterpress to all H1
  */
 
-$('h1, h2, h3, h4').addClass('depth');
+$('h1, h2, h3').addClass('depth');
 $('h1, h2, h3').attr('title',function(){
     return $(this).text();
 });
 
+var width = $(window).width();
+if (width <=480) {
+
+$('a#showreellink').attr('rel','');
+    }else{
+
+    $('a#showreellink').attr('rel','prettyPhoto[grouped]');
+    }
 });
