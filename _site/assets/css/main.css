@@ -9516,15 +9516,23 @@ code {
 **********************************************************/
 /* Landscape phones and down*/
 @media (max-width: 480px) {
-  p body {
+  p {
     font-size: 1em;
+    line-height: 1.4em;
+  }
+  .hero-unit p {
+    font-size: 1.1em;
     line-height: 1.4em;
   }
 }
 /* Landscape phone to portrait tablet*/
 @media (max-width: 767px) {
-  p body {
+  p {
     font-size: 1em;
+    line-height: 1.4em;
+  }
+  .hero-unit p {
+    font-size: 1.1em;
     line-height: 1.4em;
   }
 }

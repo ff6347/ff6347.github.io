@@ -210,12 +210,15 @@ word-wrap: break-word !important; /* Internet Explorer 5.5+ */
 **********************************************************/
 
 .smalltext(){
-    body {
+    
         font-size: @smallFontSize;
         line-height: @smallLineHeight;
-    }
+    
 
 }
+
+
+
 
 /* Landscape phones and down*/
  @media (max-width: 480px) {
@@ -223,8 +226,13 @@ word-wrap: break-word !important; /* Internet Explorer 5.5+ */
 p{
 .smalltext;
 }
+    .hero-unit {
+    p{
 
-
+    font-size:1.1em;
+    line-height:1.4em;
+    }
+    }
 
 
 // .forkmemedia(48px);
@@ -238,11 +246,16 @@ p{
 p{
   .smalltext;  
 }
+    .hero-unit {
+    p{
 
-
+    font-size:1.1em;
+    line-height:1.4em;
+    }
+    }
 // .forkmemedia(64px);
 
-  }
+}
 
 
 

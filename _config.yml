@@ -1,3 +1,4 @@
 markdown: rdiscount
+auto: false
 pygments: true
 exclude: ignore,user.fabiantheblind.espressostorage,Project.espressostorage
