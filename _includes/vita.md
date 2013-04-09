@@ -23,7 +23,8 @@ social networks
 - [Obj Vertex Export](http://aescripts.com/obj-vertex-export/), November 2012  
 - [Locations](http://aescripts.com/locations), November 2012  
 - [Swissd](http://aescripts.com/swissd/), October 2012  
-- [Timeremap Source](http://aescripts.com/timeremap-source),September 2012  
+- [Timeremap Source](http://aescripts.com/timeremap-source), September 2012  
+- [Wihihihiggle Script](http://fabiantheblind.github.io/wihihihiggle/), August 2012  
 - [AEMap](http://aescripts.com/aemap/), April 2012  
 
 ###Teachings  
