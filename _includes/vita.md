@@ -32,7 +32,7 @@ social networks
 - After Effects Tutorials for [ae.tuts+](http://ae.tutsplus.com/tutorials/motion-graphics/how-to-isolate-and-style-motion-blur-in-your-animation-part-1/), October 2012  
 
 ###Motion Design, Animation and Postproduction  
-
+- [Image Film City Bremerhaven](http://www.bremerhaven.de/), 2012  
 - [Welios Energie Erlebnis Haus](http://www.welios.at/de/startseite.html), 2011  
 - [Rattenfängertheater Hameln](http://www.hameln.de/kultur/kultur/museum/Rattenfaenger-Theater.htm), 2011  
 - [BMW Junior Campus](http://www.bmwgroup.com/bmwgroup_prod/d/0_0_www_bmwgroup_com/verantwortung/gesellschaft/soziale_projekte/bildungsprojekte/junior_campus.html) "Rohstoffscanner", 2011  
