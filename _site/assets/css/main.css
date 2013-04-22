@@ -9510,6 +9510,15 @@ code {
   -o-animation-name: wobble;
   animation-name: wobble;
 }
+h1.hello {
+  padding-bottom: 0;
+  font: normal 900 6em "calluna", "Georgia";
+  margin-top: 35px;
+}
+img.gravatar {
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
 /*****************************************************************************
 /* 
 /* MEDIA QUERIES

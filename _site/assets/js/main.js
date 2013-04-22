@@ -21,18 +21,18 @@
 
 // see also http://www.opensource.org/licenses/mit-license.php
 
-// jQuery(window).resize(function($) {
+jQuery(window).resize(function($) {
 
-// var width = $(this).width();
-// if (width <=480) {
 
-// $('a#showreellink').attr('rel','');
-//     }else{
+if ($(this).width() <=480) {
 
-//     $('a#showreellink').attr('rel','prettyPhoto[grouped]');
-//     }
+$('a#showreellink').attr('rel','');
+    }else{
 
-// });
+    $('a#showreellink').attr('rel','prettyPhoto[grouped]');
+    }
+
+});
 
 
 jQuery(document).ready(function($){
@@ -52,8 +52,7 @@ $('h1, h2, h3').attr('title',function(){
     return $(this).text();
 });
 
-var width = $(window).width();
-if (width <=480) {
+if ($(window).width() <=480) {
 
 $('a#showreellink').attr('rel','');
     }else{
