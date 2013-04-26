@@ -1,15 +1,27 @@
 ---
 layout: newdefault
-title: Motiongraphics
+title: Coding Graphics
 ---
 
 {% include welcome.html %}
 <!-- NEEDS TO BE UNINTENDED -->
+<div class="row">
+<div class="span12 hero-unit">
 {% capture codesc %}
 {% include coding-description.md %}
 {% endcapture %}
 {{ codesc | markdownify }}
+</div>
+</div>
 
+{% include geo-vis.html %}
+<hr>
+{% include typographix.html %}
+<!-- {% capture prjects %}
 ##Locations  
 ##Monoline Text  
 ##Typography And Automation  
+{% endcapture %}
+{{ prjects | markdownify }} -->
+
+{% include master-footer.html %}

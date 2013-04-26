@@ -115,6 +115,26 @@ list-style-type: upper-roman;
    
 }
 
+.tile:hover{
+          .animated; // Initiate animation library
+        .pulse; // Initiate bounce effect
+  
+}
+.tile{
+          .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
+          .fancyBorder;
+        .simpleShadow;
+        // max-width: @meImageMaxWidth;
+        // text-align: center;
+        // margin:auto;
+  img{
+.border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
+        // max-width: @meImageMaxWidth;
+        // text-align: center;
+
+  }
+}
+
 #showreel:hover{
         .animated; // Initiate animation library
         .pulse; // Initiate bounce effect
@@ -266,6 +286,15 @@ p{
     
 // .forkmemedia(64px);
 
+.tile{
+          max-width: @meImageMaxWidth;
+        text-align: center;
+        margin:auto;
+  img{
+          max-width: @meImageMaxWidth;
+        text-align: center;
+  }
+}
 }
 
 
