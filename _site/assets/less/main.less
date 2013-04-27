@@ -53,9 +53,10 @@
 }
 
 .tile-std(){
-          .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
-        .fancyBorder;
-        .simpleShadow;
+          // .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
+        // .fancyBorder;
+        // .simpleShadow;
+        padding-bottom: 1em;
 }
 .serifbold(){
 font-family: "calluna","Georgia",serif;
@@ -112,11 +113,11 @@ a.home-link{
 #showreel{
         max-width: @meImageMaxWidth;
         // .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
-        // .fancyBorder;
-        // .simpleShadow;
-        .tile-std;
+        .fancyBorder;
+        .simpleShadow;
+        // .tile-std;
     img{
-        .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
+        // .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
 
         max-width: @meImageMaxWidth;
         text-align: center;
@@ -129,21 +130,24 @@ a.home-link{
 .tile:hover{
         //   .animated; // Initiate animation library
         // .pulse; // Initiate bounce effect
-        .fancyBorder(@linkColor);
+        // .fancyBorder(@linkColor);
   
 }
 .tile{
-        .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
-        .fancyBorder;
-        .simpleShadow;
+  .tile-std;
+        // .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
+        // .fancyBorder;
+        // .simpleShadow;
         // max-width: @meImageMaxWidth;
         // text-align: center;
         // margin:auto;
   img{
-.border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
+// .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
         // max-width: @meImageMaxWidth;
         // text-align: center;
-
+  }
+  img:hover{
+    // .fancyBorder(@linkColor);
   }
 }
 
@@ -151,7 +155,7 @@ a.home-link{
         .tile-std;
 
   img{
-    .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
+    // .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
 
     // max-width: 100%;
 
@@ -162,6 +166,19 @@ a.home-link{
         .animated; // Initiate animation library
         .pulse; // Initiate bounce effect
     }
+
+
+/**
+ * This is for some jquery goodness to add an inset shadow onto all images.
+ * Lets see how this works.
+ * 
+ */
+
+.inset-shadow{
+    -moz-box-shadow: 1px 1px 5px grey inset;
+    -webkit-box-shadow: 1px 1px 5px grey inset;
+    box-shadow: 1px 1px 5px grey inset;
+}
 
 // .depth {
 // .letterPressShadow (#ad4400) {

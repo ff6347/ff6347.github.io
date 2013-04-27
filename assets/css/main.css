@@ -9363,21 +9363,6 @@ a.home-link {
 }
 #showreel {
   max-width: 375px;
-  -webkit-border-top-right-radius: 13px;
-  -webkit-border-bottom-right-radius: 13px;
-  -webkit-border-bottom-left-radius: 13px;
-  -webkit-border-top-left-radius: 13px;
-  -moz-border-radius-topright: 13px;
-  -moz-border-radius-bottomright: 13px;
-  -moz-border-radius-bottomleft: 13px;
-  -moz-border-radius-topleft: 13px;
-  border-top-right-radius: 13px;
-  border-bottom-right-radius: 13px;
-  border-bottom-left-radius: 13px;
-  border-top-left-radius: 13px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
   border-style: solid !important;
   border-width: 2px !important;
   border-color: #e1e1e1 !important;
@@ -9389,114 +9374,14 @@ a.home-link {
 
 }
 #showreel img {
-  -webkit-border-top-right-radius: 13px;
-  -webkit-border-bottom-right-radius: 13px;
-  -webkit-border-bottom-left-radius: 13px;
-  -webkit-border-top-left-radius: 13px;
-  -moz-border-radius-topright: 13px;
-  -moz-border-radius-bottomright: 13px;
-  -moz-border-radius-bottomleft: 13px;
-  -moz-border-radius-topleft: 13px;
-  border-top-right-radius: 13px;
-  border-bottom-right-radius: 13px;
-  border-bottom-left-radius: 13px;
-  border-top-left-radius: 13px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
   max-width: 375px;
   text-align: center;
 }
-.tile:hover {
-  border-style: solid !important;
-  border-width: 2px !important;
-  border-color: #41787b !important;
-}
 .tile {
-  -webkit-border-top-right-radius: 13px;
-  -webkit-border-bottom-right-radius: 13px;
-  -webkit-border-bottom-left-radius: 13px;
-  -webkit-border-top-left-radius: 13px;
-  -moz-border-radius-topright: 13px;
-  -moz-border-radius-bottomright: 13px;
-  -moz-border-radius-bottomleft: 13px;
-  -moz-border-radius-topleft: 13px;
-  border-top-right-radius: 13px;
-  border-bottom-right-radius: 13px;
-  border-bottom-left-radius: 13px;
-  border-top-left-radius: 13px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  border-style: solid !important;
-  border-width: 2px !important;
-  border-color: #e1e1e1 !important;
-  -moz-box-shadow: 0px 1px 3px #222222;
-  -webkit-box-shadow: 0px 1px 3px #222222;
-  box-shadow: 0px 1px 3px #222222;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow  (color=#222222, Direction=180, Strength=3)";
-  /* IE8 */
-
-}
-.tile img {
-  -webkit-border-top-right-radius: 13px;
-  -webkit-border-bottom-right-radius: 13px;
-  -webkit-border-bottom-left-radius: 13px;
-  -webkit-border-top-left-radius: 13px;
-  -moz-border-radius-topright: 13px;
-  -moz-border-radius-bottomright: 13px;
-  -moz-border-radius-bottomleft: 13px;
-  -moz-border-radius-topleft: 13px;
-  border-top-right-radius: 13px;
-  border-bottom-right-radius: 13px;
-  border-bottom-left-radius: 13px;
-  border-top-left-radius: 13px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+  padding-bottom: 1em;
 }
 .big {
-  -webkit-border-top-right-radius: 13px;
-  -webkit-border-bottom-right-radius: 13px;
-  -webkit-border-bottom-left-radius: 13px;
-  -webkit-border-top-left-radius: 13px;
-  -moz-border-radius-topright: 13px;
-  -moz-border-radius-bottomright: 13px;
-  -moz-border-radius-bottomleft: 13px;
-  -moz-border-radius-topleft: 13px;
-  border-top-right-radius: 13px;
-  border-bottom-right-radius: 13px;
-  border-bottom-left-radius: 13px;
-  border-top-left-radius: 13px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  border-style: solid !important;
-  border-width: 2px !important;
-  border-color: #e1e1e1 !important;
-  -moz-box-shadow: 0px 1px 3px #222222;
-  -webkit-box-shadow: 0px 1px 3px #222222;
-  box-shadow: 0px 1px 3px #222222;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow  (color=#222222, Direction=180, Strength=3)";
-  /* IE8 */
-
-}
-.big img {
-  -webkit-border-top-right-radius: 13px;
-  -webkit-border-bottom-right-radius: 13px;
-  -webkit-border-bottom-left-radius: 13px;
-  -webkit-border-top-left-radius: 13px;
-  -moz-border-radius-topright: 13px;
-  -moz-border-radius-bottomright: 13px;
-  -moz-border-radius-bottomleft: 13px;
-  -moz-border-radius-topleft: 13px;
-  border-top-right-radius: 13px;
-  border-bottom-right-radius: 13px;
-  border-bottom-left-radius: 13px;
-  border-top-left-radius: 13px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+  padding-bottom: 1em;
 }
 #showreel:hover {
   -webkit-animation-duration: 1s;
@@ -9511,6 +9396,16 @@ a.home-link {
   -moz-animation-name: pulse;
   -o-animation-name: pulse;
   animation-name: pulse;
+}
+/**
+ * This is for some jquery goodness to add an inset shadow onto all images.
+ * Lets see how this works.
+ * 
+ */
+.inset-shadow {
+  -moz-box-shadow: 1px 1px 5px grey inset;
+  -webkit-box-shadow: 1px 1px 5px grey inset;
+  box-shadow: 1px 1px 5px grey inset;
 }
 pre {
   white-space: pre-wrap !important;
