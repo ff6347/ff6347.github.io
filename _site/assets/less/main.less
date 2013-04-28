@@ -1,0 +1,288 @@
+    /***********************
+    Main CSS based on twitter 
+    bootstrap build with .less
+    by fabiantheblind
+    Copyright © 2012
+
+    ************************/
+
+ @import "bootstrap.less";
+ @import "elements.less";
+ @import "animate.less";
+ // @import "fonts.less";
+// @import "lightbox.less";
+
+
+// overwrite bs less variables
+@bodyBackground:        @white;
+// @baseLineHeight:        1.5em;
+@baseFontSize:          1.2em;
+@smallLineHeight:        1.4em;
+@smallFontSize:          1em;
+@std_border_rad: 13px;
+@meImageMaxWidth: 375px;
+@linkColor: #41787b;
+@imgLinkColor:#667878;
+
+@serifFontFamily:       "calluna", Georgia, serif;
+@sansFontFamily:        @serifFontFamily;
+@baseFontFamily:        @serifFontFamily;
+@altFontFamily:         @serifFontFamily;
+
+@headingsFontFamily:    "calluna",Georgia, serif;
+@simpleShadowCol: 0px 1px 3px @grayDarker;
+
+// mixins
+.letterPressShadow (@color) {
+    text-shadow: 0 -1px 1px darken(@color, 25%), 0 1px 1px lighten(@color, 25%);
+}
+
+.fancyBorder(@bordercolor: #e1e1e1){
+    border-style:solid !important;
+    border-width:2px !important; 
+    border-color: @bordercolor !important;
+}
+
+.noFancyBorder(@bordercolor: #e1e1e1){
+    border-style:none !important;
+    border-width:0px !important; 
+    border-color: @bordercolor !important;
+}
+
+.simpleShadow(){
+
+  -moz-box-shadow: @simpleShadowCol;//5px 5px 5px #e2e2e2; /* FF3.5+ */
+  -webkit-box-shadow: @simpleShadowCol;//5px 5px 5px #e2e2e2;/*Saf3+, Chr*/
+  box-shadow: @simpleShadowCol;//5px 5px 5px #e2e2e2; /*Op10.5, IE 9, FF4*/
+  // filter:progid:DXImageTransform.Microsoft.Shadow  ⏎
+  // (color=#e2e2e2, Direction=135, Strength=5); /* IE6-7 */
+   -ms-filter:"progid:DXImageTransform.Microsoft.Shadow  (color=#222222, Direction=180, Strength=3)"; /* IE8 */
+  // zoom:1; /* trigger hasLayout */
+}
+
+.tile-std(){
+  padding-bottom: 1em;
+}
+.serifbold(){
+  font-family: "calluna","Georgia",serif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.serifregular(){
+font-family: "calluna","Georgia",serif;
+font-style: normal;
+font-weight: 400;
+}
+
+body {
+    .serifregular;
+    font-size: @baseFontSize;
+}
+
+ol{
+list-style-type: upper-roman;
+}
+
+p{
+  line-height: 1.5em;
+}
+.container{  }
+
+iframe{
+  @pad :1.5em;
+  padding-top: @pad;
+  padding-bottom: @pad;
+}
+
+.hero-unit{
+  background-color: @bodyBackground;
+  h1{
+    margin-top:0;
+    // font-size: 5em;
+    .serifbold;
+  }
+  p{
+    font-size: @baseFontSize;
+    // line-height: @baseLineHeight;
+  }
+}
+
+h1.hello{
+        // font-size: 5em;
+        .serifbold;
+}
+
+a.home-link{
+  text-decoration: none;
+}
+.sections{
+    text-align: center;
+}
+#showreel{
+  max-width: @meImageMaxWidth;
+  img{
+      max-width: @meImageMaxWidth;
+      text-align: center;
+  }
+}
+
+.tile:hover{  }
+.tile{
+  .tile-std;
+
+  img{  .fancyBorder;}
+  a img{.fancyBorder(@imgLinkColor);}
+  a img:hover{  .fancyBorder(black);}
+}
+
+.big{
+  .tile-std;
+  img{  }
+}
+#showreel:hover{
+  .animated; // Initiate animation library
+  .flash; // Initiate bounce effect
+}
+/**
+ * This is for some jquery goodness to add an inset shadow onto all images.
+ * Lets see how this works.
+ * 
+ */
+.inset-shadow{
+  -moz-box-shadow: 1px 1px 5px grey inset;
+  -webkit-box-shadow: 1px 1px 5px grey inset;
+  box-shadow: 1px 1px 5px grey inset;
+}
+.inset-shadow:hover{
+  -moz-box-shadow: 1px 1px 8px grey inset;
+  -webkit-box-shadow: 1px 1px 8px grey inset;
+  box-shadow: 1px 1px 8px grey inset;
+}
+pre{
+  // width: 100%;                          /* specify width  */
+  white-space: pre-wrap !important;                 /* CSS3 browsers  */
+  white-space: -moz-pre-wrap !important; /* 1999+ Mozilla  */
+  white-space: -pre-wrap !important;                /* Opera 4 thru 6 */
+  white-space: -o-pre-wrap;              /* Opera 7 and up */
+  word-wrap: break-word !important;                 /* IE 5.5+ and up */
+  /* overflow-x: auto; */                /* Firefox 2 only */
+  /* width: 99%; */              /* only if needed */
+}
+code{
+font-size: 1.0em;
+font-family: monospace;
+white-space: pre-wrap !important; /* css-3 */
+white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+white-space: -pre-wrap !important; /* Opera 4-6 */
+white-space: -o-pre-wrap !important; /* Opera 7 */
+word-wrap: break-word !important; /* Internet Explorer 5.5+ */
+}
+/** LETTER PRESS START **/
+.depth {
+    display: block;
+    color: black;
+    /*font: bold 5em serif;*/
+    position: relative;
+}
+.depth:before, .depth:after {
+    content: attr(title);
+    color: rgba(255,255,255,.1);
+    position: absolute;
+}
+.depth:before { top: 1px; left: 1px }
+.depth:after  { top: 2px; left: 2px }
+/** LETTER PRESS END **/
+#foot{
+    font-size: 0.7em;
+    text-align: center;
+}
+.connect{
+    text-align: center;
+    // padding-top: 35px;
+    padding-bottom: 3em;
+    line-height: 48px;
+    img{
+    width: 32px;
+    height: 32px;
+    }
+    img:hover{
+      .animated; // Initiate animation library
+  .wobble; // Initiate bounce effect
+    }
+}
+
+img.gravatar{
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+
+.video{
+  display:block;
+  margin:0 auto;
+}
+/*****************************************************************************
+/* 
+/* MEDIA QUERIES
+**********************************************************/
+
+.smalltext(){
+        font-size: @smallFontSize;
+        line-height: @smallLineHeight;
+
+}
+
+.hero-unit{
+/* Landscape phones and down*/
+  @media screen and (max-width:480px) {
+    padding-left: 0px;
+    padding-right: 0px;
+     p {
+     font-size:1em;
+     line-height:1.4em;
+     margin:0px;
+      padding:0px;
+     }
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  p{
+    .smalltext;
+  }
+}
+
+/* Landscape phone to portrait tablet*/
+
+@media (max-width: 767px) { 
+
+p{
+  .smalltext;
+}
+    .hero-unit p{
+     font-size:1em;
+     line-height:1.4em;
+     }
+.tile{
+          max-width: 100%;
+        text-align: center;
+        margin:auto;
+        // .fancyBorder;
+  img{
+          max-width: 100%;
+        text-align: center;
+        // .fancyBorder;
+    }
+  }
+}
+
+/*Portrait tablet to landscape and desktop*/
+@media (min-width: 768px) and (max-width: 979px) {  }
+/* Large desktop*/
+@media (min-width: 980px) and (max-width: 1199px) {  }
+@media (min-width: 1200px) {  }
+
+ @media (min-width: 1280px) {  }

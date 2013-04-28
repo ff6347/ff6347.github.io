@@ -1,0 +1,19 @@
+<!-- 
+big-image.html
+{% comment %}
+Needs this:
+{% assign imgpath = "/assets/images/big/" %}
+{% assign imgname = page.bigimagelist[0] %}
+{% assign alttext = "monoline-big" %}
+{% include big-image.html %}
+{% endcomment %}
+
+  -->
+<div class="row">
+  <div class="span12">
+<div class="tile big">
+  <img src="{{ imgpath }}{{ imgname }}" alt="{{ alttext }}">
+</div>
+</div>
+</div>
+<!-- end big-image.html -->

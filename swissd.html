@@ -22,6 +22,8 @@ tilelist:
 - swissd-tile-10-500x500.jpg
 - swissd-tile-11-500x500.jpg
 - swissd-tile-12-500x500.jpg
+bigimgpath : /assets/images/big/
+tileimgpath : /assets/images/project-tile/
 ---
 
 
@@ -39,19 +41,15 @@ During a workshop I gave called ["Typography And Automation"]() Julian a.k.a. [@
 {{ mddisloc | markdownify }}
 </div> <!-- close hero unit -->
 
-  {% if page.tilelist != null%}
-<div class="row">
-{% for item in page.tilelist | array_to_sentence_string %}
-<div class="span3">
-<div class="tile">
-  <a href="/assets/images/project-tile/{{ item }}">
-  <img src="/assets/images/project-tile/{{ item }}" alt="monoline-big">
-  </a>
-</div>
-</div>
-{% endfor %}
-  </div>
-  {% endif%}
+{% assign addlink = true %}
+{% assign spanclass = "span3" %}
+{% assign tileclass = "tile" %}
+{% assign path = page.tileimgpath %}
+{% assign off = 0 %}
+{% assign maxnum = 12 %}
+{% assign list = page.tilelist %}
+{% include image-tiles.html %}
+
 
 {% if page.videolist != null %}
 <div class="row">
