@@ -1,4 +1,162 @@
 ---
 layout: newdefault
 title: Hersheys Monoline Text
+videodemo: 64222693
+videoqsguide: 63958573
+videotitles:
+- Demo Video
+- Quickstart Guide
+videolist:
+- 64222693
+- 63958573
+tilelist:
+- monoline-tile-01-500x500.jpg
+- monoline-tile-02-500x500.jpg
+- monoline-tile-03-500x500.jpg
+- monoline-tile-04-500x500.jpg
+- monoline-tile-05-500x500.jpg
+- monoline-tile-06-500x500.jpg
 ---
+
+
+
+<div class="hero-unit">
+<h1>Monoline Text.jsx </h1>
+<h2>for After Effects</h2>
+  <p>
+    creates text from a single stroke vector set as mask on solids, shape layers or motionpaths. You can have all on one single layer, separate it by line or have every character as an individual layer.
+  </p>
+    <iframe class="video" src="http://player.vimeo.com/video/{{ page.videodemo }}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="100%" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+{% capture mddisloc %}
+At the end of 2012 I have been playing a lot with the After Effects plugin Plexus. The option to represent text with it was intriguing. While trying to find a font that only consists out of one single stroke I stumbled open a script by Jongware that created single stroke text in Illustrator. He used a character set Dr. A. V. Hershey developd around 1967 initially ment for engraving. This set is in the public domain and seemed to me like a good excercise decoding data.  
+Until now I only reorganized the data provided by Jongware who ported the simplex font from C. So there is still a lot to do with it.  
+
+ It is published on [aescipts.com](http://aescripts.com/monoline-text) and open source under MIT license.  
+{% endcapture %}
+{{ mddisloc | markdownify }}
+</div>
+
+<div class="row">
+  <div class="span10 offset1">
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="span12">
+<div class="tile big">
+  <img src="/assets/images/big/monoline-big-1280x500.jpg" alt="monoline-big">
+</div>
+</div>
+</div>
+
+<div class="row">
+  <div class="span6">
+<div class="tile big">
+  <img src="/assets/images/big/monoline-big-02-1280x500.jpg" alt="monoline-big">
+</div>
+</div>
+<!-- </div> -->
+
+
+<!-- <div class="row"> -->
+  <div class="span6">
+<div class="tile big">
+  <img src="/assets/images/big/monoline-big-03-1280x500.jpg" alt="monoline-big">
+</div>
+</div>
+</div>
+
+<div class="row">
+  <div class="span12">
+<div class="tile big">
+<!-- this is masks image -->
+  <img src="/assets/images/big/monoline-big-04-1280x500.jpg" alt="monoline-big">
+</div>
+</div>
+</div>
+
+{% assign spanclass = "span4" %}
+{% assign off = 0 %}
+{% assign maxnum = 3 %}
+{% assign list = page.tilelist %}
+{% include image-tiles.html %}
+
+<!-- 
+<div class="row">
+  <div class="span4">
+<div class="tile">
+  <img src="/assets/images/project-tile/monoline-tile-01-500x500.jpg" alt="monoline-tile">
+</div>
+</div>
+
+  <div class="span4">
+<div class="tile">
+  <img src="/assets/images/project-tile/monoline-tile-02-500x500.jpg" alt="monoline-tile">
+</div>
+</div>
+
+  <div class="span4">
+<div class="tile">
+  <img src="/assets/images/project-tile/monoline-tile-03-500x500.jpg" alt="monoline-tile">
+</div>
+</div>
+</div> 
+ close row -->
+ 
+
+<div class="row">
+  <div class="span12">
+<div class="tile big">
+  <!-- this is motionpaths -->
+  <img src="/assets/images/big/monoline-big-05-1280x500.jpg" alt="monoline-big">
+</div>
+</div>
+</div>
+
+{% assign spanclass = "span4" %}
+{% assign tileclass = "tile" %}
+{% assign off = 3 %}
+{% assign maxnum = 3 %}
+{% assign list = page.tilelist %}
+{% include image-tiles.html %}
+
+<div class="row">
+  <div class="span12">
+<div class="tile big">
+  <!-- this is hershey -->
+  <img src="/assets/images/big/monoline-big-07-1280x500.jpg" alt="monoline-big">
+</div>
+</div>
+</div>
+
+<!-- <div class="row">
+  <div class="span12">
+<div class="tile big">
+  <img src="/assets/images/big/monoline-big-06-1280x500.jpg" alt="monoline-big">
+</div>
+</div>
+</div>
+ -->
+
+
+
+
+
+
+<div class="row">
+  <div class="span10 offset1">
+  <h3>Tutorial#1</h3>
+    <iframe class="video" src="http://player.vimeo.com/video/{{ page.videoqsguide }}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff"  width="100%" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div>
+
+<!--   <div class="span4">
+  <h3>Tutorial#2</h3>
+    <iframe class="video" src="http://player.vimeo.com/video/{{ page.videodemo }}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="100%" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div>
+
+  <div class="span4">
+  <h3>Tutorial#2 Result</h3>
+    <iframe class="video" src="http://player.vimeo.com/video/{{ page.videodemo }}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="100%" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div> -->
+</div>

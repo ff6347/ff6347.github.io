@@ -15,13 +15,14 @@
 
 // overwrite bs less variables
 @bodyBackground:        @white;
-@baseLineHeight:        1.5em;
+// @baseLineHeight:        1.5em;
 @baseFontSize:          1.2em;
 @smallLineHeight:        1.4em;
 @smallFontSize:          1em;
 @std_border_rad: 13px;
 @meImageMaxWidth: 375px;
 @linkColor: #41787b;
+@imgLinkColor:#667878;
 
 @serifFontFamily:       "calluna", Georgia, serif;
 @sansFontFamily:        @serifFontFamily;
@@ -41,6 +42,13 @@
     border-width:2px !important; 
     border-color: @bordercolor !important;
 }
+
+.noFancyBorder(@bordercolor: #e1e1e1){
+    border-style:none !important;
+    border-width:0px !important; 
+    border-color: @bordercolor !important;
+}
+
 .simpleShadow(){
 
   -moz-box-shadow: @simpleShadowCol;//5px 5px 5px #e2e2e2; /* FF3.5+ */
@@ -76,24 +84,32 @@ ol{
 list-style-type: upper-roman;
 }
 
+p{
+  line-height: 1.5em;
+}
 .container{  }
 
+iframe{
+  @pad :1.5em;
+  padding-top: @pad;
+  padding-bottom: @pad;
+}
 
 .hero-unit{
   background-color: @bodyBackground;
   h1{
     margin-top:0;
-    font-size: 5em;
+    // font-size: 5em;
     .serifbold;
   }
   p{
     font-size: @baseFontSize;
-    line-height: @baseLineHeight;
+    // line-height: @baseLineHeight;
   }
 }
 
 h1.hello{
-        font-size: 5em;
+        // font-size: 5em;
         .serifbold;
 }
 
@@ -115,8 +131,9 @@ a.home-link{
 .tile{
   .tile-std;
 
-  img{  }
-  img:hover{  }
+  img{  .fancyBorder;}
+  a img{.fancyBorder(@imgLinkColor);}
+  a img:hover{  .fancyBorder(black);}
 }
 
 .big{
@@ -154,6 +171,7 @@ pre{
 }
 code{
 font-size: 1.0em;
+font-family: monospace;
 white-space: pre-wrap !important; /* css-3 */
 white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
 white-space: -pre-wrap !important; /* Opera 4-6 */
@@ -183,6 +201,7 @@ word-wrap: break-word !important; /* Internet Explorer 5.5+ */
     text-align: center;
     // padding-top: 35px;
     padding-bottom: 3em;
+    line-height: 48px;
     img{
     width: 32px;
     height: 32px;
@@ -217,10 +236,13 @@ img.gravatar{
 .hero-unit{
 /* Landscape phones and down*/
   @media screen and (max-width:480px) {
+    padding-left: 0px;
+    padding-right: 0px;
      p {
      font-size:1em;
      line-height:1.4em;
-    
+     margin:0px;
+      padding:0px;
      }
   }
 }
@@ -245,12 +267,14 @@ p{
      line-height:1.4em;
      }
 .tile{
-          max-width: @meImageMaxWidth;
+          max-width: 100%;
         text-align: center;
         margin:auto;
+        // .fancyBorder;
   img{
-          max-width: @meImageMaxWidth;
+          max-width: 100%;
         text-align: center;
+        // .fancyBorder;
     }
   }
 }

@@ -9,14 +9,14 @@ title: AEMap
   <p>
 creates equirectangular maps with 287 separate masks on solids or shape layers grouped in jurisdictions.</p>
     <iframe class="video" src="http://player.vimeo.com/video/39960358?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="100%" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+{% capture mddismap %}
+While preparing for my B. A. thesis I found a [GEOJson](http://www.geojson.org/) public domain [data set](https://github.com/johan/world.geo.json) on github that contains country boundaries. I first wrote a [InDesign version](https://github.com/fabiantheblind/IDJSMap) for that and ported it afterwards to After Effects. Than I created the interface, a demo video and the tutorial and published that on github.com. After three days I got an email by [Lloyd Alvarez](http://lloydalvarez.com/), the founder of [aescripts.com](http://aescripts.com), if I would like to publish my script on his site. I felt flattered. See the project below or [download the script](http://aescripts.com/aemap/) and examine the code. This script is open source and under MIT license.
+{% endcapture %}
+{{ mddismap | markdownify }}
 </div>
 
 <div class="row">
   <div class="span10 offset1">
-{% capture mddismap %}
-While preparing for ma B. A. thesis I found a [GEOJson](http://www.geojson.org/) public domain [data set](https://github.com/johan/world.geo.json) on github that contains country boundaries. I first wrote a [InDesign version](https://github.com/fabiantheblind/IDJSMap) for that and ported it afterwards to After Effects. Than I created the interface, a demo video and the tutorial and published that on github.com. After three days I got an email by [Lloyd Alvarez](http://lloydalvarez.com/), the founder of [aescripts.com](http://aescripts.com), if I would like to publish my script on his site. I felt flattered. See the project below or [download the script](http://aescripts.com/aemap/) and examine the code. This script is open source and under MIT license.
-{% endcapture %}
-{{ mddismap | markdownify }}
   </div>
 </div>
 <div class="row">
@@ -81,5 +81,3 @@ While preparing for ma B. A. thesis I found a [GEOJson](http://www.geojson.org/)
   </div>
 
 </div>
-
-{% include master-footer.html %}

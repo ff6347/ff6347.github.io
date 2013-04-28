@@ -1,0 +1,15 @@
+<!-- this is in three-tiles.html -->
+{% if list != null %}
+<div class="row">
+{% for item in list limit:maxnum offset:off | array_to_sentence_string %}
+<div class="{{ spanclass }}">
+<div class="{{tileclass}}">
+  <!-- <a href="/assets/images/big/{{ item }}"> -->
+  <img src="/assets/images/project-tile/{{ item }}" alt="monoline tile">
+  <!-- </a> -->
+</div>
+</div>
+{% endfor %}
+</div>
+{% endif%}
+<!-- end three-tiles.html -->

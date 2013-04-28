@@ -23,12 +23,11 @@
 
 jQuery(window).resize(function($) {
 
+  jQuery("h1").fitText();
 
-if ($(this).width() <=480) {
-
+if ($.width() <=480) {
 $('a#showreellink').attr('rel','');
     }else{
-
     $('a#showreellink').attr('rel','prettyPhoto[grouped]');
     }
 
@@ -36,6 +35,7 @@ $('a#showreellink').attr('rel','');
 
 
 jQuery(document).ready(function($){
+  jQuery("h1").fitText();
 
  // $('p').find('a').append(' <i class="icon-hand-right"></i>');
     // }
@@ -47,10 +47,10 @@ jQuery(document).ready(function($){
  * Add better letterpress to all H1
  */
 
-$('h1, h2, h3').addClass('depth');
-$('h1, h2, h3').attr('title',function(){
-    return $(this).text();
-});
+// $('h1, h2, h3').addClass('depth');
+// $('h1, h2, h3').attr('title',function(){
+//     return $(this).text();
+// });
 
 if ($(window).width() <=480) {
 
@@ -61,6 +61,6 @@ $('a#showreellink').attr('rel','');
     }
 
 $(document.links).filter(function() {
-    return this.hostname != window.location.hostname;
+    return this.hostname !== window.location.hostname;
 }).attr('target', '_blank');
 });
