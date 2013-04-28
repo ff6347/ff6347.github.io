@@ -884,6 +884,8 @@ body{-webkit-backface-visibility:hidden;}
 .animated.wiggle{-webkit-animation-duration:0.75s;-moz-animation-duration:0.75s;-o-animation-duration:0.75s;animation-duration:0.75s;}
 body{font-family:"calluna","Georgia",serif;font-style:normal;font-weight:400;font-size:1.2em;}
 ol{list-style-type:upper-roman;}
+#menu{padding-top:2em;}#menu img.menuicon{max-width:32px;max-height:32px;}
+nav ul#navi{list-style-type:none;margin:0;padding:0;}nav ul#navi li.navi-item{display:inline;}nav ul#navi li.navi-item a{text-decoration:none;}
 p{line-height:1.5em;}
 iframe{padding-top:1.5em;padding-bottom:1.5em;}
 .hero-unit{background-color:#ffffff;}.hero-unit h1{margin-top:0;font-family:"calluna","Georgia",serif;font-style:normal;font-weight:900;}

@@ -1,6 +1,79 @@
 ---
-layout: newdefault
-title: misc project
----
+layout: project
+title: template project
+videodemo: 64222693
+videoqsguide: 63958573
+videotitles:
+- Demo Video
+- Quickstart Guide
+videolist:
+- 64222693
+- 63958573
 
-<h2>Ups. Still under construction</h2>
+tilelist:
+- misc-splash.jpg
+- misc-splash.jpg
+- misc-splash.jpg
+- misc-splash.jpg
+- misc-splash.jpg
+- misc-splash.jpg
+
+linklist:
+- /assets/images/project-teaser/misc-splash.jpg
+- /assets/images/project-teaser/misc-splash.jpg
+- /assets/images/project-teaser/misc-splash.jpg
+- /assets/images/project-teaser/misc-splash.jpg
+- /assets/images/project-teaser/misc-splash.jpg
+- /assets/images/project-teaser/misc-splash.jpg
+
+altattrlist:
+- misc-splash
+- misc-splash
+- misc-splash
+- misc-splash
+- misc-splash
+- misc-splash
+
+bigimagelist:
+- misc-big-1280x500.jpg
+- misc-big-1280x500.jpg
+
+bigimgpath : /assets/images/big/
+tileimgpath : /assets/images/project-tile/
+teaserimgpath: /assets/images/project-teaser/
+
+---
+<div class="hero-unit">
+<h1>{{ page.title }}</h1>
+<h2>for this website</h2>
+<p></p>
+{% capture mddiscription %}
+Creating this page is a project for itself. I'm using, jekyll, twitter bootstrap, github.pages and webhooks, liquid for designers, jQuery, html5, css3, less, typekit, google analytics, JavaScript and all that other stuff you need to build a website without repeating to much code. Oh just before you ask. I'm no webdeveloper either but there is always the need to publish something on the web and the web talks in the languages mentioned above.  
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+It is published on [github.com](https://github.com/fabiantheblind/fabiantheblind.github.com) and open source under MIT license.  
+{% endcapture %}
+{{ mddiscription | markdownify }}
+</div>
+
+<!-- this is a big image -->
+{% assign imgpath = page.bigimgpath %}
+{% assign imgname = page.bigimagelist[0] %}
+{% assign alttext = "misc-big" %}
+{% assign thelink = "/misc.html" %}
+{% assign addlink = true %}
+{% include big-image.html %}
+
+<!-- these are some small images -->
+{% assign spanclass = "span2" %}
+{% assign tileclass = "tile" %}
+{% assign addtitle = true %}
+{% assign addlink = true %}
+{% assign path = page.teaserimgpath %}
+{% assign maxnum = 6 %}
+{% assign list = page.tilelist %}
+{% assign titles = page.titlelist %}
+{% assign links = page.linklist %}
+{% assign altattrlist = page.altattrlist %}
+
+{% assign off = 0 %}
+{% include image-tiles.html %}

@@ -5,14 +5,28 @@ Needs this:
 {% assign imgpath = "/assets/images/big/" %}
 {% assign imgname = page.bigimagelist[0] %}
 {% assign alttext = "monoline-big" %}
+{% assign thelink = "/" %}
+{% assign thetitle = "/" %}
+{% assign addtitle = true %}
+{% assign addlink = true %}
 {% include big-image.html %}
 {% endcomment %}
 
   -->
 <div class="row">
   <div class="span12">
+{% if addtitle != null and addtitle == true and thetitle != null %}
+  <h5>{{ thetitle }}</h5>
+{% endif %}
 <div class="tile big">
+  {% if addlink != null and addlink == true and thelink != null %}
+<a href="{{ thelink }}">
   <img src="{{ imgpath }}{{ imgname }}" alt="{{ alttext }}">
+  </a>
+  {% else %}
+  <img src="{{ imgpath }}{{ imgname }}" alt="{{ alttext }}">
+  {% endif %}
+
 </div>
 </div>
 </div>

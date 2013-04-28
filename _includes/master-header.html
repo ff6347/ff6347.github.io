@@ -1,0 +1,15 @@
+<div class="row" id="menu">
+  <div class="span10 offset1">
+<nav>
+<ul id="navi">
+  {% for item in page.menuitems %}
+  <li class="navi-item">
+    <a href="{{ page.menuurl[forloop.index0] }}" title="{{ item }}">
+      <img src="{{ page.menuicons[forloop.index0] }}" alt="{{ item }}" class="menuicon">
+  </a>
+  </li>
+  {% endfor %}
+</ul>
+</nav>
+  </div>
+</div>

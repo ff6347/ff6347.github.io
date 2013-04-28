@@ -1,5 +1,5 @@
 ---
-layout: newdefault
+layout: project
 title: Locations
 tags: [test1, TEST2 ]
 videotitles:
@@ -55,7 +55,7 @@ This script was created and published in the end of 2012. While doing a motion g
 <div class="row">
 {% for item in page.videolist offset:1 | array_to_sentence_string %}
   <div class="span4">
-  <h3>{{ page.videotitles[forloop.index] }}</h3>
+  <h3>{{ page.videotitles[forloop.index1] }}</h3>
     <iframe class="video" src="http://player.vimeo.com/video/{{ item }}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff"  width="100%" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
   </div>
 {% endfor %}

@@ -1,53 +1,87 @@
 ---
-layout: newdefault
+layout: project
 title: Coding Graphics
 
-altattrlist:
+altattrlist0:
 - locationsteaser
 - aemapteaser
 - tmktteaser
+
+altattrlist1:
 - swissdteaser
 - typoteaser
 - incom2lteaser
 
-linklist:
+linklist0:
 - /locations.html
 - /aemap.html
 - /tangiblemaps.html
+linklist1:
 - /swissd.html
 - /typography-and-automation.html
-- /incom-org-2-layout
+- /incom-org-2-layout.html
 
-titlelist:
+titlelist0:
 - Locations
 - AEMap
 - Tangible Maps
+titlelist1:
 - Swissd
 - Typography and Automation
 - Incom.org 2 Layout
 
-tilelist:
+tilelist0:
 - locations-splash.jpg
 - aemap-splash.jpg
 - tmkt-splash.jpg
+tilelist1:
 - swissd-splash.jpg
 - autotypo-splash.jpg
 - incomorg2layout-splash.jpg
 
+miscalt:
+- misc
+- voronoi
+- objexport
+- connectednodes
+- wihihihiggle
+- batchfnr
+
+misclinks:
+- /misc.html
+- http://fabiantheblind.github.io/Illustrator-Javascript-Voronoi/
+- http://aescripts.com/obj-vertex-export/
+- /connected-nodes.html
+- http://fabiantheblind.github.io/wihihihiggle/
+- https://github.com/fabiantheblind/batch-find-and-replace
+
+miscimgs:
+- misc-small-splash.jpg
+- voronoi-splash.jpg
+- obj-splash.jpg
+- nodes-splash.jpg
+- whihihiggle-splash.jpg
+- bfnr-splash.jpg
+misctitle:
+- this website
+- AI Voronoi
+- obj vertex export
+- connected nodes
+- whihihiggle.jsx
+- batch FC queries
+
 bigimagelist:
-- autotypo-big-01-1280x500.jpg
+- monoline-big-1280x500.jpg
 
 bigimgpath : /assets/images/big/
 tileimgpath : /assets/images/project-tile/
 teaserimgpath: /assets/images/project-teaser/
 ---
 
-
 <header>
   <div class="hero-unit">
-{% include welcome.html %}
-
 {% capture codesc %}
+#Hello,  
 you reached my coding page.  
 Before you dive into the projects, let me explain what programming means to me and why I spend so much time with it. Using [Processing](http://processing.org) I learnd that the computers we use have more power I could ever imagine. All these repetitive tasks I do day to day could be done by the machine if I know how to talk to it. With this kind of "lazieness" in mind I started automating InDesign layouts and developing tools for After Effects to support my workflows. All that lead me to writing my [B.A. Thesis](http://fabiantheblind.github.io/MT4D/) about automation and publishing scripts on [aescripts.com](http://aescripts.com/authors/f-l/fabiantheblind/) and [github.com](https://github.com/fabiantheblind) I'm not a "programmer". I'm an autodidact coder that comes from the design and I want to keep it that way. But enough of that chit chat.  
 See my favorite programming projects below.  
@@ -68,43 +102,15 @@ See my favorite programming projects below.
 {% assign addtitle = true %}
 {% assign addlink = true %}
 {% assign path = page.teaserimgpath %}
-{% assign off = 0 %}
 {% assign maxnum = 3 %}
-{% assign list = page.tilelist %}
-{% assign titles = page.titlelist %}
-{% assign links = page.linklist %}
-{% assign altattrlist = page.altattrlist %}
+{% assign list = page.tilelist0 %}
+{% assign titles = page.titlelist0 %}
+{% assign links = page.linklist0 %}
+{% assign altattrlist = page.altattrlist0 %}
 
+{% assign off = 0 %}
 {% include image-tiles.html %}
 
-
-
-<!-- <div class="row">
-  <div class="span4">
-        <h5>Locations</h5>
-      <div class="tile"> 
-    <a href="/locations.html">
-    <img class="insetlight" src="{{ page.teaserimgpath }}locations-splash.jpg"  alt="locations-teaser">
-    </a>
-  </div>
-  </div>
-  <div class="span4">
-        <h5>AEMap</h5>
-<div class="tile">
-    <a href="/aemap.html">
-  <img class="insetlight" src="{{ page.teaserimgpath }}aemap-splash.jpg" alt="aemap-teaser">
-  </a>
-    </div>
-  </div>
-  <div class="span4">
-    <h5>Tangible Maps</h5>
-      <div class="tile"> 
-    <a href="/tangiblemaps.html">
-    <img class="insetlight" src="{{ page.teaserimgpath }}tmkt-splash.jpg"  alt="tmkt">
-    </a>
-  </div>
-  </div>
-</div> -->
 
 <div class="row">
 <div class="span10 offset1">
@@ -118,61 +124,30 @@ See my favorite programming projects below.
 <h2>Programming Typography</h2>
   </div>
 </div>
-<div class="row">
-  <div class="span12">
-        <h5>Monoline Text</h5>
-<div class="tile big">
-    <a href="/monoline-text.html">
-  <img src="/assets/images/big/monoline-big-1280x500.jpg" alt="monoline-big">
-  </a>
-    </div>
-</div>
-</div>
 
+{% assign imgpath = "/assets/images/big/" %}
+{% assign imgname = page.bigimagelist[0] %}
+{% assign alttext = "monoline-big" %}
+{% assign thelink = "/monoline-text.html" %}
+{% assign thetitle = "Hersheys Monoline Text" %}
+{% assign addlink = true %}
+{% assign addtitle = true %}
+{% include big-image.html %}
 
 <!-- {% assign spanclass = "span4" %} -->
 <!-- {% assign tileclass = "tile" %} -->
 <!-- {% assign addtitle = true %} -->
 <!-- {% assign addlink = true %} -->
 <!-- {% assign path = page.teaserimgpath %} -->
-{% assign off = 3 %}
+{% assign off = 0 %}
 <!-- {% assign maxnum = 3 %} -->
-<!-- {% assign list = page.tilelist %} -->
-<!-- {% assign titles = page.titlelist %} -->
-<!-- {% assign links = page.linklist %} -->
-<!-- {% assign altattrlist = page.altattrlist %} -->
+{% assign list = page.tilelist1 %}
+{% assign titles = page.titlelist1 %}
+{% assign links = page.linklist1 %}
+{% assign altattrlist = page.altattrlist1 %}
 
 {% include image-tiles.html %}
 
-
-<!-- <div class="row">
-  <div class="span4">
-        <h5>Swissd</h5>
-      <div class="tile"> 
-    <a href="/swissd.html">
-    <img src="{{ page.teaserimgpath }}swissd-splash.jpg"  alt="swissd">
-    </a>
-  </div>
-  </div>
-
-  <div class="span4">
-    <h5>Typography and Automation</h5>
-      <div class="tile"> 
-    <a href="/typography-and-automation.html">
-    <img src="{{ page.teaserimgpath }}autotypo-splash.jpg"  alt="autotypo">
-    </a>
-  </div>
-  </div>
-
-    <div class="span4">
-    <h5>Incom.org 2 Layout</h5>
-      <div class="tile"> 
-    <a href="/incom-org-2-layout.html">
-    <img src="{{ page.teaserimgpath }}incomorg2layout-splash.jpg"  alt="incomorg">
-    </a>
-  </div>
-  </div>
-</div> --> <!-- close row -->
 <div class="row">
 <div class="span10 offset1">
 <p>
@@ -181,5 +156,35 @@ See my favorite programming projects below.
 </div>
 </div>
 <hr>
-{% include miscellaneous.html %}
+<div class="row">
+<div class="span10 offset1">
+{% capture miscdiscript %}
+
+##mis·cel·la·ne·ous  
+/ˌmisəˈlānēəs/
+Adjective  
+1. (of items or people gathered or considered together) Of various types or from different sources.  
+2. (of a collection or group) Composed of members or elements of different kinds: "a miscellaneous collection".  
+  
+Wow. You are still here. This chapter will lead you to various projects on this site and around the web. Feel free to contact me about anything.  
+{% endcapture %}
+{{ miscdiscript | markdownify }}
+</div>
+</div>
+
+{% assign spanclass = "span2" %}
+{% assign tileclass = "tile" %}
+{% assign addtitle = true %}
+{% assign addlink = true %}
+{% assign path = page.teaserimgpath %}
+{% assign maxnum = 6 %}
+{% assign list = page.miscimgs %}
+{% assign titles = page.misctitle %}
+{% assign links = page.misclinks %}
+{% assign altattrlist = page.miscalt %}
+
+{% assign off = 0 %}
+{% include image-tiles.html %}
+
+<!-- {% include miscellaneous.html %} -->
 </section>
