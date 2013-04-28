@@ -33,23 +33,23 @@ body {
 }
 
 @-webkit-keyframes flash {
-    0%, 50%, 100% {opacity: 1;}
-    25%, 75% {opacity: 0;}
+    // 0%, 50%, 100% {opacity: 1;}
+    50%, 75% {opacity: 0.5;}
 }
 
 @-moz-keyframes flash {
-    0%, 50%, 100% {opacity: 1;}
-    25%, 75% {opacity: 0;}
+    // 0%, 50%, 100% {opacity: 1;}
+    50%, 75% {opacity: 0;}
 }
 
 @-o-keyframes flash {
-    0%, 50%, 100% {opacity: 1;}
-    25%, 75% {opacity: 0;}
+    // 0%, 50%, 100% {opacity: 1;}
+    50%, 75% {opacity: 0;}
 }
 
 @keyframes flash {
-    0%, 50%, 100% {opacity: 1;}
-    25%, 75% {opacity: 0;}
+    // 0%, 50%, 100% {opacity: 1;}
+    50%, 75% {opacity: 0;}
 }
 
 .flash {
@@ -57,6 +57,13 @@ body {
     -moz-animation-name: flash;
     -o-animation-name: flash;
     animation-name: flash;
+
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function:ease;
+    -o-animation-timing-function: ease;
+
+
 }
 @-webkit-keyframes shake {
     0%, 100% {-webkit-transform: translateX(0);}

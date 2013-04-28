@@ -1,64 +1,206 @@
 <!DOCTYPE html>
 <html>
-	<head lang="en">
-		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="fabiantheblind.info" />
-		<meta name="author" content="fabiantheblind" />
-		<title>Locations</title>
-		<!-- TypeKit -->
-		<script type="text/javascript" src="http://use.typekit.com/jdb0zac.js"></script>
-		<script type="text/javascript">
-		try{Typekit.load();}catch(e){}
-		</script>
-		<!-- css -->
-		<link rel="stylesheet" href="assets/css/main.css" type="text/css" />
-		<!-- <link rel="stylesheet" href="assets/css/syntax.css" type="text/css" /> -->
-		<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
-		<link rel="stylesheet" href="assets/css/font-awesome.css" type="text/css" />
-		<link rel="stylesheet" href="assets/css/prettyPhoto.css" type="text/css" media="screen" />
-		<!-- scripts -->
-		<!-- <script type="text/javascript" src="assets/js/modernizr.custom.70055.js"></script> -->
-		<script type="text/javascript" src="assets/js/jquery-1.8.0.min.js"></script>
-		<script type="text/javascript" src="assets/js/jquery.prettyPhoto.js"></script>
-		<script type="text/javascript" src="assets/js/main.js"></script>
-   <!--   <script type="text/javascript" src="assets/js/jquery.img-inset-shadow.js"></script> -->
+  <head lang="en">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="fabiantheblind.info" />
+    <meta name="author" content="fabiantheblind" />
+    <title>Locations</title>
+    <!-- TypeKit -->
+    <script type="text/javascript" src="http://use.typekit.com/jdb0zac.js"></script>
+    <script type="text/javascript">
+    try{Typekit.load();}catch(e){}
+    </script>
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="assets/css/syntax.css" type="text/css" /> -->
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/prettyPhoto.css" type="text/css" media="screen" />
+    <!-- scripts -->
+    <!-- <script type="text/javascript" src="assets/js/modernizr.custom.70055.js"></script> -->
+    <script type="text/javascript" src="assets/js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <!-- // <script type="text/javascript" src="assets/js/jquery.img-inset-shadow.js"></script> -->
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30954421-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
 
-		<!-- Google Analytics -->
-		<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-30954421-1']);
-		_gaq.push(['_trackPageview']);
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-		</script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero-unit">
+<h1>Locations.jsx </h1>
+<h2>for After Effects</h2>
+  <p>
+    creates 2D and 3D geo located markers on an equirectangular map or projected onto a sphere.
+  </p>
+    <iframe class="video" src="http://player.vimeo.com/video/54717636?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="100%" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
 
-	</head>
-	<body>
-		<div class="container">
-			
-		</div>
-		<!-- scripts -->
+<div class="row">
+  <div class="span10 offset1">
 
-		<script type="text/javascript">
-		$(document).ready(function(){
+<p>This script was created and published in the end of 2012. While doing a motion graphics job for the city of <a href="http://bremerhaven.de/">Bremerhaven</a> we had to display some cities that where close by on a 3D sphere. We could not just guess where these locations might be. It had to be acurrate, like on a real map. Fortunatly I already had wirtten AEMap and some experiments creating geo marker in After Effects. The hardest part was parsing .csv datasets. After the job was done I took the time to write an user interface, record a tutorial and create a demo video for my script so other people could use it as well. It is published on <a href="http://aescripts.com/locations">aescipts.com</a> and open source under MIT license.</p>
 
-			var prettyPhotoSettings = {
-				social_tools:'',
-				default_width: 1000,
-				default_height: 562,
-				opacity: 0.95, /* Value between 0 and 1 */
-				show_title: false, /* true/false */
-				deeplinking: false,
-				slideshow: false
-			};
-			 $("a[rel^='prettyPhoto']").prettyPhoto(prettyPhotoSettings);
+  </div>
+</div>
+
+<div class="row">
+  <div class="span12">
+<div class="tile big">
+  <img src="/assets/images/big/locations-big-07-1280x500.jpg" alt="locations-big">
+</div>
+</div>
+</div>
+
+<div class="row">
+  <div class="span12">
+<div class="tile big">
+  <img src="/assets/images/big/locations-big-06-1280x500.jpg" alt="locations-big">
+</div>
+</div>
+</div>
+
+<div class="row">
+  <div class="span12">
+<div class="tile big">
+  <img src="/assets/images/big/locations-big-05-1280x500.jpg" alt="locations-big">
+</div>
+</div>
+</div>
+
+<div class="row">
+  <div class="span12">
+<div class="tile big">
+  <img src="/assets/images/big/locations-big-04-1280x500.jpg" alt="locations-big">
+</div>
+</div>
+</div>
+
+<div class="row">
+  <div class="span12">
+<div class="tile big">
+  <img src="/assets/images/big/locations-big-1280x500.jpg" alt="locations-big">
+</div>
+</div>
+</div>
+
+<div class="row">
+  <div class="span12">
+<div class="tile big">
+  <img src="/assets/images/big/locations-big-02-1280x500.jpg" alt="locations-big">
+</div>
+</div>
+</div>
+
+<div class="row">
+  <div class="span12">
+<div class="tile big">
+  <img src="/assets/images/big/locations-big-03-1280x500.jpg" alt="locations-big">
+</div>
+</div>
+</div>
 
 
-		});
-		</script>
-	</body>
+
+<div class="row">
+  <div class="span4">
+  <h3>Tutorial#1</h3>
+    <iframe class="video" src="http://player.vimeo.com/video/54718822?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff"  width="100%" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div>
+
+  <div class="span4">
+  <h3>Tutorial#2</h3>
+    <iframe class="video" src="http://player.vimeo.com/video/56635698?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="100%" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div>
+
+  <div class="span4">
+  <h3>Tutorial#2 Result</h3>
+    <iframe class="video" src="http://player.vimeo.com/video/56907935?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="100%" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div>
+</div>
+
+
+<footer>
+  <hr>
+<div class="row">
+  <div class="span10 offset1">
+  <p id="foot">
+     This site is generated with <a href="http://pages.github.com">gh-pages</a>, <a href="http://jekyllrb.com">jekyll</a> and <a href="http://twitter.github.com/bootstrap/index.html">twitter bootstrap</a> by <a href="http://fabiantheblind.info">fabiantheblind</a>.<br> Get the source files <a href="https://github.com/fabiantheblind/fabiantheblind.github.com">over here</a>.</p>
+  
+</div>
+</div>
+
+<div class="row">
+  <div class="span10 offset1">
+       <div class="connect" id="social">
+    <br>
+  <!--       <a href="http://www.delicious.com/fabiantheblind">delicious</a> -->
+        <a href="https://github.com/fabiantheblind">
+          <img src="assets/images/github.png" />
+        <span>&middot;</span>
+        <a href="http://vimeo.com/fabiantheblind">
+          <img src="assets/images/vimeo.png" />
+        </a>
+        <span>&middot;</span>
+        </a>
+        <a href="https://pinboard.in/u:fabiantheblind">
+          <img src="assets/images/pinboard.png" />
+        </a>
+        <span>&middot;</span>
+        </a>
+        <a href="http://www.linkedin.com/pub/fabian-mor%C3%B3n-zirfas/6a/832/528">
+          <img src="assets/images/linked_in.png" />
+        </a>
+        <span>&middot;</span>
+        <a href="http://twitter.com/fabiantheblind">
+          <img src="assets/images/twitter.png"  />
+        </a>
+        <span>&middot;</span>
+        <a href="http://www.flickr.com/photos/fabiantheblind/show/">
+          <img src="assets/images/flickr.png"  />
+        </a>
+        <span>&middot;</span>
+        <a href="http://fabiantheblind.tumblr.com/">
+          <img src="assets/images/tumblr.png"  />
+        </a>
+        <span>&middot;</span>
+        <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#101;&#108;&#108;&#111;&#64;&#102;&#97;&#98;&#105;&#97;&#110;&#116;&#104;&#101;&#98;&#108;&#105;&#110;&#100;&#46;&#105;&#110;&#102;&#111;">
+          <img src="assets/images/e-mail.png"  />
+        </a>
+  </div>
+  </div>
+</div>
+</footer>
+    </div>
+    <!-- scripts -->
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+      var prettyPhotoSettings = {
+        social_tools:'',
+        default_width: 1000,
+        default_height: 562,
+        opacity: 0.95, /* Value between 0 and 1 */
+        show_title: false, /* true/false */
+        deeplinking: false,
+        slideshow: false
+      };
+       $("a[rel^='prettyPhoto']").prettyPhoto(prettyPhotoSettings);
+
+
+    });
+    </script>
+  </body>
 </html>

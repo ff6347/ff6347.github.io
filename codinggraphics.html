@@ -3,14 +3,17 @@ layout: newdefault
 title: Coding Graphics
 ---
 
-<!-- NEEDS TO BE UNINTENDED -->
-<div class="row">
+<!-- <div class="row hidden-phone">
   <div class="span12">
     <img src="/assets/images/gif-ani/coding_demo.gif" alt="anim">
   </div>
-</div>
+</div> -->
+<!-- NEEDS TO BE UNINTENDED -->
 <!-- <div class="row"> -->
-<div class="hero-unit">
+
+<header>
+<div class="span10 offset1">
+  <div class="hero-unit">
 {% include welcome.html %}
 
 {% capture codesc %}
@@ -21,6 +24,8 @@ See my favorite programming projects below.
 {% endcapture %}
 {{ codesc | markdownify }}
 </div>
+</div>
+</header>
 <!-- </div> -->
 
 {% include geo-vis.html %}

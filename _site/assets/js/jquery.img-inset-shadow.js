@@ -6,7 +6,8 @@
 
 
 jQuery(document).ready(function($){
-    $('img:not(#logo, .wp-biographia-avatar,#buffer, .carousel-images, .two-column-images)').addClass('inset-shadow');
+    $('img:not(.typekit-badge)').addClass('inset-shadow');
+
     $('img.inset-shadow').each(function(){
         var $img = $(this);
         $img.load(function(){

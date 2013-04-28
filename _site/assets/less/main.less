@@ -53,32 +53,22 @@
 }
 
 .tile-std(){
-          // .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
-        // .fancyBorder;
-        // .simpleShadow;
-        padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 .serifbold(){
-font-family: "calluna","Georgia",serif;
-font-style: normal;
-font-weight: 900;
-
-    
+  font-family: "calluna","Georgia",serif;
+  font-style: normal;
+  font-weight: 900;
 }
 
 .serifregular(){
-
 font-family: "calluna","Georgia",serif;
 font-style: normal;
 font-weight: 400;
 }
 
-// overwrite bs classes
-
 body {
-    // padding-top: 3em;
     .serifregular;
-
     font-size: @baseFontSize;
 }
 
@@ -86,22 +76,25 @@ ol{
 list-style-type: upper-roman;
 }
 
-.container{
-  // margin:60px;
-}
+.container{  }
+
+
 .hero-unit{
-    // padding: 0px;
-    background-color: @bodyBackground;
-    h1{
+  background-color: @bodyBackground;
+  h1{
+    margin-top:0;
+    font-size: 5em;
+    .serifbold;
+  }
+  p{
+    font-size: @baseFontSize;
+    line-height: @baseLineHeight;
+  }
+}
+
+h1.hello{
         font-size: 5em;
         .serifbold;
-        // padding-bottom: 1.5em;
-    }
-    p{
-        font-size: @baseFontSize;
-        line-height: @baseLineHeight;
-    }
-
 }
 
 a.home-link{
@@ -111,121 +104,62 @@ a.home-link{
     text-align: center;
 }
 #showreel{
-        max-width: @meImageMaxWidth;
-        // .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
-        .fancyBorder;
-        .simpleShadow;
-        // .tile-std;
-    img{
-        // .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
-
-        max-width: @meImageMaxWidth;
-        text-align: center;
-
-
-    }
-   
+  max-width: @meImageMaxWidth;
+  img{
+      max-width: @meImageMaxWidth;
+      text-align: center;
+  }
 }
 
-.tile:hover{
-        //   .animated; // Initiate animation library
-        // .pulse; // Initiate bounce effect
-        // .fancyBorder(@linkColor);
-  
-}
+.tile:hover{  }
 .tile{
   .tile-std;
-        // .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
-        // .fancyBorder;
-        // .simpleShadow;
-        // max-width: @meImageMaxWidth;
-        // text-align: center;
-        // margin:auto;
-  img{
-// .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
-        // max-width: @meImageMaxWidth;
-        // text-align: center;
-  }
-  img:hover{
-    // .fancyBorder(@linkColor);
-  }
+
+  img{  }
+  img:hover{  }
 }
 
 .big{
-        .tile-std;
-
-  img{
-    // .border-radius(@std_border_rad, @std_border_rad, @std_border_rad, @std_border_rad);
-
-    // max-width: 100%;
-
-  }
+  .tile-std;
+  img{  }
 }
-
 #showreel:hover{
-        .animated; // Initiate animation library
-        .pulse; // Initiate bounce effect
-    }
-
-
+  .animated; // Initiate animation library
+  .flash; // Initiate bounce effect
+}
 /**
  * This is for some jquery goodness to add an inset shadow onto all images.
  * Lets see how this works.
  * 
  */
-
 .inset-shadow{
-    -moz-box-shadow: 1px 1px 5px grey inset;
-    -webkit-box-shadow: 1px 1px 5px grey inset;
-    box-shadow: 1px 1px 5px grey inset;
+  -moz-box-shadow: 1px 1px 5px grey inset;
+  -webkit-box-shadow: 1px 1px 5px grey inset;
+  box-shadow: 1px 1px 5px grey inset;
 }
-
-// .depth {
-// .letterPressShadow (#ad4400) {
-//     text-shadow: 0 -1px 1px darken(@color, 25%), 0 1px 1px lighten(@color, 25%);
-// }
-    // display: block;
-    // // padding: 50px;
-    // color: black;
-    // // font: bold 7em Arial, sans-serif;
-    // position: relative;
-// }
-
-// .depth:before, .depth:after {
-//     content: attr(title);
-//     // padding: 50px;
-//     color: rgba(255,255,255,.1);
-//     position: absolute;
-// }
-
-// .depth:before { top: 1px; left: 1px }
-// .depth:after  { top: 2px; left: 2px }
-
-
-
+.inset-shadow:hover{
+  -moz-box-shadow: 1px 1px 8px grey inset;
+  -webkit-box-shadow: 1px 1px 8px grey inset;
+  box-shadow: 1px 1px 8px grey inset;
+}
 pre{
-
-    // width: 100%;                          /* specify width  */
-    white-space: pre-wrap !important;                 /* CSS3 browsers  */
-    white-space: -moz-pre-wrap !important; /* 1999+ Mozilla  */
-    white-space: -pre-wrap !important;                /* Opera 4 thru 6 */
-    white-space: -o-pre-wrap;              /* Opera 7 and up */
-    word-wrap: break-word !important;                 /* IE 5.5+ and up */
-    /* overflow-x: auto; */                /* Firefox 2 only */
-    /* width: 99%; */              /* only if needed */
+  // width: 100%;                          /* specify width  */
+  white-space: pre-wrap !important;                 /* CSS3 browsers  */
+  white-space: -moz-pre-wrap !important; /* 1999+ Mozilla  */
+  white-space: -pre-wrap !important;                /* Opera 4 thru 6 */
+  white-space: -o-pre-wrap;              /* Opera 7 and up */
+  word-wrap: break-word !important;                 /* IE 5.5+ and up */
+  /* overflow-x: auto; */                /* Firefox 2 only */
+  /* width: 99%; */              /* only if needed */
 }
-
-
 code{
-    font-size: 1.0em;
+font-size: 1.0em;
 white-space: pre-wrap !important; /* css-3 */
 white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
 white-space: -pre-wrap !important; /* Opera 4-6 */
 white-space: -o-pre-wrap !important; /* Opera 7 */
 word-wrap: break-word !important; /* Internet Explorer 5.5+ */
-
 }
-
 /** LETTER PRESS START **/
 .depth {
     display: block;
@@ -241,9 +175,6 @@ word-wrap: break-word !important; /* Internet Explorer 5.5+ */
 .depth:before { top: 1px; left: 1px }
 .depth:after  { top: 2px; left: 2px }
 /** LETTER PRESS END **/
-
-
-
 #foot{
     font-size: 0.7em;
     text-align: center;
@@ -262,70 +193,57 @@ word-wrap: break-word !important; /* Internet Explorer 5.5+ */
     }
 }
 
-h1.hello{
-  // padding-bottom: 0;
-  font: normal 900 6em "calluna","Georgia";
-  // margin-bottom: -35px;
-  margin-top: 35px;
-}
-
 img.gravatar{
   -moz-border-radius: 15px;
   border-radius: 15px;
 }
 
 
-
+.video{
+  display:block;
+  margin:0 auto;
+}
 /*****************************************************************************
 /* 
 /* MEDIA QUERIES
 **********************************************************/
 
 .smalltext(){
-    
-        // font-size: @smallFontSize;
-        // line-height: @smallLineHeight;
-    
+        font-size: @smallFontSize;
+        line-height: @smallLineHeight;
 
 }
 
-
-
-
+.hero-unit{
 /* Landscape phones and down*/
- @media (max-width: 480px) {
-
- p{
- .smalltext;
- }
-   .hero-unit p {
-    
-
-     font-size:1.1em;
+  @media screen and (max-width:480px) {
+     p {
+     font-size:1em;
      line-height:1.4em;
     
      }
+  }
+}
 
 
-// .forkmemedia(48px);
+@media (max-width: 480px) {
 
- }
+  p{
+    .smalltext;
+  }
+}
 
 /* Landscape phone to portrait tablet*/
 
- @media (max-width: 767px) { 
+@media (max-width: 767px) { 
 
 p{
-  .smalltext;  
+  .smalltext;
 }
-     .hero-unit p{
-
-     font-size:1.1em;
+    .hero-unit p{
+     font-size:1em;
      line-height:1.4em;
      }
-    
-// .forkmemedia(64px);
-
 .tile{
           max-width: @meImageMaxWidth;
         text-align: center;
@@ -333,44 +251,14 @@ p{
   img{
           max-width: @meImageMaxWidth;
         text-align: center;
+    }
   }
 }
-}
-
-
 
 /*Portrait tablet to landscape and desktop*/
- @media (min-width: 768px) and (max-width: 979px) {
-
-
-
-// .forkmemedia(96px);
-
- }
-
+@media (min-width: 768px) and (max-width: 979px) {  }
 /* Large desktop*/
+@media (min-width: 980px) and (max-width: 1199px) {  }
+@media (min-width: 1200px) {  }
 
- @media (min-width: 980px) and (max-width: 1199px) {
-
-
-
-// .forkmemedia(128px);
-
- }
- 
-
- @media (min-width: 1200px) {  }
-
- @media (min-width: 1280px) {  
-
-    // #hero-carousel{
-    //     background-color: #000000;
-    //     #myCarousel{
-
-    //     max-width: 1280px;
-    //     margin-left: auto;
-    //    margin-right: auto;
-    //     }
-  
-    // }
- }
+ @media (min-width: 1280px) {  }
