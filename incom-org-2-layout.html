@@ -10,19 +10,34 @@ videolist:
 tilelist:
 - autotypo-tile-00-500x500.jpg
 bigimagelist:
-- autotypo-big-01-1280x500.jpg
+- incomorg-big-01-1280x500.jpg
+- incomorg-big-02-1280x500.jpg
+- incomorg-big-03-1280x500.jpg
+- incomorg-big-04-1280x500.jpg
+- incomorg-big-05-1280x500.jpg
+- incomorg-big-06-1280x500.jpg
 bigimgpath : /assets/images/big/
 tileimgpath : /assets/images/project-tile/
 ---
+<div class="hero-unit">
 
 <h1>Incom.org 2 Layout</h1>
-<h2>Is an atempt to fully automate a book.</h2>
+<h2>Was an attempt to fully automate a book.</h2>
   <p>
   </p>
 <!--     <iframe class="video" src="http://player.vimeo.com/video/{{ page.videodemo }}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="100%" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> -->
 {% capture mddistypo %}
+For my second colloquium I had to create a print documentation of all projects I did. I already had created lots of documentation on [incom.org](https://about.incom.org/). Thanks to [Marcus Paeschke](http://mphasize.de/) I got access to an unofficial API. That gave me the possibility to import all content via json. The result does not work out of the box. I even think without my support nobody else can use it but still&hellip; This set of scripts creates from a large dataset some nice graphics and a book.  
 
-It is published on [github.com](http://fabiantheblind.github.io/Typography-And-Automation/) and under  open source license.  
+It is published on [github.com](https://github.com/fabiantheblind/incomOrg2Layout) and under  open source license.  
 {% endcapture %}
 {{ mddistypo | markdownify }}
 </div>
+
+{% assign spanclass = "span12" %}
+{% assign tileclass = "tile big" %}
+{% assign path = page.bigimgpath %}
+{% assign off = 0 %}
+{% assign maxnum = 6 %}
+{% assign list = page.bigimagelist %}
+{% include image-tiles.html %}

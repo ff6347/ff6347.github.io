@@ -1,35 +1,134 @@
 ---
 layout: newdefault
 title: Coding Graphics
+
+linklist:
+- /swissd.html
+- /typography-and-automation.html
+- /incom-org-2-layout
+
+titlelist:
+- Swissd
+- Typography and Automation
+- Incom.org 2 Layout
+
+tilelist:
+- swissd-splash.jpg
+- autotypo-splash.jpg
+- incomorg2layout-splash.jpg
+
+bigimagelist:
+- autotypo-big-01-1280x500.jpg
+bigimgpath : /assets/images/big/
+tileimgpath : /assets/images/project-tile/
+teaserimgpath: /assets/images/project-teaser/
 ---
 
-<!-- <div class="row hidden-phone">
-  <div class="span12">
-    <img src="/assets/images/gif-ani/coding_demo.gif" alt="anim">
-  </div>
-</div> -->
-<!-- NEEDS TO BE UNINTENDED -->
-<!-- <div class="row"> -->
 
 <header>
-<!-- <div class="span10 offset1"> -->
   <div class="hero-unit">
 {% include welcome.html %}
 
 {% capture codesc %}
-<!-- {% include coding-description.md %} -->
 you reached my coding page.  
 Before you dive into the projects, let me explain what programming means to me and why I spend so much time with it. Using [Processing](http://processing.org) I learnd that the computers we use have more power I could ever imagine. All these repetitive tasks I do day to day could be done by the machine if I know how to talk to it. With this kind of "lazieness" in mind I started automating InDesign layouts and developing tools for After Effects to support my workflows. All that lead me to writing my [B.A. Thesis](http://fabiantheblind.github.io/MT4D/) about automation and publishing scripts on [aescripts.com](http://aescripts.com/authors/f-l/fabiantheblind/) and [github.com](https://github.com/fabiantheblind) I'm not a "programmer". I'm an autodidact coder that comes from the design and I want to keep it that way. But enough of that chit chat.  
 See my favorite programming projects below.  
 {% endcapture %}
 {{ codesc | markdownify }}
-<!-- </div> -->
 </div>
 </header>
-<!-- </div> -->
 <hr>
-{% include geo-vis.html %}
+<div class="row">
+  <div class="span12">
+    <h2>Geographic Visualization</h2>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="span4">
+        <h5>Locations</h5>
+      <div class="big tile"> 
+    <a href="/locations.html">
+    <img class="insetlight" src="{{ page.teaserimgpath }}locations-splash.jpg"  alt="locations-teaser">
+    </a>
+  </div>
+  </div>
+  <div class="span4">
+        <h5>AEMap</h5>
+<div class="tile">
+    <a href="/aemap.html">
+  <img class="insetlight" src="{{ page.teaserimgpath }}aemap-splash.jpg" alt="aemap-teaser">
+  </a>
+    </div>
+  </div>
+  <div class="span4">
+    <h5>Tangible Maps</h5>
+      <div class="tile"> 
+    <a href="/tangiblemaps.html">
+    <img class="insetlight" src="{{ page.teaserimgpath }}tmkt-splash.jpg"  alt="tmkt">
+    </a>
+  </div>
+  </div>
+</div>
+
+<div class="row">
+<div class="span10 offset1">
+<p>While studying at the FH Potsdam I took interest in plotting data onto interactive maps. For a project in the field of "Design of Software Interfaces" I have been part of a team that developed a concept and wrote a mockup for a desaster management software for the <a href="http://portal.mace-project.eu/maeve/">maeve table</a>. This was the starting point for understanding maps and location data. Based on this knowledge I developed Locations.jsx and AEMap.jsx for Adobe After Effects that allow the creation animations with location based data.</p>
+</div>
+</div>
 <hr>
-{% include typographix.html %}
+
+<div class="row">
+  <div class="span12">
+<h2>Programming Typography</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+        <h5>Monoline Text</h5>
+<div class="tile big">
+    <a href="/monoline-text.html">
+  <img src="/assets/images/big/monoline-big-1280x500.jpg" alt="monoline-big">
+  </a>
+    </div>
+</div>
+</div>
+
+<div class="row">
+  <div class="span4">
+        <h5>Swissd</h5>
+      <div class="tile"> 
+    <a href="/swissd.html">
+    <img src="{{ page.teaserimgpath }}swissd-splash.jpg"  alt="swissd">
+    </a>
+  </div>
+  </div>
+
+  <div class="span4">
+    <h5>Typography and Automation</h5>
+      <div class="tile"> 
+    <a href="/typography-and-automation.html">
+    <img src="{{ page.teaserimgpath }}autotypo-splash.jpg"  alt="autotypo">
+    </a>
+  </div>
+  </div>
+
+    <div class="span4">
+    <h5>Incom.org 2 Layout</h5>
+      <div class="tile"> 
+    <a href="/incom-org-2-layout.html">
+    <img src="{{ page.teaserimgpath }}incomorg2layout-splash.jpg"  alt="incomorg">
+    </a>
+  </div>
+  </div>
+</div> <!-- close row -->
+<div class="row">
+<div class="span10 offset1">
+<p>
+  During my studies I became a member of the group <a href="http://www.grenzfarben.de/">Grenzfarben</a>. Together with them I produced, since 2008, several product catalouges for <a href="http://www.justmusic.de/">JustMusic</a> and <a href="http://www.sound-service.eu/">Sound Service</a>. We started out working in Quark Express and had to format every paragraph of these catalouges, that have more than 300 pages and 5000 to 7000 products, by hand. When we made the switch to InDesign I was tired of clicking. So I tried to automate the process with JavaScript/ExtendScript. It worked. Now we have a semiautomatic process that gives us more time for design and I never stoped writing scripts. Below you will find Swissd.jsx and Monoline Text.jsx for After Effects together with a workshop I gave at the FHPotsdam about Typography and Automation and a semiautomatic process that imports my project data from Incom.org into a Layout.
+</p>
+</div>
+</div>
 <hr>
 {% include miscellaneous.html %}

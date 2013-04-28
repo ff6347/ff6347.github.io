@@ -4,11 +4,15 @@ this is in three-tiles.html
 needs this:
 {% assign spanclass = "span6" %}
 {% assign tileclass = "tile big" %}
+
 {% assign addlink = true %}
 {% assign path = page.bigimgpath %}
 {% assign off = 1 %}
 {% assign maxnum = 2 %}
 {% assign list = page.bigimagelist %}
+{% assign titles = page.titlelist %}
+{% assign links = page.linklist %}
+
 {% include image-tiles.html %}
 {% endcomment %}
  -->
@@ -16,12 +20,20 @@ needs this:
 <div class="row">
 {% for item in list limit:maxnum offset:off | array_to_sentence_string %}
 <div class="{{ spanclass }}">
+{% if addtitle != null %}
+  {% if addtitle == true%}
+  <h5>{{ titles[forloop.index] }}</h5>
+  {% endif %}
+{% endif %}
 <div class="{{ tileclass }}">
 {% if addlink != null %}
   {% if addlink == true %}
+    {% if links == null %}
   <a href="{{ path }}{{ item }}">
-{% endif %}
-
+    {% else %}
+  <a href="{{ links[forloop.index] }}">
+    {% endif %}
+  {% endif %}
 {% endif %}
   <img src="{{ path }}{{ item }}" alt="monoline tile">
 {% if addlink != null %}
