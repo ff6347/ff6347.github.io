@@ -2,23 +2,41 @@
 layout: newdefault
 title: Coding Graphics
 
+altattrlist:
+- locationsteaser
+- aemapteaser
+- tmktteaser
+- swissdteaser
+- typoteaser
+- incom2lteaser
+
 linklist:
+- /locations.html
+- /aemap.html
+- /tangiblemaps.html
 - /swissd.html
 - /typography-and-automation.html
 - /incom-org-2-layout
 
 titlelist:
+- Locations
+- AEMap
+- Tangible Maps
 - Swissd
 - Typography and Automation
 - Incom.org 2 Layout
 
 tilelist:
+- locations-splash.jpg
+- aemap-splash.jpg
+- tmkt-splash.jpg
 - swissd-splash.jpg
 - autotypo-splash.jpg
 - incomorg2layout-splash.jpg
 
 bigimagelist:
 - autotypo-big-01-1280x500.jpg
+
 bigimgpath : /assets/images/big/
 tileimgpath : /assets/images/project-tile/
 teaserimgpath: /assets/images/project-teaser/
@@ -37,6 +55,7 @@ See my favorite programming projects below.
 {{ codesc | markdownify }}
 </div>
 </header>
+<section>
 <hr>
 <div class="row">
   <div class="span12">
@@ -44,11 +63,26 @@ See my favorite programming projects below.
   </div>
 </div>
 
+{% assign spanclass = "span4" %}
+{% assign tileclass = "tile" %}
+{% assign addtitle = true %}
+{% assign addlink = true %}
+{% assign path = page.teaserimgpath %}
+{% assign off = 0 %}
+{% assign maxnum = 3 %}
+{% assign list = page.tilelist %}
+{% assign titles = page.titlelist %}
+{% assign links = page.linklist %}
+{% assign altattrlist = page.altattrlist %}
 
-<div class="row">
+{% include image-tiles.html %}
+
+
+
+<!-- <div class="row">
   <div class="span4">
         <h5>Locations</h5>
-      <div class="big tile"> 
+      <div class="tile"> 
     <a href="/locations.html">
     <img class="insetlight" src="{{ page.teaserimgpath }}locations-splash.jpg"  alt="locations-teaser">
     </a>
@@ -70,7 +104,7 @@ See my favorite programming projects below.
     </a>
   </div>
   </div>
-</div>
+</div> -->
 
 <div class="row">
 <div class="span10 offset1">
@@ -95,7 +129,23 @@ See my favorite programming projects below.
 </div>
 </div>
 
-<div class="row">
+
+<!-- {% assign spanclass = "span4" %} -->
+<!-- {% assign tileclass = "tile" %} -->
+<!-- {% assign addtitle = true %} -->
+<!-- {% assign addlink = true %} -->
+<!-- {% assign path = page.teaserimgpath %} -->
+{% assign off = 3 %}
+<!-- {% assign maxnum = 3 %} -->
+<!-- {% assign list = page.tilelist %} -->
+<!-- {% assign titles = page.titlelist %} -->
+<!-- {% assign links = page.linklist %} -->
+<!-- {% assign altattrlist = page.altattrlist %} -->
+
+{% include image-tiles.html %}
+
+
+<!-- <div class="row">
   <div class="span4">
         <h5>Swissd</h5>
       <div class="tile"> 
@@ -122,7 +172,7 @@ See my favorite programming projects below.
     </a>
   </div>
   </div>
-</div> <!-- close row -->
+</div> --> <!-- close row -->
 <div class="row">
 <div class="span10 offset1">
 <p>
@@ -132,3 +182,4 @@ See my favorite programming projects below.
 </div>
 <hr>
 {% include miscellaneous.html %}
+</section>

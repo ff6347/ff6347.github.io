@@ -1,4 +1,0 @@
-##DEPRECATED moved to codinggraphicx.html
-you reached my coding page.  
-Before you dive into the projects, let me explain what programming means to me and why I spend so much time with it. Using <a href="http://processing.org/" target="blanc">Processing</a> I learnd that the computers we use have more power I could even imagine and all the repetitive tasks could be done by the machine. With this kind of "lazieness" in mind I started automating InDesign layouts and developing tools for After Effects. All that lead me to writing my [B.A. Thesis](http://fabiantheblind.github.io/MT4D/) about automation and publishing scripts on [aescripts.com](http://aescripts.com/authors/f-l/fabiantheblind/) and [github.com](https://github.com/fabiantheblind) I'm not a "programmer". I"m an autodidact that comes from the design and I want to keep it that way. But enough of that chit chat.  
-See my favorite programming projects below.  
