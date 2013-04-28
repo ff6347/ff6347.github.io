@@ -2,7 +2,7 @@
 <html>
   <head lang="en">
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="fabiantheblind.info" />
     <meta name="author" content="fabiantheblind" />
     <title>{{ page.title }}</title>
@@ -38,7 +38,15 @@
   </head>
   <body>
     <div class="container">
+      <header>
+        {% include master-header.html %}
+      </header>
+      <section>
       {{ content }}
+      </section>
+      <footer>
+        {% include master-footer.html %}
+      </footer>
     </div>
     <!-- scripts -->
 
@@ -55,7 +63,6 @@
         slideshow: false
       };
        $("a[rel^='prettyPhoto']").prettyPhoto(prettyPhotoSettings);
-
 
     });
     </script>
