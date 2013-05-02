@@ -1,3 +1,7 @@
+---
+layout: project
+title: Vita
+---
 {% comment %}
 Name: Fabian Morón Zirfas B. A.  
 Adress:  
@@ -16,7 +20,8 @@ social networks
 - [twitter](https://twitter.com/fabiantheblind)  
 {% endcomment %}
 
-##work experience:  
+#Hello,  
+this is my vita.  
 
 ###Programming Script-Plugins for Adobe After Effects  
 
@@ -80,11 +85,11 @@ in cooperation with [forseesense](http://forseesense.com)
 
 ###Programming languages  
 
-- JavaScript (good)  
-- Processing, Java (good)  
-- HTML, CSS, Less, jQuery (okay)  
+- JavaScript 
+- Processing, Java  
+- HTML, CSS, Less, jQuery  
 - Python, Ruby, Shell (occasionally)  
-- C, C++ (occasionally)  
+- C, C++ (occasionally. Workin' on it)  
 
 ###Private things I love to do  
 
