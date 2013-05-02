@@ -20,8 +20,12 @@ social networks
 - [twitter](https://twitter.com/fabiantheblind)  
 {% endcomment %}
 
-#Hello,  
-this is my vita.  
+<div class="hero-unit">
+<h1>Hello,</h1>
+<p>
+this is my vita.
+</p>
+</div>
 
 ###Programming Script-Plugins for Adobe After Effects  
 
