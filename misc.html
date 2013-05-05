@@ -77,3 +77,17 @@ It is published on [github.com](https://github.com/fabiantheblind/fabiantheblind
 
 {% assign off = 0 %}
 {% include image-tiles.html %}
+
+<div class="row">
+  <div class="span10 offset1">
+    <h2>Liquid Example</h2>
+  <p>Liquid is useful. With a code like this:</p>
+<script src="https://gist.github.com/fabiantheblind/5522058.js"></script>
+<p>You can create a list like this:</p>
+    <ul>
+{% for page in site.pages %}
+    <li>{{ page.title }}</li>
+{% endfor %}
+    </ul>
+  </div>
+</div>

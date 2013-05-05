@@ -60,7 +60,7 @@ $('a#showreellink').attr('rel','');
     $('a#showreellink').attr('rel','prettyPhoto[grouped]');
     }
 
-$(document.links).filter(function() {
-    return this.hostname !== window.location.hostname;
-}).attr('target', '_blank');
+// $(document.links).filter(function() {
+//     return this.hostname !== window.location.hostname;
+// }).attr('target', '_blank');
 });
