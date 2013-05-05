@@ -1,6 +1,69 @@
 ---
 layout: project
 title: Motiongraphics
+videolist1:
+- 54717636
+- 39960358
+- 64222693
+- 53158182
+tilelist1:
+- locations-splash.jpg
+- aemap-splash.jpg
+- monolinetext-splash.jpg
+- swissd-splash.jpg
+titlelist1:
+- Locations.jsx 4 AE
+- AEMap.jsx 4 AE
+- Monoline Text.jsx 4 AE
+- swissd.jsx 4 AE
+linklist1:
+- /
+- /
+- /
+- /
+
+altattrlist1:
+- locations
+- aemap
+- monolinetext
+- swissd
+
+subtext1:
+- read more <a href="/locations.html">over here</a>
+- read more <a href="/aemap.html">over here</a>
+- read more <a href="/monoline-text.html">over here</a>
+- read more <a href="/swissd.html">over here</a>
+
+videolist0:
+- 51247226
+- 51340544
+- 52078236
+tilelist0:
+- paarung-splash.jpg
+- welios-splash.jpg
+- hoehle-splash.jpg
+titlelist0:
+- Paarungsverhalten der Tiere
+- Schülerfilm Welios
+- Die Evolution der Sprache
+linklist0:
+- /
+- /
+- /
+- /
+altattrlist0:
+- paarung
+- schuelerwelios
+- evoofspeach
+
+subtext0:
+- Animation &mdash; Fabian Morón Zirfas <br> Illustration &amp; AD &mdash; Sebastian Matthäus
+- Animation &mdash; Fabian Morón Zirfas <br> Illustration &amp; AD &mdash; Sebastian Matthäus
+- Character &mdash; Sebastian Matthäus <br> Modelling &mdash; Elias Frobel, Sebastian Matthäus <br> Animation &mdash; Fabian Morón Zirfas <br> Cut  Additional Animation &mdash; Sebastian Matthäus <br> Script &mdash; Ansgar Ahlers (in Coop. w. P-T.de) <br> Sounds &mdash; Robert Fischer (9to5productions.de) <br> Animated using a custom <a href="https://github.com/fabiantheblind/rigPuppet">character rig</a> I developed. This was before I knew duik tools existed.
+
+bigimgpath : /assets/images/big/
+tileimgpath : /assets/images/project-tile/
+teaserimgpath: /assets/images/project-teaser/
 ---
 
 <header>
@@ -8,8 +71,73 @@ title: Motiongraphics
 <!-- NEEDS TO BE UNINTENDED -->
 {% capture modesc %}
 #Hello,  
-you reached my motiongraphics overview. As I mentioned before already as a child I loved cartoons and animations. When I started studying at the FHP it was clear to me that creating animations has to be a big part of my curriculum. Finally I managed to make my living from that.Working together with the group forseesense I deepened my skills with After Effects. Have look at my favorite videos below.  
+you reached my motion graphics overview.  
+As I mentioned before already as a child I loved cartoons and animations. Around 2008 I started working with [forseesense](http://forseesense.com/) on several projects. While working on these projects I always came across problems that had to be solved by scripting. Most of the time these scripts are tiny helper tools that don't make sense to others but some of them are more. They turned into my open source scripts provided on [aescripts.com](http://aescripts.com/). For these scripts I created demos that you can consider advertising for what they can do. Besides these videos I created several character and info graphic animations for exhibitions/science centers like the [Klimahaus Bremerhaven 8° Ost](http://klimahaus-bremerhaven.de/en/), [Welios® - OÖ Science Center Wels](http://www.welios.at/en/startseite.html) the [Experimenta Heilbronn](http://www.experimenta-heilbronn.de/) and others. Enough of that.  
+See my favorite moving pictures below.  
 
 <!-- {% include motion-description.md %} -->
 {% endcapture %}
 {{ modesc | markdownify }}
+</div>
+</header>
+<section>
+
+<hr>
+<div class="row">
+  <div class="span12">
+    <h2>Script Demos</h2>
+  </div>
+</div>
+
+{% assign spanclass = "span3" %}
+{% assign tileclass = "tile" %}
+{% assign addtitle = true %}
+{% assign addlink = true %}
+{% assign path = page.teaserimgpath %}
+{% assign maxnum = 4 %}
+{% assign list = page.videolist1 %}
+{% assign titles = page.titlelist1 %}
+{% assign tiles = page.tilelist1 %}
+{% assign links = page.linklist1 %}
+{% assign altattrlist = page.altattrlist1 %}
+{% assign subtext = page.subtext1 %}
+{% assign off = 0 %}
+{% include video-tiles.html %}
+
+<hr>
+<div class="row">
+  <div class="span12">
+    <h2>Character Animations</h2>
+  </div>
+</div>
+
+{% assign spanclass = "span4" %}
+{% assign tileclass = "tile" %}
+{% assign addtitle = true %}
+{% assign addlink = true %}
+{% assign path = page.teaserimgpath %}
+{% assign maxnum = 3 %}
+{% assign list = page.videolist0 %}
+{% assign titles = page.titlelist0 %}
+{% assign tiles = page.tilelist0 %}
+{% assign links = page.linklist0 %}
+{% assign altattrlist = page.altattrlist0 %}
+{% assign subtext = page.subtext0 %}
+{% assign off = 0 %}
+{% include video-tiles.html %}
+
+<div class="row">
+<div class="span10 offset1">
+{% capture modesc %}
+These animations are all works I did with forseesense. I did the animation parts using most of the time the ingenious [Duik Tools](http://duduf.net/?page_id=165) by [DuDuF](http://duduf.net/?lang=en).
+{% endcapture %}
+{{ modesc | markdownify }}
+
+</div>
+</div>
+<hr>
+
+
+
+
+</section>

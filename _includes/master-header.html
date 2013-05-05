@@ -1,11 +1,30 @@
-<div class="row" id="menu">
+<!--
+this gets included in project
+settigns also come from _layouts/project
+-->
+<div class="row menu" id="menu">
   <div class="span10 offset1">
 <nav>
 <ul id="navi">
-  {% for item in page.menuitems %}
+  {% for item in page.codingmenuitems %}
   <li class="navi-item">
-    <a href="{{ page.menuurl[forloop.index0] }}" title="{{ item }}">
-      <img src="{{ page.menuicons[forloop.index0] }}" alt="{{ item }}" class="menuicon">
+    <a href="{{ page.codingmenuurl[forloop.index0] }}" title="{{ item }}">
+      <img src="{{ page.codingmenuicons[forloop.index0] }}" alt="{{ item }}" class="menuicon">
+  </a>
+  </li>
+  {% endfor %}
+</ul>
+</nav>
+  </div>
+</div>
+<div class="row menu" id="menumotion">
+  <div class="span10 offset1">
+<nav>
+<ul id="navi">
+  {% for item in page.motionmenuitems %}
+  <li class="navi-item">
+    <a href="{{ page.motionmenuurl[forloop.index0] }}" title="{{ item }}">
+      <img src="{{ page.motionmenuicons[forloop.index0] }}" alt="{{ item }}" class="menuicon">
   </a>
   </li>
   {% endfor %}
