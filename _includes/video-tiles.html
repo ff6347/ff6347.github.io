@@ -42,7 +42,7 @@ needs this:
 {% endcomment %}
 
   <a href="http://vimeo.com/{{ item }}" id="showreellink" rel="prettyPhoto[grouped]" title="">
-          <img src="{{path}}{{ tiles[forloop.index0] }}" alt="{{ altattrlist[forloop.index0] }}" width="100%" />
+          <img src="{{path}}{{ tiles[forloop.index0] }}" alt="{{ altattrlist[forloop.index0] }}" />
         </a>
   
 
@@ -51,13 +51,22 @@ needs this:
   {% if addlink == true %}
   </a>
 {% endif %}
-
 {% endif %}
 {% endcomment %}
 
+{% if addsubtext == true %}
+{% if subtext != null %}
+{% if subtextclass != null%}
+<p class="{{ subtextclass }}">
+{% else %}
 <p class="videosubtext">
+{% endif %}
   {{ subtext[forloop.index0] }}
 </p>
+
+{% endif %}
+
+{% endif %}
 </div>
 </div>
 {% endfor %}

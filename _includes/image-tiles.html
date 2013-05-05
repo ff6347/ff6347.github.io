@@ -24,7 +24,12 @@ needs this:
 {% if addtitle != null %}
   {% if addtitle == true %}
     {% if titles != null %}
+    {% if titleclass != null %}
+  <h5 class="{{ titleclass }}">{{ titles[forloop.index0] }}</h5>
+    {% else %}
   <h5>{{ titles[forloop.index0] }}</h5>
+
+    {% endif %}
     {% endif %}
   {% endif %}
 {% endif %}

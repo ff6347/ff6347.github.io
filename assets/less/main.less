@@ -21,7 +21,7 @@
 @smallFontSize:          1em;
 @std_border_rad: 13px;
 @meImageMaxWidth: 375px;
-@linkColor: #41787b;
+@linkColor: #75999a;
 @imgLinkColor:#667878;
 
 @serifFontFamily:       "calluna", Georgia, serif;
@@ -80,24 +80,37 @@ body {
     font-size: @baseFontSize;
 }
 
+img{
+  .rounded(4px);
+}
 ol{
 list-style-type: upper-roman;
 }
 
 .menu{
-  padding-top: 2em;
+  padding-top: 1em;
 
   img.menuicon{
     max-width: 32px;
     max-height: 32px;
   }
+        img.menuicon:hover{
+      .animated; // Initiate animation library
+  .pulse; // Initiate bounce effect
+    }
+}
+.menumotion{
+  padding-top: 0em;
 }
 nav {
-  ul#navi{
+  margin: auto;
+  text-align: center;
+  ul.navi{
     list-style-type:none;
-    margin:0;
-    padding:0;
+    margin: 0 auto;
+
     li.navi-item{
+
     display:inline;
     a{
       text-decoration: none;
@@ -109,13 +122,22 @@ nav {
 p{
   line-height: 1.5em;
 }
+
+p#vita{
+  text-align: center;
+  font-size: 0.8em;
+  padding-top: 2em;
+}
 .container{  }
 
 .videosubtext{
   padding-top: 1em;
   font-size: 0.8em;
 }
-
+.videosubtextmisc{
+  padding-top: 1em;
+  font-size: 0.6em;
+}
 iframe{
   @pad :1.5em;
   padding-top: @pad;
@@ -154,7 +176,6 @@ a.home-link{
   }
 }
 
-.tile:hover{  }
 .tile{
   .tile-std;
 
@@ -162,6 +183,7 @@ a.home-link{
   a img{.fancyBorder(@imgLinkColor);}
   a img:hover{  .fancyBorder(black);}
 }
+
 
 .big{
   .tile-std;
@@ -303,13 +325,21 @@ p{
         text-align: center;
         // .fancyBorder;
     }
+
   }
 }
 
 /*Portrait tablet to landscape and desktop*/
-@media (min-width: 768px) and (max-width: 979px) {  }
+@media (min-width: 768px) and (max-width: 979px) {
+  .title-misc{
+  font-size: 0.5em;
+    }
+}
 /* Large desktop*/
-@media (min-width: 980px) and (max-width: 1199px) {  }
+@media (min-width: 980px) and (max-width: 1199px) {
+    
+
+}
 @media (min-width: 1200px) {  }
 
  @media (min-width: 1280px) {  }

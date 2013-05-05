@@ -2,33 +2,27 @@
 layout: project
 title: Vita
 ---
-{% comment %}
-Name: Fabian Morón Zirfas B. A.  
-Adress:  
-Hobrechtstr 31  
-12047 Berlin  
-mobil: 0178 6 93 19 61  
-local: 030 64 49 87 56  
-mail: <hello@fabiantheblind.info>  
-online [http://fabiantheblind.info](http://fabiantheblind.info)  
-Born 06. 03. 1979 in Limburg a. d. Lahn  
-
-social networks  
-
-- [github](https://github.com/fabiantheblind)  
-- [vimeo](https://vimeo.com/fabiantheblind)  
-- [twitter](https://twitter.com/fabiantheblind)  
-{% endcomment %}
 
 <div class="hero-unit">
 <h1>Hello,</h1>
 <p>
 this is my vita.
+{% capture adress %}
+
+Name: Fabian Morón Zirfas B. A.  
+Adress: Hobrechtstr. 31 &mdash; 12047 Berlin  
+Phone: +49 30 64 49 87 56  
+Mail: <hello@fabiantheblind.info>  
+Born 06. 03. 1979 in Limburg a. d. Lahn  
+Citizenship: german  
+Family status: unmarried  
+{% endcapture %}
+{{  adress | markdownify }}
 </p>
 </div>
 
 ###Programming Script-Plugins for Adobe After Effects  
-
+- [Monoline Text](http://aescripts.com/monoline-text/), April 2013  
 - [Obj Vertex Export](http://aescripts.com/obj-vertex-export/), November 2012  
 - [Locations](http://aescripts.com/locations), November 2012  
 - [Swissd](http://aescripts.com/swissd/), October 2012  
@@ -59,12 +53,16 @@ in cooperation with [forseesense](http://forseesense.com)
 
 ###Programming of semiautomatic Layout Processes  
 
-- [mediaplanungonline.de](http://mediaplanungonline.de), 2009 - 2012  
+- [mediaplanungonline.de](http://mediaplanungonline.de), 2008 - 2012  
 
-###Layout, Pre-Press  
+in cooperation with [grenzfarben](http://grenzfarben.de/)  
+
+###Layout, Prepress  
 
 - [JustMusic](http://www.justmusic.de/de-de) product catalogues, 2007 - 2012  
 - [Sound Service](http://www.sound-service.eu) dealer catalogues, 2009 - 2012  
+
+in cooperation with [grenzfarben](http://grenzfarben.de/)  
 
 ###Textile & Print-production, Customer & Shop-support  
 
@@ -74,13 +72,13 @@ in cooperation with [forseesense](http://forseesense.com)
 
 ##Education:  
 
-- October 2004 till July 2012 University of Applied Sciences, Potsdam. studies communications design Bachelor of Arts  
-- January 2003  advanced technical college entrance qualification by _"Beendigung der vorhergehenden Ausbildung"_  
+- October 2004 till July 2012 University of Applied Sciences, Potsdam. communication-design Bachelor of Arts  
+- January 2003  advanced technical college entrance qualification by finishing the preceding apprenticeship  
 - August 2001 till January 2003  apprenticeship as merchant  
 
 ##Technical Skills:  
 
-- Adobe After Effects, InDesign, Photoshop, Illustrator, Coding  
+- Adobe After Effects, Premiere, InDesign, Photoshop, Illustrator, Eclipse, XCode, Sublime Text, Unix Systems
 
 ###Languages  
 - German (native)  
@@ -89,11 +87,11 @@ in cooperation with [forseesense](http://forseesense.com)
 
 ###Programming languages  
 
-- JavaScript 
-- Processing, Java  
-- HTML, CSS, Less, jQuery  
-- Python, Ruby, Shell (occasionally)  
-- C, C++ (occasionally. Workin' on it)  
+- JavaScript, Extendscript 5 years
+- Processing, Java 5 years
+- HTML, CSS, Less, jQuery 2 years 
+- Python, Ruby, Shell Script, PHP, AppleScript (occasionally)  
+- C, C++ (occasionally. Working on it)  
 
 ###Private things I love to do  
 

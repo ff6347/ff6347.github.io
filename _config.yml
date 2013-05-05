@@ -2,3 +2,77 @@ markdown: rdiscount
 auto: false
 pygments: true
 exclude: ignore,user.fabiantheblind.espressostorage,Project.espressostorage
+menuitems:
+- Home
+- Motion Graphics
+- Coding Graphics
+- Locations for AE
+- AEMap for AE
+- Tangible Maps
+- Monoline Text for AE
+- Swissd for AE
+- Typography and Automation
+- Incom.org 2 Layout
+- This Website
+- Connected Nodes
+- Batch Find and Replace (You are leaving fabiantheblind.info! Bye bye)
+- Obj Vertex Export for AE (You are leaving fabiantheblind.info! Bye bye)
+- Voronoi Diagramms in AI (You are leaving fabiantheblind.info! Bye bye)
+- wihihihiggle.jsx for AE (You are leaving fabiantheblind.info! Bye bye)
+- FHP NextTypoStandard (You are leaving fabiantheblind.info! Bye bye)
+- timeremap-source.jsx for AE  (You are leaving fabiantheblind.info! Bye bye)
+- open-close-mask.jsx for AE  (You are leaving fabiantheblind.info! Bye bye)
+- The-Geo-Beast.jsx for AE  (You are leaving fabiantheblind.info! Bye bye)
+- x-true-da.jsx for AE  (You are leaving fabiantheblind.info! Bye bye)
+- UELärm for MS Srface  (You are leaving fabiantheblind.info! Bye bye)
+menuurl:
+- /
+- /motiongraphics.html
+- /codinggraphics.html
+- /locations.html
+- /aemap.html
+- /tangiblemaps.html
+- /monoline-text.html
+- /swissd.html
+- /typography-and-automation.html
+- /incom-org-2-layout.html
+- /misc.html
+- /connected-nodes.html
+- https://github.com/fabiantheblind/batch-find-and-replace
+- http://aescripts.com/obj-vertex-export/
+- http://fabiantheblind.github.io/Illustrator-Javascript-Voronoi/
+- http://fabiantheblind.github.io/wihihihiggle/
+- http://fabiantheblind.github.io/NextTypoStandard/
+- http://aescripts.com/timeremap-source/
+- https://github.com/fabiantheblind/open-close-mask
+- http://fabiantheblind.github.io/The-Geo-Beast/
+- https://github.com/fabiantheblind/x-true-da
+- http://fabiantheblind.github.io/TMN_UE_Laerm/
+
+menuicons:
+- /assets/images/thumbnails/gravatar-thumb.jpg
+- /assets/images/thumbnails/motiongrfx-thumb.gif
+- /assets/images/thumbnails/codinggrfx-thumb.jpg
+- /assets/images/thumbnails/locations-thumb.jpg
+- /assets/images/thumbnails/aemap-thumb.jpg
+- /assets/images/thumbnails/tmkt-thumb.jpg
+- /assets/images/thumbnails/monolinetext-thumb.jpg
+- /assets/images/thumbnails/swissd-thumb.jpg
+- /assets/images/thumbnails/autotypo-thumb.jpg
+- /assets/images/thumbnails/incomorg2layout-thumb.jpg
+- /assets/images/thumbnails/misc-thumb.jpg
+- /assets/images/thumbnails/nodes-thumb.jpg
+- /assets/images/thumbnails/bfnr-thumb.jpg
+- /assets/images/thumbnails/obj-thumb.jpg
+- /assets/images/thumbnails/voronoi-thumb.jpg
+- /assets/images/thumbnails/whihihiggle-thumb.jpg
+- /assets/images/thumbnails/nexttypo-thumb.jpg
+- /assets/images/thumbnails/timeremap-thumb.jpg
+- /assets/images/thumbnails/ocmask-thumb.gif
+- /assets/images/thumbnails/thebeast-thumb.jpg
+- /assets/images/thumbnails/xtrueda-thumb.jpg
+- /assets/images/thumbnails/uelaerm-thumb.jpg
+
+bigimgpath : /assets/images/big/
+tileimgpath : /assets/images/project-tile/
+teaserimgpath: /assets/images/project-teaser/

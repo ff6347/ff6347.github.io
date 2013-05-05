@@ -3,13 +3,13 @@ this gets included in project
 settigns also come from _layouts/project
 -->
 <div class="row menu" id="menu">
-  <div class="span10 offset1">
+  <div class="span12">
 <nav>
-<ul id="navi">
-  {% for item in page.codingmenuitems %}
+<ul class="navi">
+  {% for item in site.menuitems %}
   <li class="navi-item">
-    <a href="{{ page.codingmenuurl[forloop.index0] }}" title="{{ item }}">
-      <img src="{{ page.codingmenuicons[forloop.index0] }}" alt="{{ item }}" class="menuicon">
+    <a href="{{ site.menuurl[forloop.index0] }}" title="{{ item }}">
+      <img src="{{ site.menuicons[forloop.index0] }}" alt="{{ item }}" class="menuicon">
   </a>
   </li>
   {% endfor %}
@@ -17,18 +17,4 @@ settigns also come from _layouts/project
 </nav>
   </div>
 </div>
-<div class="row menu" id="menumotion">
-  <div class="span10 offset1">
-<nav>
-<ul id="navi">
-  {% for item in page.motionmenuitems %}
-  <li class="navi-item">
-    <a href="{{ page.motionmenuurl[forloop.index0] }}" title="{{ item }}">
-      <img src="{{ page.motionmenuicons[forloop.index0] }}" alt="{{ item }}" class="menuicon">
-  </a>
-  </li>
-  {% endfor %}
-</ul>
-</nav>
-  </div>
-</div>
+<hr>

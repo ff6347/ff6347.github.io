@@ -46,7 +46,12 @@ miscalt:
 - connectednodes
 - wihihihiggle
 - batchfnr
-
+- nextypostd
+- ocmask
+- timeremap
+- xtrueda
+- thebeast
+- uelaerm
 misclinks:
 - /misc.html
 - http://fabiantheblind.github.io/Illustrator-Javascript-Voronoi/
@@ -54,6 +59,12 @@ misclinks:
 - /connected-nodes.html
 - http://fabiantheblind.github.io/wihihihiggle/
 - https://github.com/fabiantheblind/batch-find-and-replace
+- http://fabiantheblind.github.com/NextTypoStandard/
+- https://github.com/fabiantheblind/open-close-mask
+- http://aescripts.com/timeremap-source/
+- https://github.com/fabiantheblind/x-true-da
+- http://fabiantheblind.github.io/The-Geo-Beast/
+- http://fabiantheblind.github.io/TMN_UE_Laerm/
 
 miscimgs:
 - misc-small-splash.jpg
@@ -62,6 +73,13 @@ miscimgs:
 - nodes-splash.jpg
 - whihihiggle-splash.jpg
 - bfnr-splash.jpg
+- nexttypo-splash.jpg
+- ocmask-splash.gif
+- timeremap-splash.jpg
+- xtrueda-splash.jpg
+- thebeast-splash.jpg
+- uelaerm-splash.jpg
+
 misctitle:
 - This Website
 - AI Voronoi
@@ -69,13 +87,15 @@ misctitle:
 - Connected Nodes
 - wihihihiggle.jsx
 - Batch FC Queries
-
+- FHP TypoStandard
+- open-close-mask.jsx
+- timeremap-source.jsx
+- x-tru-da.jsx
+- The-Geo-Beast.jsx
+- UE Lärm
 bigimagelist:
 - monoline-big-1280x500.jpg
 
-bigimgpath : /assets/images/big/
-tileimgpath : /assets/images/project-tile/
-teaserimgpath: /assets/images/project-teaser/
 ---
 
 <header>
@@ -97,11 +117,18 @@ See my favorite programming projects below.
   </div>
 </div>
 
+
+
+<div class="row">
+<div class="span10 offset1">
+<p>While studying at the FH Potsdam I took interest in plotting data onto interactive maps. For a project in the field of "Design of Software Interfaces" I have been part of a team that developed a concept and wrote a mockup for a disaster management software for the <a href="http://portal.mace-project.eu/maeve/">maeve table</a>. This was the starting point for understanding maps and location data. Based on this knowledge I developed Locations.jsx and AEMap.jsx for Adobe After Effects that allow the creation animations with location based data.</p>
+</div>
+</div>
 {% assign spanclass = "span4" %}
 {% assign tileclass = "tile" %}
 {% assign addtitle = true %}
 {% assign addlink = true %}
-{% assign path = page.teaserimgpath %}
+{% assign path = site.teaserimgpath %}
 {% assign maxnum = 3 %}
 {% assign list = page.tilelist0 %}
 {% assign titles = page.titlelist0 %}
@@ -110,13 +137,6 @@ See my favorite programming projects below.
 
 {% assign off = 0 %}
 {% include image-tiles.html %}
-
-
-<div class="row">
-<div class="span10 offset1">
-<p>While studying at the FH Potsdam I took interest in plotting data onto interactive maps. For a project in the field of "Design of Software Interfaces" I have been part of a team that developed a concept and wrote a mockup for a disaster management software for the <a href="http://portal.mace-project.eu/maeve/">maeve table</a>. This was the starting point for understanding maps and location data. Based on this knowledge I developed Locations.jsx and AEMap.jsx for Adobe After Effects that allow the creation animations with location based data.</p>
-</div>
-</div>
 <hr>
 
 <div class="row">
@@ -125,7 +145,16 @@ See my favorite programming projects below.
   </div>
 </div>
 
-{% assign imgpath = "/assets/images/big/" %}
+
+
+<div class="row">
+<div class="span10 offset1">
+<p>
+  During my studies I became a member of the group <a href="http://www.grenzfarben.de/">Grenzfarben</a>. Together with them I produced, since 2008, several product catalogues for <a href="http://www.justmusic.de/">JustMusic</a> and <a href="http://www.sound-service.eu/">Sound Service</a>. We started out working in Quark Express and had to format every paragraph of these catalogues, that have more than 300 pages and 5000 to 7000 products, by hand. When we made the switch to InDesign I was tired of clicking. So I tried to automate the process with JavaScript/ExtendScript. It worked. Now we have a semiautomatic process that gives us more time for design and I never stopped writing scripts. Here you will find Swissd.jsx and Monoline Text.jsx for After Effects together with a workshop I gave at the FHPotsdam about Typography &amp; Automation and a semiautomatic process that imports my project data from [Incom.org](https://incom.org/start) into a Layout.
+</p>
+</div>
+</div>
+{% assign imgpath = site.bigimgpath %}
 {% assign imgname = page.bigimagelist[0] %}
 {% assign alttext = "monoline-big" %}
 {% assign thelink = "/monoline-text.html" %}
@@ -133,12 +162,11 @@ See my favorite programming projects below.
 {% assign addlink = true %}
 {% assign addtitle = true %}
 {% include big-image.html %}
-
 <!-- {% assign spanclass = "span4" %} -->
 <!-- {% assign tileclass = "tile" %} -->
 <!-- {% assign addtitle = true %} -->
 <!-- {% assign addlink = true %} -->
-<!-- {% assign path = page.teaserimgpath %} -->
+{% assign path = site.teaserimgpath %}
 {% assign off = 0 %}
 <!-- {% assign maxnum = 3 %} -->
 {% assign list = page.tilelist1 %}
@@ -147,26 +175,13 @@ See my favorite programming projects below.
 {% assign altattrlist = page.altattrlist1 %}
 
 {% include image-tiles.html %}
-
-<div class="row">
-<div class="span10 offset1">
-<p>
-  During my studies I became a member of the group <a href="http://www.grenzfarben.de/">Grenzfarben</a>. Together with them I produced, since 2008, several product catalogues for <a href="http://www.justmusic.de/">JustMusic</a> and <a href="http://www.sound-service.eu/">Sound Service</a>. We started out working in Quark Express and had to format every paragraph of these catalogues, that have more than 300 pages and 5000 to 7000 products, by hand. When we made the switch to InDesign I was tired of clicking. So I tried to automate the process with JavaScript/ExtendScript. It worked. Now we have a semiautomatic process that gives us more time for design and I never stopped writing scripts. Below you will find Swissd.jsx and Monoline Text.jsx for After Effects together with a workshop I gave at the FHPotsdam about Typography and Automation and a semiautomatic process that imports my project data from Incom.org into a Layout.
-</p>
-</div>
-</div>
 <hr>
+</section>
+<section>
 <div class="row">
 <div class="span10 offset1">
 {% capture miscdiscript %}
-
-##mis·cel·la·ne·ous  
-/ˌmisəˈlānēəs/
-Adjective  
-1. (of items or people gathered or considered together) Of various types or from different sources.  
-2. (of a collection or group) Composed of members or elements of different kinds: "a miscellaneous collection".  
-  
-Wow. You are still here. This chapter will lead you to various projects on this site and around the web. Feel free to contact me about anything.  
+{% include misc-text.md %}
 {% endcapture %}
 {{ miscdiscript | markdownify }}
 </div>
@@ -175,9 +190,11 @@ Wow. You are still here. This chapter will lead you to various projects on this 
 {% assign spanclass = "span2" %}
 {% assign tileclass = "tile" %}
 {% assign addtitle = true %}
+{% assign titleclass = "title-misc" %}
+
 {% assign addlink = true %}
-{% assign path = page.teaserimgpath %}
-{% assign maxnum = 6 %}
+{% assign path = site.teaserimgpath %}
+{% assign maxnum = 12 %}
 {% assign list = page.miscimgs %}
 {% assign titles = page.misctitle %}
 {% assign links = page.misclinks %}

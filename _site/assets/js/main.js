@@ -21,11 +21,11 @@
 
 // see also http://www.opensource.org/licenses/mit-license.php
 
-jQuery(window).resize(function($) {
+$(window).resize(function() {
 
   jQuery("h1").fitText();
 
-if ($.width() <=480) {
+if ($(window).width() <=480) {
 $('a#showreellink').attr('rel','');
     }else{
     $('a#showreellink').attr('rel','prettyPhoto[grouped]');
