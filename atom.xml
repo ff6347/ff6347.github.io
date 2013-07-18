@@ -6,10 +6,10 @@ title: blog atom feed
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>fabiantheblogger</title>
- <link href="http://fabiantheblind.github.com/atom.xml" rel="self"/>
- <link href="http://fabiantheblind.github.com/"/>
+ <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
+ <link href="http://fabiantheblind.github.io/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://fabiantheblind.github.com/</id>
+ <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
    <email>hello@fabiantheblind.info</email>
@@ -18,9 +18,9 @@ title: blog atom feed
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://fabiantheblind.github.com/{{ post.url }}"/>
+   <link href="http://fabiantheblind.github.io/{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://fabiantheblind.github.com/{{ post.id }}</id>
+   <id>http://fabiantheblind.github.io/{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
