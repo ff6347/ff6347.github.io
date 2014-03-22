@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2011-09-06T17:40:50+02:00'
 tags:
 - processing

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2013-12-27T13:40:37+01:00'
 tags:
 - arduino

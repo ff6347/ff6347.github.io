@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2012-11-14T18:20:44+01:00'
 tags:
 - code

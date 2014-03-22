@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2013-07-10T11:13:05+02:00'
 tags:
 - github git video

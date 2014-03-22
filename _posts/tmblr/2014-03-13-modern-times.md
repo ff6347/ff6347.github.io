@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2014-03-13T09:44:03+01:00'
 tags:
 - chaplin

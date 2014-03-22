@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2014-03-16T15:06:21+01:00'
 tags:
 - 80s

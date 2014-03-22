@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2012-05-22T10:48:14+02:00'
 tags:
 - wow

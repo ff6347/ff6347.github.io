@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2012-07-24T22:34:13+02:00'
 tags:
 - After Effects

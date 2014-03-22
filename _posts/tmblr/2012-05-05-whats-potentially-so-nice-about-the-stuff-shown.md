@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2012-05-05T13:46:01+02:00'
 tags:
 - AE

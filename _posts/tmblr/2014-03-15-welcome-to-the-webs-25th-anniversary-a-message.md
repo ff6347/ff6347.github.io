@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2014-03-15T11:41:23+01:00'
 tags:
 - web25

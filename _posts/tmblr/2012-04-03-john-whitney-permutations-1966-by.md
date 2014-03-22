@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2012-04-03T13:34:13+02:00'
 tags:
 - animation

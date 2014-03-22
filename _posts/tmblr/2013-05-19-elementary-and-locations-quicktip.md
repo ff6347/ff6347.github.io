@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2013-05-19T17:49:13+02:00'
 tags:
 - Vimeo

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2014-03-21T09:29:11+01:00'
 tags:
 - security

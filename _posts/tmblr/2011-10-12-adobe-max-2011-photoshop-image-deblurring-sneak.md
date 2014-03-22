@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2011-10-12T14:10:06+02:00'
 tags:
 - photoshop

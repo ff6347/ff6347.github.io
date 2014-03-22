@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2012-06-26T21:30:08+02:00'
 tags:
 - inverse kinematic

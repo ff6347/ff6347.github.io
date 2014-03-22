@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2011-10-20T22:24:08+02:00'
 tags:
 - old native american jokes

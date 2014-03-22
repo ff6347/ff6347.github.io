@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2014-01-14T10:57:31+01:00'
 tags:
 - robots

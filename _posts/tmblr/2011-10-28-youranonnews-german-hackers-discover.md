@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2011-10-28T18:05:05+02:00'
 tags:
 - Trojaner

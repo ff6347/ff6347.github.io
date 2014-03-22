@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2012-07-05T18:26:07+02:00'
 tags:
 - theBeast

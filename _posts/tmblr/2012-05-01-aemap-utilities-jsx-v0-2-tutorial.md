@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2012-05-01T20:01:55+02:00'
 tags:
 - AEMap

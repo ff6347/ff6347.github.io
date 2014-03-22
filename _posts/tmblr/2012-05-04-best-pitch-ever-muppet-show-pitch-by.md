@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2012-05-04T14:02:28+02:00'
 tags:
 - muppets

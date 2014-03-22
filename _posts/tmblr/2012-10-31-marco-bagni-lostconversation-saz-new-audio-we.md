@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: 'unnamed'
 date: '2012-10-31T08:32:04+01:00'
 tags:
 - video
