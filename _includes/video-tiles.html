@@ -1,4 +1,4 @@
-<!-- 
+<!--
 this is in image-tiles.html
 {% comment %}
 needs this:
@@ -42,9 +42,9 @@ needs this:
 {% endcomment %}
 
   <a href="http://vimeo.com/{{ item }}" id="showreellink" rel="prettyPhoto[grouped]" title="">
-          <img src="{{path}}{{ tiles[forloop.index0] }}" alt="{{ altattrlist[forloop.index0] }}" />
+          <img class="img-responsive"  src="{{path}}{{ tiles[forloop.index0] }}" alt="{{ altattrlist[forloop.index0] }}" />
         </a>
-  
+
 
 {% comment %}
 {% if addlink != null %}

@@ -1,4 +1,4 @@
-<!-- 
+<!--
 big-image.html
 {% comment %}
 Needs this:
@@ -21,10 +21,10 @@ Needs this:
 <div class="tile big">
   {% if addlink != null and addlink == true and thelink != null %}
 <a href="{{ thelink }}">
-  <img src="{{ imgpath }}{{ imgname }}" alt="{{ alttext }}">
+  <img class="img-responsive"  src="{{ imgpath }}{{ imgname }}" alt="{{ alttext }}">
   </a>
   {% else %}
-  <img src="{{ imgpath }}{{ imgname }}" alt="{{ alttext }}">
+  <img class="img-responsive"  src="{{ imgpath }}{{ imgname }}" alt="{{ alttext }}">
   {% endif %}
 
 </div>

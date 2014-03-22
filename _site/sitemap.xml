@@ -2,7 +2,4995 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://fabiantheblind.info/blog/2014/03/23/migrating-to-jekyll.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/22/adafruit-fritzing-library-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/22/fabianthetumblr-pdxiii-kevin-bacon-explains-the-80s.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/22/the-ex-rapid-3d-printing-of-circuit-boards-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/extrapixel-gif-animation-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/slara-generator-reveal-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/easel.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/easel-by-inventables-youtube.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/desktop-cnc-mill-kit-shapeoko-2.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/migrate-from-google-search-2-duckduckgo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/charlieroberts-midistroke-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/malcolm-in-the-center-aescripts-aeplugins.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/gitprint-adamburmister-http-ift-tt-1gpp2rz.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/rc-car-components-arduino-controlled-from.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/rc-car-arduino-controlled-from-fabiantheblind-on.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/adamburmister-gitprint-com-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/marioestrada-safari-omnikey-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/alfred-2-workflow-to-search-duckduckgo-by-way-of-google.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/inside-duckduckgo-googles-tiniest-fiercest.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/vaporstun-duckduckgo-safari-extension-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/missing-link-ifttt.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/21/dos-or-denial-of-service-attacks-are-one-thing.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/20/twitter-pdxiii-papa-ich-habe-eine-weltkugel.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/20/greeting-from-web-inventor-tim-berners-lee-on-the-webs.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/20/twitter-fabiantheblind-pdxiii-macro-party.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/20/twitter-pdxiii-fabiantheblind-everything.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/20/arduino-day-2014.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/20/sublime-plugins-101-how-to-write-your-own-html5.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/20/jekyll-jekyll-mentions-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/20/jekyll-jemoji-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/20/thomaswilburn-caret-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/20/chmllr-notehub-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/19/foldscope-paper.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/19/vorg-kollektor-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/19/codrops-googlenexuswebsitemenu-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/19/nfb-stopmo-studio-navigation-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/19/ponyfoo-linkdump-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/19/ashleydw-lightbox-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/19/electroninks.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/19/europe-24-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/19/glass-brain-flythrough-gazzaleylab-sccn.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/19/is-my-shift-key-on-or-not.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/18/1password-no-more-sticky-notes-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/18/the-mother-of-all-airports-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/18/csl-cognitive-systems-labforschung-airwriting.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/18/kohsuke-github-api-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/18/korvus-simonwriting-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/18/rhumaric-grunt-githooks-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/18/7-handy-text-manipulation-tricks-in-sublime-text-2.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/18/adobe-extension-builder-easily-develop-extension-for.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/18/substack-node-browserify-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/18/bevry-query-engine-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/17/rename-plasmasturm-org.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/17/petitionen-verwendung-von-cookies-nicht-aktiviert.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/17/cameron-squirt-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/17/marmelab-gremlins-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/17/squirt.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/17/manu-prakash-a-50-cent-microscope-that-folds-like.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/17/githubtraining-licenses-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/17/object-watch-html.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/17/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/17/t-co.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/17/google-maps-detail-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/16/fabianthetumblr-google-maps-detail-from-fabiantheblind.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/16/ipython-xkcd-font-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/16/condemil-gist-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/16/fabiantheblind-gist-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/16/htg-explains-what-is-the-internet-of-things.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/16/foldscope-origami-based-print-and-fold.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/16/pdxiii-kevin-bacon-explains-the-80s-to.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/16/jrnl-the-command-line-journal.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/16/jseidelin-pixastic-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/16/twitter-superpixels-douglas-adams-would-have-been.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/16/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/16/sheetah-spritesheet-tools-aescripts-aeplugins.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/15/0nn0-terminal-mac-cheatsheet-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/15/terminal-101-graphing-with-gnuplot-mac-life.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/15/plotting-with-python.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/15/bbc-radio-4-extra-the-hitchhikers-guide-to-the.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/15/iab-animation-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/15/adamschwartz-log-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/15/dnewcome-donatello-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/15/sightmachine-simplecv-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/15/welcome-to-the-webs-25th-anniversary-a-message.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/15/sightmachine-simplecv-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/15/maps.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/14/map-projection-transitions.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/14/aexpressions-after-effects.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/14/acronis-access-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/14/twitter-fabiantheblind-dagoacacio-not-in-germany.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/14/fabiantheblind-frog-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/14/physical-computing-library.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/14/linnovate-mean-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/14/getting-started-with-grunt.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/14/jpillora-gswg-examples-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/14/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/14/t32k-stylestats-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/13/goyaka-psd-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/13/shiffman-the-nature-of-code-examples-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/13/firmread-natureofcode-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/13/samuelleach-uk-atlas-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/13/ajman1101-reporteronline-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/13/yanone-geheimsprache-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/13/thedillonb-codehub-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/13/codehub-github-ios-client.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/13/neodo-rivendell-or-the-matrix-youtube.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/13/announcing-the-github-developer-program.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/13/perhaps-youve-punched-out-a-paper-doll-or-folded.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/13/modern-times.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/12/fh-potsdam-github-setup-tools-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/12/fh-potsdam-attiny-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/12/fh-potsdam-add-users-via-github-api-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/12/twbs-ratchet-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/12/l-lin-font-awesome-animation-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/12/google-maps-detail-from-fabiantheblind-on-vimeo-i.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/12/macaw-sneak-peek-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/12/indiscripts-operator-overloading-with-extendscript.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/12/franzheidl-alfred-workflows-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/12/json-generator-tool-for-generating-random-json-data.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/12/c-rowe-wireframe-kit.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/11/kimono-turn-websites-into-structured-apis-from-your.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/11/fabiantheblind-tic-tac-toe-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/11/idiot-tic-tac-toe.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/11/14-world-changing-data-visualizations-from-the-last-4.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/11/the-riotboard-board.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/11/raspmap-raspberry-pi-component-map.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/11/layervault-psd-enginedata-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/11/giakki-uncss-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/11/openrefine-openrefine-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/11/gulpjs-gulp-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/11/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/10/jaysalvat-vegas-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/10/morishitter-gulp-csscss-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/10/buildinternet-supersized-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/10/sprang-inkpad-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/10/pdxiii-rddr-prototypes-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/10/bartonhammond-angular-tour-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/10/maxogden-simplify-geojson-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/10/aseemk-json5-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/10/robotconscience-of-gpu-flocking-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/10/jacoborus-nanobar-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/09/dominik-mersch-gallery-sydney-presents-li-hongbo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/09/mapnik-mapnik-reference-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/09/mapbox-carto-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/09/mapbox-mapbox-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/09/mapnik-mapnik-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/09/mapnik-node-mapnik-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/09/dtao-htmlout-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/09/jbranchaud-splitting-atoms-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/09/nbqx-estkpm-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/09/rectangular-chrome-960-gs-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/08/atom.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/08/papers-we-love-papers-we-love-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/08/connecting-arduino-to-processing-learn-sfe.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/08/processing-1-0-processing-discourse-pass-string.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/08/r-tutorial-series-r-tutorial-series-labeling-data.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/08/raw-github-com.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/08/twitter-fabiantheblind-playing-with-r-and-maps.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/08/fabiantheblind-r-maps-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/08/maps-in-r-plotting-data-points-on-a-map-milano-r-net.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/08/maps-in-r-introduction-drawing-the-map-of-europe.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/07/richardeoin-nodejs-plotter-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/07/cloudwash-the-connected-washing-machine-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/07/http-ift-tt-nizdfo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/07/dc-js-dc-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/07/github-upload-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/07/information-visualization.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/07/mark-markbach-on-twitter.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/07/fabianthetumblr-go2shell-and-remove-git-folder.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/07/fabiantheblind-example-documentation-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/07/github-markup-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/06/wolfram-raspberry-pi-project-a-wolfram-engine-on.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/06/stephen-wolframs-introduction-to-the-wolfram-language.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/06/mavericks-offers-an-easier-way-to-reveal-the-users.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/06/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/06/pdxiii-super-hydrophobic-surface-and-magnetic.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/06/welcome-to-rivendell.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/06/key-binding-selectors.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/06/gmail-data-visualization-with-d3-js.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/06/milligramme-datetimef-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/06/fabian-moron-zirfas-berlin-lab-technician-design.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/06/www-room77-de.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/06/fabian-sahara-sudanesische-spezialitaten.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/06/twitter-fabiantheblind-her-mit-der-krone.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/05/heck-yes-markdown.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/05/rprieto-tldr-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/05/sinker-tacofancy-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/05/twitter-typeahead-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/05/your-logo-is-not-hardcore.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/05/pvorb-node-pdc-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/05/balderdashy-sails-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/05/snaptortoise-jekyll-rss-feeds-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/05/fabiantheblind-illustrator-scripts-1-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/05/ttscoff-slogger-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/05/the-new-worst-thing-about-email.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/05/lucha-como-lucha-libre.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/04/lhartikk-arnoldc-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/04/bachya-sifttter-redux-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/04/carlosgaldino-alfred-emoji-workflow-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/04/ianclarksmith-bossman-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/04/ericfischer-tile-stitch-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/04/atmos-hubot-deploy-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/04/seblavoie-esy-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/04/joecritch-framer-director-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/04/pornel-imageoptim-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/04/g3rard-openknit-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/03/mcanet-knitic-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/03/mathiaspaumgarten-grunt-bake-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/03/xkcd-now.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/03/temboo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/03/sebbrannigan-gpx-parser-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/03/twitter-sebpower-multitouch-museumsstuck-meave.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/03/james-lyne-everyday-cybercrime-and-what-you-can-do.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/03/nodebox-nodebox-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/03/fredibach-nodejs-learning-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/03/briangonzalez-border-animate-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/02/baconjs-bacon-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/02/ractivejs-ractive-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/02/justinmeister-mario-level-1-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/02/semu-noduino-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/02/voodootikigod-node-serialport-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/02/amperka-ino-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/02/nvkelso-illustrator-scripts-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/02/chris-sublimetext-package-syncing-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/02/sharelatex-sharelatex-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/02/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/01/clay-shirky-how-the-internet-will-one-day-transform.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/01/documentcloud-docsplit-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/01/brigid-processing-library-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/01/pcpratts-rootbeer1-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/01/punktiert-lab-eds.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/01/jdf-peasycam-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/01/fh-potsdam-blockseminar-ws1314-14w4d-il-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/01/go2shell-and-remove-git-folder-from.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/28/devart-art-made-with-code.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/28/homebrew-homebrew-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/28/cancerhermit-readme-submodule-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/28/byte-foundry-prototypo-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/28/facelessuser-exporthtml-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/28/maxogden-binary-csv-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/28/pearkes-gethub-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/27/neovim-neovim-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/27/node-gh-gh-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/27/throwing-in-the-towel-on-becomming-a-programmer.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/27/kennethreitz-python-guide-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/27/framer-prototyping-tool.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/27/webkit2png.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/27/contact-augmented-acoustics-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/26/fingerreader-wearable-text-reading-device-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/26/contact-by-felix-faire-turns-any-hard-surface-into-an.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/26/git-ftp-git-ftp-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/26/erica-ios-7-cookbook-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/26/laurent22-massren-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/26/projects-fluid-interfaces.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/26/fingerreader-fluid-interfaces.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/25/atap-project-tango-google.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/25/plotclock-by-joo-thingiverse.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/25/plotclock-youtube.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/25/ding-plotclock-fablab-nurnberg-wiki.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/25/armageddon421-rescan-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/25/quick-tip-caffeinate-your-terminal-brettterpstra-com.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/25/tisho-sketch-plugins-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/24/bomberstudios-sketch-generator-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/24/bomberstudios-sketch-plugins-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/24/briangonzalez-cocoa-rack-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/24/josh-senv-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/24/rmaksim-sublime-text-2-inc-dec-value-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/24/raphaelcruzeiro-jquery-notebook-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/24/paulhammond-webkit2png-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/23/brianchirls-seriously-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/23/nbqx-touch-and-go-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/23/skgsergio-rpi-buildenv-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/23/proapps-quicktime-codecs-v1-0-4.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/23/why-mavericks-movies-may-not-preview-properly.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/23/model-view-controller-wikipedia-the-free.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/23/bill-ted-at-25-dude-bet-you-didnt-know-these-7.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/22/briangonzalez-fontprep-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/22/jamieowen-threeflow-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/22/mrdoob-three-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/22/paralect-robomongo-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/22/markdownid-markdown-import-for-indesign.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/22/intel-r-edison-development-board-the-sd-card-sized.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/22/sindresorhus-pageres-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/21/githubtraining-example-githubapiscripts-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/21/mattt-terminal-share-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/21/snorpey-jpg-glitch-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/21/koenbok-framer-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/21/public-face-ii-making-of-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/21/zahlen-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/21/herzfassen-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/21/via.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/20/an-introduction-to-graphviz-with-a-crazy-story-about.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/20/getting-started-with-graphviz-dmitry-borodys-tech.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/20/glean-glean-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/20/xkcd-frequency.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/20/visionmedia-move-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/19/thedataking-sublimewritingstyle-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/19/gilbitron-pico-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/19/jimbojsb-launchrocket-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/19/dylang-grunt-notify-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/19/robhawkes-vizicities-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/18/cockpit-project-cockpit-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/18/daftmonk-generator-angular-fullstack-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/18/mapbox-node-sphericalmercator-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/18/mbostock-protovis-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/18/socketubs-sublimall-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/17/proj4js-proj4js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/17/d3-d3-geo-projection-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/17/braitsch-node-login-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/17/jaredhanson-passport-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/17/hakimel-meny-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/16/oscardelben-rawler-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/16/snugug-north-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/16/cloudhead-pixelog-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/16/mhkeller-mapstarter-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/16/mphasize-noder-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/15/werk85-grunt-json-minify-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/15/chrissrogers-grunt-wrap-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/15/spritz-revolution-in-reading.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/15/tablinks-safari-extension-brettterpstra-com.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/15/sztanko-crosslet-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/14/markmarkoh-datamaps-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/14/leaflet-leaflet-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/14/chrisfsampaio-imsg-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/14/sferik-t-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/14/lurst-hr-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/13/jh3y-progre-c-ss-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/13/arkany-indie-comic-code-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/13/squeegy-coffeeson-npm-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/13/pdxiii-rddr-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/13/tiny-avr-programmer-hookup-guide-learn-sfe.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/12/thoughtbot-gitsh-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/12/prasmussen-chrome-cli-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/12/physical-computing-at-itp-tutorials-using-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/12/multitouch-delivers-to-tu-dresden-europes-biggest.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/12/defunkt-dotjs-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/11/world-economic-forum-w-zoe-keating.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/11/leap-for-the-world-economic-forum-2014-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/11/climate-change-the-state-of-the-science-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/11/cuellarllar-bootstrap-illustrator-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/11/droganov-bootstrap-adobe-illustrator-template-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/10/guillaumeberry-bootstrap-illustrator-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/10/creategery-bootstrap-illustrator-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/10/nytimes-svg-crowbar-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/10/calsign-apde-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/10/kekscom-osmbuildings-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/09/real-time-web-with-node-js-intro-animation-for-code.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/09/sanjitbakshi-extendscript-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/08/mileszs-wicked-pdf-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/07/node-red-node-red-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/07/mbostock-bost-ocks-org-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/07/the-julia-language.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/06/julialang-julia-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/06/damellis-attiny-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/06/how-to-shrinkify-your-arduino-projects-youtube.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/06/espruino-espruinoboard-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/06/migreyes-jquery-wanker-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/05/espruino-javascript-for-things-by-gordon-williams.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/05/espruino-home.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/05/rvagg-ghauth-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/05/typemytype-robofontexamples-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/05/jacomyal-sigma-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/04/webgl-safari.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/04/olimex-ltd.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/04/mondrian.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/04/boo1ean-casual-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/04/2-minute-tut-vector-turning-globe-graphic-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/03/artursapek-mondrian-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/03/mozilla-pdf-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/03/octokit-octokit-rb-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/03/maxogden-csv-write-stream-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/03/component-component-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/02/component-dom-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/02/danmcinerney-wifijammer-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/02/benbalter-jekyll-auth-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/02/newspaper-club.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/02/static-site-generators.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/01/github-guides.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/01/http-ift-tt-18kdjkz.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/01/bl-ocks-org-mbostock.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/01/hasso-plattner-institut-constructable.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/02/01/spline-editor.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/31/tomnoda-interactive-d3-map-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/31/pdxiii-pdxiii-github-com-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/31/computers-watching-movies-exhibition-cut-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/31/computers-watching-movies-benjamin-grosser.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/31/iconmelon-iconmelon-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/30/danielemoraschi-maplace-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/30/eragonj-trip-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/30/mllrsohn-grunt-node-webkit-builder-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/30/afaqurk-linux-dash-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/30/pixelmaid-dresscode-v0-5-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/29/sahat-hackathon-starter-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/29/wout-svg-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/29/exciting-io-printer-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/29/high-low-tech.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/29/svg-js-a-lightweight-javascript-library-for.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/28/svg-js-a-lightweight-javascript-library-for.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/27/hakimel-reveal-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/27/eightmedia-hammer-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/27/arietta-g25-preview.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/27/hugowetterberg-folding-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/27/blprnt-dataart-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/26/jmpressjs-jmpress-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/26/agordon-d3export-demo-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/26/udoo-android-linux-arduino-in-a-tiny-single-board.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/26/pdxiii-offenbacheransatz-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/26/visionmedia-dox-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/25/kennethcachia-shape-shifter-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/25/braziljs-js-the-right-way-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/25/soulwire-sketch-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/25/stephenplusplus-wiredep-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/25/stephenplusplus-grunt-bower-install-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/24/sindresorhus-load-grunt-tasks-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/24/shiffman-the-nature-of-code-examples-p5-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/24/johnpolacek-bigvideo-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/24/nitinol-flexinol-mikromodellbau-de-webshop.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/24/team-tyler-clark-x-bassel-remix-lorde.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/23/the-hype-framework-processing-processingjs.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/23/joshua-davis-studios.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/23/ultrahaptics-multi-point-mid-air-haptic-feedback-for.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/23/multi-point-ultrasonic-haptic-feedback-youtube.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/23/notes-on-ces-2014-hello.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/22/install-node-on-the-raspberry-pi-in-5-minutes.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/22/mechanism-for-self-folding-paper-using-flexinol-on.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/22/jie-qi-intro-to-shape-memory-alloy-actuation-using.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/22/high-low-tech-electronic-origami-flapping-crane.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/22/programmingsketches-diagram-for-a-nano-muscle-wire.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/21/arduino-forum-how-to-get-muscle-wire-to-bend.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/21/spaghettionastick-nitinol-flexinol-muscle-wire.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/21/maketine-how-to-work-with-shape-memory-alloy.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/21/code-arc-cmu-edu-paperbots-workshop.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/21/robotics-hobbizine-flexinol-resist.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/20/create-beautiful-dynamic-data-driven-maps-cartodb.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/20/the-evolution-of-the-web.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/20/map-projections-welcome.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/20/map-school.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/20/chroot-users-with-openssh-an-easier-way-to-confine.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/19/din-is-noise.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/18/conf-32190-bug-in-loremipsum-macro-typo-in-sixth.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/16/javascript-for-hackers-dev-opera.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/15/sol-expert-group-muskeldraht-flexinol-r-hightech-draht.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/14/elements-of-map-projection-with-applications-to.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/14/map-projections-illustrated-with-a-face.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/14/m-block-are-magnetically-bonded-angular.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/14/see-our-kungfu-show-on-2-2-2014.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/13/dam-gallery-berlin-no-message-whatsoever.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/08/gollum.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/06/how-to-hack-a-servo-for-continuous-rotation-towerpro.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/06/convert-your-servo-motor-into-a-continuous-rotation.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/01/03/micro-python-python-for-microcontrollers.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/31/30c3-to-protect-and-infect-part-2-youtube.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/29/simple-json-processing-in-shell-scripts-jamie-phelps.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/28/dc40175-by-fabiantheblind.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/27/schwa-half-moon-tagging.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/27/mavericks-tagging-with-keyboard-maestro.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/27/fiddle-with-74hc595-and-led-bargraph-source.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/26/drone-survival-guide.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/24/hschmidt-envpane.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/24/a-christmas-treat-empty-frame-remover-v1-0.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/24/hasso-plattner-institut-laserorigami.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/24/laserorigami-laser-cutting-3d-objects-youtube.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/21/multi-line-voronoi.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/19/a-touchless-3d-tracking-interface-make.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/18/phinze-homebrew-cask.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/18/sindresorhus-quick-look-plugins.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/17/command-line-interface-emate.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/17/weekend-projects-a-touchless-3d-tracking-interface.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/16/using-the-serial-7-segment-display-learn-sfe.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/14/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/13/dariusz-e1.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/12/ekisto-visualizing-online-habitats.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/11/spell-checking-sublime-text-2-documentation.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/11/rocky-morphology.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/09/markedstyle.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/08/unix-faq-for-os-x.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/05/samypesse-how-to-make-a-computer-operating-system.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/05/global-oil-production-consumption-since-1965.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/05/skyjack-autonomous-drone-hacking.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/04/nasa-the-bedrock-beneath-youtube.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/04/arduino-yun-intro-youtube.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/03/processing-hour-of-code-home.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/03/take-screenhots-without-border-shadows-in-os-x-tips.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/03/knock-knock-head-media-design-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/03/drawing-machine-2-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/03/drawing-machine-1-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/02/processing-android-win7-nexus-7-fresh-install.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/02/millionshort.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/02/chrisse-kunst-zeichnungen-illustrationen.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/02/xkcd-git-commit.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/02/cal-terminal-calendar.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/01/osc-for-arduino-and-embedded-processors-cnmat.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/12/01/duration-app-from-fabiantheblind-on-vimeo-see-my.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/11/14/russian-police-get-lucky.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/11/11/github-app-from-fabiantheblind-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/11/08/this-is-a-warning-cloaked-in-a-love-letter-our.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/11/04/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/11/03/eine-psychologin-schritt-wahrend-eines.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/10/31/about-phoneblocks.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/10/29/show-the-world-we-want-a-phone-worth-keeping.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/10/14/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/10/11/koripxo-george-carlin-was-so-special.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/09/26/batdad-by-batdad-vine.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/09/26/dandymackay-stars-of-monty-python-1970s.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/09/16/projectmanagement-tools.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/09/13/3-sweep-extracting-editable-objects-from-a-single.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/09/10/sick-pencil-drumming-rap-skills-by-specter604.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/09/05/10-years-of-weather-history-in-3-minutes-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/09/03/milosrajkovic-by-sholim.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/09/01/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/31/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/24/no-flashlights-please.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/24/ganseblumen.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/23/typeverything-typeverything-com-smile-by-sam.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/17/aesweets-saz-sweet-available-soon-the-fast-and.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/14/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/13/at-night.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/13/the-shelf.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/13/walking.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/13/lost-place-kap-arkona.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/13/kap-arkona.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/13/fields.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/13/camping.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/13/us-in-the-rain.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/13/us.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/13/dusk-panorama.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/13/dusk.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/11/def-tune.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/11/milligramme-remix-by-i-am-robot-and.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/10/outer-rim-camping.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/10/outer-rim-taking-pictures.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/10/outer-rim-sea.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/10/outer-rim-me.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/10/woods.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/10/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/09/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/09/libelle.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/09/dusk.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/09/sea.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/08/09/sea-panorama.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/24/bradley-wright-how-to-set-up-your-own-private-git.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/24/lions.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/24/fortress-of-solitude.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/23/food.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/23/mettle-saz-heres-an-in-depth-a-tutorial-that.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/23/ataschi-batsch.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/23/pdxiii-das-leben-des-brian-german-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/22/animography-saz-franchise-animated-is-an.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/21/this-is-a-quick-guide-to-the-new-feature.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/21/locations-jsx-v0-3-new-feature-automagically.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/21/monoline-text-jsx-v-0-2.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/21/nuestro-canto-saz-calle-13-latinoamerica.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/16/marcus-alqueres-saz-a-new-superhero-is-coming.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/15/waergo-heizungen-fur-berlin-brandenburg-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/13/wealth-inequality-around-the-world-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/10/freedom-o-inside-github-1-by-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/08/panorama-flakensee.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/08/drugdealers-saz-intro-to-the-russian-teams-vlog.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/08/drugdealers-saz.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/08/indesign-blog-saz-unser-lieblingsprogramm-bietet.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/06/panorama.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/06/berlin-hbf.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/06/nite-out-berlin.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/02/studio-smack-saz-this-showreel-must-be-viewed.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/02/studio-smack-saz-anti-bee-propaganda-film.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/01/nik-skavinsky-saz-the-story-about-sergey.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/07/01/florian-muehlich-saz-wordify-is-a-native-mac-os.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/06/29/earth-2-by-dokluch-build-using-locations-jsx.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/06/29/plant.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/06/18/clad-clad-saz-czech-tv-news-graphics-design.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/06/15/limon-estudios-saz-produced-by-limon-estudios.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/06/06/fly-on-the-wall-saz-zef-side-won-an-award-for.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/06/06/fairphone-saz-you-can-change-the-way-products.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/06/01/mettle-saz-kevin-schires-of-aescripts-com-fame.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/05/27/amnon-owed-saz-warning-read-before-playing-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/05/23/amos-saz-fashion-with-instructions-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/05/23/alexey-ushakov-saz-this-showreel-includes-mainly.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/05/20/so-take-30-minutes-using-a-solid-layer-and-the.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/05/19/elementary-and-locations-quicktip.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/05/19/this-is-just-a-quick-tip-on-using.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/05/14/kevin-schires-saz-using-elementary-anchors-to.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/05/14/kevin-schires-saz-first-hour-with-toy-brick.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/05/14/kevin-schires-saz-basic-3d-physics-in-after.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/05/11/robert-howsare-saz.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/05/10/freed-motion-saz-here-is-a-peek-at-what-we-have.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/05/09/jon-mccormack-saz-documentation-about-the.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/05/06/imagineer-systems-saz-mastering-motion-tracking.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/05/02/bombay-sapphire-saz-from-the-imagination-of.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/30/sogno-saz.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/23/armin-mobasseri-saz.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/23/armin-mobasseri-saz-we-played-around-with-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/23/pdxiii-kung-fu-academy-berlin-by-armin.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/23/bob-smartner-saz-baccarat-japan-asked-house.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/19/monoline-text-jsx-creates-text-from-a-single.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/12/jasper-goodall-saz-just-a-little-component-of-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/11/kevin-schires-saz-probably-the-coolest-new.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/11/marco-bagni-lostconversation-saz-my-entry-for.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/11/ntsdpz-saz-research-project-at-the-btk-berliner.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/11/teehan-lax-labs-saz-all-google-street-view.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/10/3dar-saz-animated-short-film-by-3dar-studios.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/10/duncan-elms-saz-a-short-video-looking-at.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/10/dan-marker-moore-saz-time-lapse-of-a-full-moon.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/09/daniel-matysiak-saz-copyright-control.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/05/the-avant-garde-diaries-saz-the-gifted-musician.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/04/territory-saz-territory-worked-with-ridley-scott.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/04/territory-saz-bbc-knowledge-and-learning-is.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/04/motionworks-saz-the-next-version-of-after.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/02/aescripts-aeplugins-saz.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/04/01/archimede-saz-clic-hd-please-and-plug.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/03/30/jeroen-krielaars-saz-father-and-son-on-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/03/30/animade-saz-target-asked-us-to-produce-a-40.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/03/30/blackmeal-saz-an-homage-to-marvel-which-created.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/03/27/andrew-kramer-saz-new-update-for-element-3d-from.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/03/24/plask-saz-made-with-plask-www-plask-org.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/03/22/sam-lemberg-saz-a-hostile-race-of-aliens-has.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/03/19/like-knows-like-saz-this-is-jessica-hische-she.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/03/19/duduf-saz-duik-is-and-will-stay-free-but-it.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/03/17/gestalter-introducing-the-duo-by-duo3d.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/03/08/lukas-vojir-saz-written-directed-and-animated.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/03/07/felt-tips-saz-the-first-part-of-my-90-minute.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/03/04/philipp-geuder-saz-a-space-invaders-inspired.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/03/04/pdxiii-author-unknown-myo-muscle-reading.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/03/03/peder-norrby-saz-short-version-of-a-demo-i-did.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/03/03/kuba-lu-saz-this-little-film-is-a-result-of-six.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/03/03/kuba-lu-saz.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/02/24/veronika-samartseva-saz-my-first-film-made-as-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/02/24/talking-animals-saz-premier-on-the-19th-of-april.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/02/24/talking-animals-saz-michael-is-doing-the-lego.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/02/22/onformative-saz-some-first-tests-using-the-leap.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/02/21/computerlovers-saz-photoswipe-is-a-free.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/02/21/candas-sisman-saz-by-the-courtesy-of-plato-art.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/02/21/aaron-tam-saz-a-compilation-of-vignettes-from-my.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/02/17/build-with-locations-jsx-elementary-and-element.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/02/11/kung-fu-academy-berlin-saz.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/02/10/merlin-mann-saz-i-want-them-to-watch-that.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/02/08/r-i-p-stuart-freeborn-star-wars-makeup-artist.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/02/08/murketing-via-bem-legaus-gif-pingante-da.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/02/01/pdxiii-rene-first-arabic-coding-language.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/02/01/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/02/01/james-george-saz-rgbdtoolkit-overview-from-our.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/01/31/inspecting-video-files-with-ffprobe-part-of-ffmpeg.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/01/25/emilio-gomariz-saz-more-info.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/01/25/emilio-gomariz-saz.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/01/23/andrew-kramer-saz-the-metropolitan-3d-pack-from.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/01/22/andrew-kramer-saz-the-most-powerful-ae-plug-in.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/01/21/my-showreel-for-2012.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/01/21/kaleb-lechowski-saz-written-directed.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/01/18/cajunboy-perfect.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/01/15/peder-norrby-saz-potemkin-notes-this-low-poly.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/01/07/part-of-the-tutorial-on-aescripts-com-and-here.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/01/04/seelenluft-manila-official-video.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2013/01/01/focus-forward-films-saz-the-super-supercapacitor.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/31/henning-herholz-saz-die-pest-ist-ein-360.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/28/normal-map-ruby.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/28/steve-cutts-saz-animation-created-in-flash-and.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/27/hayato-yamane-saz-the-assignement-was-to-do-the.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/27/hayato-yamane-saz-a-small-project-for-sva.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/26/jonatan-schwenk-saz-this-is-the-opener-for-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/22/peder-norrby-saz-trailer-for-the-short-film.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/21/amanda-ghassaei-saz-ive-created-a-technique-for.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/21/yummy.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/21/andreas-climent-saz-a-short-film-directed-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/18/jeff-le-bars-saz-hommage-a-quino-realise-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/17/timecode-lab-saz-24x360-is-a-purely-artistic-and.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/17/matt-coady-saz-a-video-info-graphic-that.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/17/nadya-mira-saz-exercise-animal-walk-cycle.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/17/nadya-mira-saz-happy-end-of-the-world-2012.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/17/aaron-rogers-saz-designed-and-animated-in-ae.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/17/emily-smith-saz-a-cat-confronts-his-fear-of.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/16/the-safer-code-initative-fabiantheblind-software.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/12/lesterbanks-com-about-obj-vertex-export-jsx.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/11/obj-vertex-export-demo-from-fabiantheblind-on.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/11/export-wavefront-obj-vertex-point-clouds-from.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/07/uelaerm-screenrecord-from-fabiantheblind-on.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/07/an-old-project-by-pdxiii-and-me.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/07/chaos-is-what-weve-lost-touch-with-this-is-why.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/05/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/05/pixle-saz-foldify-for-ipad-http-bit-ly-kq1bmw.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/12/03/an-ae-cs4-script-for-creating-2d-and-3d-geo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/30/for-spectre.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/30/presstea-saz-press-tea-from-refreshing-iced.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/28/marco-saz.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/28/adam-ben-dror-saz-created-by-shanshan-zhou-adam.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/28/wilwheaton-via-reddit.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/28/mutant-jukebox-music-sound-saz-client-gq.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/26/fabiantheblind-rt-lesterbanks-create-fixed-width.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/23/dylan-winter-saz-scripting-the-lost-continent.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/22/fabiantheblind-fafas-adobe-photoshop-tutorial.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/21/fabiantheblind-rt-aescripts-new-for-aftereffects.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/20/swissd-full-tutorial-swissd-is-an-after-effects.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/20/swissd-quickstart-guide-swissd-is-an-after.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/20/fabiantheblind-anonymous-asked-i-get-pos-cannot-be.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/20/i-get-pos-cannot-be-resolved-or-is-not-a-field.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/20/swissd-is-an-after-effects-cs4-script-for.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/20/fabiantheblind-swissd-for-adobe-aftereffects.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/20/fabiantheblind-check-out-swissd-for-adobe.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/20/ecal-saz-the-uncle-sam-machine-processes-grains.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/17/edenspiekermann-saz.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/17/edenspiekermann-saz-stadtbaume-fur-berlin-auf.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/16/fabiantheblind-rt-yatil-http-t-co-eej2cuhx-not.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/16/fabiantheblind-rt-pitaru-http-t-co-ijm3y4q8.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/16/design-i-o-saz-skataviz-is-an-experimental.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/15/fabiantheblind-rt-pdxiii-speech-to-text-library-for.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/14/fabiantheblind-layout-invaders-a-space-invaders.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/14/layout-invaders-working-alpha-a-space-invaders.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/14/fabiantheblind-rt-indiscripts-en-wow-of-the-day.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/13/fabiantheblind-rt-macdrifter-feed-new-post-dropbox.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/13/fabiantheblind-rt-macdrifter-feed-new-post-sublime.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/12/fabiantheblind-swissd-for-indesign-builds-fixed.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/12/fabiantheblind-see-layout-invaders-for-indesign-in.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/12/fabiantheblind-typography-and-automation.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/12/fabiantheblind-build-some-fixed-width-text-with.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/12/fabiantheblind-play-layout-invaders-directly-in.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/12/fabiantheblind-http-t-co-oa3j6tlu-an-open-source.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/12/typography-and-automation.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/11/fuckthisimadinosaur-har-har-har.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/10/fabiantheblind-rt-infosthetics-partly-cloudy-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/09/fabiantheblind-free-1920s-jazz-collection-from.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/09/free-1920s-jazz-collection-from-internet-archive.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/09/fabiantheblind-the-league-of-moveable-type-no-more.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/09/fabiantheblind-league-gothic-type-by-caroline.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/08/fabiantheblind-order-chaos-disorder-my-father.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/06/rogier-wieland-saz-the-moleskine-coloured.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/05/jacques-andre-dupont-saz-t-i-g-r-e-interieur-is.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/05/what-does-it-say-about-us-when-we-are.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/05/benedikt-gross-saz-a-processing-bundle-for.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/04/thinkmojo-saz-the-sunburst-creator-kit-is-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/11/04/angela-sun-saz-for-more-information-on-how-to.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/10/31/marco-bagni-lostconversation-saz-so-we-have.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/10/31/marco-bagni-lostconversation-saz-new-audio-we.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/10/31/marco-bagni-lostconversation-saz-infographic.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/10/31/using-liquid.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/10/24/filmofon-jan-mika-saz-vfx-showreel-do-you-like.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/10/22/jonathan-berkey-saz-a-quick-way-to-make-and.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/10/19/check-out-also-the-recently-released-wihihihiggle.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/10/18/order-chaos-disorder.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/10/16/new-aemap-version-0-3-1-for-adobe-after-effects.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/10/16/aemap-splash-big.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/10/15/von-umlauten-unicode-und-encodings-pythonwiki.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/10/15/chendo-saz-early-alpha-preview-of-shortcat-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/27/fix-error-while-installing-github-gollum-on-mountain.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/27/error-while-installing-github-gollum-on-mountain-lion.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/27/got-a-new-script-on-http-t-co-a3uax784-check-it-out.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/27/friedrich-van-schoor-saz.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/27/fucking-spiders-bah-wuha-http-t-co-zwcwkvql-but-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/27/i-need-to-remember-this-log-all-sublime-output-to.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/27/rt-ttscoff-github-tip-easily-sync-your-master-to.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/27/rt-videocopilot-need-to-create-a-billing-block-dont.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/26/wrote-a-tiny-sublimetext-plugin-that-opens-a-url-from.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/26/rt-creativeapps-the-abyss-by-andreasgysin-tutorial.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/24/github-git-you-are-so-useful-thank-you-also.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/24/wihihihiggle-script-v0-2-2-for-aftereffects-is-out.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/24/natsu-by-rocketpanda-amazing-what-the-brain-does-with.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/24/natsu-by-rocketpanda-its-amazing-what-the.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/24/rocketpanda-saz-animated-gifs-on-my-website.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/24/martin-allais-saz-thistle-an-animated-film-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/24/an-inspirational-masterpiece-read-more-about-it-here.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/24/cartoon-brew-saz-a-film-by-philipp-artus.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/23/wihihihiggle-script-4-aftereffects-version-0-2-2-major.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/23/if-you-downloaded-wihihihiggle-script-4-aftereffects.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/22/update-4-wihihihiggle-script-v0-2-2-all-expressions.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/22/the-benefit-of-coding-while-a-we-print-production-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/22/the-benefit-of-coding.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/22/mating-our-left-brained-technical-wizardry-with.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/22/during-a-print-production-we-had-this-problem-rgb.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/22/the-first-color-moving-pictures-http-t-co-gbwdmp1w.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/22/rt-laughingsquid-an-eco-friendly-diy-series-of.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/21/tinyduino-a-tiny-arduino-compatible-board-smaller.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/21/what-are-the-best-ui-elements-controls-patterns.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/21/vimeo-introduced-the-tip-jar-have-a-look-over-here.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/19/things-i-need-to-play-with-https-t-co-0gy0a6a9.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/19/sublime-text-2-to-do-list-plugin-plaintask-by-aziz.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/19/chris-butcher-saz-a-battalion-of-toy-soldiers.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/19/tonymiotto-saz-paris-vs-new-york-a-tally-of.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/18/git-gitignore-i-didnt-know-how-to-tell-git-to.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/18/git-gitignore.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/18/pdxiii-troll.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/18/github-push-i-just-learned-the-difference-between.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/18/github-push.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/18/james-martin-saz-this-is-the-lead-in-intro-for.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/18/james-martin-saz-made-in-ae-with-trapcode.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/18/dino-muhic-saz-these-are-some-of-my-wip.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/17/i-need-more-toys-kinect-physics-tutorial-for.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/17/rt-pdxiii-berliner-ladenoffnungsgesetz-sonntags.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/17/rt-viennacc-aftereffects-creating-twitch.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/15/scripting-is-so-powerful-eg-check-out-this-piece-o.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/15/beyond-140-characters-a-nifty-way-to-use-github-with.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/15/rt-pkrumins-updated-the-bash-redirections-cheat-sheet.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/15/dmotion-saz-my-entry-to-the-contest-living.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/15/better-you-take-a-look-at-the-not-so-nerdy-githubpages.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/15/if-you-want-to-turn-geojson-files-2-obj-you-could.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/15/rt-loricnet-adobe-says-photoshop-cs6-is-last-version.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/14/ianhaigh-hahaha-if-you-want-i-can-make-it-nerdier.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/14/btw-great-resource-4-geolocations-all-over-the-world.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/14/ianhaigh-thanks-a-lot-it-still-has-some-bugs-and-is-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/14/hallo-kai-hm-fur-psd-fallt-mir-nichts-ein-um.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/14/create-georeferenced-animations-in-aftereffects-with.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/12/rt-netzpolitik-30-minuten-lange-ard-dokumentation.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/11/rt-pkrumins-i-just-created-a-new-cheat-sheet.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/11/redirect-the-std-output-of-a-command-to-a-file-ls.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/10/uh-my-mail-server-down-4-half-a-day-github-having.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/10/plexus-2-by-rowbyte-is-released-http-t-co-pzjh2uxx.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/09/rt-stefan-s-aus-h-makes-me-sad-http-t-co-dxltrurv.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/09/rt-brainpicker-there-is-nothing-made-by-human-beings.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/09/hallo-kai-als-mail-in-deinem-client.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/09/githings-when-is-soon.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/09/hallo-kai-weil-computer-sich-in-deiner-gegenwart.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/09/rt-jackseale-insightful-review-of-the-party-on-the.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/09/servimotion-thanks-for-the-flowers-iglad-you-dig.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/09/rt-eaprospero-dear-mrs-ashton-eu-foreign-minister.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/09/jackchute-have-fun-watching.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/09/rt-schmidtlepp-bettina-wulff-ehrensold-is-not.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/08/resources-4-the-geo-beast.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/08/getting-started-with-the-geo-beast-part-3-of-3.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/08/getting-started-with-the-geo-beast-2-of-3-in.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/08/getting-started-with-the-geo-beast-1-of-3-this.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/08/im-looking-for-beta-testers-for-thegeobeast-get-it.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/08/i-just-open-sourced-thegeobeast-4-aftereffects-get-it.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/08/rt-unicef-literacy-is-a-development-accelerator.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/08/rt-hallo-kai-nice-soho-gothic-font-4-free.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/08/hallo-kai-you-also-should-check-out-this-one.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/08/rt-pdxiii-niggaz-with-wu-tang-clan-run-beastie.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/08/good-stuff-doesnt-age-motion-styling-sound-good.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/08/good-stuff-doesnt-age-motion-styling-sound.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/06/above-saz-as-irony-has-it-this-video-will-be.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/06/hamo-studio-type-o-matic-is-an-after-effects.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/06/reveal-js-html-presentations-made-easy.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/06/a-liars-autobiography-official-trailer.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/04/florian-kohne-hinter-den-ah-kulissen-musik.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/04/rt-tiagonoronha-sublime-text-lorem-ipsum-snippet.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/02/fakegreendress-your-welcome-if-you-run-into-any-bugs.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/02/hey-spectre-thanks-for-all-those-retweets.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/02/a-new-version-0-2-of-the-wihihihiggle-script-for.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/02/clemens-wirth-clemens-wirth-radium-audio.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/02/creepy-good-micro-empire-by-clemens-wirth.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/02/a-demo-of-my-custom-sublime-text-plugin.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/09/01/silence.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/08/31/done-as-my-final-bachelor-project-in-the-h-da.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/08/31/kandinsky-auf-schwarz.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/08/31/kandinsky-auf-schwarz-title-image.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/08/31/triangle-and-string.html</loc>
+    </url>
+    
+    <url>
         <loc>http://fabiantheblind.info/blog/2012/08/31/hello-world.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/08/29/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/08/17/i-just-open-sourced-my-wihihihiggle-script-for.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/08/14/pdxiii-terrysdiary-corporations-are-not.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/08/09/pdxiii-sketchboard-by-anton-reinig-a-very-cool.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/08/08/pdxiii-one-love.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/07/24/creating-fake-physics-with-element3d-and-newton.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/07/12/anonymous-picks-up-litter-in-tokyo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/07/12/book-apps-for-tablets-like-the-ipad-kindle-fire.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/07/05/we-have-1000-downloads-on-aemap-and-lots-of-people.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/07/04/provideo-coalition-com-ae-portal-by-rich-young.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/07/04/xkcd-is-always-so-funny-thank-you.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/07/04/words-of-a-middle-man-human-to-machine-machine-to.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/07/01/vectors-in-javascript.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/07/01/what-have-i-been-up-to-by-andrew-kramer.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/30/stone-seems-to-be-harder-than-my-head.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/29/coloradoskop-app-denn-geschmack-ist-charakter.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/28/it-only-takes-a-single-millisecond-for-the-robot.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/27/via-geeksaresexy-laptop-vs-microsoft-surface.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/27/we-know-what-youre-doing-a-social-networking.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/27/via-geeksaresexy-simple-robotic-hand-can-pick.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/26/thnx-duduf.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/26/a-library-for-easily-creating-triangular-meshes.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/26/parkinsons-voice-initiative.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/26/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/26/yes-it-is.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/26/video-copilot-element-3d-release-july-10-2012.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/26/and-now-for-something-completely-different-via.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/25/generative-design-finally-available-in-english.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/25/for-all-its-apparent-fidelity-the-movie-in-our.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/25/via-how-to-pronounce-uranus-the-planet.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/25/via-xkcd-weekend-juhu-saturday-forever.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/24/gm-grass-linked-to-texas-cattle-deaths-cbs-news.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/24/thats-why-i-am-so-eager-to-promote-hardware-that.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/22/via-futurama-live-action-title-sequence.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/22/via-xkcd-seventies.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/21/pdxiii-never-was-born-never-will-die.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/20/aemap-v0-3-online.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/20/phase-iv-ist-ein-minimalistischer-surrealer.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/20/what-is-popcorn-popcorn-makes-video-work-like.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/20/scripting-changes-in-after-effects-cs6-plus-new.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/19/sparkfun-protosnap-minibot-quick-start-with-mike.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/19/its-called-progress-folks-by-garrett-murray.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/19/via-bedow-examples-of-work-art-direction.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/19/ive-been-playing-the-same-game-of-civ-ii-for-10.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/19/surface-by-microsoft-by-surface.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/15/today-we-choose-if-we-choose-the-retina-display.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/15/the-problem-about-being-a-programmer-via-geeks.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/15/linuxcommand-org-learn-the-linux-command-line-write.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/14/those-who-throw-down-more-than-two-grand-for-a-new.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/13/code-and-the-web.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/12/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/09/via-mrs-doubtfire-as-a-horror-film.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/09/twitter-logo-in-css.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/09/via-a-song-for-the-sexually-aggressive-racist.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/08/tactus-technology-introduction-youtube.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/07/uh-cs6-script-ui-looks-slick.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/05/vertical-video-syndrome.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/05/co-funding-crowdfunding-statistik-2012-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/04/photo-via-video-copilot-professional-after-effects.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/04/via-video-copilot-professional-after-effects.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/03/terminal-fun-options-for-printing-folder-and-subfolder.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/03/david-underhill-git-forever-remove-files-or-folders.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/03/what-is-your-favorite-inanimate-object.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/03/ard-mediathek-reportage-dokumentation-verzockt.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/01/dariusz-makes-nice-mographs.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/01/the-western-world-has-been-brainwashed-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/01/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/01/please-learn-how-to-use-your-tools.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/01/please-dont-learn-to-code-but-give-it-a-try-coding.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/01/please-learn-to-code-sachagreif-com.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/01/coding-horror-please-dont-learn-to-code.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/06/01/code-year.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/31/clippyjs-add-clippy-or-his-friends-to-any-website-for.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/31/cosmic-enforcer-zodac.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/30/http-joshduck-com-periodic-table-html.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/29/the-top-100-things-id-do-if-i-ever-became-an.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/29/whats-makey-makey-makey-makey-is-an-invention.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/29/readlist.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/29/an-open-letter-to-jay-leno-about-stealing-my-video-and.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/27/via-luke-skywalker-idiot-of-the-family-pic.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/26/leachim6-hello-world-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/26/via-thrown-to-the-wind-a-36-foot-tall-tornado-of.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/26/laughingsquid-the-internet-defense-league.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/26/gapminder-unveiling-the-beauty-of-statistics-for-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/26/laughingsquid-invisible-an-exhibition-of.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/26/the-internet-defense-league-protecting-the-free.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/26/google-maps-marker-spiderfyer.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/25/oliphillips-portal-by-matthew-spiegelman.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/25/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/25/parislemon-fastcompany-scientists-at-mit.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/25/tataraseitetsu-shinoddddd-pipco.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/25/via-sad-vader-and-other-star-wars-art-for-your.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/25/pdxiii-may-25th-is-official-towel-day-dontt.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/25/pdxiii-first-person-shooter-gaming-for-the-real.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/25/stoppt-die-vorratsdatenspeicherung-verdachtsfrei.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/24/der-fabian-hat-sein-aemap-skript-veroffentlicht.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/24/via-hans-roslings-shortest-talk-ever.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/24/via-amazing-star-wars-watercolor-paintings.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/24/dochub-instant-documentation-search.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/24/trace-my-shadow-if-you-use-a-computer-surf-the.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/24/great-style-catchy-sound-good-story-another.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/23/pdxiii-forever-steve.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/23/der-waffendeal-vor-dem-hintergrund-des.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/23/robert-moogs-78th-birthday.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/23/yy-ramp-now-a-native-plugin-which-is-faster.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/22/venn-diagram-of-yoda-it-is-via-geeksaresexy.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/22/zeldman-this-is-my-personal-site-there.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/22/and-now-the-futuristic-gesture-driven-computer.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/21/rare-by-joel-sartore.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/19/on-aescripts-com-markus-asked-me-how-to-make-shape.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/18/europa-shapes-test-mp4-build-with-aemap-jsx-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/18/c4d-cd-rig-nachdem-ich-festgestellt-habe.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/18/adobe-shadow-labs-release-adobe-r-shadow-is-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/17/12-2012-aemap-v0-1-1b.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/16/introducing-ff-chartwell-designed-by-travis.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/14/git-basics-episode-1-what-is-version-control.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/14/via-xkcd-kickstarter-roll-on-floor-laughing.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/13/rip-gunther-kaufmann.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/12/obama-doesnt-want-to-ban-porn.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/11/pandoc.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/11/brilliant-idea-thanks-for-sharing-your-hard-work.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/11/petition-grundsatzfragen-zum-beitrags-und.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/08/explore-blog-nyt-data-artist-in-residence-jer.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/08/via-coldplay-covers-you-gotta-fight-for-your.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/06/http-markdownrules-com.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/06/terrysdiary-r-i-p-mca.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/06/r-i-p-mca.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/05/rubymotion-ruby-for-ios.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/05/whats-potentially-so-nice-about-the-stuff-shown.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/04/rex-velvet-seattle-super-villain-calls-out.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/04/best-pitch-ever-muppet-show-pitch-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/03/john-cleese-a-lecture-on-creativity-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/03/john-cleese-tries-to-explain-creativity-and-how-to.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/03/fabian-moron-zirfas-updates-his-aemap-script-for.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/02/anthropocene-mapping-by-globaia.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/01/aemap-jsx-v0-2-tutorial.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/01/aemap-utilities-jsx-v0-2-tutorial.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/05/01/aemap-v0-2.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/27/via-mc-fitti-30-grad-musik-video-myvideo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/27/descriptive-camera-by-matt-richardson.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/25/representing-the-first-4-000-000-decimals-of-pi-in-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/25/sky.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/24/pdxiii-laika-a-dynamic-typeface.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/23/sunday-april-22-2012-filed-under-gentrymedia.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/23/via-xkcd-skynet.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/20/alphabetic-by-blinkmybrain-watch-in-hd-this-is.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/17/fuckyesmaps-buy-it-here-here-and-here.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/16/via-dont-walk-silly-walk-t-shirt-by-ian.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/16/johnwun-on-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/14/waves-by-daniel-palacios-waves-utilizes-a-basic.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/14/about-ae-and-3d.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/14/newton-3d-in-after-effects-cs6-cylinders-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/14/newton-3d-in-after-effects-cs6-cubes-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/14/another-experiment-with-the-ray-tracer-engine-of.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/13/ae-likes-aemap.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/13/jody-black-showreel-2012-by-jody-black-here-is-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/12/ok-this-is-fantastic-as-who-hasnt-had-to-create.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/12/aemap-1.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/12/insects-by-tor-even-mathisen-follow-me.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/12/whats-new-in-cs6-production-premium.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/11/this-ae-map-comes-in-as-a-preset-that-gives-you-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/11/ive-been-using-some-maps-an-intern-drew-traced.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/10/via-aemap-demo-on-vimeo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/10/joshbyard-mit-developing-diy-3d-printable.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/10/princecortex-coffee-prince-true-dat.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/10/instagram-instagram-facebook.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/09/filter-forge-photoshop-plugin-to-create-your-own.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/09/mir-promo-a-by-peder-norrby-trapcode-mir-is-a-new.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/05/newton-liquid-tutorial-by-tercel-how-to-make.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/05/new-fritzing-arduino-workshop-series-in-berlin.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/04/soundcloud-ableton-live-lite.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/03/john-whitney-permutations-1966-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/04/03/expose-the-light-fractal-artforms-of-nature.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/30/how-to-execute-javascript-code-directly-in-your.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/29/this-video-is-a-glimpse-into-the-future-via.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/28/reel-012-by-oskar-effe-motiondesign-showreel.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/28/international-conference-of-chemistry-by-sydas.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/28/read-more-over-here.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/28/aemap-after-effects-cs5-javascript.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/27/openpaths.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/24/gestalter-see-through-3d-desktop-by-jinha.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/24/sir-arthur-c-clarkes-third-law-states-any.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/24/difluxe-by-jesse-lucas-difluxe-allows-us-to.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/24/beautiful.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/23/pdxiii-free-font-modern-pictograms-by-john.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/22/die-gezielte-filterung-von-daten-findet-nicht-mehr.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/22/download-adobe-photoshop-cs6-beta-adobe-labs.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/20/via-playdough-fabxseb.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/20/playdough-fabxseb-by-sebastian-zirfas-a-short.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/19/boethos-is-a-big-chunk-of-javascript-code.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/15/heart-voronoi.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/15/hello-world-voronoi.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/15/short-stories-fresh-guacamole-pes-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/15/worm-voronoi.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/15/circle-voronoi.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/15/web-voronoi.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/15/web-colored-voronoi.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/15/spiro-voronoi.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/15/hello-voronoi.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/14/lines-creator-demo-by-lines-creator-lines-creator.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/14/voronoi.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/14/the-markdown-mark-by-dustin-curtis.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/12/voronoi.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/12/narrow-the-gapp.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/12/do-not-track-plus.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/10/you-will-never-defeat-the-hulk-clark-via.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/10/wir-die-netz-kinder-zum-anhoren-netzpolitik-org.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/09/via-its-dangerous-to-go-solo-pic.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/06/launch-terminal-from-extendscript.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/05/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/05/lines.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/02/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/03/02/via-beautiful-spinning-video-captured-by-camera.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/28/mellow-mark-ist-tot-musicvideo-at-the-end-of-the.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/28/textmate-2-leopards-and-questions-today-we-are.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/28/mediainfo.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/28/via-a-qr-code-poster-for-all-you-guerrilla.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/23/nervous-system-tools-objexport.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/20/sometimes-something-is-worth-a-screenshot.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/18/ist-georg-schramm-schon-im-amt.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/17/be-sublime-my-friend.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/17/powering-by-fred-fathom-video-documentation-from.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/17/kiss-a-love-story.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/16/frictions.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/15/via-crashing-porcelain-action-figures-by-martin.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/15/motionrevolver-spore.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/15/starry-night-interactive-animation.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/15/terry-gilliam-monty-python-animations-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/15/the-long-run-kolloquiums-prasentation-von-fabian.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/15/today-i-had-colloquium-have-a-look-at-the-short.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/13/the-long-run.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/05/52-ficci.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/03/via-faqs-raspberry-pi.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/03/motion-feel.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/03/psql-developing-more-abstract-count-down.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/02/wow-via-abstract-countdown-timer.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/02/01/ihr-werdet-den-kampf-verlieren-the-lunatic-fringe.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/31/25-life-saving-tips-for-processing-amnon-p5.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/31/social-solar-charger-pays-you-to-use-it-gadget-lab.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/30/via-how-to-draw-a-horse.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/30/hacking-stunt-stealing-smartphone-crypto-keys.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/29/provideo-coalition-com-themed-channel-motion.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/29/via-sneaky-geeky-save-the-date-card.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/29/syntaxhighliter-jsx-basic-script-for-code-displaying.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/29/the-dark-knight-rises-opening-credits-project.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/27/ccc-wissenschaftliches-gutachten-belegt-keine.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/27/http-www-pocode-org.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/26/emergency-landing.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/25/malaria-part-2-drew-berry-2008-wehi-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/25/malaria-part1-drew-berry-2008-wehi-by-wasdom01.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/24/mapping-a-range-of-values-to-another.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/24/think-different-via-fefe.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/23/via-video-copilot.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/23/via-the-ui-toolkit-ui-parade-user-interface.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/19/cocoa-coding-lektionen.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/18/40-free-broadcast-design-compositions-for-adobe-after.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/17/via-video-der-weltuntergang-2012-kurz-und.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/16/lieber-deutscher-nazi.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/16/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/14/gotye-somebody-that-i-used-to-know-feat.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/13/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/13/learn-code-the-hard-way-books-and-courses-to-learn.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/13/mr-daisey-and-the-apple-factory-this-american-life.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/07/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/06/via-http-xkcd-com-1000-large.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/06/via-love-what-you-do-or-leave.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/06/ifttt-put-the-internet-to-work-for-you.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/06/http-maps3d-svc-nokia-com-webgl.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/05/inside-the-nebulae-by-peder-norrby.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/05/pdxiii-once-again-tmnemail-just-because-i.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2012/01/04/via-pt-opensesame-opensesame-brings-backwards.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/12/29/a-game-of-chess-is-like-a-sword-fight-you-must.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/12/29/liquid-solids-ae-freeform-tryout-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/12/28/portfolio-just-taking-pictures.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/12/27/pdxiii-have-fun-and-make-games-or-hack-your.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/12/22/bookmarks-von-cyberduck-fur-transmit-exportieren.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/12/21/vancouver-gigapixel-project-gigapixel-panorama.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/12/21/via-mellow-mark-mellow-mark-ist-tot-musik-video.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/12/21/google-easter-egg.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/12/20/indesign-document-recovery.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/12/18/connect-circles-this-indesign-script-by-gerald.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/12/17/textmate-2-0-alpha-the-excitement-for-a-new.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/12/15/proteigon-by-burayan.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/12/15/download-free-vector-files-silhouettes-outlines.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/12/13/ia-writer.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/12/05/helmut-schmidt-2011-spd-parteitag-in-berlin-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/12/02/youranonnews-two-lesbians-raised-a-baby-and-this.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/12/01/john-r-pierce.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/28/hacker-typer.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/28/ccc-chaos-computer-club-analysiert-aktuelle-version.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/24/address-is-approximate-by-the-theory.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/23/learn-code-the-hard-way-books-and-courses-to-learn.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/19/the-story-of-broke-2011-by-storyofstuffproject.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/18/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/18/life-for-all-you-tech-lovers-take-a-look-at-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/17/orwell-vs-huxley-via-990000.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/17/thekidshouldseethis-such-a-simple-but.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/17/adobe-puts-flex-out-to-open-source-pasture-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/16/thekidshouldseethis-al-jarnows-cosmic-clock-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/16/via-american-censorship-day-tell-congress-not-to.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/16/space-timelaps-by-maik-thomas.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/14/thinking-with-type-home.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/14/via-antton-nuotios-dead-kennedys-a-visual.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/13/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/13/idflood-threenodes-js-github.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/13/what-is-the-indesign-targetengine.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/10/adobe-ceases-development-on-mobile-browser-flash.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/10/via-geek-and-poke-the-free-model.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/06/e-mail-processing-daniel-shiffman.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/03/hang-up-and-tweet-up-digital-bureau-and.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/03/shape-type-the-letter-shaping-game.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/02/averia-the-average-font-i-am-not-a-type.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/02/a-commercial-version-of-the-kinect-software.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/01/bad-news-map-hackers-the-google-maps-free-ride.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/11/01/and-his-sister-eris-too-hail-eris.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/30/make-anything-on-your-ipad-codify-for-ipad-lets.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/29/siri-meets-eliza-by-jordan-mechner-since-i.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/29/researchers-release-attack-tool-that-cripples.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/28/youranonnews-german-hackers-discover.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/28/iris-9000-voice-control-module-for-iphone-siri.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/27/robot-venus-flytraps-could-eat-bugs-for-fuel-tech.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/27/im-ergebnis-setzen-bund-und-lander-also-eine.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/27/open-sesame-by-paul-tuersley-convert-aecs5-to-cs-3-4.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/27/chaos-computer-club-analysiert-aktuelle-version.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/26/gestalter-rendering-synthetic-objects-into.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/26/bandwidth.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/25/debtris-us-by-infobeautiful.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/25/stt-library-for-processing.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/25/revealed-the-capitalist-network-that-runs-the.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/24/fromkeetra-ive-been-thinking-of-you-for-a-while.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/24/searching-the-web-with-https.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/21/reas-com-blog-why-do-you-write-your-own-software.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/21/trigema-lanciert-oko-kollektion-change-trigema.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/20/coyote-walks-to-pony-he-says-pony-did-you-ever.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/20/gleichzeitig-sind-computer-nicht-nur.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/20/jet-fuel-via-xkcd-jet-fuel-i-give-him-the-good.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/19/dmesh-triangle-mesh-based-image-generator-by.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/14/left-brain-i-am-the-left-brain-i-am-a-scientist.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/14/the-joel-test-12-steps-to-better-code-by-joel.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/13/after-effects-resources-dna-base-pairs.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/13/motion-plus-design-is-a-project-to-create-a.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/13/r-i-p-dennis-macalistair-ritchie-also-thanx-for-all.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/12/the-iron-sky-comic-is-out-go-read-it-online-for.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/12/adobe-max-2011-photoshop-image-deblurring-sneak.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/12/happy-birthday-art-clokey-see-his-remarkable-work.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/11/peer-into-the-mysterious-heart-of-our-galaxys.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/11/suwappu-prototype-by-berglondon-woodland-creatures.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/10/capitalism-works-for-me-true-false-steve-lambert.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/10/the-original-illustrated-catalog-of-acme-products.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/10/der-staatstrojaner-in-3-1-2-minuten-by-alexander.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/09/tron-legacy-i-spent-a-half-year-writing-software.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/09/when-current-available-markdown-editors-are-almost.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/09/brightness-indicator-photocell-with-tweak.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/09/chaos-computer-club-analysiert-staatstrojaner.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/08/scripui-panel-mit-scrollbars-extend-java-script.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/08/element-3d.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/06/slavery-footprint-made-in-a-free-world.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/06/rest-in-peace-and-thanks-for-all-the-fish.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/05/your-picks-top-100-science-fiction-fantasy-books.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/05/the-sci-fi-geeks-guide-to-the-bookshelf.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/05/sand.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/05/xkcd-subliminal.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/03/pdxiii-xxxvii-pti-fabiantheblind-lean-back.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/10/03/cameron-moll-designer-speaker-author-html5.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/30/trigema-change.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/30/minimalism-worship-these-sweet-loops-were-made-with.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/30/gradientapp.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/30/red-giant-plastic-bullet.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/29/black-lodge-2600.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/29/bootstrap-from-twitter.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/29/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/29/less.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/28/rgsean-a-bee-on-the-borage-a-la-plastic-bullet.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/28/with-great-power-comes-a-shitload-of-work.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/26/c-syntax-graph.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/26/jason-decaires-taylor-uses-the-ocean-as-his.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/24/simon-collison-colly-the-celebrated-miscellany.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/23/makesolids-jsx-after-effects-javascript.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/23/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/23/trigemachange.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/23/can-neutrinos-move-faster-than-light-if-its.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/18/great-is-ok-but-amazing-would-be-great.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/18/sequencer-jsx-a-panel-4-after-effects.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/16/art-of-the-title-artofthetitle.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/15/nerdiversary-is-today-a-special-day.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/15/folder-splitter.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/15/pdxiii-schon-wenn-es-eine-alternative-gibt.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/15/chris-zwar-blog-archive-3d-in-ae-the-centrica.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/15/custom-lens-flares-see-it-here.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/14/reminds-me-of-the-joker-a-work-in-progress.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/13/its-a-video-game-in-a-box-using-a-teagueduino.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/09/unfolding.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/07/connected-nodes-illustrator-javascript-animated.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/07/connectednodes-jsx-the-illustrator-javascript.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/07/connected-nodes-illustrator-javascript.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/06/a-processing-sketch.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/06/connected-nodes-more-images-are-over-here.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/06/connected-nodes-processing.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/05/codecademy.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/03/fabianthefur-playing-with-blender.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/09/01/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/08/31/playing-around-with-form-2.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/08/28/.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/08/26/purity-first-wow.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/08/21/kittycat.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2011/08/17/fabianthetumblr.html</loc>
     </url>
     
 
@@ -107,6 +5095,20 @@
     
     <url>
         <loc>http://fabiantheblind.info/motiongraphics.html</loc>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://fabiantheblind.info/node_modules/grunt-jekyll/test/app/</loc>
     </url>
     
     

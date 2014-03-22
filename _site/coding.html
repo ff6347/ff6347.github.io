@@ -12,6 +12,7 @@
     try{Typekit.load();}catch(e){}
     </script>
     <!-- css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css"  type="text/css">
     <link rel="stylesheet" href="/assets/css/main.css" type="text/css" />
     <!-- <link rel="stylesheet" href="assets/css/syntax.css" type="text/css" /> -->
     <link rel="stylesheet" href="/assets/css/responsive.css" type="text/css" />
@@ -24,16 +25,46 @@
     <script type="text/javascript" src="/assets/js/main.js"></script>
     <script type="text/javascript" src="/assets/js/jquery.fittext.js"></script>
     <!-- Google Analytics -->
-    <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-30954421-1']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-    </script>
+
+<script type="text/javascript">
+function getBaseURL() {
+    var url = location.href;  // entire url including querystring - also: window.location.href;
+    var baseURL = url.substring(0, url.indexOf('/', 14));
+
+
+    if (baseURL.indexOf('http://localhost') != -1) {
+        // Base Url for localhost
+        var url = location.href;  // window.location.href;
+        var pathname = location.pathname;  // window.location.pathname;
+        var index1 = url.indexOf(pathname);
+        var index2 = url.indexOf("/", index1 + 1);
+        var baseLocalUrl = url.substr(0, index2);
+
+        return baseLocalUrl + "/";
+    }
+    else {
+        // Root Url for domain name
+        return baseURL + "/";
+    }
+
+}
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-49261589-1']);
+  _gaq.push(['_setDomainName', getBaseURL()]);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
 <link rel="" type="application/atom+xml" title="blog" href="/atom.xml" />
   </head>
   <body>
@@ -50,7 +81,7 @@
 		Take a look into the results of the workshop <a href="http://fabiantheblind.github.com/Typography-And-Automation/">"Typography &amp; Automation"</a> @ University of Applied Siences Potsdam ;-⟩.
 
 	</p>
-			<img src="https://raw.github.com/fabiantheblind/auto-typo-adbe-id/gh-pages/assets/images/teaser/a_auto-typo.png" alt=""> 
+			<img class="img-responsive"  src="https://raw.github.com/fabiantheblind/auto-typo-adbe-id/gh-pages/assets/images/teaser/a_auto-typo.png" alt="">
 <h3>AE</h3>
 <ul>
 <li><a href="http://fabiantheblind.github.com/AEMap">AEMap.jsx</a> creating maps in After Effects</li>
@@ -99,7 +130,7 @@
 <h3>C++</h3>
 <ul><li><a href="http://fabiantheblind.github.com/mpolauncher/">MPO Launcher</a> an InDesign CS4 Plugin for running a defined set of scripts</li></ul>
 
-	
+
 
 </section>
 

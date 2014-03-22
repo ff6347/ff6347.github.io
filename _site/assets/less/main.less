@@ -1,12 +1,12 @@
     /***********************
-    Main CSS based on twitter 
+    Main CSS based on twitter
     bootstrap build with .less
     by fabiantheblind
     Copyright © 2012
 
     ************************/
 
- @import "bootstrap.less";
+ // @import "bootstrap.less";
  @import "elements.less";
  @import "animate.less";
  // @import "fonts.less";
@@ -14,7 +14,7 @@
 
 
 // overwrite bs less variables
-@bodyBackground:        @white;
+@bodyBackground:        white;
 // @baseLineHeight:        1.5em;
 @baseFontSize:          1.2em;
 @smallLineHeight:        1.4em;
@@ -30,7 +30,7 @@
 @altFontFamily:         @serifFontFamily;
 
 @headingsFontFamily:    "calluna",Georgia, serif;
-@simpleShadowCol: 0px 1px 3px @grayDarker;
+@simpleShadowCol: 0px 1px 3px #666666;
 
 // mixins
 .letterPressShadow (@color) {
@@ -39,13 +39,13 @@
 
 .fancyBorder(@bordercolor: #e1e1e1){
     border-style:solid !important;
-    border-width:2px !important; 
+    border-width:2px !important;
     border-color: @bordercolor !important;
 }
 
 .noFancyBorder(@bordercolor: #e1e1e1){
     border-style:none !important;
-    border-width:0px !important; 
+    border-width:0px !important;
     border-color: @bordercolor !important;
 }
 
@@ -77,7 +77,15 @@ font-weight: 400;
 
 body {
     .serifregular;
-    font-size: @baseFontSize;
+    // font-size: @baseFontSize;
+}
+
+p{
+  font-size: 1.5em;
+}
+p#bio{
+  font-size: 1.6em;
+
 }
 
 img{
@@ -196,7 +204,7 @@ a.home-link{
 /**
  * This is for some jquery goodness to add an inset shadow onto all images.
  * Lets see how this works.
- * 
+ *
  */
 .inset-shadow{
   -moz-box-shadow: 1px 1px 5px grey inset;
@@ -271,8 +279,19 @@ img.gravatar{
   display:block;
   margin:0 auto;
 }
+
+
+
+/**
+ * BLOG
+ */
+
+
+section#blog{
+  padding-top: 1.5em
+}
 /*****************************************************************************
-/* 
+/*
 /* MEDIA QUERIES
 **********************************************************/
 
@@ -306,7 +325,7 @@ img.gravatar{
 
 /* Landscape phone to portrait tablet*/
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
 
 p{
   .smalltext;
@@ -337,7 +356,7 @@ p{
 }
 /* Large desktop*/
 @media (min-width: 980px) and (max-width: 1199px) {
-    
+
 
 }
 @media (min-width: 1200px) {  }

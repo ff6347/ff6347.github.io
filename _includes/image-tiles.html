@@ -1,4 +1,4 @@
-<!-- 
+<!--
 this is in image-tiles.html
 {% comment %}
 needs this:
@@ -44,9 +44,9 @@ needs this:
   {% endif %}
 {% endif %}
 {% if altattrlist != null %}
-  <img src="{{ path }}{{ item }}" alt="{{ altattrlist[forloop.index0] }}">
+  <img class="img-responsive"  src="{{ path }}{{ item }}" alt="{{ altattrlist[forloop.index0] }}">
   {% else %}
-  <img src="{{ path }}{{ item }}" alt="default">
+  <img class="img-responsive"  src="{{ path }}{{ item }}" alt="default">
 {% endif %}
 {% if addlink != null %}
   {% if addlink == true %}
