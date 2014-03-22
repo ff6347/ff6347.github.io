@@ -8,16 +8,12 @@ title: fabiantheblind's blog
 <div class="span10 offset1">
   <div class="hero-unit animated fadeIn">
     <h1>{{ site.posts[0].title }}</h1>
-    <div class="row">
-      <div class="span8 offset2">
+
       <p>{{site.posts[0].date | date_to_string }}</p>
         <p>
         {{ site.posts[0].content }}<br />
         <a href="{{ site.posts[0].url }}">link</a>
         </p>
-      </div>
-    </div>
-
   </div>
 <hr>
 </div>
