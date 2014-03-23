@@ -4,13 +4,48 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2014-03-22T13:56:05+01:00</updated>
+ <updated>2014-03-23T11:11:42+01:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
    <email>hello@fabiantheblind.info</email>
  </author>
 
+ 
+ <entry>
+   <title>Moebius Ruppert Granate</title>
+   <link href="http://fabiantheblind.github.io//2014/03/24/granate-m-r.html"/>
+   <updated>2014-03-24T00:00:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/24/granate-m-r</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://www.moebius-ruppert.com/spitzer/bilder/06040000.jpg&quot; alt=&quot;grenade&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Beautiful &lt;a href=&quot;http://www.moebius-ruppert.com/spitzer/sp_messing.html&quot;&gt;sharpener&lt;/a&gt; by  Möbius + Ruppert&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>what we are reading</title>
+   <link href="http://fabiantheblind.github.io//2014/03/23/what_we_are_reading.html"/>
+   <updated>2014-03-23T10:17:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/23/what_we_are_reading</id>
+   <content type="html">&lt;h2&gt;what we are reading&lt;/h2&gt;
+
+&lt;p&gt;&amp;gt; haha  via metapicture
+via Pinboard http://ift.tt/1gMlu88&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>nytlabs/streamtools · GitHub</title>
+   <link href="http://fabiantheblind.github.io//2014/03/23/nytlabsstreamtools___github.html"/>
+   <updated>2014-03-23T00:58:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/23/nytlabsstreamtools___github</id>
+   <content type="html">&lt;h2&gt;nytlabs/streamtools · GitHub&lt;/h2&gt;
+
+&lt;p&gt;fabiantheblind starred nytlabs/streamtools
+via Pinboard http://ift.tt/1hBjtyw&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>migrating from tumblr to jekyll</title>
@@ -27,6 +62,66 @@
 
 
 &lt;p&gt;We will see how this turns out.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>fabiantheblind/AEMap-Utilities.jsx · GitHub</title>
+   <link href="http://fabiantheblind.github.io//2014/03/22/fabiantheblindaemap-utilities.jsx___github.html"/>
+   <updated>2014-03-22T20:40:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/22/fabiantheblindaemap-utilities.jsx___github</id>
+   <content type="html">&lt;h2&gt;fabiantheblind/AEMap-Utilities.jsx · GitHub&lt;/h2&gt;
+
+&lt;p&gt;fabiantheblind/AEMap-Utilities.jsx is a new repository by fabiantheblind. AEMap-Utilities.jsx util scripts for AEMap via GitHub
+via Pinboard http://ift.tt/1oLyO3x&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>fabiantheblind/extendscript.geo · GitHub</title>
+   <link href="http://fabiantheblind.github.io//2014/03/22/fabiantheblindextendscript.geo___github.html"/>
+   <updated>2014-03-22T19:06:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/22/fabiantheblindextendscript.geo___github</id>
+   <content type="html">&lt;h2&gt;fabiantheblind/extendscript.geo · GitHub&lt;/h2&gt;
+
+&lt;p&gt;fabiantheblind/extendscript.geo is a new repository by fabiantheblind. A collection of functions for calculating geo locations. As used in &lt;a href=&quot;http://ift.tt/X15nMH&quot;&gt;AEMap.jsx&lt;/a&gt; and &lt;a href=&quot;http://ift.tt/UGDs4Y&quot;&gt;Locations.jsx&lt;/a&gt; via GitHub
+via Pinboard http://ift.tt/1rd8UHX&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>fabiantheblind.github.io</title>
+   <link href="http://fabiantheblind.github.io//2014/03/22/fabiantheblind.github.io.html"/>
+   <updated>2014-03-22T15:11:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/22/fabiantheblind.github.io</id>
+   <content type="html">&lt;h2&gt;fabiantheblind.github.io&lt;/h2&gt;
+
+&lt;p&gt;Testing my blogging.If a  pinboard bookmark gets added ifttt.com creates a file in my dropbox. Then heel takes over. Adds the date, makes it a .md file and moves it to my drafts folder in the repo
+via Pinboard http://ift.tt/OKs4Ww&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Beetle (1Pc)</title>
+   <link href="http://fabiantheblind.github.io//2014/03/22/beetle__1pc_.html"/>
+   <updated>2014-03-22T15:07:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/22/beetle__1pc_</id>
+   <content type="html">&lt;h2&gt;Beetle (1Pc)&lt;/h2&gt;
+
+&lt;p&gt;The Beetle board. Based on Arduino Leonardo
+via Pinboard http://ift.tt/1f2Ij7Y&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>dokluch/Sublime-ExtendScript · GitHub</title>
+   <link href="http://fabiantheblind.github.io//2014/03/22/dokluchsublime-extendscript___github.html"/>
+   <updated>2014-03-22T14:35:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/22/dokluchsublime-extendscript___github</id>
+   <content type="html">&lt;h2&gt;dokluch/Sublime-ExtendScript · GitHub&lt;/h2&gt;
+
+&lt;p&gt;fabiantheblind starred dokluch/Sublime-ExtendScript
+via Pinboard http://ift.tt/1gm2Bi2&lt;/p&gt;
 </content>
  </entry>
  

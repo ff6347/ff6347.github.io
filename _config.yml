@@ -1,6 +1,6 @@
 markdown: rdiscount
 pygments: true
-exclude: [ignore,user.fabiantheblind.espressostorage,Project.espressostorage]
+exclude: ignore,user.fabiantheblind.espressostorage,Project.espressostorage
 menuitems:
 - Home
 - Motion Graphics
