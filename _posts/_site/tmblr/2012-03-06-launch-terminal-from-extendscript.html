@@ -1,0 +1,28 @@
+<p>This litte snippet is quite powerfull. It Creates a .term (Mac OS only) file and excutes it. So now i can’t write scripts that do all kinds off stuff… The most important thing is the key “ExecutionString” and his string.</p>
+
+<pre><code>createTermFileAndExecute();
+function createTermFileAndExecute(){
+var path = Folder.selectDialog(&quot;Select a output folder...&quot;);
+
+var termfile = new File(path.fsName + &quot;/Testfile&quot; + &quot;.term&quot;);
+termfile.open(&quot;w&quot;);
+termfile.writeln(&quot;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot;?&gt;\n&quot;+
+&quot;&lt;!DOCTYPE plist PUBLIC \&quot;-//Apple Computer//DTD PLIST 1.0//EN\&quot;&quot;+
+&quot;\&quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd\&quot;&gt;\n&quot;+
+&quot;&lt;plist version=\&quot;1.0\&quot;&gt;\n&quot;+
+&quot;&lt;dict&gt;\n&quot;+
+&quot;&lt;key&gt;WindowSettings&lt;/key&gt;\n&quot;+
+&quot;&lt;array&gt;\n&quot;+
+&quot; &lt;dict&gt;\n&quot;+
+&quot;&lt;key&gt;CustomTitle&lt;/key&gt;\n&quot;+
+&quot;&lt;string&gt;My first termfile&lt;/string&gt;\n&quot;+
+&quot;&lt;key&gt;ExecutionString&lt;/key&gt;\n&quot;+
+&quot;&lt;string&gt;cd ~/Desktop; open .&lt;/string&gt;\n&quot;+
+&quot;&lt;/dict&gt;\n&quot;+
+&quot;&lt;/array&gt;\n&quot;+
+&quot;&lt;/dict&gt;\n&quot;+
+&quot;&lt;/plist&gt;\n&quot;);
+
+termfile.close();
+termfile.execute();
+}</code></pre>

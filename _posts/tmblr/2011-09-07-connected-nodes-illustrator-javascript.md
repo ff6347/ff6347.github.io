@@ -8,6 +8,7 @@ tags:
 tumblr_url: http://fabiantheblind.tumblr.com/post/9913316524/connected-nodes-illustrator-javascript
 ---
 
+```js
 // connectedNodes.jsx
 // see the video to this script over at vimeo
 // http://vimeo.com/28665864 (lowres)
@@ -147,3 +148,5 @@ function calcDistance  ( p, q){
   var dist = Math.sqrt( dxdx + dy*dy ); //distance using Pythagoras theorem
   return dist;
 }
+
+```

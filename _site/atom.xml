@@ -4,13 +4,50 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2014-03-23T13:28:13+01:00</updated>
+ <updated>2014-03-25T13:26:25+01:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
    <email>hello@fabiantheblind.info</email>
  </author>
 
+ 
+ <entry>
+   <title>Stars · GitHub</title>
+   <link href="http://fabiantheblind.github.io//2014/03/25/github-stars.html"/>
+   <updated>2014-03-25T10:50:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/25/github-stars</id>
+   <content type="html">&lt;h2&gt;oodavid/iso-3166-2 · GitHub&lt;/h2&gt;
+
+&lt;p&gt;fabiantheblind starred oodavid/iso-3166-2
+&lt;a href=&quot;http://ift.tt/1jAzhCe&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;polevaultweb/DeLorean-Ipsum · GitHub&lt;/h2&gt;
+
+&lt;p&gt;fabiantheblind starred polevaultweb/DeLorean-Ipsum
+&lt;a href=&quot;http://ift.tt/1h4B8An&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;vladikoff/grunt-devtools · GitHub&lt;/h2&gt;
+
+&lt;p&gt;fabiantheblind starred vladikoff/grunt-devtools
+&lt;a href=&quot;http://ift.tt/XOb96B&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;xkcd: Map Projections&lt;/h2&gt;
+
+&lt;p&gt;gall-peters (I hate you! whahahahahahah)
+&lt;a href=&quot;http://xkcd.com/977/&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;yemount/IconicHistory · GitHub&lt;/h2&gt;
+
+&lt;p&gt;fabiantheblind starred yemount/IconicHistory
+&lt;a href=&quot;http://ift.tt/1oiNJC5&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;zonak/grunt-ftp-deploy · GitHub&lt;/h2&gt;
+
+&lt;p&gt;fabiantheblind starred zonak/grunt-ftp-deploy
+&lt;a href=&quot;http://ift.tt/12OQAGS&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Moebius Ruppert Granate</title>
@@ -24,7 +61,22 @@
  </entry>
  
  <entry>
-   <title>Red Giant - Red Room Blog  Supernova</title>
+   <title>D4 reusable Charts in D3</title>
+   <link href="http://fabiantheblind.github.io//2014/03/23/D4.html"/>
+   <updated>2014-03-23T12:00:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/23/D4</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://visible.io/index.html&quot;&gt;D4&lt;/a&gt; is a friendly DSL charting library for &lt;a href=&quot;http://d3js.org&quot;&gt;D3&lt;/a&gt;. The goal of D4 is to allow developers to quickly build data-driven charts with little knowledge of the internals of D3.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/heavysixer/d4&quot;&gt;heavysixer/d4 · GitHub Repo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/gouravtiwari/d4-rails&quot;&gt;Integrate d4 DSL with your rails application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Red Giant - Red Room Blog Supernova</title>
    <link href="http://fabiantheblind.github.io//2014/03/23/red_giant_-_red_room_blog___supernova_behind_the_scenes_of_red_giant_universe.html"/>
    <updated>2014-03-23T11:56:00+01:00</updated>
    <id>http://fabiantheblind.github.io//2014/03/23/red_giant_-_red_room_blog___supernova_behind_the_scenes_of_red_giant_universe</id>
@@ -34,6 +86,26 @@
 
 &lt;p&gt;This is how plugin development should be for AE. Would love to get my hands on this. &lt;br/&gt;
 via &lt;a href=&quot;http://ift.tt/1dQPMKb&quot;&gt;Pinboard&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Animation Paper</title>
+   <link href="http://fabiantheblind.github.io//2014/03/23/animation_paper.html"/>
+   <updated>2014-03-23T11:49:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/23/animation_paper</id>
+   <content type="html">&lt;h2&gt;Animation Paper&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ift.tt/ONhZIx&quot; alt=&quot;&quot; /&gt;&lt;br/&gt;
+&lt;img src=&quot;http://ift.tt/ONhZIz&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Let’s revive hand drawn animation! Let’s get the fun and ease back into 2D!&lt;br/&gt;
+Tomorrow, this is the way to do &amp;quot;traditional&amp;quot; animation&lt;br/&gt;
+Animation Paper is a specialized software application in development. Designed for the experienced and professional animator. Fast and powerful - yet simple, intuitive and effortless to work with. Work rough, quickly test ideas, then clean it up. Animation Paper will be a ton of fun! Enabling new and life long students of animation to train, learn and master the art of animation.&lt;br/&gt;
+&lt;a href=&quot;http://animationpaper.com&quot;&gt;homepage&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Looks pretty interesting. Even if I&#39;m not that much of an illustrator, it could be great for sketching quick ideas.
+via &lt;a href=&quot;http://ift.tt/1de3XuN&quot;&gt;Pinboard &lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1379,30 +1451,6 @@ Operator overloading in JavaScript is a controversial issue. Actually, this dang
    <id>http://fabiantheblind.github.io//2014/03/12/franzheidl-alfred-workflows-github</id>
    <content type="html">&lt;p&gt;March 05, 2014 at 12:46PM
 fabiantheblind starred franzheidl/alfred-workflowshttp://ift.tt/1hKaoFl&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>JSON Generator – tool for generating random JSON data</title>
-   <link href="http://fabiantheblind.github.io//2014/03/12/json-generator-tool-for-generating-random-json-data.html"/>
-   <updated>2014-03-12T11:33:50+01:00</updated>
-   <id>http://fabiantheblind.github.io//2014/03/12/json-generator-tool-for-generating-random-json-data</id>
-   <content type="html">&lt;p&gt;March 05, 2014 at 12:44PM
-We’ve all faced the problem of lack of information in our app. All interfaces seem lifeless and empty. Debugging with no data is also not simple.&lt;/p&gt;
-
-&lt;p&gt;I think that each of us has at least once in their lives created a bunch of files with JSON data, but they were just one object propagated without unique fields. JSON Generator was created in order to help with this. It provides an opportunity generate any data and in any quantity. Edit template, click “Generate” and you’re done.&lt;/p&gt;
-
-&lt;p&gt;Usage&lt;/p&gt;
-
-&lt;p&gt;JSON Generator has a convenient syntax. You can specify JavaScript object for template that you see in the left box. It will be cloned in infinite depth. Fields may have any name and value, but it must be valid JavaScript. Values, which are strings, may contain one or more template tags. When you click “Generate” the data source object to be copied several times and the place of tags will be inserted random values.&lt;/p&gt;
-
-&lt;p&gt;You can copy the generated JSON to clipboard by clicking “Copy to clipboard”. If you click “Upload”, JSON will be stored on the server and you can download generated file by clicking “Download” button or access it via ajax-request by URL that will be copied to clipboard after clicking “Copy URL” button. Yes, JSON Generator can JSONP :) Generated files are stored 30 days and their size does not exceed 500 kB. Size appears at the top right of the field with the generated data. If file size text is red - file is too large for saving on server, but you can copy it to your clipboard and save locally to *.json file.&lt;/p&gt;
-
-&lt;p&gt;You can choose indentation for the generated JSON from the drop-down list. Also when you copy the link to uploaded code there is an “indent” param in URL. It can has values of 2, 3 and 4. If param is not specified code will be compact.&lt;/p&gt;
-
-&lt;p&gt;JSON Generator remembers your last template in localStorage. If you want to reset it, click “Reset” button to reset template and UI.&lt;/p&gt;
-
-&lt;p&gt;If you have found a bug, you have a suggestion for improving the application or just want to thank me, click on “Feedback”.http://ift.tt/15kcSCY&lt;/p&gt;
 </content>
  </entry>
  
@@ -8103,21 +8151,6 @@ Kung Fu&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>git .gitignore?</title>
-   <link href="http://fabiantheblind.github.io//2012/09/18/git-gitignore.html"/>
-   <updated>2012-09-18T13:38:02+02:00</updated>
-   <id>http://fabiantheblind.github.io//2012/09/18/git-gitignore</id>
-   <content type="html">&lt;p&gt;I didn’t know how to tell git to except a file from the ignore. Like your code creates a bunch of .txt files and you don’t want to commit them and clutter your repo. But you need a certain .txt file to be included into that repo.
-Add a .gitignore file that looks like this:&lt;/p&gt;
-
-&lt;p&gt;*.txt
-!LICENSE.txt&lt;/p&gt;
-
-&lt;p&gt;Important is to call the !LICENSE.txt after the *.txt call. Or the .gitignore won’t recognize the excepted file.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>@PDXIII troll!</title>
    <link href="http://fabiantheblind.github.io//2012/09/18/pdxiii-troll.html"/>
    <updated>2012-09-18T12:05:21+02:00</updated>
@@ -9504,15 +9537,6 @@ MaKey MaKey is an invention kit for the 21st century. Turn everyday objects into
   bundled into an e-book you can send to your Kindle, iPad, or iPhone.&lt;/p&gt;
 
 &lt;p&gt;i love the future&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>An Open Letter to Jay Leno About Stealing My Video and Then Getting It Removed From YouTube | Splitsider</title>
-   <link href="http://fabiantheblind.github.io//2012/05/29/an-open-letter-to-jay-leno-about-stealing-my-video-and.html"/>
-   <updated>2012-05-29T10:00:16+02:00</updated>
-   <id>http://fabiantheblind.github.io//2012/05/29/an-open-letter-to-jay-leno-about-stealing-my-video-and</id>
-   <content type="html">&lt;p&gt;An Open Letter to Jay Leno About Stealing My Video and Then Getting It Removed From YouTube | Splitsider/&lt;em&gt; &lt;/em&gt;/&lt;/p&gt;
 </content>
  </entry>
  
@@ -11651,41 +11675,6 @@ Have fun and make games, or hack your homework using Ruby! Just tell your parent
  </entry>
  
  <entry>
-   <title>Bookmarks von Cyberduck für Transmit exportieren</title>
-   <link href="http://fabiantheblind.github.io//2011/12/22/bookmarks-von-cyberduck-fur-transmit-exportieren.html"/>
-   <updated>2011-12-22T11:20:12+01:00</updated>
-   <id>http://fabiantheblind.github.io//2011/12/22/bookmarks-von-cyberduck-fur-transmit-exportieren</id>
-   <content type="html">&lt;p&gt;ischeriad:&lt;/p&gt;
-
-&lt;p&gt;Transmit (4.1) hat zwar eine Option Favorites-&gt;Import from-&gt;Cyberduck…, erkennt aber nicht die von Cyberduck (4.1) gespeicherten Bookmarks.
-Cyberduck speichert seine Bookmarks in ~/Library/Application Support/Cyberduck/Bookmarks/ als *.duck. Das sind einfache XML-Dateien, die das Lesezeichen in einem &lt;dict&gt;&lt;/dict&gt; enthalten.
-Transmit erwartet eine XML-Datei, deren Name auf .plist endet, in der jedoch die einzelnen &lt;dict&gt;s zusätzlich in einem &lt;array&gt;&lt;/array&gt; zusammengefasst sind.
-Um nun aus allen Cyberduck-Bookmarks eine .plist für Transmit zu machen, habe ich folgendes bash-Skript gebastelt.&lt;/p&gt;
-
-&lt;h1&gt;!/bin/bash&lt;/h1&gt;
-
-&lt;p&gt;echo &#39;&#39;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&amp;lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
-&lt;plist version=&quot;1.0&quot;&gt;
-&lt;array&gt;&#39;&#39;&lt;/p&gt;
-
-&lt;p&gt;shopt -s nullglob
-DIRECTORY=~/Library/Application\ Support/Cyberduck/Bookmarks/
-cd &quot;$DIRECTORY&quot;
-for file in *
-    do sed -ne &#39;&#39;/dict/,/\/dict/p&#39;&#39; &quot;$file&quot;
-done&lt;/p&gt;
-
-&lt;p&gt;echo &#39;&#39;&lt;/array&gt;
-&lt;/plist&gt;&#39;&#39;
-Dies kann nun z. B. so verwendet werden:
-$ ./cyberduck2transmit.sh &gt; cyberduck_bookmarks.plist
-und dann in Transmit importiert werden.
-Alle Angaben ohne Gewähr :).&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Vancouver Gigapixel Project » Gigapixel Panorama Photography</title>
    <link href="http://fabiantheblind.github.io//2011/12/21/vancouver-gigapixel-project-gigapixel-panorama.html"/>
    <updated>2011-12-21T14:05:05+01:00</updated>
@@ -12132,7 +12121,7 @@ UP digital Bureau and Unteleported tech agency proudly present the world’s fir
    <link href="http://fabiantheblind.github.io//2011/11/03/shape-type-the-letter-shaping-game.html"/>
    <updated>2011-11-03T13:07:19+01:00</updated>
    <id>http://fabiantheblind.github.io//2011/11/03/shape-type-the-letter-shaping-game</id>
-   <content type="html">&lt;p&gt;Shape Type, the letter shaping gameFor all u f**t faces out there!&lt;/p&gt;
+   <content type="html">&lt;p&gt;Shape Type, the letter shaping game For all u out there!&lt;/p&gt;
 </content>
  </entry>
  
@@ -13030,11 +13019,11 @@ Nerd alert: Bootstrap is built with Less and was designed to work out of the gat
  </entry>
  
  <entry>
-   <title>{Less}</title>
+   <title>Less</title>
    <link href="http://fabiantheblind.github.io//2011/09/29/less.html"/>
-   <updated>2011-09-29T08:52:00+02:00</updated>
+   <updated>2011-09-29T00:00:00+02:00</updated>
    <id>http://fabiantheblind.github.io//2011/09/29/less</id>
-   <content type="html">&lt;p&gt;extends CSS with variables, nested rules, operators and more. If you’re still building websites without it, you’re an idiot. This app makes it dead simple to use {Less} by automatically compiling *.less files into standard CSS.&lt;/p&gt;
+   <content type="html">&lt;p&gt;extends CSS with variables, nested rules, operators and more. If you’re still building websites without it, you’re an idiot. This app makes it dead simple to use {Less} by automatically compiling .less files into standard CSS.&lt;/p&gt;
 </content>
  </entry>
  
@@ -13556,14 +13545,14 @@ function checkEdges(n,w,h){
    <link href="http://fabiantheblind.github.io//2011/09/07/connected-nodes-illustrator-javascript.html"/>
    <updated>2011-09-07T11:43:55+02:00</updated>
    <id>http://fabiantheblind.github.io//2011/09/07/connected-nodes-illustrator-javascript</id>
-   <content type="html">&lt;p&gt;// connectedNodes.jsx
+   <content type="html">&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;// connectedNodes.jsx
 // see the video to this script over at vimeo
 // http://vimeo.com/28665864 (lowres)
 // the nodes get connected by their distance to each other
 // if a node connects the range it can connect with other nodes increases
 // color and opacity also change according to the connections
 //
-// see also the processing code --&gt; http://fabiantheblind.tumblr.com/post/9878896421/connected-nodes-processing
+// see also the processing code --&amp;gt; http://fabiantheblind.tumblr.com/post/9878896421/connected-nodes-processing
 //
 // Copyright (C) 2011 Fabian &quot;fabiantheblind&quot; Morón Zirfas
 // http://www.the-moron.net
@@ -13577,7 +13566,7 @@ function checkEdges(n,w,h){
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
 // You should have received a copy of the GNU General Public License
-// along with this program.  If not, see
+// along with this program.  If not, see 
 // illustrator
 main();
 function main(){
@@ -13585,7 +13574,7 @@ var DEBUG = true;
 //the more nodes the more it will bee connected
 // number of nodes. Between 1500 and 2500 is nice
 // or you sice up the documentsize
-var num = 1500;
+var num = 1500; 
 var distance = 17; // the startin distance to reach for others
 // this is the factor that increments the &quot;reach / distance&quot;
 // a node can connect with others
@@ -13609,10 +13598,10 @@ var strkColor = new RGBColor;
 strkColor.red = 128;
 strkColor.green = 128;
 strkColor.blue = 128;
-  // this initalizes the nodes  &lt;br/&gt;
+  // this initalizes the nodes    
     // loop thru num o nodes
     for(var i = 0; i &amp;lt; num; i++){
-      // make a random points
+      // make a random points 
       var x = Math.random()width;
       var y = Math.random()height;
       var pos = [x,y];// position into PVector
@@ -13643,7 +13632,7 @@ var n;// keep it clear
       var d = calcDistance(n,nodes[k]);// clac distance
       // now if the node already has some connections
       // make the diastance he can check higher
-      if((d &amp;lt; distance +consincrFac ) &amp;amp;&amp;amp;(d &gt; 1)){
+      if((d &amp;lt; distance +consincrFac ) &amp;amp;&amp;amp;(d &amp;gt; 1)){
           // create the lines
        var myLine = doc.pathItems.add();
         myLine.stroked = true;
@@ -13661,7 +13650,7 @@ var n;// keep it clear
                 o++;
                 f++; // or decrement. as you like (this makes it lighter)
                 // constrain the opacity
-                if(o &gt;= 90){
+                if(o &amp;gt;= 90){
                     o = 90;
                     }// close opacity constrain
       }// close if
@@ -13669,7 +13658,7 @@ var n;// keep it clear
     // create the node / ellipse
     var ell = doc.pathItems.ellipse(n[1] + diam/2,n[0] -diam/2, diam, diam, true,true );
     if(f &amp;lt;=0){f=0;}// constrain f (fillcolor)
-    if(f &gt;=255){f=255;}// constrain f (fillcolor)
+    if(f &amp;gt;=255){f=255;}// constrain f (fillcolor)
     fillColor.red = f;
     fillColor.green = f;
     fillColor.blue = f;
@@ -13685,16 +13674,17 @@ var n;// keep it clear
     if(p.tags[0].name.match(&quot;ellipse&quot;)){
         p.zOrder(ZOrderMethod.BRINGTOFRONT);
         }
-    } // end L loop  &lt;br/&gt;
+    } // end L loop    
 }// close main
 // found on the web
 // http://www.mathopenref.com/coorddist.html
-function calcDistance  ( p, q){
-  var dx   = p[0] - q[0];         //horizontal difference
-  var dy   = p[1] - q[1];         //vertical difference
+function calcDistance  ( p, q){ 
+  var dx   = p[0] - q[0];         //horizontal difference 
+  var dy   = p[1] - q[1];         //vertical difference 
   var dist = Math.sqrt( dxdx + dy*dy ); //distance using Pythagoras theorem
   return dist;
-}&lt;/p&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
 </content>
  </entry>
  

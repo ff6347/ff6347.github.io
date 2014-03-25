@@ -1,0 +1,19 @@
+<p>if you want to store something e.g. a value or a string you can define a targetengine with a specific name of you choice this engine will exist until you close InDesign use this only if you know for shure what you are doing</p>
+
+<p>for example run thisscript in InDesign:</p>
+
+<h1 id="targetengine_session01">targetengine “session01”</h1>
+
+<p>var myValue = 0; alert(myValue); myValue++;</p>
+
+<p>than this one;</p>
+
+<h1 id="targetengine_session01_2">targetengine “session01”</h1>
+
+<p>alert(myValue);</p>
+
+<p>InDesign will alert “0” at first as declared the second script will alert “1”</p>
+
+<p>because “myValue” was stored by the targetengine “session1” and got incremented at the end of script one</p>
+
+<p>with now targetengine declared InDesign will create at launch his own engine and destroy that after the script execution this is “garbage collection”</p>
