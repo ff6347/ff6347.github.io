@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Supernova: Behind the Scenes of Red Giant Universe
+title: Supernova Behind the Scenes of Red Giant Universe
 date: March 23, 2014 at 12:16PM
 tags: IFTTT, Twitter
 ---

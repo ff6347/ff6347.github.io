@@ -4,7 +4,7 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2014-03-25T17:22:24+01:00</updated>
+ <updated>2014-03-25T17:23:20+01:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
@@ -159,6 +159,24 @@ Add a .gitignore file that looks like this:&lt;/p&gt;
  </entry>
  
  <entry>
+   <title>Supernova Behind the Scenes of Red Giant Universe</title>
+   <link href="http://fabiantheblind.github.io//2014/03/23/supernova_behind_the_scenes_of_red_giant_universe_on_vimeo.html"/>
+   <updated>2014-03-23T12:16:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/23/supernova_behind_the_scenes_of_red_giant_universe_on_vimeo</id>
+   <content type="html">&lt;h2&gt;Supernova: Behind the Scenes of Red Giant Universe&lt;/h2&gt;
+
+&lt;iframe src=&quot;//player.vimeo.com/video/88253005&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt; &lt;p&gt;&lt;a href=&quot;http://vimeo.com/88253005&quot;&gt;Supernova: Behind the Scenes of Red Giant Universe&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/redgiant&quot;&gt;Red Giant&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Red Giant Universe is cool, but the real news here is Supernova — what a great tool-building tool. (via @prolost)&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;via &lt;a href=&quot;http://ift.tt/1pocmMg&quot;&gt;Pinboard&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>D4 reusable Charts in D3</title>
    <link href="http://fabiantheblind.github.io//2014/03/23/D4.html"/>
    <updated>2014-03-23T12:00:00+01:00</updated>
@@ -228,24 +246,6 @@ via Pinboard http://ift.tt/1gMlu88&lt;/p&gt;
 
 &lt;p&gt;fabiantheblind starred nytlabs/streamtools
 via Pinboard http://ift.tt/1hBjtyw&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Supernova_behind_the_scenes_of_red_giant_universe_on_vimeo</title>
-   <link href="http://fabiantheblind.github.io//2014/03/23/supernova_behind_the_scenes_of_red_giant_universe_on_vimeo.html"/>
-   <updated>2014-03-23T00:00:00+01:00</updated>
-   <id>http://fabiantheblind.github.io//2014/03/23/supernova_behind_the_scenes_of_red_giant_universe_on_vimeo</id>
-   <content type="html">&lt;h2&gt;Supernova: Behind the Scenes of Red Giant Universe&lt;/h2&gt;
-
-&lt;iframe src=&quot;//player.vimeo.com/video/88253005&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-
-&lt;p&gt; &lt;p&gt;&lt;a href=&quot;http://vimeo.com/88253005&quot;&gt;Supernova: Behind the Scenes of Red Giant Universe&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/redgiant&quot;&gt;Red Giant&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;Red Giant Universe is cool, but the real news here is Supernova — what a great tool-building tool. (via @prolost)&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;via &lt;a href=&quot;http://ift.tt/1pocmMg&quot;&gt;Pinboard&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
