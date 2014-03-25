@@ -4,7 +4,7 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2014-03-25T13:26:25+01:00</updated>
+ <updated>2014-03-25T13:52:33+01:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
@@ -32,11 +32,6 @@
 &lt;p&gt;fabiantheblind starred vladikoff/grunt-devtools
 &lt;a href=&quot;http://ift.tt/XOb96B&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2&gt;xkcd: Map Projections&lt;/h2&gt;
-
-&lt;p&gt;gall-peters (I hate you! whahahahahahah)
-&lt;a href=&quot;http://xkcd.com/977/&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
-
 &lt;h2&gt;yemount/IconicHistory · GitHub&lt;/h2&gt;
 
 &lt;p&gt;fabiantheblind starred yemount/IconicHistory
@@ -46,6 +41,20 @@
 
 &lt;p&gt;fabiantheblind starred zonak/grunt-ftp-deploy
 &lt;a href=&quot;http://ift.tt/12OQAGS&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>XKCD • Projections</title>
+   <link href="http://fabiantheblind.github.io//2014/03/25/xkcd-projections.html"/>
+   <updated>2014-03-25T00:00:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/25/xkcd-projections</id>
+   <content type="html">&lt;h2&gt;xkcd: Map Projections&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://imgs.xkcd.com/comics/map_projections.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;gall-peters (I hate you! whahahahahahah)
+&lt;a href=&quot;http://xkcd.com/977/&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  

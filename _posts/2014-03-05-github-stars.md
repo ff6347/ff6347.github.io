@@ -16,10 +16,6 @@ fabiantheblind starred polevaultweb/DeLorean-Ipsum
 fabiantheblind starred vladikoff/grunt-devtools
 [link to source](http://ift.tt/XOb96B) 
 
-##xkcd: Map Projections
-gall-peters (I hate you! whahahahahahah)
-[link to source](http://xkcd.com/977/) 
-
 ##yemount/IconicHistory · GitHub
 fabiantheblind starred yemount/IconicHistory
 [link to source](http://ift.tt/1oiNJC5) 
