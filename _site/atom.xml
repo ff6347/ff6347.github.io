@@ -4,7 +4,7 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2014-03-25T14:20:01+01:00</updated>
+ <updated>2014-03-25T17:22:24+01:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
@@ -41,6 +41,59 @@
 
 &lt;p&gt;fabiantheblind starred zonak/grunt-ftp-deploy
 &lt;a href=&quot;http://ift.tt/12OQAGS&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;nvkelso/natural-earth-vector · GitHub&lt;/h2&gt;
+
+&lt;p&gt;fabiantheblind starred nvkelso/natural-earth-vector
+&lt;a href=&quot;http://ift.tt/1hBFCME&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;shiffman/Rekognition-for-Processing · GitHub&lt;/h2&gt;
+
+&lt;p&gt;fabiantheblind starred shiffman/Rekognition-for-Processing
+&lt;a href=&quot;http://ift.tt/1jspNsK&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;gouravtiwari/d4-rails · GitHub&lt;/h2&gt;
+
+&lt;p&gt;fabiantheblind starred gouravtiwari/d4-rails
+via &lt;a href=&quot;http://ift.tt/ONqKlR&quot;&gt;Pinboard&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;tumblr/tumblr.js · GitHub&lt;/h2&gt;
+
+&lt;p&gt;fabiantheblind starred tumblr/tumblr.js
+&lt;a href=&quot;http://ift.tt/1emUZHS&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;tumblr/jumblr · GitHub&lt;/h2&gt;
+
+&lt;p&gt;fabiantheblind starred tumblr/jumblr
+&lt;a href=&quot;http://ift.tt/1hcsVGE&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;nvkelso/natural-earth-vector · GitHub&lt;/h2&gt;
+
+&lt;p&gt;fabiantheblind starred nvkelso/natural-earth-vector
+&lt;a href=&quot;http://ift.tt/1hBFCME&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;facebook/watchman · GitHub&lt;/h2&gt;
+
+&lt;p&gt;fabiantheblind starred facebook/watchman
+&lt;a href=&quot;http://ift.tt/178A6iX&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Iconic History</title>
+   <link href="http://fabiantheblind.github.io//2014/03/25/iconic_history.html"/>
+   <updated>2014-03-25T10:11:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/25/iconic_history</id>
+   <content type="html">&lt;h2&gt;Iconic History&lt;/h2&gt;
+
+&lt;p&gt;Iconic history is a Chrome extension that visualizes your browser history as a favicon stack. It creates a favicon for each url visited, and compiles all icons into a huge sequence based on access time.&lt;/p&gt;
+
+&lt;iframe src=&quot;//player.vimeo.com/video/89219632&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt; &lt;p&gt;&lt;a href=&quot;http://vimeo.com/89219632&quot;&gt;Iconic History - a browser history visualization&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/user16477340&quot;&gt;Shan&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ift.tt/1lKDp4e&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -59,6 +112,24 @@
  </entry>
  
  <entry>
+   <title>gitignore</title>
+   <link href="http://fabiantheblind.github.io//2014/03/25/git-gitignore.html"/>
+   <updated>2014-03-25T00:00:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/25/git-gitignore</id>
+   <content type="html">&lt;h3&gt;.gitignore&lt;/h3&gt;
+
+&lt;p&gt;I didn’t know how to tell git to except a file from the ignore. Like your code creates a bunch of .txt files and you don’t want to commit them and clutter your repo. But you need a certain .txt file to be included into that repo.&lt;br/&gt;
+Add a .gitignore file that looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;*.txt  
+!LICENSE.txt  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Important is to call the !LICENSE.txt after the *.txt call. Or the .gitignore won’t recognize the excepted file.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Moebius Ruppert Granate</title>
    <link href="http://fabiantheblind.github.io//2014/03/24/granate-m-r.html"/>
    <updated>2014-03-24T00:00:00+01:00</updated>
@@ -66,6 +137,24 @@
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://www.moebius-ruppert.com/spitzer/bilder/06040000.jpg&quot; alt=&quot;grenade&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Beautiful &lt;a href=&quot;http://www.moebius-ruppert.com/spitzer/sp_messing.html&quot;&gt;sharpener&lt;/a&gt; by  Möbius + Ruppert&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ayah Bdeir Building blocks that blink, beep and teach  Talk Video  TED</title>
+   <link href="http://fabiantheblind.github.io//2014/03/23/ayah_bdeir_building_blocks_that_blink_beep_and_teach.html"/>
+   <updated>2014-03-23T13:06:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/23/ayah_bdeir_building_blocks_that_blink_beep_and_teach</id>
+   <content type="html">&lt;h2&gt;Ayah Bdeir: Building blocks that blink, beep and teach | Talk Video | TED&lt;/h2&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Imagine a set of electronics as easy to play with as Legos. TED Fellow Ayah Bdeir introduces littleBits, a set of simple, interchangeable blocks that make programming as simple and important a part of creativity as snapping blocks together.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;iframe src=&quot;http://embed.ted.com/talks/ayah_bdeir_building_blocks_that_blink_beep_and_teach.html&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;via &lt;a href=&quot;http://ift.tt/1polAIs&quot;&gt;Pinboard&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -139,6 +228,24 @@ via Pinboard http://ift.tt/1gMlu88&lt;/p&gt;
 
 &lt;p&gt;fabiantheblind starred nytlabs/streamtools
 via Pinboard http://ift.tt/1hBjtyw&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Supernova_behind_the_scenes_of_red_giant_universe_on_vimeo</title>
+   <link href="http://fabiantheblind.github.io//2014/03/23/supernova_behind_the_scenes_of_red_giant_universe_on_vimeo.html"/>
+   <updated>2014-03-23T00:00:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/23/supernova_behind_the_scenes_of_red_giant_universe_on_vimeo</id>
+   <content type="html">&lt;h2&gt;Supernova: Behind the Scenes of Red Giant Universe&lt;/h2&gt;
+
+&lt;iframe src=&quot;//player.vimeo.com/video/88253005&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt; &lt;p&gt;&lt;a href=&quot;http://vimeo.com/88253005&quot;&gt;Supernova: Behind the Scenes of Red Giant Universe&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/redgiant&quot;&gt;Red Giant&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Red Giant Universe is cool, but the real news here is Supernova — what a great tool-building tool. (via @prolost)&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;via &lt;a href=&quot;http://ift.tt/1pocmMg&quot;&gt;Pinboard&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1460,6 +1567,30 @@ Operator overloading in JavaScript is a controversial issue. Actually, this dang
    <id>http://fabiantheblind.github.io//2014/03/12/franzheidl-alfred-workflows-github</id>
    <content type="html">&lt;p&gt;March 05, 2014 at 12:46PM
 fabiantheblind starred franzheidl/alfred-workflowshttp://ift.tt/1hKaoFl&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>JSON Generator – tool for generating random JSON data</title>
+   <link href="http://fabiantheblind.github.io//2014/03/12/json-generator-tool-for-generating-random-json-data.html"/>
+   <updated>2014-03-12T11:33:50+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/12/json-generator-tool-for-generating-random-json-data</id>
+   <content type="html">&lt;p&gt;March 05, 2014 at 12:44PM
+We’ve all faced the problem of lack of information in our app. All interfaces seem lifeless and empty. Debugging with no data is also not simple.&lt;/p&gt;
+
+&lt;p&gt;I think that each of us has at least once in their lives created a bunch of files with JSON data, but they were just one object propagated without unique fields. JSON Generator was created in order to help with this. It provides an opportunity generate any data and in any quantity. Edit template, click “Generate” and you’re done.&lt;/p&gt;
+
+&lt;p&gt;Usage&lt;/p&gt;
+
+&lt;p&gt;JSON Generator has a convenient syntax. You can specify JavaScript object for template that you see in the left box. It will be cloned in infinite depth. Fields may have any name and value, but it must be valid JavaScript. Values, which are strings, may contain one or more template tags. When you click “Generate” the data source object to be copied several times and the place of tags will be inserted random values.&lt;/p&gt;
+
+&lt;p&gt;You can copy the generated JSON to clipboard by clicking “Copy to clipboard”. If you click “Upload”, JSON will be stored on the server and you can download generated file by clicking “Download” button or access it via ajax-request by URL that will be copied to clipboard after clicking “Copy URL” button. Yes, JSON Generator can JSONP :) Generated files are stored 30 days and their size does not exceed 500 kB. Size appears at the top right of the field with the generated data. If file size text is red - file is too large for saving on server, but you can copy it to your clipboard and save locally to *.json file.&lt;/p&gt;
+
+&lt;p&gt;You can choose indentation for the generated JSON from the drop-down list. Also when you copy the link to uploaded code there is an “indent” param in URL. It can has values of 2, 3 and 4. If param is not specified code will be compact.&lt;/p&gt;
+
+&lt;p&gt;JSON Generator remembers your last template in localStorage. If you want to reset it, click “Reset” button to reset template and UI.&lt;/p&gt;
+
+&lt;p&gt;If you have found a bug, you have a suggestion for improving the application or just want to thank me, click on “Feedback”.http://ift.tt/15kcSCY&lt;/p&gt;
 </content>
  </entry>
  

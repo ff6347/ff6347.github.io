@@ -2,13 +2,7 @@
 layout: post
 title: JSON Generator – tool for generating random JSON data
 date: '2014-03-12T11:33:50+01:00'
-tags:
-- IFTTT
-- Pinboard
-- data
-- generator
-- javascript
-- JSON
+tags: IFTTT, Pinboard, data, generator, javascript, JSON
 tumblr_url: http://fabiantheblind.tumblr.com/post/79350267674/json-generator-tool-for-generating-random-json-data
 ---
 March 05, 2014 at 12:44PM
