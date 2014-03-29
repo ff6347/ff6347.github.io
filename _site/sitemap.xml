@@ -2,11 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://fabiantheblind.info/2014/03/29/some-findings-about-raspberry-pi.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/29/injecting_computation_everywhere_a_sxsw_update_wolframalpha_blog.html</loc>
+    </url>
+    
+    <url>
         <loc>http://fabiantheblind.info/2014/03/29/kate_ascher_s_the_way_to_go_a_visual_guide_to_how_planes_take_off__navigate__approach__and_land..html</loc>
     </url>
     
     <url>
+        <loc>http://fabiantheblind.info/2014/03/27/installing_flash_player_on_raspberry_pi__chirpy_s_blog.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/26/__geek_gurl_diaries_episode_28_get_arty_with_raspberry_pi_camera_-_youtube.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/26/_www.martinreddy.netgfx3dobj.spec.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/26/ms-dos_und_word_for_windows_microsoft_gibt_source_code_frei_-_golem.de.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/26/indiscripts.com.wordalizer.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/26/an_honest_kickstarter_video_-_youtube.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/26/microview_chip-sized_arduino_with_built-in_oled_display__by_geek_ammo___kickstarter.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/25/russb78pi-mation.html</loc>
+    </url>
+    
+    <url>
         <loc>http://fabiantheblind.info/2014/03/25/github-stars.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/25/create_heatmaps_using_new_colorize-alpha_image_filter__mapbox.html</loc>
     </url>
     
     <url>
@@ -19,6 +63,10 @@
     
     <url>
         <loc>http://fabiantheblind.info/2014/03/25/git-gitignore.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/24/os_x_command_line_-_sublime_text_2_documentation.html</loc>
     </url>
     
     <url>
@@ -55,6 +103,10 @@
     
     <url>
         <loc>http://fabiantheblind.info/blog/2014/03/23/migrating-to-jekyll.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://fabiantheblind.info/2014/03/23/gitpi_a_private_git_server_on_raspberry_pi.html</loc>
     </url>
     
     <url>

@@ -4,13 +4,99 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2014-03-29T09:55:00+01:00</updated>
+ <updated>2014-03-29T14:47:28+01:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
    <email>hello@fabiantheblind.info</email>
  </author>
 
+ 
+ <entry>
+   <title>Do some Stuff With Raspberry Pi</title>
+   <link href="http://fabiantheblind.github.io//2014/03/29/some-findings-about-raspberry-pi.html"/>
+   <updated>2014-03-29T13:52:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/29/some-findings-about-raspberry-pi</id>
+   <content type="html">&lt;p&gt;These are some things i found this morning while crawling thru the web.&lt;/p&gt;
+
+&lt;h3&gt;How to stream video from Raspberry Pi Camera over the network ? « Benny Liao&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;I have my RPi with its camera in my hand, finally. But I need to remote the RPi camera display from my macbook laptop, how? &lt;br/&gt;
+&lt;a href=&quot;http://ift.tt/1fxttGX&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Using netcat on raspi and osx&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Some more links about Raspberry Pi and the camera module can be found here at &lt;a href=&quot;http://www.raspberrypi.org/archives/tag/camera-board&quot;&gt;raspberrypi.org&#39;s camera tag&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;Pi-Pan, a Pan-Tilt for Raspberry Pi Camera by OpenElectrons.com — Kickstarter&lt;/h3&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/4AwF_YYbORM&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Do you need to mount your Raspberry Pi-Camera and control it&#39;s position? Pi-Pan is a solution for you.
+&lt;a href=&quot;https://www.kickstarter.com/projects/1842571016/pi-pan-a-pan-tilt-for-raspberry-pi-camera&quot;&gt;link to kickstarter.com&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;http://www.openelectrons.com/index.php?module=pagemaster&amp;amp;PAGE_user_op=view_page&amp;amp;PAGE_id=15&quot;&gt;link to openelectrons.com&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;Install ServoBlaster Raspberry Pi and Control Servo Use Python - Raspberry Pi Projects&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;ServoBlaster Raspberry Pi is software free for the Pi and support an interface to control a lot of servos motor via the GPIO pins locate on board Pi. You will control the servo postions by sending commands to the system what the pulse width a particular and ID of servo will receive a controlling.
+&lt;a href=&quot;http://www.raspiprojects.com/install-servoblaster-raspberry-pi-control-servo-python.html&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;Controlling an Arduino from Raspberry Pi using Processing | We Saw a Chicken …&lt;/h3&gt;
+
+&lt;p&gt;Nice Tutorial.&lt;/p&gt;
+
+&lt;p&gt;[link original tutorial]http://scruss.com/blog/2012/08/12/controlling-an-arduino-from-raspberry-pi-using-processing/)&lt;br/&gt;
+&lt;a href=&quot;http://scruss.com/blog/2014/01/07/processing-2-1-oracle-java-raspberry-pi-serial-arduino-%E2%98%BA/&quot;&gt;lnik to updated tutorial for Processing 2.1&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;Wolfram + Raspberry Pi Project: A Wolfram Engine on Every Raspberry Pi&lt;/h3&gt;
+
+&lt;p&gt;I will a.s.a.p. try wolfram on the pi&lt;br/&gt;
+&lt;a href=&quot;http://ift.tt/I7KnSJ&quot;&gt;link to project homepage @ wolfram.com&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Injecting Computation Everywhere–A SXSW Update—Wolfram|Alpha Blog</title>
+   <link href="http://fabiantheblind.github.io//2014/03/29/injecting_computation_everywhere_a_sxsw_update_wolframalpha_blog.html"/>
+   <updated>2014-03-29T12:16:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/29/injecting_computation_everywhere_a_sxsw_update_wolframalpha_blog</id>
+   <content type="html">&lt;h2&gt;Injecting Computation Everywhere–A SXSW Update—Wolfram|Alpha Blog&lt;/h2&gt;
+
+&lt;p&gt;Posted by Stephen Wolfram
+&lt;a href=&quot;http://blog.wolframalpha.com/2014/03/25/injecting-computation-everywhere-a-sxsw-update/&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Head over to the wolfram blog and read the whole thing.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Also see this demo:&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/_P9HqHVPeik&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;And this one from 2013 SXSW:&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/zvLCNIsTmHI&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Kate Ascher's The Way to Go - A Visual Guide to How Planes Take Off, Navigate, Approach, and Land.</title>
@@ -25,6 +111,134 @@ By Kate Ascher&lt;br/&gt;
 
 &lt;blockquote&gt;&lt;p&gt;Is it possible to write a stunning book about infrastructure? Kate Ascher’s books are bliss for engineering-minded adults and children. Using gorgeous graphics and clear, simple, language, Ascher explains the infrastructure and engineering marvels around us. As David Macaulay won over a generation to architecture in the ’70s and ’80s with books like Castle and Underground, Ascher is enticing people to engineering, urban planning, and infrastructure. Here’s an excerpt from the chapter on air travel from her new book, The Way to Go: Moving By Sea, Land, and Air.&lt;br/&gt;
 &lt;a href=&quot;http://www.slate.com/articles/technology/technology/2014/03/kate_ascher_s_the_way_to_go_a_visual_guide_to_how_planes_take_off_navigate.html&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Installing flash player on Raspberry Pi | Chirpy's Blog</title>
+   <link href="http://fabiantheblind.github.io//2014/03/27/installing_flash_player_on_raspberry_pi__chirpy_s_blog.html"/>
+   <updated>2014-03-27T13:18:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/27/installing_flash_player_on_raspberry_pi__chirpy_s_blog</id>
+   <content type="html">&lt;h2&gt;Installing flash player on Raspberry Pi | Chirpy&#39;s Blog&lt;/h2&gt;
+
+&lt;blockquote&gt;&lt;p&gt;We all want to do stuff like play youtube videos and such, but due to the closed source of adobe flash, we are unable to do this on the raspberry pi. We’re all in luck tho, the open source alternative named Gnash is here to save the day! Here is the two commands you need to open to get flash player working in Midori, which is the default web browser in raspberry pi.
+First, open a terminal and type:&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get install gnash
+sudo apt-get install browser-plugin-gnash
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ift.tt/1dv6OQ6&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>▶ Geek Gurl Diaries Episode 28  Get Arty with Raspberry Pi Camera - YouTube</title>
+   <link href="http://fabiantheblind.github.io//2014/03/26/__geek_gurl_diaries_episode_28_get_arty_with_raspberry_pi_camera_-_youtube.html"/>
+   <updated>2014-03-26T12:21:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/26/__geek_gurl_diaries_episode_28_get_arty_with_raspberry_pi_camera_-_youtube</id>
+   <content type="html">&lt;h2&gt;▶ Geek Gurl Diaries Episode 28: Get Arty with Raspberry Pi Camera - YouTube&lt;/h2&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/8xWy3g2QAZ8&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;This week at Raspberry Pi Towers, I&#39;ve been getting my art on with the Pi Camera add on board. Mostly making time lapse videos and stop frame animations. You can have a go too!&lt;br/&gt;
+&lt;a href=&quot;http://ift.tt/1j2MEwO&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Read also the transscirpt over at &lt;a href=&quot;http://geekgurldiaries.blogspot.de/2014/03/get-arty-with-raspberry-pi-camera.html&quot;&gt;Geek Gurls Blog.&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>‎Wavefront OBJ file specs</title>
+   <link href="http://fabiantheblind.github.io//2014/03/26/_www.martinreddy.netgfx3dobj.spec.html"/>
+   <updated>2014-03-26T11:14:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/26/_www.martinreddy.netgfx3dobj.spec</id>
+   <content type="html">&lt;h2&gt;‎B1. Object Files (.obj)&lt;/h2&gt;
+
+&lt;p&gt;Wavefront OBJ specs&lt;br/&gt;
+&lt;a href=&quot;http://ift.tt/1p4UcRp&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>MS-DOS und Word for Windows  Microsoft gibt Source Code frei - Golem.de</title>
+   <link href="http://fabiantheblind.github.io//2014/03/26/ms-dos_und_word_for_windows_microsoft_gibt_source_code_frei_-_golem.de.html"/>
+   <updated>2014-03-26T09:36:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/26/ms-dos_und_word_for_windows_microsoft_gibt_source_code_frei_-_golem.de</id>
+   <content type="html">&lt;h2&gt;MS-DOS und Word for Windows: Microsoft gibt Source Code frei - Golem.de&lt;/h2&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Microsoft gibt Source Code frei&lt;br/&gt;
+Der Quellcode der Betriebssysteme MS-DOS 1.25 und 2.0 sowie der Textverarbeitung Word for Windows 1.1a kann künftig über die Webseite des Computer History Museum heruntergeladen und eingesehen werden.
+Microsoft hat den Source Code seiner ersten Betriebssysteme MS-DOS 1.24 und 2.0 dem Computer History Museum übergeben. Auch der Quellcode der Textverarbeitung Word for Windows 1.1a kann dort eingesehen werden. Mit der Übergabe des Quellcodes sollen künftige Generationen die Wurzeln des Personal Computings studieren können, begründet Microsoft seine Aktion. Dem Museum in Mountain View in Kalifornien wurde zuvor auch Apples erstes DOS sowie der Quelltext von Adobe Photoshop 1.0 übergeben.&lt;br/&gt;
+&lt;a href=&quot;http://ift.tt/1g04s6l&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>indiscripts.com</title>
+   <link href="http://fabiantheblind.github.io//2014/03/26/indiscripts.com.wordalizer.html"/>
+   <updated>2014-03-26T07:21:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/26/indiscripts.com.wordalizer</id>
+   <content type="html">&lt;h2&gt;indiscripts.com Wordalizer 1.5&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://indiscripts.com/blog/public/WordalizerNext3.jpg&quot; alt=&quot;indiscirpts wordalizer&quot; /&gt;&lt;br/&gt;
+Powered by Wordalizer 1.5 for InDesign CS4-CC (coming soon) JPG: http://t.co/z6i624duOw PDF: http://t.co/vlrs2F6rKF #StayTuned&lt;/p&gt;
+
+&lt;p&gt;— Marc Autret (@indiscripts) March 26, 2014&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ift.tt/QeykqX&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>An Honest Kickstarter Video - YouTube</title>
+   <link href="http://fabiantheblind.github.io//2014/03/26/an_honest_kickstarter_video_-_youtube.html"/>
+   <updated>2014-03-26T07:21:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/26/an_honest_kickstarter_video_-_youtube</id>
+   <content type="html">&lt;h2&gt;An Honest Kickstarter Video - YouTube&lt;/h2&gt;
+
+&lt;blockquote&gt;&lt;p&gt;An Honest Kickstarter Video (Just add Arduino compatible a few random times and it&#39;s perfect) &lt;a href=&quot;http://t.co/y78M3unmSt&quot;&gt;link&lt;/a&gt;&lt;br/&gt;
+— Massimo Banzi (@mbanzi) March 26, 2014&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/PHinmxK-tnE&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ift.tt/1lRL3K9&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Microview_chip Sized_arduino_with_built In_oled_display__by_geek_ammo___kickstarter</title>
+   <link href="http://fabiantheblind.github.io//2014/03/26/microview_chip-sized_arduino_with_built-in_oled_display__by_geek_ammo___kickstarter.html"/>
+   <updated>2014-03-26T00:00:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/26/microview_chip-sized_arduino_with_built-in_oled_display__by_geek_ammo___kickstarter</id>
+   <content type="html">&lt;h2&gt;MicroView: Chip-sized Arduino with built-in OLED Display! by Geek Ammo — Kickstarter&lt;/h2&gt;
+
+&lt;blockquote&gt;&lt;p&gt;The MicroView is the first chip-sized Arduino compatible that lets you see what your Arduino is thinking using a built-in OLED display.
+You&#39;ve never seen an Arduino™ compatible like this. With a built-in OLED (Organic Light Emitting Diode Display) you can see what your Arduino is thinking without having to connect it to your computer. 
+No more cryptic &amp;quot;Hello World&amp;quot; LED blink sequences or shoehorning oversized displays onto your tiny Arduino™. Development is much easier when you can see what&#39;s going on.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ift.tt/1fFlGFZ&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>russb78/pi-mation</title>
+   <link href="http://fabiantheblind.github.io//2014/03/25/russb78pi-mation.html"/>
+   <updated>2014-03-25T13:01:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/25/russb78pi-mation</id>
+   <content type="html">&lt;h2&gt;russb78/pi-mation&lt;/h2&gt;
+
+&lt;p&gt;pi-mation
+Stop motion animation app for RasPi and camera module (Python 2.7).&lt;/p&gt;
+
+&lt;p&gt;This application was written by Russell Barnes for Linux User &amp;amp; Developer magazine issue 134.
+&lt;a href=&quot;http://ift.tt/1gxd5v8&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -96,6 +310,17 @@ via &lt;a href=&quot;http://ift.tt/ONqKlR&quot;&gt;Pinboard&lt;/a&gt;&lt;/p&gt;
  </entry>
  
  <entry>
+   <title>Create Heatmaps Using New Colorize-Alpha Image Filter | Mapbox</title>
+   <link href="http://fabiantheblind.github.io//2014/03/25/create_heatmaps_using_new_colorize-alpha_image_filter__mapbox.html"/>
+   <updated>2014-03-25T10:29:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/25/create_heatmaps_using_new_colorize-alpha_image_filter__mapbox</id>
+   <content type="html">&lt;h2&gt;Create Heatmaps Using New Colorize-Alpha Image Filter | Mapbox&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ift.tt/1fFsMyS&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Iconic History</title>
    <link href="http://fabiantheblind.github.io//2014/03/25/iconic_history.html"/>
    <updated>2014-03-25T10:11:00+01:00</updated>
@@ -142,6 +367,23 @@ Add a .gitignore file that looks like this:&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Important is to call the !LICENSE.txt after the *.txt call. Or the .gitignore won’t recognize the excepted file.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>OS X Command Line - Sublime Text 2 Documentation</title>
+   <link href="http://fabiantheblind.github.io//2014/03/24/os_x_command_line_-_sublime_text_2_documentation.html"/>
+   <updated>2014-03-24T15:17:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/24/os_x_command_line_-_sublime_text_2_documentation</id>
+   <content type="html">&lt;h2&gt;OS X Command Line - Sublime Text 2 Documentation&lt;/h2&gt;
+
+&lt;p&gt;EDITOR
+To use Sublime Text 2 (and 3) as the editor for many commands that prompt for input, set your EDITOR environment variable:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export EDITOR=&#39;subl -w&#39;  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ift.tt/R2aBYD&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -280,6 +522,19 @@ via Pinboard http://ift.tt/1hBjtyw&lt;/p&gt;
 
 
 &lt;p&gt;We will see how this turns out.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Gitpi_a_private_git_server_on_raspberry_pi</title>
+   <link href="http://fabiantheblind.github.io//2014/03/23/gitpi_a_private_git_server_on_raspberry_pi.html"/>
+   <updated>2014-03-23T00:00:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/23/gitpi_a_private_git_server_on_raspberry_pi</id>
+   <content type="html">&lt;h2&gt;GitPi: A Private Git Server on Raspberry Pi&lt;/h2&gt;
+
+&lt;p&gt;GitPi: A Private Git Server on Raspberry Pi by scottkildall
+via adafruit&lt;br/&gt;
+via &lt;a href=&quot;http://ift.tt/PK1zll&quot;&gt;Pinboard&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
