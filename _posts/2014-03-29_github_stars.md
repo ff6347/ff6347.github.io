@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Stars · GitHub ·  26 03 till 29 03
-date: March 29, 2014 at 02:00AM
+title: Stars · GitHub
+date: March 29, 2014 at 02:00PM
 tags: github, stars
 ---
 
