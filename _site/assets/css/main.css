@@ -3435,6 +3435,8 @@ p#bio {
   font-size: 1.6em;
 }
 img {
+  max-width: 100%;
+  max-height: auto;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;

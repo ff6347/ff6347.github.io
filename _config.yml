@@ -2,6 +2,7 @@ markdown: rdiscount
 pygments: true
 exclude: [ignore,user.fabiantheblind.espressostorage,Project.espressostorage]
 menuitems:
+- Blog
 - About me
 - Motion Graphics
 - Coding Graphics
@@ -25,6 +26,7 @@ menuitems:
 - x-true-da.jsx for AE  (You are leaving my site! Bye bye)
 - UELärm for MS Surface  (You are leaving my site! Bye bye)
 menuurl:
+- /
 - /about.html
 - /motiongraphics.html
 - /codinggraphics.html
@@ -49,6 +51,7 @@ menuurl:
 - http://fabiantheblind.github.io/TMN_UE_Laerm/
 
 menuicons:
+- /assets/images/thumbnails/blog-thumb.jpg
 - /assets/images/thumbnails/gravatar-thumb.jpg
 - /assets/images/thumbnails/motiongrfx-thumb.gif
 - /assets/images/thumbnails/codinggrfx-thumb.jpg
