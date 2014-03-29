@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="fabiantheblind.info" />
     <meta name="author" content="fabiantheblind" />
-    <title>unnamed</title>
+    <title>greetings earthling</title>
     <!-- TypeKit -->
     <script type="text/javascript" src="http://use.typekit.com/jdb0zac.js"></script>
     <script type="text/javascript">
@@ -70,7 +70,33 @@ function getBaseURL() {
   <body>
     <div class="container">
       <section>
-<!--
+<header>
+<div class="row">
+
+<div class="span10 offset1">
+  <div class="hero-unit animated fadeIn">
+    <h1>Hello</h1>
+    <p id="bio">my name is Fabian Morón Zirfas a.k.a. fabiantheblind. I am a lab dog @ the university of applied sciences Potsdam, freelance motiongrapher and coder living in Berlin who occasionally does stuff that involves things.
+  Have a look at my showreel below or browse through my projects. If you'd like to contact me use one of the <a href="#social">social networks at the bottom of each page</a> or write me an <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#101;&#108;&#108;&#111;&#64;&#102;&#97;&#98;&#105;&#97;&#110;&#116;&#104;&#101;&#98;&#108;&#105;&#110;&#100;&#46;&#105;&#110;&#102;&#111;">email</a>. If you want you can also read my <a href="/blog.html">blog.</a><br />Oh and there is also that boring <a href="impressum.html">legal stuff.</a>
+  
+    </p>
+  </div>
+</div>
+</div>
+</header>
+<section>
+  <div class="row">
+    <div class="span6 offset4">
+      <div id="showreel">
+        <a href="http://vimeo.com/56188646" id="showreellink" rel="prettyPhoto[grouped]" title="">
+          <img class="img-responsive"  src="assets/images/thumbnails/showreel.png" alt="" width="100%" />
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+	<!--
 this gets included in project
 settigns also come from _layouts/project
 -->
@@ -80,8 +106,8 @@ settigns also come from _layouts/project
 <ul class="navi">
   
   <li class="navi-item">
-    <a href="/" title="Home">
-      <img  src="/assets/images/thumbnails/gravatar-thumb.jpg" alt="Home" class="menuicon">
+    <a href="/about.html" title="About me">
+      <img  src="/assets/images/thumbnails/gravatar-thumb.jpg" alt="About me" class="menuicon">
   </a>
   </li>
   
@@ -152,62 +178,62 @@ settigns also come from _layouts/project
   </li>
   
   <li class="navi-item">
-    <a href="https://github.com/fabiantheblind/batch-find-and-replace" title="Batch Find and Replace (You are leaving fabiantheblind.info! Bye bye)">
-      <img  src="/assets/images/thumbnails/bfnr-thumb.jpg" alt="Batch Find and Replace (You are leaving fabiantheblind.info! Bye bye)" class="menuicon">
+    <a href="https://github.com/fabiantheblind/batch-find-and-replace" title="Batch Find and Replace (You are leaving my site! Bye bye)">
+      <img  src="/assets/images/thumbnails/bfnr-thumb.jpg" alt="Batch Find and Replace (You are leaving my site! Bye bye)" class="menuicon">
   </a>
   </li>
   
   <li class="navi-item">
-    <a href="http://aescripts.com/obj-vertex-export/" title="Obj Vertex Export for AE (You are leaving fabiantheblind.info! Bye bye)">
-      <img  src="/assets/images/thumbnails/obj-thumb.jpg" alt="Obj Vertex Export for AE (You are leaving fabiantheblind.info! Bye bye)" class="menuicon">
+    <a href="http://aescripts.com/obj-vertex-export/" title="Obj Vertex Export for AE (You are leaving my site! Bye bye)">
+      <img  src="/assets/images/thumbnails/obj-thumb.jpg" alt="Obj Vertex Export for AE (You are leaving my site! Bye bye)" class="menuicon">
   </a>
   </li>
   
   <li class="navi-item">
-    <a href="http://fabiantheblind.github.io/Illustrator-Javascript-Voronoi/" title="Voronoi Diagramms in AI (You are leaving fabiantheblind.info! Bye bye)">
-      <img  src="/assets/images/thumbnails/voronoi-thumb.jpg" alt="Voronoi Diagramms in AI (You are leaving fabiantheblind.info! Bye bye)" class="menuicon">
+    <a href="http://fabiantheblind.github.io/Illustrator-Javascript-Voronoi/" title="Voronoi Diagramms in AI (You are leaving my site! Bye bye)">
+      <img  src="/assets/images/thumbnails/voronoi-thumb.jpg" alt="Voronoi Diagramms in AI (You are leaving my site! Bye bye)" class="menuicon">
   </a>
   </li>
   
   <li class="navi-item">
-    <a href="http://fabiantheblind.github.io/wihihihiggle/" title="wihihihiggle.jsx for AE (You are leaving fabiantheblind.info! Bye bye)">
-      <img  src="/assets/images/thumbnails/whihihiggle-thumb.jpg" alt="wihihihiggle.jsx for AE (You are leaving fabiantheblind.info! Bye bye)" class="menuicon">
+    <a href="http://fabiantheblind.github.io/wihihihiggle/" title="wihihihiggle.jsx for AE (You are leaving my site! Bye bye)">
+      <img  src="/assets/images/thumbnails/whihihiggle-thumb.jpg" alt="wihihihiggle.jsx for AE (You are leaving my site! Bye bye)" class="menuicon">
   </a>
   </li>
   
   <li class="navi-item">
-    <a href="http://fabiantheblind.github.io/NextTypoStandard/" title="FHP NextTypoStandard (You are leaving fabiantheblind.info! Bye bye)">
-      <img  src="/assets/images/thumbnails/nexttypo-thumb.jpg" alt="FHP NextTypoStandard (You are leaving fabiantheblind.info! Bye bye)" class="menuicon">
+    <a href="http://fabiantheblind.github.io/NextTypoStandard/" title="FHP NextTypoStandard (You are leaving my site! Bye bye)">
+      <img  src="/assets/images/thumbnails/nexttypo-thumb.jpg" alt="FHP NextTypoStandard (You are leaving my site! Bye bye)" class="menuicon">
   </a>
   </li>
   
   <li class="navi-item">
-    <a href="http://aescripts.com/timeremap-source/" title="timeremap-source.jsx for AE  (You are leaving fabiantheblind.info! Bye bye)">
-      <img  src="/assets/images/thumbnails/timeremap-thumb.jpg" alt="timeremap-source.jsx for AE  (You are leaving fabiantheblind.info! Bye bye)" class="menuicon">
+    <a href="http://aescripts.com/timeremap-source/" title="timeremap-source.jsx for AE  (You are leaving my site! Bye bye)">
+      <img  src="/assets/images/thumbnails/timeremap-thumb.jpg" alt="timeremap-source.jsx for AE  (You are leaving my site! Bye bye)" class="menuicon">
   </a>
   </li>
   
   <li class="navi-item">
-    <a href="https://github.com/fabiantheblind/open-close-mask" title="open-close-mask.jsx for AE  (You are leaving fabiantheblind.info! Bye bye)">
-      <img  src="/assets/images/thumbnails/ocmask-thumb.gif" alt="open-close-mask.jsx for AE  (You are leaving fabiantheblind.info! Bye bye)" class="menuicon">
+    <a href="https://github.com/fabiantheblind/open-close-mask" title="open-close-mask.jsx for AE  (You are leaving my site! Bye bye)">
+      <img  src="/assets/images/thumbnails/ocmask-thumb.gif" alt="open-close-mask.jsx for AE  (You are leaving my site! Bye bye)" class="menuicon">
   </a>
   </li>
   
   <li class="navi-item">
-    <a href="http://fabiantheblind.github.io/The-Geo-Beast/" title="The-Geo-Beast.jsx for AE  (You are leaving fabiantheblind.info! Bye bye)">
-      <img  src="/assets/images/thumbnails/thebeast-thumb.jpg" alt="The-Geo-Beast.jsx for AE  (You are leaving fabiantheblind.info! Bye bye)" class="menuicon">
+    <a href="http://fabiantheblind.github.io/The-Geo-Beast/" title="The-Geo-Beast.jsx for AE  (You are leaving my site! Bye bye)">
+      <img  src="/assets/images/thumbnails/thebeast-thumb.jpg" alt="The-Geo-Beast.jsx for AE  (You are leaving my site! Bye bye)" class="menuicon">
   </a>
   </li>
   
   <li class="navi-item">
-    <a href="https://github.com/fabiantheblind/x-true-da" title="x-true-da.jsx for AE  (You are leaving fabiantheblind.info! Bye bye)">
-      <img  src="/assets/images/thumbnails/xtrueda-thumb.jpg" alt="x-true-da.jsx for AE  (You are leaving fabiantheblind.info! Bye bye)" class="menuicon">
+    <a href="https://github.com/fabiantheblind/x-true-da" title="x-true-da.jsx for AE  (You are leaving my site! Bye bye)">
+      <img  src="/assets/images/thumbnails/xtrueda-thumb.jpg" alt="x-true-da.jsx for AE  (You are leaving my site! Bye bye)" class="menuicon">
   </a>
   </li>
   
   <li class="navi-item">
-    <a href="http://fabiantheblind.github.io/TMN_UE_Laerm/" title="UELärm for MS Srface  (You are leaving fabiantheblind.info! Bye bye)">
-      <img  src="/assets/images/thumbnails/uelaerm-thumb.jpg" alt="UELärm for MS Srface  (You are leaving fabiantheblind.info! Bye bye)" class="menuicon">
+    <a href="http://fabiantheblind.github.io/TMN_UE_Laerm/" title="UELärm for MS Surface  (You are leaving my site! Bye bye)">
+      <img  src="/assets/images/thumbnails/uelaerm-thumb.jpg" alt="UELärm for MS Surface  (You are leaving my site! Bye bye)" class="menuicon">
   </a>
   </li>
   
@@ -217,16 +243,36 @@ settigns also come from _layouts/project
 </div>
 <hr>
 
-<div class="row">
-  <div class="span8 offset2">
-<h2>unnamed</h2>
-<span>01 Sep 2013</span><br>
-  <hr>
+<section>
+	<div class="row">
+		<div class="span5 offset1">
+			<h2 class="sections">Motion Graphics</h2>
+			<!-- Motion Graphics block -->
+			<p>Since I was a child I dreamed of creating animations. I loved those Saturday mornings in front of the television spending hours and hours watching cartoons. When I started studying at the <a href="http://design.fh-potsdam.de/">FHP</a> it was clear that a big focus would be creating animations. I always tried, sometimes too hard, to find a solution where I could use and improve my skills in this field. I'm still not at the end of that learning process but after 8 years fiddling with After Effects I can say I have a solid knowledge in creating graphics in motion.  
+Have a look at <a href="/motiongraphics.html">my favorite moving pictures.</a>  
+</p>
+		</div> <!-- end MG -->
+		<div class="span5">
+			<h2 class="sections">Coding Graphics</h2>
+			<!-- Programming block -->
+			<p>
+				I had my first programming experience at the FHP with Flash and Quartz Composer. None of them managed to kindle my love for code. But them came Processing. After the first experiments I began to understand the power of programming. While working on layout jobs and after hours and hours clicking my life away I experimented with JavaScript inside Adobe applications. It became the topic of my Bachelor Thesis and is a powerful weapon against repetitive tasks.  
+<a href="/codinggraphics.html">Have a look at my favorite programming projects.</a>  
 
 
-
-  </div>
-</div>
+			</p>
+		</div> <!-- end prog -->
+	</div>
+</section>
+<section>
+		<div class="row">
+			<div class="span10 offset1">
+				<p id="vita">
+      Are you in a hurry? Grab the vita <a href="/vita_de.pdf">(DE)</a> or <a href="/vita_en.pdf">(EN)</a>.
+        </p>
+			</div>
+		</div>
+</section>
   <hr>
 <div class="row">
   <div class="span10 offset1">
@@ -285,7 +331,7 @@ settigns also come from _layouts/project
   </div>
   </div>
 </div>
-
+<!-- 1. hook 25. Januar 2013 -->
 </section>
 
     </div>

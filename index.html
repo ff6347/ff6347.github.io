@@ -1,24 +1,39 @@
 ---
 layout: standard
-title: greetings earthling
+title: Fabian Morón Zirfas digital life
 ---
+{% include master-header.html %}
 <header>
-<div class="row">
 
 <div class="span10 offset1">
   <div class="hero-unit animated fadeIn">
-    <h1>Hello</h1>
-    <p id="bio">my name is Fabian Morón Zirfas a.k.a. fabiantheblind. I am a lab dog @ the university of applied sciences Potsdam, freelance motiongrapher and coder living in Berlin who occasionally does stuff that involves things.
-  Have a look at my showreel below or browse through my projects. If you'd like to contact me use one of the <a href="#social">social networks at the bottom of each page</a> or write me an <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#101;&#108;&#108;&#111;&#64;&#102;&#97;&#98;&#105;&#97;&#110;&#116;&#104;&#101;&#98;&#108;&#105;&#110;&#100;&#46;&#105;&#110;&#102;&#111;">email</a>. If you want you can also read my <a href="/blog.html">blog.</a><br />Oh and there is also that boring <a href="impressum.html">legal stuff.</a>
-  {% comment %}
-   and browse through my favorite <a href="/motiongraphics.html">motiongraphics</a> and <a href="programming.html">programming</a> projects.
-  {% endcomment %}
-    </p>
+    <h2>{{ site.posts[0].title }} <a href="{{ site.posts[0].url }}"> &raquo; </a></h2>
+
+      <p>{{site.posts[0].date | date_to_string }}</p>
+        <p>
+        {{ site.posts[0].content }}<br />
+        <a href="{{ site.posts[0].url }}">link</a>
+        </p>
   </div>
-</div>
+<hr>
 </div>
 </header>
-<section>
+     <section id="blog">
+       <div class="row">
+         <div class="span8 offset2">
+    <h4>all posts</h4>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+
+
+         </div>
+       </div>
+     </section>
+<!-- <section>
   <div class="row">
     <div class="span6 offset4">
       <div id="showreel">
@@ -29,25 +44,24 @@ title: greetings earthling
 
     </div>
   </div>
-</section>
-	{% include master-header.html %}
-<section>
+</section> -->
+<!-- <section>
 	<div class="row">
 		<div class="span5 offset1">
 			<h2 class="sections">Motion Graphics</h2>
-			<!-- Motion Graphics block -->
+
 			<p>{% include motiongraphics.html %}</p>
-		</div> <!-- end MG -->
+		</div> end MG
 		<div class="span5">
 			<h2 class="sections">Coding Graphics</h2>
-			<!-- Programming block -->
+
 			<p>
 				{% include programming.html %}
 			</p>
-		</div> <!-- end prog -->
+		</div>
 	</div>
-</section>
-<section>
+</section> -->
+<!-- <section>
 		<div class="row">
 			<div class="span10 offset1">
 				<p id="vita">
@@ -55,6 +69,6 @@ title: greetings earthling
         </p>
 			</div>
 		</div>
-</section>
+</section> -->
 {% include master-footer.html %}
 <!-- 1. hook 25. Januar 2013 -->

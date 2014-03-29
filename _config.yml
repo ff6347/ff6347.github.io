@@ -1,8 +1,8 @@
 markdown: rdiscount
 pygments: true
-exclude: ignore,user.fabiantheblind.espressostorage,Project.espressostorage
+exclude: [ignore,user.fabiantheblind.espressostorage,Project.espressostorage]
 menuitems:
-- Home
+- About me
 - Motion Graphics
 - Coding Graphics
 - Locations for AE
@@ -14,18 +14,18 @@ menuitems:
 - Incom.org 2 Layout
 - This Website
 - Connected Nodes
-- Batch Find and Replace (You are leaving fabiantheblind.info! Bye bye)
-- Obj Vertex Export for AE (You are leaving fabiantheblind.info! Bye bye)
-- Voronoi Diagramms in AI (You are leaving fabiantheblind.info! Bye bye)
-- wihihihiggle.jsx for AE (You are leaving fabiantheblind.info! Bye bye)
-- FHP NextTypoStandard (You are leaving fabiantheblind.info! Bye bye)
-- timeremap-source.jsx for AE  (You are leaving fabiantheblind.info! Bye bye)
-- open-close-mask.jsx for AE  (You are leaving fabiantheblind.info! Bye bye)
-- The-Geo-Beast.jsx for AE  (You are leaving fabiantheblind.info! Bye bye)
-- x-true-da.jsx for AE  (You are leaving fabiantheblind.info! Bye bye)
-- UELärm for MS Srface  (You are leaving fabiantheblind.info! Bye bye)
+- Batch Find and Replace (You are leaving my site! Bye bye)
+- Obj Vertex Export for AE (You are leaving my site! Bye bye)
+- Voronoi Diagramms in AI (You are leaving my site! Bye bye)
+- wihihihiggle.jsx for AE (You are leaving my site! Bye bye)
+- FHP NextTypoStandard (You are leaving my site! Bye bye)
+- timeremap-source.jsx for AE  (You are leaving my site! Bye bye)
+- open-close-mask.jsx for AE  (You are leaving my site! Bye bye)
+- The-Geo-Beast.jsx for AE  (You are leaving my site! Bye bye)
+- x-true-da.jsx for AE  (You are leaving my site! Bye bye)
+- UELärm for MS Surface  (You are leaving my site! Bye bye)
 menuurl:
-- /
+- /about.html
 - /motiongraphics.html
 - /codinggraphics.html
 - /locations.html
