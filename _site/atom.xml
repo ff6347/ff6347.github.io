@@ -4,7 +4,7 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2014-03-29T14:47:28+01:00</updated>
+ <updated>2014-03-29T14:48:18+01:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
@@ -164,6 +164,21 @@ sudo apt-get install browser-plugin-gnash
  </entry>
  
  <entry>
+   <title>MicroView Chip-sized Arduino with built-in OLED Display! by Geek Ammo — Kickstarter</title>
+   <link href="http://fabiantheblind.github.io//2014/03/26/microview_chip-sized_arduino_with_built-in_oled_display__by_geek_ammo___kickstarter.html"/>
+   <updated>2014-03-26T09:50:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/26/microview_chip-sized_arduino_with_built-in_oled_display__by_geek_ammo___kickstarter</id>
+   <content type="html">&lt;h2&gt;MicroView: Chip-sized Arduino with built-in OLED Display! by Geek Ammo — Kickstarter&lt;/h2&gt;
+
+&lt;blockquote&gt;&lt;p&gt;The MicroView is the first chip-sized Arduino compatible that lets you see what your Arduino is thinking using a built-in OLED display.
+You&#39;ve never seen an Arduino™ compatible like this. With a built-in OLED (Organic Light Emitting Diode Display) you can see what your Arduino is thinking without having to connect it to your computer. 
+No more cryptic &amp;quot;Hello World&amp;quot; LED blink sequences or shoehorning oversized displays onto your tiny Arduino™. Development is much easier when you can see what&#39;s going on.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ift.tt/1fFlGFZ&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>MS-DOS und Word for Windows  Microsoft gibt Source Code frei - Golem.de</title>
    <link href="http://fabiantheblind.github.io//2014/03/26/ms-dos_und_word_for_windows_microsoft_gibt_source_code_frei_-_golem.de.html"/>
    <updated>2014-03-26T09:36:00+01:00</updated>
@@ -209,21 +224,6 @@ Powered by Wordalizer 1.5 for InDesign CS4-CC (coming soon) JPG: http://t.co/z6i
 &lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://ift.tt/1lRL3K9&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Microview_chip Sized_arduino_with_built In_oled_display__by_geek_ammo___kickstarter</title>
-   <link href="http://fabiantheblind.github.io//2014/03/26/microview_chip-sized_arduino_with_built-in_oled_display__by_geek_ammo___kickstarter.html"/>
-   <updated>2014-03-26T00:00:00+01:00</updated>
-   <id>http://fabiantheblind.github.io//2014/03/26/microview_chip-sized_arduino_with_built-in_oled_display__by_geek_ammo___kickstarter</id>
-   <content type="html">&lt;h2&gt;MicroView: Chip-sized Arduino with built-in OLED Display! by Geek Ammo — Kickstarter&lt;/h2&gt;
-
-&lt;blockquote&gt;&lt;p&gt;The MicroView is the first chip-sized Arduino compatible that lets you see what your Arduino is thinking using a built-in OLED display.
-You&#39;ve never seen an Arduino™ compatible like this. With a built-in OLED (Organic Light Emitting Diode Display) you can see what your Arduino is thinking without having to connect it to your computer. 
-No more cryptic &amp;quot;Hello World&amp;quot; LED blink sequences or shoehorning oversized displays onto your tiny Arduino™. Development is much easier when you can see what&#39;s going on.&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://ift.tt/1fFlGFZ&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -399,6 +399,19 @@ To use Sublime Text 2 (and 3) as the editor for many commands that prompt for in
  </entry>
  
  <entry>
+   <title>GitPi - A Private Git Server on Raspberry Pi</title>
+   <link href="http://fabiantheblind.github.io//2014/03/23/gitpi_a_private_git_server_on_raspberry_pi.html"/>
+   <updated>2014-03-23T13:11:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/23/gitpi_a_private_git_server_on_raspberry_pi</id>
+   <content type="html">&lt;h2&gt;GitPi: A Private Git Server on Raspberry Pi&lt;/h2&gt;
+
+&lt;p&gt;GitPi: A Private Git Server on Raspberry Pi by scottkildall
+via adafruit&lt;br/&gt;
+via &lt;a href=&quot;http://ift.tt/PK1zll&quot;&gt;Pinboard&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Ayah Bdeir Building blocks that blink, beep and teach  Talk Video  TED</title>
    <link href="http://fabiantheblind.github.io//2014/03/23/ayah_bdeir_building_blocks_that_blink_beep_and_teach.html"/>
    <updated>2014-03-23T13:06:00+01:00</updated>
@@ -522,19 +535,6 @@ via Pinboard http://ift.tt/1hBjtyw&lt;/p&gt;
 
 
 &lt;p&gt;We will see how this turns out.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Gitpi_a_private_git_server_on_raspberry_pi</title>
-   <link href="http://fabiantheblind.github.io//2014/03/23/gitpi_a_private_git_server_on_raspberry_pi.html"/>
-   <updated>2014-03-23T00:00:00+01:00</updated>
-   <id>http://fabiantheblind.github.io//2014/03/23/gitpi_a_private_git_server_on_raspberry_pi</id>
-   <content type="html">&lt;h2&gt;GitPi: A Private Git Server on Raspberry Pi&lt;/h2&gt;
-
-&lt;p&gt;GitPi: A Private Git Server on Raspberry Pi by scottkildall
-via adafruit&lt;br/&gt;
-via &lt;a href=&quot;http://ift.tt/PK1zll&quot;&gt;Pinboard&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
