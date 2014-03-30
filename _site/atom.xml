@@ -4,13 +4,95 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2014-03-29T15:00:25+01:00</updated>
+ <updated>2014-03-30T11:27:24+02:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
    <email>hello@fabiantheblind.info</email>
  </author>
 
+ 
+ <entry>
+   <title>The Miso Project</title>
+   <link href="http://fabiantheblind.github.io//2014/03/30/the_miso_project.html"/>
+   <updated>2014-03-30T11:00:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/30/the_miso_project</id>
+   <content type="html">&lt;h2&gt;The Miso Project&lt;/h2&gt;
+
+&lt;p&gt;Miso is an open source toolkit designed to expedite the creation of high-quality interactive storytelling and data visualisation content.&lt;/p&gt;
+
+&lt;p&gt;Miso consists of Dataset, a JavaScript client-side data management and transformation library, Storyboard, a state and flow-control management library &amp;amp; d3.chart, a framework for creating reusable charts with d3.js.&lt;/p&gt;
+
+&lt;p&gt;Miso is in active development, and will have components released as they are completed. Follow along: @TheMisoProject &amp;amp; Github
+&lt;a href=&quot;http://misoproject.com/&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>misoproject/d3.chart · GitHub</title>
+   <link href="http://fabiantheblind.github.io//2014/03/30/misoprojectd3.chart___github.html"/>
+   <updated>2014-03-30T10:52:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/30/misoprojectd3.chart___github</id>
+   <content type="html">&lt;h2&gt;misoproject/d3.chart · GitHub&lt;/h2&gt;
+
+&lt;p&gt;fabiantheblind starred misoproject/d3.chart
+&lt;a href=&quot;http://ift.tt/1jmmBAQ&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>That Time We Tricked the Internet Into Following a Paperclip on Twitter | Gadget Lab | Wired.com</title>
+   <link href="http://fabiantheblind.github.io//2014/03/30/that_time_we_tricked_the_internet_into_following_a_paperclip_on_twitter__gadget_lab__wired.com.html"/>
+   <updated>2014-03-30T08:04:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/30/that_time_we_tricked_the_internet_into_following_a_paperclip_on_twitter__gadget_lab__wired.com</id>
+   <content type="html">&lt;h2&gt;That Time We Tricked the Internet Into Following a Paperclip on Twitter | Gadget Lab | Wired.com&lt;/h2&gt;
+
+&lt;p&gt;That time we tricked the internet into following a @ClippyTheClip on @Twitter: http://t.co/gtOCzmwMo1&lt;/p&gt;
+
+&lt;p&gt;— WIRED Insider (@WIREDInsider) March 28, 2014&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ift.tt/P7YquB&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Installing the Wolfram Language and Mathematica on your Raspberry Pi - Online Technical Discussion Groups—Wolfram Community</title>
+   <link href="http://fabiantheblind.github.io//2014/03/29/installing_the_wolfram_language_and_mathematica_on_your_raspberry_pi_-_online_technical_discussion_groups_wolfram_community.html"/>
+   <updated>2014-03-29T14:53:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/29/installing_the_wolfram_language_and_mathematica_on_your_raspberry_pi_-_online_technical_discussion_groups_wolfram_community</id>
+   <content type="html">&lt;h2&gt;Installing the Wolfram Language and Mathematica on your Raspberry Pi - Online Technical Discussion Groups—Wolfram Community&lt;/h2&gt;
+
+&lt;p&gt;how to install all that? looks easy&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get update &amp;amp;amp;&amp;amp;amp; sudo apt-get install wolfram-engine  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thats it? I love package manager&lt;br/&gt;
+&lt;a href=&quot;http://ift.tt/1jHfJkc&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Let’s make a cheap +5V power supply | PlanetArduino</title>
+   <link href="http://fabiantheblind.github.io//2014/03/29/let_s_make_a_cheap__5v_power_supply__planetarduino.html"/>
+   <updated>2014-03-29T14:07:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/29/let_s_make_a_cheap__5v_power_supply__planetarduino</id>
+   <content type="html">&lt;h2&gt;Let’s make a cheap +5V power supply | PlanetArduino&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ift.tt/1dDxpuh&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The GNU Netcat -- Official homepage</title>
+   <link href="http://fabiantheblind.github.io//2014/03/29/the_gnu_netcat_--_official_homepage.html"/>
+   <updated>2014-03-29T13:53:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/29/the_gnu_netcat_--_official_homepage</id>
+   <content type="html">&lt;h2&gt;The GNU Netcat -- Official homepage&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ift.tt/t0iuHn&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Do some Stuff With Raspberry Pi</title>
@@ -69,6 +151,33 @@
  </entry>
  
  <entry>
+   <title>Netcat - the TCP/IP swiss army</title>
+   <link href="http://fabiantheblind.github.io//2014/03/29/netcat_the_tcpip_swiss_army.html"/>
+   <updated>2014-03-29T13:52:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/29/netcat_the_tcpip_swiss_army</id>
+   <content type="html">&lt;h2&gt;Netcat: the TCP/IP swiss army&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ift.tt/YpdUIG&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Tuundra</title>
+   <link href="http://fabiantheblind.github.io//2014/03/29/tuundra.html"/>
+   <updated>2014-03-29T13:24:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/29/tuundra</id>
+   <content type="html">&lt;h2&gt;Tuundra&lt;/h2&gt;
+
+&lt;p&gt;Tuundra Reendeer is a fast and easy network and multi-core renderer for Adobe® After Effects®. No need to run custom command lines in a shell - send a composition from AE directly to Reendeer&#39;s graphical interface where you can setup it and manage the whole render queue.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, no more sleepless night trying to configure the multiprocessing settings in After Effects for each project — Reendeer analyze each computer&#39;s cpu and memory usage while rendering and optimizes in real-time the number of frames rendered simultaneously.&lt;/p&gt;
+
+&lt;p&gt;Once rendered, the image can be assembled with the audio into a video file by installing the freely available FFmpeg video compressor* - you can even compress ProRes in Windows!
+&lt;a href=&quot;http://tuundra.com/&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Injecting Computation Everywhere–A SXSW Update—Wolfram|Alpha Blog</title>
    <link href="http://fabiantheblind.github.io//2014/03/29/injecting_computation_everywhere_a_sxsw_update_wolframalpha_blog.html"/>
    <updated>2014-03-29T12:16:00+01:00</updated>
@@ -99,6 +208,59 @@
  </entry>
  
  <entry>
+   <title>Narrative Clip – a wearable, automatic lifelogging camera</title>
+   <link href="http://fabiantheblind.github.io//2014/03/29/narrative_clip___a_wearable__automatic_lifelogging_camera.html"/>
+   <updated>2014-03-29T11:48:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/29/narrative_clip___a_wearable__automatic_lifelogging_camera</id>
+   <content type="html">&lt;h2&gt;Narrative Clip – a wearable, automatic lifelogging camera&lt;/h2&gt;
+
+&lt;p&gt;A new kind of photographic memory
+The Narrative Clip is a tiny, automatic camera and app that gives you a searchable and shareable photographic memory.
+Choose your color
+&lt;a href=&quot;http://ift.tt/157cb1z&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Spring-cleaning Unused CSS With Grunt, Gulp, Broccoli or Brunch</title>
+   <link href="http://fabiantheblind.github.io//2014/03/29/spring-cleaning_unused_css_with_grunt__gulp__broccoli_or_brunch.html"/>
+   <updated>2014-03-29T10:35:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/29/spring-cleaning_unused_css_with_grunt__gulp__broccoli_or_brunch</id>
+   <content type="html">&lt;h2&gt;Spring-cleaning Unused CSS With Grunt, Gulp, Broccoli or Brunch&lt;/h2&gt;
+
+&lt;p&gt;Spring-cleaning Unused CSS With Grunt, Gulp, Broccoli or Brunch&lt;/p&gt;
+
+&lt;p&gt;The tough economic times on Tatooine hit everyone hard, including the Jawas.
+Delivering a fast experience on the web usually involves reducing server response time, minification of CSS/JS/HTML and an optimisation of images and above-the-fold content. We can further minimize the latency caused by stylesheet loading by removing unused CSS rules delivered to the client.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ift.tt/1for8xJ&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Tags In Jekyll</title>
+   <link href="http://fabiantheblind.github.io//2014/03/29/tags_in_jekyll.html"/>
+   <updated>2014-03-29T08:20:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/29/tags_in_jekyll</id>
+   <content type="html">&lt;h2&gt;Tags In Jekyll&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ift.tt/1bOSmlp&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Watch as 1000 years of European borders change (timelapse map) on Vimeo</title>
+   <link href="http://fabiantheblind.github.io//2014/03/29/watch_as_1000_years_of_european_borders_change__timelapse_map__on_vimeo.html"/>
+   <updated>2014-03-29T08:07:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/29/watch_as_1000_years_of_european_borders_change__timelapse_map__on_vimeo</id>
+   <content type="html">&lt;h2&gt;Watch as 1000 years of European borders change (timelapse map) on Vimeo&lt;/h2&gt;
+
+&lt;p&gt;Watch as 1000 years of European borders change (timelapse map) An incredible timelapse look at how drastically European borders have changed over the last 1000 years TransferWise – money without borders (video from the “Centennia Historical Atlas” by Frank E.Reed)
+&lt;a href=&quot;http://ift.tt/QpGmxe&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Kate Ascher's The Way to Go - A Visual Guide to How Planes Take Off, Navigate, Approach, and Land.</title>
    <link href="http://fabiantheblind.github.io//2014/03/29/kate_ascher_s_the_way_to_go_a_visual_guide_to_how_planes_take_off__navigate__approach__and_land..html"/>
    <updated>2014-03-29T08:05:00+01:00</updated>
@@ -111,6 +273,19 @@ By Kate Ascher&lt;br/&gt;
 
 &lt;blockquote&gt;&lt;p&gt;Is it possible to write a stunning book about infrastructure? Kate Ascher’s books are bliss for engineering-minded adults and children. Using gorgeous graphics and clear, simple, language, Ascher explains the infrastructure and engineering marvels around us. As David Macaulay won over a generation to architecture in the ’70s and ’80s with books like Castle and Underground, Ascher is enticing people to engineering, urban planning, and infrastructure. Here’s an excerpt from the chapter on air travel from her new book, The Way to Go: Moving By Sea, Land, and Air.&lt;br/&gt;
 &lt;a href=&quot;http://www.slate.com/articles/technology/technology/2014/03/kate_ascher_s_the_way_to_go_a_visual_guide_to_how_planes_take_off_navigate.html&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Uncanny valley - Wikipedia, the free encyclopedia</title>
+   <link href="http://fabiantheblind.github.io//2014/03/29/uncanny_valley_-_wikipedia__the_free_encyclopedia.html"/>
+   <updated>2014-03-29T07:54:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/29/uncanny_valley_-_wikipedia__the_free_encyclopedia</id>
+   <content type="html">&lt;h2&gt;Uncanny valley - Wikipedia, the free encyclopedia&lt;/h2&gt;
+
+&lt;p&gt;The uncanny valley is a hypothesis in the field of human aesthetics which holds that when human features look and move almost, but not exactly, like natural human beings, it causes a response of revulsion among some human observers. Examples can be found in the fields of robotics,[1] 3D computer animation,[2][3] and in medical fields such as burn reconstruction, infectious diseases, neurological conditions, and plastic surgery.[4] The &amp;quot;valley&amp;quot; refers to the dip in a graph of the comfort level of humans as subjects move toward a healthy, natural human likeness described in a function of a subject&#39;s aesthetic acceptability.
+The term was coined by the robotics professor Masahiro Mori as Bukimi no Tani Genshō (不気味の谷現象) in 1970. The hypothesis has been linked to Ernst Jentsch&#39;s concept of the &amp;quot;uncanny&amp;quot; identified in a 1906 essay, &amp;quot;On the Psychology of the Uncanny&amp;quot;.[5][6][7] Jentsch&#39;s conception was elaborated by Sigmund Freud in a 1919 essay entitled &amp;quot;The Uncanny&amp;quot; (&amp;quot;Das Unheimliche&amp;quot;).[8]
+&lt;a href=&quot;http://ift.tt/f36xSY&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
