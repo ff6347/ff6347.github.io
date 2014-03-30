@@ -7,7 +7,7 @@ tags: RaspberryPi, wolfram, language
 ##Installing the Wolfram Language and Mathematica on your Raspberry Pi - Online Technical Discussion Groups—Wolfram Community
 how to install all that? looks easy  
 
-    sudo apt-get update &amp;&amp; sudo apt-get install wolfram-engine  
+    sudo apt-get update && sudo apt-get install wolfram-engine  
 
 Thats it? I love package manager  
 [link to source](http://ift.tt/1jHfJkc) 

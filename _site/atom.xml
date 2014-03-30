@@ -4,7 +4,7 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2014-03-30T11:27:24+02:00</updated>
+ <updated>2014-03-30T11:36:17+02:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
@@ -64,7 +64,7 @@
 
 &lt;p&gt;how to install all that? looks easy&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;sudo apt-get update &amp;amp;amp;&amp;amp;amp; sudo apt-get install wolfram-engine  
+&lt;pre&gt;&lt;code&gt;sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install wolfram-engine  
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Thats it? I love package manager&lt;br/&gt;
