@@ -16,9 +16,9 @@
 // overwrite bs less variables
 @bodyBackground:        white;
 // @baseLineHeight:        1.5em;
-@baseFontSize:          1.2em;
-@smallLineHeight:        1.4em;
-@smallFontSize:          1em;
+// @baseFontSize:          1.2em;
+// @smallLineHeight:        1.4em;
+// @smallFontSize:          @baseFontSize;
 @std_border_rad: 13px;
 @meImageMaxWidth: 375px;
 @linkColor: #75999a;
@@ -77,16 +77,18 @@ font-weight: 400;
 
 body {
     .serifregular;
-    // font-size: @baseFontSize;
-}
-
-p{
-  font-size: 1.5em;
-}
-p#bio{
-  font-size: 1.6em;
+    font-size: 18px;
+    //
+  // font-size: 1.2em;
+  // line-height: 1.5em;
 
 }
+
+
+// p#bio{
+//   font-size: 1.6em;
+
+// }
 
 img{
   max-width:100%;
@@ -109,6 +111,8 @@ list-style-type: upper-roman;
   .pulse; // Initiate bounce effect
     }
 }
+
+
 .menumotion{
   padding-top: 0em;
 }
@@ -129,24 +133,21 @@ nav {
   }
 }
 
-p{
-  line-height: 1.5em;
-}
 
 p#vita{
   text-align: center;
-  font-size: 0.8em;
+  // font-size: 1em;
   padding-top: 2em;
 }
 .container{  }
 
 .videosubtext{
   padding-top: 1em;
-  font-size: 0.8em;
+  // font-size: 0.8em;
 }
 .videosubtextmisc{
   padding-top: 1em;
-  font-size: 0.6em;
+  // font-size: 0.6em;
 }
 iframe{
   @pad :1.5em;
@@ -155,16 +156,14 @@ iframe{
 }
 
 .hero-unit{
+  margin-top: 50px;
   background-color: @bodyBackground;
   h1{
     margin-top:0;
-    // font-size: 5em;
+    font-size: 3em;
     .serifbold;
   }
-  p{
-    font-size: @baseFontSize;
-    // line-height: @baseLineHeight;
-  }
+
 }
 
 h1.hello{
@@ -172,12 +171,20 @@ h1.hello{
         .serifbold;
 }
 
+h3{
+  // font-size: 1.1em;
+  font-weight: bold;
+}
+
 a.home-link{
   text-decoration: none;
 }
+
 .sections{
     text-align: center;
 }
+
+
 #showreel{
   max-width: @meImageMaxWidth;
   img{
@@ -188,16 +195,13 @@ a.home-link{
 
 .tile{
   .tile-std;
-
   img{  .fancyBorder;}
   a img{.fancyBorder(@imgLinkColor);}
   a img:hover{  .fancyBorder(black);}
 }
 
-
 .big{
   .tile-std;
-  img{  }
 }
 #showreel:hover{
   .animated; // Initiate animation library
@@ -229,7 +233,6 @@ pre{
   /* width: 99%; */              /* only if needed */
 }
 code{
-font-size: 1.0em;
 font-family: monospace;
 white-space: pre-wrap !important; /* css-3 */
 white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
@@ -292,14 +295,19 @@ img.gravatar{
 section#blog{
   padding-top: 1.5em
 }
+
+blockquote{
+  color: #666666;
+font-style: italic;
+}
 /*****************************************************************************
 /*
 /* MEDIA QUERIES
 **********************************************************/
 
 .smalltext(){
-        font-size: @smallFontSize;
-        line-height: @smallLineHeight;
+        // font-size: @smallFontSize;
+        // line-height: @smallLineHeight;
 
 }
 
@@ -309,8 +317,8 @@ section#blog{
     padding-left: 0px;
     padding-right: 0px;
      p {
-     font-size:1em;
-     line-height:1.4em;
+     // font-size:1em;
+     // line-height:1.4em;
      margin:0px;
       padding:0px;
      }
@@ -353,7 +361,7 @@ p{
 /*Portrait tablet to landscape and desktop*/
 @media (min-width: 768px) and (max-width: 979px) {
   .title-misc{
-  font-size: 0.5em;
+  // font-size: 0.5em;
     }
 }
 /* Large desktop*/

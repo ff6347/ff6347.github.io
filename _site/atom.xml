@@ -4,13 +4,412 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2014-03-30T11:36:17+02:00</updated>
+ <updated>2014-04-06T09:21:11+02:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
    <email>hello@fabiantheblind.info</email>
  </author>
 
+ 
+ <entry>
+   <title>Github Stars Summery</title>
+   <link href="http://fabiantheblind.github.io//2014/04/06/Github-Stars.html"/>
+   <updated>2014-04-06T08:00:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2014/04/06/Github-Stars</id>
+   <content type="html">&lt;h3&gt;coteditor/CotEditor&lt;/h3&gt;
+
+&lt;p&gt;Another text editor.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1iQy4rw&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;addyosmani/starter&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;A simple, git-clone friendly starting point for personal projects.
+Includes&lt;br/&gt;
+- HTML Boilerplate
+- Bootstrap (CSS)
+- Minimal layout
+- Gulp build process (Concat, Minify, Optimize Images, LiveReload, Remove unused CSS, Wire Deps, Autoprefixer)&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1mk7ZBU&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;fabiantheblind/pinboard-and-nodejs&lt;/h3&gt;
+
+&lt;p&gt;I&#39;ve been unsing Pinboard a lot lately. It interested me if I could access my bookmarks from the desktop. So I started playing with two node.js pinboard modules.&lt;br/&gt;
+One script to get specific tags and one to post a list of links to pinboard.&lt;br/&gt;
+- &lt;a href=&quot;https://github.com/maxmechanic/node-pinboard&quot;&gt;maxmechanic/node-pinboard&lt;/a&gt;&lt;br/&gt;
+- &lt;a href=&quot;https://github.com/frozzare/node-pinboard&quot;&gt;frozzare/pinboard&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1fkJJ1j&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;proevo/PE-Analog-Clock-icon-font&lt;/h3&gt;
+
+&lt;p&gt;Very nice, I want to try it on my raspberry pi webserver with node.js.&lt;br/&gt;
+- &lt;a href=&quot;http://ift.tt/1hv0lEj&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Ferrari/grunt-autoshot&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Create a quick screenshot for your site which could help for document or testing. Inspired by Testing your responsive design with PhantomJS, also suport different resolution base on your viewport, it&#39;s useful to responsive design.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1emdgUn&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;kenwheeler/slick&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;the last carousel you&#39;ll ever need&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Sounds promissing. looks good on a quick view.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1hp3IZs&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;kitcambridge/evil.js &amp;amp; mathiasbynens/evil.sh&lt;/h3&gt;
+
+&lt;p&gt;For the April fooling?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1ggxL4K&quot;&gt;link to evil.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/19134OE&quot;&gt;link to evil.sh&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;SFE-Chris/Ino-Toolkit-Ubuntu-Quickinstall&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;A simple bash script to automate the install and setup of Ino Toolkit on Ubuntu&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;I like the ino project&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/QEDDQI&quot;&gt;link to Toolkit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://inotool.org&quot;&gt;link to ino&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;ChrisMortimerSoftware/Data-Gatherer&lt;/h3&gt;
+
+&lt;p&gt;I need to test this @ the &lt;a href=&quot;http://design.fh-potsdam.de/studiengaenge/interfacedesign.html&quot;&gt;FHP&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1pZobur&quot;&gt;link to github examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.appbrain.com/app/data-gatherer/com.chrismortimer.DataGatherer&quot;&gt;link to Android App&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;education/teachers-pet&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;teachers_pet
+Command line tools to help teachers use GitHub in their classrooms.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1hCXjxF&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;fabiantheblind/tombola&lt;/h3&gt;
+
+&lt;p&gt;Some scripts for random selection. Unfortunately our course @ the FHP is resctricted to 15 participants. So we have to draw them from a hat.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1pZ4ZNv&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;MatthewMueller/svg&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;low-level svg helper&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1hCXiK5&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;v3ga/Processing&lt;/h3&gt;
+
+&lt;p&gt;Oh. wow. He accesses the &lt;a href=&quot;https://openpaths.cc&quot;&gt;OpenPaths API&lt;/a&gt; with &lt;a href=&quot;http://unfoldingmaps.org&quot;&gt;unfoldingmaps.org&lt;/a&gt;. Cool. Also he reads in a table. I didn&#39;t know this exists in processing. Could be great for my &lt;a href=&quot;https://github.com/FH-Potsdam/tobii_eyetracker_csv_reading&quot;&gt;eyetracker csv reading&lt;/a&gt;. &lt;a href=&quot;https://github.com/fabiantheblind/v3gaProcessing&quot;&gt;Forked it&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1pS7wsA&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;yohanboniface/Carto-sublime&lt;/h3&gt;
+
+&lt;p&gt;carto syntax highlithing. Can be used with e.g. &lt;a href=&quot;https://www.mapbox.com/tilemill/&quot;&gt;TileMill&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1pS7uku&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;AriaMinaei/pretty-error&lt;/h3&gt;
+
+&lt;p&gt;A small tool to see node.js errors with less clutter:&lt;br/&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/AriaMinaei/pretty-error/master/docs/images/pretty-error-screenshot.png&quot; alt=&quot;pretty errors&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1b0zzO3&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;dhchoi/processing-countdowntimer&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;The CountdownTimer is an easy to use library for performing timed events. It will allow the user to configure the timer&#39;s duration and interval at which tick events will occur. The timer will trigger onTickEvents after each tick interval and will eventually trigger an onFinishEvent when the whole timer duration has finished.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/PoiyJk&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;processing/processing-forum&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Bugs and details about the Processing Forum: &lt;a href=&quot;http://forum.processing.org&quot;&gt;forum.processing.org&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1hmstVM&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;scrapinghub/portia&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Portia is a tool for visually scraping web sites without any programming knowledge. Just annotate web pages with a point and click editor to indicate what data you want to extract, and portia will learn how to scrape similar pages from the site.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1hfo2vR&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;winjs/winjs&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Windows Library for JavaScript (WinJS)&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1fueAZb&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;dmotz/TuringType&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;A naïve human typing simulation effect&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://oxism.com/TuringType/&quot;&gt;Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1heto0i&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;fabiantheblind/IRPseudoRemote&lt;/h3&gt;
+
+&lt;p&gt;So you bought that shiny Apple Remote and learnd at home that your shiny MacBook Air has no IR reciever? Luckily you can build something like it yourself.&lt;br/&gt;
+Using a &lt;a href=&quot;https://www.tinkersoup.de/pro-micro-a-5v-16mhz/a-1222/&quot;&gt;Arduino Pro Micro&lt;/a&gt;, a &lt;a href=&quot;https://www.tinkersoup.de/ir-receiver-breakout/a-241/&quot;&gt;IR receiver breakout&lt;/a&gt;, both from &lt;a href=&quot;http://sparkfun.com&quot;&gt;sparkfun.com&lt;/a&gt; via &lt;a href=&quot;http://tinkersoup.de&quot;&gt;tinkersoup.de&lt;/a&gt; and this Arduino &lt;a href=&quot;https://github.com/shirriff/Arduino-IRremote&quot;&gt;Arduino-IRremote library&lt;/a&gt; by &lt;a href=&quot;https://github.com/shirriff&quot;&gt;shirriff&lt;/a&gt;.&lt;br/&gt;
+- &lt;a href=&quot;http://ift.tt/1fNI04S&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Innouveau/FontApp&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Normally when you are searching for a font for your design you are confronted with an endless list of fonts, alphabetically ordered. In FontApp you will find a font by specifying its appearance; you can say whether you want a Serif, Sans Serif, etc. But you can also say if you want it to be slightly lighter or wider.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1mKWovK&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;shiffman/Programming-from-A-to-Z&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Programming-from-A-to-Z
+(or Everything you wanted to know about text but were afraid to ask.)
+(or How i learned to stop worrying and love the javascript.)
+What can computation add to human communication? Creating computer applications, instead of just using them, will give you a deeper understanding of the essential possibilities of computation. The course focuses on the fundamentals of programming the computer in the context of language and words. We&#39;ll explore topics ranging from evaluating text according to its statistical properties to the automated production of text with probabilistic methods to text visualization. Students will learn the JavaScript programming languages and develop projects that can be shared and interacted with online. The end of the semester is spent developing an idea for a final project and implementing it using computer programming.(…)&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1ka3T2l&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;trifacta/vega&lt;/h3&gt;
+
+&lt;p&gt;Needs a closer look.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://trifacta.github.io/vega/&quot;&gt;project website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1eb5UHH&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;krevis/MIDIApps from snoize&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.snoize.com&quot;&gt;snoize.com and download&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ift.tt/1fPFvim&quot;&gt;link to source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>BBC News - Xbox password flaw exposed by five-year-old boy</title>
+   <link href="http://fabiantheblind.github.io//2014/04/05/bbc_news_-_xbox_password_flaw_exposed_by_five-year-old_boy.html"/>
+   <updated>2014-04-05T10:36:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2014/04/05/bbc_news_-_xbox_password_flaw_exposed_by_five-year-old_boy</id>
+   <content type="html">&lt;h2&gt;BBC News - Xbox password flaw exposed by five-year-old boy&lt;/h2&gt;
+
+&lt;p&gt;BBC News - Xbox password flaw exposed by five-year-old boy http://t.co/h3kLOldHBg&lt;/p&gt;
+
+&lt;p&gt;— Fabian Morón Zirfas (@fabiantheblind) April 5, 2014&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ift.tt/Pwvlcv&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>David Underhill » git forever remove files or folders from history</title>
+   <link href="http://fabiantheblind.github.io//2014/04/05/david_underhill___git_forever_remove_files_or_folders_from_history.html"/>
+   <updated>2014-04-05T10:28:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2014/04/05/david_underhill___git_forever_remove_files_or_folders_from_history</id>
+   <content type="html">&lt;h2&gt;David Underhill » git: forever remove files or folders from history&lt;/h2&gt;
+
+&lt;p&gt;&amp;gt; I recently had a need to rewrite a git repository’s history. This isn’t generally a very good idea, though it is useful if your repository contains files it should not (such as unneeded large binary files or copyrighted material). I also am using it because I had a branch where I only wanted to merge a subset of files back into master (though there are probably better ways of doing this). Anyway, it is not very hard to rewrite history thanks to the excellent git-filter-branch tool which comes with git. However, if your goal was to reduce a large repository’s size then git-filter-branch does not quite finish the job since it makes temporary backups of the filtered out files. To remove those, you need to do a little more work. To make it easier to permanently remove files, I wrapped it in a little bash script git-remove-history (also shown below) — simply go to the root of your repository and run the script with the list of files you want to delete and it will do the rest. There is an interesting thread about doing this here on KernelTrap.
+&lt;a href=&quot;http://ift.tt/rnwLHC&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Raspberry Pi</title>
+   <link href="http://fabiantheblind.github.io//2014/04/04/raspberry_pi.html"/>
+   <updated>2014-04-04T11:27:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2014/04/04/raspberry_pi</id>
+   <content type="html">&lt;h2&gt;Raspberry Pi&lt;/h2&gt;
+
+&lt;p&gt;The new site looks very good. (bout time)
+&lt;a href=&quot;http://ift.tt/iRv29v&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Data Gatherer for Android and arduino</title>
+   <link href="http://fabiantheblind.github.io//2014/04/03/data_gatherer_for_android__arduino.html"/>
+   <updated>2014-04-03T22:13:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2014/04/03/data_gatherer_for_android__arduino</id>
+   <content type="html">&lt;h2&gt;Data Gatherer for Android : arduino&lt;/h2&gt;
+
+&lt;p&gt;Hello all, I though I would share with you all the new android app I have been developing it&#39;s call Data Gatherer and it exposes the sensors and data networks of an android device to an Arduino, other micro controller, PC , or just about any other device with a Bluetooth connection.
+Although many of us are fluent in the Arduino&#39;s C++/processing language and IDE some may be a little off put by java and one of its IDE this is where Data Gatherer comes in. Retrieving GPS, Accelerometer, and Gyroscope sensor data is easy as setting up a serial connection.
+For a full list of feature please check out the description of Data Gatherer in the play store. I will be making regular updates to the app adding new features as they are requested.
+Data Gatherer does not require a rooted device.
+Edit: Demo code can be found at http://ift.tt/1pZobur
+Edit: Now supports image capture and image data retrieval.
+Edit: A free version of data gatherer is now available. Data Gatherer
+&lt;a href=&quot;http://ift.tt/1jP5FkH&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Open Access Maps at NYPL | The New York Public Library</title>
+   <link href="http://fabiantheblind.github.io//2014/04/03/open_access_maps_at_nypl__the_new_york_public_library.html"/>
+   <updated>2014-04-03T14:45:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2014/04/03/open_access_maps_at_nypl__the_new_york_public_library</id>
+   <content type="html">&lt;h2&gt;Open Access Maps at NYPL | The New York Public Library&lt;/h2&gt;
+
+&lt;p&gt;The Lionel Pincus &amp;amp; Princess Firyal Map Division is very proud to announce the release of more than 20,000 cartographic works as high resolution downloads. We believe these maps have no known US copyright restrictions.* To the extent that some jurisdictions grant NYPL an additional copyright in the digital reproductions of these maps, NYPL is distributing these images under a Creative Commons CC0 1.0 Universal Public Domain Dedication. The maps can be viewed through the New York Public Library’s Digital Collections page, and downloaded (!), through the Map Warper. First, create an account, then click a map title and go. Here’s a primer and more extended blog post on the warper.
+&lt;a href=&quot;http://ift.tt/1gLb5iZ&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>gPhoto - gPhoto Home</title>
+   <link href="http://fabiantheblind.github.io//2014/04/03/gphoto_-_gphoto_home.html"/>
+   <updated>2014-04-03T10:27:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2014/04/03/gphoto_-_gphoto_home</id>
+   <content type="html">&lt;h2&gt;gPhoto - gPhoto Home&lt;/h2&gt;
+
+&lt;p&gt;Digital cameras have the balance of quality, features, and price that appeals to users looking for a fast and convenient way to get images into their PC. You can spend a lot more -- or a lot less -- for one than the $100 to $3000 (or even more) these cost, but you won&#39;t like the quality at the low end or the prices at the high end. With digital cameras, the best place to be is in the middle.&lt;/p&gt;
+
+&lt;p&gt;No other image-capture option for your computer matches the fun, immediacy, and convenience of a digital camera. Unlike with a scanner, you don&#39;t need an preexisting image: A digital camera lets you capture what you see. And unlike film-to-disk services, development is instantaneous: You don&#39;t have to wait hours or days before you can use an image on your computer.&lt;/p&gt;
+
+&lt;p&gt;Operating a digital camera is also inexpensive, because the only recurring cost is batteries. The camera&#39;s storage is reusable once you download a batch of images. And since you don&#39;t have to pay for film processing, you can go wild.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, many digital camera manufacturers refuse to share their camera communication specifications with their customers and millions of users who run free operating systems.&lt;/p&gt;
+
+&lt;p&gt;This is a big obstacle to development of free photo applications, and it blocks free software developers from writing free programs, that support the same features as the proprietary digital camera programs for Microsoft Windows and MacOS that usually are shipped with the camera. It renders the camera quite useless if you don&#39;t run one of those proprietary operating systems.
+&lt;a href=&quot;http://www.gphoto.org/&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Entangle Tethered Camera Control &amp; Capture</title>
+   <link href="http://fabiantheblind.github.io//2014/04/03/entangle_tethered_camera_control__amp_capture.html"/>
+   <updated>2014-04-03T10:27:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2014/04/03/entangle_tethered_camera_control__amp_capture</id>
+   <content type="html">&lt;h2&gt;Entangle Tethered Camera Control &amp;amp; Capture&lt;/h2&gt;
+
+&lt;p&gt;Entangle: Tethered Camera Control &amp;amp; Capture
+Entangle provides a graphical interface for “tethered shooting”, aka taking photographs with a digital camera completely controlled from the computer.
+&lt;a href=&quot;http://ift.tt/Ncu5IN&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Fritzing Project – Optocoupler</title>
+   <link href="http://fabiantheblind.github.io//2014/04/03/fritzing_project___optocoupler.html"/>
+   <updated>2014-04-03T10:26:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2014/04/03/fritzing_project___optocoupler</id>
+   <content type="html">&lt;h2&gt;Fritzing Project – Optocoupler&lt;/h2&gt;
+
+&lt;p&gt;An optocoupler can be used to control a circuit that&#39;s completely isolated from your microcontroller. In this case, imagine that the LED and battery pack are a hacked toy which you&#39;re turning on and off with Arduino.
+Use an optocoupler such as the 4N35. Connect the optocoupler&#39;s pin 2 through a 220Ω resistor with Arduino&#39;s pin 11, and pin 2 with Arduino&#39;s ground. Then connect your external circuit to pins 5 (collector) and pin 6 (emitter). You can also apply voltage to pin 4 (base) of the optocoupler to raise the gain (just like with a normal transistor).
+&lt;a href=&quot;http://ift.tt/1h6suCT&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>BeamApp Downloads - seamless action across your devices</title>
+   <link href="http://fabiantheblind.github.io//2014/04/01/beamapp_downloads_-_seamless_action_across_your_devices.html"/>
+   <updated>2014-04-01T12:01:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2014/04/01/beamapp_downloads_-_seamless_action_across_your_devices</id>
+   <content type="html">&lt;h2&gt;BeamApp Downloads - seamless action across your devices&lt;/h2&gt;
+
+&lt;p&gt;Stop Sending Emails to Yourself
+Forget about emails you send to yourself just to get a phone number, an address or a hyperlink onto another device. BeamApp analyzes your clipboard, your active application or background tasks on your desktop and opens the right apps on your other gadgets. It connects your technology so you can instantly continue your ongoing action on the device that suits best.
+&lt;a href=&quot;http://ift.tt/1hv0mrG&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Course Syllabus | Open Source Hardware Group</title>
+   <link href="http://fabiantheblind.github.io//2014/03/31/course_syllabus__open_source_hardware_group.html"/>
+   <updated>2014-03-31T10:46:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/31/course_syllabus__open_source_hardware_group</id>
+   <content type="html">&lt;h2&gt;Course Syllabus | Open Source Hardware Group&lt;/h2&gt;
+
+&lt;p&gt;Course Syllabus
+Arduino Course for Absolute Beginners&lt;br/&gt;
+&lt;a href=&quot;http://ift.tt/1gSHswn&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Maxmind Developer Site «</title>
+   <link href="http://fabiantheblind.github.io//2014/03/30/maxmind_developer_site__.html"/>
+   <updated>2014-03-30T18:45:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/30/maxmind_developer_site__</id>
+   <content type="html">&lt;h2&gt;Maxmind Developer Site «&lt;/h2&gt;
+
+&lt;p&gt;seems to be some kind of free data set. Nice.
+&lt;a href=&quot;http://dev.maxmind.com/&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>The Miso Project</title>
@@ -52,6 +451,32 @@
 &lt;p&gt;— WIRED Insider (@WIREDInsider) March 28, 2014&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://ift.tt/P7YquB&quot;&gt;link to source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>tweet embed test</title>
+   <link href="http://fabiantheblind.github.io//2014/03/30/aemap-locations-projection.html"/>
+   <updated>2014-03-30T00:00:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/30/aemap-locations-projection</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/Bj-xuWzCQAEUJ67.jpg:large&quot; alt=&quot;map projection aitoff&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/search?q=%23AEMap&amp;amp;src=hash&quot;&gt;#AEMap&lt;/a&gt;.jsx &amp;amp; &lt;a href=&quot;https://twitter.com/search?q=%23Locations&amp;amp;src=hash&quot;&gt;#Locations&lt;/a&gt;.jsx map projections still &lt;a href=&quot;https://twitter.com/search?q=%23WIP&amp;amp;src=hash&quot;&gt;#WIP&lt;/a&gt; &lt;a href=&quot;http://t.co/RZUw4AWzAk&quot;&gt;pic.twitter.com/RZUw4AWzAk&lt;/a&gt;&lt;/p&gt;&amp;mdash; Fabian Morón Zirfas (@fabiantheblind) &lt;a href=&quot;https://twitter.com/fabiantheblind/statuses/450273897707880448&quot;&gt;March 30, 2014&lt;/a&gt;&lt;/blockquote&gt;
+
+
+&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>AEMap and Locations are getting projections</title>
+   <link href="http://fabiantheblind.github.io//2014/03/30/AEMap-Locations-WIP.html"/>
+   <updated>2014-03-30T00:00:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2014/03/30/AEMap-Locations-WIP</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7403/13516936844_aecb870b44_b.jpg&quot; alt=&quot;mercator projeciton&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I&#39;m working on it...&lt;/p&gt;
 </content>
  </entry>
  
