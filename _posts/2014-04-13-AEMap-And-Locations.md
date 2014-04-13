@@ -17,9 +17,9 @@ Teaser Music: [the askew is wholesome by Lezet](https://vimeo.com/musicstore/tra
 - Fixes and Additions To world.geo.json  
 
 
-![projections.png](assets/images/aemaplocations/projections.png)  
-![aitoff-projection.png](assets/images/aemaplocations/aitoff-projection.png)  
-![equirectangular-projection-on-sphere-sphere.png](assets/images/aemaplocations/equirectangular-projection-on-sphere.png)  
-![hammer-projection.png](assets/images/aemaplocations/hammer-projection.png)  
-![mercator-projection.png](assets/images/aemaplocations/mercator-projection.png)  
-![sinusoidal-projection.png](assets/images/aemaplocations/sinusoidal-projection.png)  
+![projections.png](/assets/images/aemaplocations/projections.png)  
+![aitoff-projection.png](/assets/images/aemaplocations/aitoff-projection.png)  
+![equirectangular-projection-on-sphere-sphere.png](/assets/images/aemaplocations/equirectangular-projection-on-sphere.png)  
+![hammer-projection.png](/assets/images/aemaplocations/hammer-projection.png)  
+![mercator-projection.png](/assets/images/aemaplocations/mercator-projection.png)  
+![sinusoidal-projection.png](/assets/images/aemaplocations/sinusoidal-projection.png)  

@@ -4,7 +4,7 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2014-04-13T11:59:13+02:00</updated>
+ <updated>2014-04-13T12:04:59+02:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
@@ -34,12 +34,12 @@
 &lt;/ul&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;assets/images/aemaplocations/projections.png&quot; alt=&quot;projections.png&quot; /&gt;&lt;br/&gt;
-&lt;img src=&quot;assets/images/aemaplocations/aitoff-projection.png&quot; alt=&quot;aitoff-projection.png&quot; /&gt;&lt;br/&gt;
-&lt;img src=&quot;assets/images/aemaplocations/equirectangular-projection-on-sphere.png&quot; alt=&quot;equirectangular-projection-on-sphere-sphere.png&quot; /&gt;&lt;br/&gt;
-&lt;img src=&quot;assets/images/aemaplocations/hammer-projection.png&quot; alt=&quot;hammer-projection.png&quot; /&gt;&lt;br/&gt;
-&lt;img src=&quot;assets/images/aemaplocations/mercator-projection.png&quot; alt=&quot;mercator-projection.png&quot; /&gt;&lt;br/&gt;
-&lt;img src=&quot;assets/images/aemaplocations/sinusoidal-projection.png&quot; alt=&quot;sinusoidal-projection.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/aemaplocations/projections.png&quot; alt=&quot;projections.png&quot; /&gt;&lt;br/&gt;
+&lt;img src=&quot;/assets/images/aemaplocations/aitoff-projection.png&quot; alt=&quot;aitoff-projection.png&quot; /&gt;&lt;br/&gt;
+&lt;img src=&quot;/assets/images/aemaplocations/equirectangular-projection-on-sphere.png&quot; alt=&quot;equirectangular-projection-on-sphere-sphere.png&quot; /&gt;&lt;br/&gt;
+&lt;img src=&quot;/assets/images/aemaplocations/hammer-projection.png&quot; alt=&quot;hammer-projection.png&quot; /&gt;&lt;br/&gt;
+&lt;img src=&quot;/assets/images/aemaplocations/mercator-projection.png&quot; alt=&quot;mercator-projection.png&quot; /&gt;&lt;br/&gt;
+&lt;img src=&quot;/assets/images/aemaplocations/sinusoidal-projection.png&quot; alt=&quot;sinusoidal-projection.png&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
