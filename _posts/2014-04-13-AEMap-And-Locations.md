@@ -12,7 +12,7 @@ woohoo! \o/ AEMap.jsx 0.5 and Locations.jsx 0.4 4 #Adobe #AfterEffects are relea
 Teaser Music: [the askew is wholesome by Lezet](https://vimeo.com/musicstore/track/22852/the-askew-is-wholesome-by-lezet)   
 
 - 5 New projections types 4 both scripts ! woohoo! \o/  
-- AEMap amd Locations share the same geo core now  
+- AEMap and Locations share the same geo core now  
 - world.geo.json data is included in AEMap  
 - Fixes and Additions To world.geo.json  
 

@@ -4,7 +4,7 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2014-04-13T12:04:59+02:00</updated>
+ <updated>2014-04-13T12:06:06+02:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
@@ -28,7 +28,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;5 New projections types 4 both scripts ! woohoo! \o/&lt;/li&gt;
-&lt;li&gt;AEMap amd Locations share the same geo core now&lt;/li&gt;
+&lt;li&gt;AEMap and Locations share the same geo core now&lt;/li&gt;
 &lt;li&gt;world.geo.json data is included in AEMap&lt;/li&gt;
 &lt;li&gt;Fixes and Additions To world.geo.json&lt;/li&gt;
 &lt;/ul&gt;
