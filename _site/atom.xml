@@ -4,13 +4,44 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2014-04-06T09:21:11+02:00</updated>
+ <updated>2014-04-13T11:59:13+02:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
    <email>hello@fabiantheblind.info</email>
  </author>
 
+ 
+ <entry>
+   <title>AEMap v0.5 And Locations v0.4</title>
+   <link href="http://fabiantheblind.github.io//2014/04/13/AEMap-And-Locations.html"/>
+   <updated>2014-04-13T00:00:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2014/04/13/AEMap-And-Locations</id>
+   <content type="html">&lt;iframe src=&quot;//player.vimeo.com/video/91832492&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;woohoo! \o/ AEMap.jsx 0.5 and Locations.jsx 0.4 4 #Adobe #AfterEffects are released on &lt;a href=&quot;http://aescripts.com&quot;&gt;@aescripts&lt;/a&gt; &lt;a href=&quot;http://aescripts.com/locations/&quot;&gt;aescripts.com/locations&lt;/a&gt; || &lt;a href=&quot;http://aescripts.com/aemap/&quot;&gt;aescripts.com/aemap&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Teaser Music: &lt;a href=&quot;https://vimeo.com/musicstore/track/22852/the-askew-is-wholesome-by-lezet&quot;&gt;the askew is wholesome by Lezet&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;5 New projections types 4 both scripts ! woohoo! \o/&lt;/li&gt;
+&lt;li&gt;AEMap amd Locations share the same geo core now&lt;/li&gt;
+&lt;li&gt;world.geo.json data is included in AEMap&lt;/li&gt;
+&lt;li&gt;Fixes and Additions To world.geo.json&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;assets/images/aemaplocations/projections.png&quot; alt=&quot;projections.png&quot; /&gt;&lt;br/&gt;
+&lt;img src=&quot;assets/images/aemaplocations/aitoff-projection.png&quot; alt=&quot;aitoff-projection.png&quot; /&gt;&lt;br/&gt;
+&lt;img src=&quot;assets/images/aemaplocations/equirectangular-projection-on-sphere.png&quot; alt=&quot;equirectangular-projection-on-sphere-sphere.png&quot; /&gt;&lt;br/&gt;
+&lt;img src=&quot;assets/images/aemaplocations/hammer-projection.png&quot; alt=&quot;hammer-projection.png&quot; /&gt;&lt;br/&gt;
+&lt;img src=&quot;assets/images/aemaplocations/mercator-projection.png&quot; alt=&quot;mercator-projection.png&quot; /&gt;&lt;br/&gt;
+&lt;img src=&quot;assets/images/aemaplocations/sinusoidal-projection.png&quot; alt=&quot;sinusoidal-projection.png&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Github Stars Summery</title>
