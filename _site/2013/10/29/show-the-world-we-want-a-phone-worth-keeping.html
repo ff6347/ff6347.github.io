@@ -36,7 +36,7 @@ function getBaseURL() {
 
     if (baseURL.indexOf('http://localhost') != -1) {
         // Base Url for localhost
-        var url = location.href;  // window.location.href;
+        url = location.href;  // window.location.href;
         var pathname = location.pathname;  // window.location.pathname;
         var index1 = url.indexOf(pathname);
         var index2 = url.indexOf("/", index1 + 1);
@@ -68,6 +68,12 @@ function getBaseURL() {
 
 
 <link rel="" type="application/atom+xml" title="blog" href="/atom.xml" />
+
+<!-- See https://www.battleforthenet.com/sept10th/ -->
+<script type="text/javascript">
+    var _bftn_options = { animation: 'banner' };
+</script>
+<script type="javascript" src="//fightforthefuture.github.io/battleforthenet-widget/widget.min.js" async></script>
   </head>
   <body>
     <div class="container">

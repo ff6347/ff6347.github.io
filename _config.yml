@@ -1,5 +1,5 @@
 markdown: rdiscount
-pygments: true
+highlighter: true
 exclude: [ignore,user.fabiantheblind.espressostorage,Project.espressostorage]
 menuitems:
 - Blog
