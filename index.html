@@ -2,78 +2,49 @@
 layout: standard
 title: Fabian Morón Zirfas digital life
 ---
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-<header>
-<div class="hero-unit span10 offset1">
-    <h1>Welcome to my digital life.</h1>
-  <p>
-    My name is Fabian Morón Zirfas a.k.a. fabiantheblind. I am a lab dog @ the university of applied sciences Potsdam, freelance motiongrapher and coder living in Berlin who occasionally does stuff that involves things. These tiny icons below are some projects and pages on what I do and <a href="/about.html">about myself</a>. Feel Free to ask me anything.
-  </p>
-</div>
-{% include master-header.html %}
-</header>
+  <title>Website of Fabian Morón Zirfas under construction</title>
+  <meta name="description" content="Website of Fabian Morón Zirfas">
+  <meta name="author" content=";fabian Morón Zirfas">
 
-<div class="span10 offset1">
-  <div class="">
-    <h2>{{ site.posts[0].title }} <a href="{{ site.posts[0].url }}"> &raquo; </a></h2>
 
-      <p>{{site.posts[0].date | date_to_string }}</p>
-        <p>
-        {{ site.posts[0].content }}<br />
-        <a href="{{ site.posts[0].url }}">link</a>
-        </p>
-  </div>
-<hr>
-</div>
-     <section id="blog">
-       <div class="row">
-         <div class="span8 offset2">
-    <h4>all posts</h4>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/styles.css"> -->
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+
+<h1>under construction. 2014.11.23 13:09:25 come back later.</h1>
+<p>
+<br>
+------------------------------------------------<br>
+Fabian Morón Zirfas<br>
+Hobrechtstr 31<br>
+12047 Berlin<br>
+lat 52<br>
+lon 13<br>
+
+<br>http://fabianmoronzirfas.me<br>
+http://fabiantheblind.info<br>
+------------------------------------------------</p>
+
+
+ <ul class="posts">
+{% for post in site.posts %}
+ <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
   </ul>
-
-         </div>
-       </div>
-     </section>
-<!-- <section>
-  <div class="row">
-    <div class="span6 offset4">
-      <div id="showreel">
-        <a href="http://vimeo.com/56188646" id="showreellink" rel="prettyPhoto[grouped]" title="">
-          <img class="img-responsive"  src="assets/images/thumbnails/showreel.png" alt="" width="100%" />
-        </a>
-      </div>
-
+</div>
     </div>
   </div>
-</section> -->
-<!-- <section>
-	<div class="row">
-		<div class="span5 offset1">
-			<h2 class="sections">Motion Graphics</h2>
-
-			<p>{% include motiongraphics.html %}</p>
-		</div> end MG
-		<div class="span5">
-			<h2 class="sections">Coding Graphics</h2>
-
-			<p>
-				{% include programming.html %}
-			</p>
-		</div>
-	</div>
-</section> -->
-<!-- <section>
-		<div class="row">
-			<div class="span10 offset1">
-				<p id="vita">
-      Are you in a hurry? Grab the vita <a href="/vita_de.pdf">(DE)</a> or <a href="/vita_en.pdf">(EN)</a>.
-        </p>
-			</div>
-		</div>
-</section> -->
-{% include master-footer.html %}
-<!-- 1. hook 25. Januar 2013 -->
+  <!-- <script type="text/javascript" src="assets/js/scripts.js"></script> -->
+</body>
+</html>

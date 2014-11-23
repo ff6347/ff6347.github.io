@@ -1,6 +1,6 @@
 markdown: rdiscount
 highlighter: true
-exclude: [ignore,user.fabiantheblind.espressostorage,Project.espressostorage]
+exclude: [ignore,user.fabiantheblind.espressostorage,Project.espressostorage,bower_components,node_modules]
 menuitems:
 - Blog
 - About me
