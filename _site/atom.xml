@@ -4,7 +4,7 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2016-04-19T13:50:47+02:00</updated>
+ <updated>2016-04-21T11:57:23+02:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
@@ -17,10 +17,10 @@
    <link href="http://fabiantheblind.github.io//2014/11/23/README.html"/>
    <updated>2014-11-23T00:00:00+01:00</updated>
    <id>http://fabiantheblind.github.io//2014/11/23/README</id>
-   <content type="html">&lt;p&gt;This site ist currently under constructions. Needs a full redesign.&lt;br/&gt;
+   <content type="html">&lt;p&gt;This site ist currently under constructions. Needs a full redesign.&lt;br /&gt;
 Thanks for your patience.&lt;/p&gt;
 
-&lt;p&gt;Cheers&lt;br/&gt;
+&lt;p&gt;Cheers&lt;br /&gt;
 Fabian&lt;/p&gt;
 </content>
  </entry>
