@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/fabiantheblind/fabiantheblind.github.com/issues"
   },
-  "homepage": "https://github.com/fabiantheblind/fabiantheblind.github.com#readme"
-
+  "homepage": "https://github.com/fabiantheblind/fabiantheblind.github.com#readme",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "reframe.js": "^0.2.8"
+  }
 }

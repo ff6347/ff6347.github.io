@@ -1,4 +1,4 @@
-/* global window document */
+/* global window document $ */
 
 /*
   Slidemenu
@@ -17,3 +17,9 @@ window.onload = function() {
 
   }).call(this);
 };
+
+
+$(document).ready(function() {
+  // console.log('ready');
+  // $('iframe').reframe();
+});

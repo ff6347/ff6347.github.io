@@ -41,11 +41,11 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid $borderColor;
+  border-top: 20px dotted $borderColor;
   margin: 1em 0;
   padding: 0;
 }
-img {
+img#avatar {
   display: block;
   margin: 0 auto;
   max-width: 80vw;
@@ -88,3 +88,43 @@ and (max-device-width:480px) {
     font-size: 24px;
   }
 }
+
+.clear-float{
+  clear:both;
+}
+.thumbs{
+  iframe{
+    max-width:46%;
+    padding:2%;
+    float:left;
+  }
+  img{
+    max-width:46%;
+    padding:2%;
+    float:left;
+    display:inline-block;
+  }
+}
+
+@media only screen
+and (max-width : 750px) {
+.thumbs{
+  iframe{
+    max-width:100%;
+    padding:5px 0 5px 0;
+    // float:left;
+    clear:both;
+  }
+  img{
+    max-width:100%;
+    padding:5px 0 5px 0;
+    clear:both;
+    // float:left;
+    display:inline-block;
+  }
+}
+
+}
+@media only screen
+and (max-width : 450px) {
+  }

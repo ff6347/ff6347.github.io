@@ -1,5 +1,6 @@
 markdown: kramdown
 highlighter: rouge
+host: 0.0.0.0
 exclude: [ignore,user.fabiantheblind.espressostorage,Project.espressostorage,bower_components,node_modules]
 sass:
     sass_dir: _sass
