@@ -1,8 +1,12 @@
 markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
 highlighter: rouge
 host: 0.0.0.0
 exclude: [ignore,user.fabiantheblind.espressostorage,Project.espressostorage,bower_components,node_modules]
 sass:
-    sass_dir: _sass
+    sass_dir: assets/_sass
     style: compressed
 baseurl: /

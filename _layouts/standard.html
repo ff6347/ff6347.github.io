@@ -4,9 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Vollkorn:400,700,400italic' rel='stylesheet' type='text/css'>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="{{ site.url }}/css/style.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
     <title>{{ page.title}}</title>
     <meta name="description" content="Website of Fabian Morón Zirfas">
     <meta name="author" content="Fabian Morón Zirfas">
@@ -23,8 +22,51 @@
         <li id="work" class="work"><a href="/work">Work</a></li>
         <li id="teaching" class="teaching"><a href="/teaching">Teaching</a></li>
         <li id="private" class="private"><a href="/private">Private</a></li>
+        <li class=""><a href="https://github.com/fabianmoronzirfas">{% include icon-github.html %} github</a></li>
+        <li class=""><a href="https://pinboard.in/u:fabiantheblind">{% include icon-github.html %} pinboard</a></li>
+        <li class=""><a href="mailto:icke@fabianmoronzirfas.me">{% include icon-github.html %} mail</a></li>
+        <li class=""><a href="http://twitter.com/fabiantheblind">{% include icon-twitter.html %} twitter</a></li>
+        <li class=""><a href="http://vimeo.com/fabiantheblind">{% include icon-github.html %} vimeo</a></li>
+        <li class=""><a href="{{ site.url }}/atom.xml">{% include icon-github.html %} atom feed</a></li>
       </ul>
     </nav>
+    <noscript>
+<style type="text/css">
+#main{
+  top:44px !important;
+}
+  #menu-list{
+  position:fixed;
+  top:0;
+  left:0;
+  background:white;
+  z-index: 9999;
+  width:100%;
+  text-align: center;
+  }
+  #slide-menu, .menu-trigger{
+    display: none !important;
+
+  }
+  nav > ul {
+  text-align: center;
+  }
+  nav > ul > li {
+       float: left;
+    list-style:none;
+    padding-left: 2em;
+  }
+</style>
+    <nav id="menu-list">
+      <ul>
+        <li id="home" class="menu-item home"><a href="/">Home</a></li>
+        <li id="projects" class="menu-item projects"><a href="/projects">Projects</a></li>
+        <li id="work" class="menu-item work"><a href="/work">Work</a></li>
+        <li id="teaching" class="menu-item teaching"><a href="/teaching">Teaching</a></li>
+        <li id="private" class="menu-item private"><a href="/private">Private</a></li>
+      </ul>
+    </nav>
+    </noscript>
     <div id="main">
       <div class="menu-trigger"></div>
       <div id="content">
@@ -42,8 +84,8 @@
     </footer>
       </div>
     </div>
-    <script type="text/javascript" src="{{site.url}}/js/jquery.min.js"></script>
-    <!-- <script type="text/javascript" src="{{site.url}}/js/reframe.js"></script> -->
-    <script type="text/javascript" src="{{site.url}}/js/main.js"></script>
+    <script type="text/javascript" src="{{site.url}}/assets/js/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="{{site.url}}/assets/js/reframe.js"></script> -->
+    <script type="text/javascript" src="{{site.url}}/assets/js/main.js"></script>
   </body>
 </html>
