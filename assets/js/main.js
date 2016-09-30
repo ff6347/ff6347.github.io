@@ -4,18 +4,26 @@
   Slidemenu
 */
 
-window.onload = function() {
-  (function() {
-    var $body = document.body;
-    var $menu_trigger = $body.getElementsByClassName('menu-trigger')[0];
+var menu = function() {
+  var body = document.body;
+  var menu_trigger = body.getElementsByClassName('menu-trigger')[0];
 
-    if (typeof $menu_trigger !== 'undefined') {
-      $menu_trigger.addEventListener('click', function() {
-        $body.className = ($body.className === 'menu-active') ? '' : 'menu-active';
-      });
-    }
+  if (typeof menu_trigger !== 'undefined') {
+    menu_trigger.addEventListener('click', function() {
+      body.className = (body.className === 'menu-active') ? '' : 'menu-active';
+    });
+  }
+};
 
-  }).call(this);
+$(document).ready(function() {
+
+// window.onload = function() {
+//   (
+
+
+  // ).call(this);
+  menu();
+
   if(document.getElementById('avatar') !== null) {
     var images = ['avatar-0.JPG', 'avatar-1.JPG', 'avatar-2.JPG', 'avatar-3.JPG',
   'avatar-4.JPG', 'avatar-5.JPG', 'avatar-6.JPG', 'avatar-7.JPG', 'avatar-8.JPG',
@@ -26,12 +34,6 @@ window.onload = function() {
   'avatar-29.JPG', 'avatar-30.JPG', 'avatar-31.JPG', 'avatar-32.JPG', 'avatar-33.JPG',
   'avatar-34.JPG'];
     var selector = Math.floor(Math.random() * images.length);
-    document.getElementById('avatar').src = '/assets/images/' + images[selector];
+    document.getElementById('avatar').src = '/assets/images/avatar/' + images[selector];
   }
-};
-
-
-$(document).ready(function() {
-  // console.log('ready');
-  // $('iframe').reframe();
 });

@@ -5,9 +5,13 @@ title: Teaching
 
 
 # Teaching
+
 {: .no_toc} 
 
-Since I've been employed at the University of Applied Sciences Potsdam (Germany) as lab supervisor I started teaching programming and electrical engineering with the focus on creative coding and physical computing. In the winter semester of 2014 I also started to teach a class in the design fundamentals called "Eingabe/Ausgabe". My aim has always been to teach with a hands on methodology using the concept of cognitive of apprenticeship that should develop into self directed problem solving. As soon as possible my students had to build their first, second, third prototypes, read and write code, break it, understand why it is broken and rewrite it. I always try to encourage them to share their projects with an open source license so others can build on their projects like they do as well.  
+Since I've been employed at the University of Applied Sciences Potsdam (Germany) as lab supervisor I started teaching programming and electrical engineering with the focus on Creative Coding and Physical Computing. In the winter semester of 2014 I also started to teach a class in the design fundamentals called "Eingabe/Ausgabe". My aim has always been to teach with a hands on methodology using the concept of cognitive apprenticeship that should develop into self directed problem solving. As soon as possible my students had to build their first, second, third prototypes, read and write code, break it, understand why it is broken and rewrite it. I always try to encourage them to share their projects with an open source license so others can build on their projects, like they do.  
+
+----
+
 
 ## Table Of Contents
 {: .no_toc}
@@ -38,7 +42,7 @@ Lost in Navigation is an upcoming course by Prof. Myriel Milicevic and me. Can w
 <img src="{{site.baseurl}}assets/images/teaching/ldr-950w.png">
 </div>
 
-"Eingabe/Ausgabe - Grundlagen der Prozessorientierten Gestaltung" was my seminar in the Design Fundamentals module for three semesters from winter 2014 to spring 2016. The aim of the seminar was to give the students a first peak into the fields of Creative Coding, Physical Computing and Data Visualization paired with the technical knowledge to develop own projects. The course was split into three sprint projects each around 4 to 5 weeks long. Through the seminar the instructions the students get are reduced so that they will be able to solve their problems at the end. Se my totally scientific chart which illustrates the progress.  
+"Eingabe/Ausgabe - Grundlagen der Prozessorientierten Gestaltung" was my seminar in the design fundamentals module for three semesters from winter 2014 to spring 2016. The aim of the seminar was to give the students a first peak into the fields of Creative Coding, Physical Computing and Data Visualization paired with the technical knowledge to develop own projects. The course was split into three sprint projects each around 4 to 5 weeks long. Through the seminar the instructions the students get are reduced so that they will be able to solve their problems at the end. Se my totally scientific chart which illustrates the progress.  
 
 <div class="img-box">
 
@@ -47,8 +51,6 @@ Lost in Navigation is an upcoming course by Prof. Myriel Milicevic and me. Can w
 <img src="">  
 
 The first project, always called "Algorithm", engaged the students with the basic concept of programming. The task was to define an drawing algorithm for humans, execute it, create amended versions until the result is to their liking. These results then got abstracted further using Processing or P5.js.  
-The second task was always a bit more experimental. In each case they had to generate a visualization of data. In the first seminar by defining a question, creating a survey, collecting the data and creating visual representation. The second seminar was all about slime molds and their behavior. The students had to define an experiment designed to take advantage of the slime molds properties. Create a setup to nurture and record their movement and afterwards create an analysis of that recorded data. In the third semester it was all about the International Space Station using. The range here went from posters about the relativity of time to web applications that track the ISS in real time and use their position as "filter" to gather data from other APIs.  
-The third task was always about Physical Computing. From creating a computerized representation of binary states in the real world, to motorized posters/objects that react on the passive presence of a spectator to connected objects that talk to one another. Below you will find some highlights of the projects the students created. You can see the whole documentation of the seminar [here](https://interface.fh-potsdam.de/eingabe-ausgabe/).  
 
 <div class="thumbs">
 <a href="https://github.com/Q-rec/mitte-zur-mitte"><img src="{{site.baseurl}}assets/images/teaching/io/mitte-mitte-thumb.png" alt=""></a>
@@ -58,6 +60,9 @@ The third task was always about Physical Computing. From creating a computerized
 </div>
 <div class="clear-float"></div>
 
+The second task was always a bit more experimental. In each case they had to generate a visualization of data. In the first seminar by defining a question, creating a survey, collecting the data and creating visual representation. The second seminar was all about slime molds and their behavior. The students had to define an experiment designed to take advantage of the slime molds properties. Create a setup to nurture and record their movement and afterwards create an analysis of that recorded data. In the third semester it was all about the International Space Station using. The range here went from posters about the relativity of time to web applications that track the ISS in real time and use their position as "filter" to gather data from other APIs.  
+
+
 <div class="thumbs">
 <a href="https://github.com/vogelino/explore-with-iss"><img src="{{site.baseurl}}assets/images/teaching/io/explore-thumb.png" alt=""></a>
 <a href="https://github.com/topada/FHP-IO-galton-board-physarum"><img src="{{site.baseurl}}assets/images/teaching/io/galton-thumb.png" alt=""></a>
@@ -66,6 +71,7 @@ The third task was always about Physical Computing. From creating a computerized
 </div>
 <div class="clear-float"></div>
 
+The third task was always about Physical Computing. From creating a computerized representation of binary states in the real world, to motorized posters/objects that react on the passive presence of a spectator to connected objects that talk to one another. Below you will find some highlights of the projects the students created.  
 <div class="thumbs">
 <!-- transl8tr -->
 <iframe src="https://player.vimeo.com/video/157480156?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -76,16 +82,18 @@ The third task was always about Physical Computing. From creating a computerized
 <!-- hidden labyrinth -->
 <iframe src="https://player.vimeo.com/video/122587435?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
-
 <div class="clear-float">
 </div>
+
+You can see the whole documentation of the seminar [here](https://interface.fh-potsdam.de/eingabe-ausgabe/).  
+
 
 ----
 
 ## Knowledge Exchange Group  
 
 <img src="{{site.baseurl}}assets/images/teaching/keg.png">
-The K.E.G. is not a seminar like the others. It is a platform for students to teach other students. During their work on their projects some students reach an expertise in specific niche fields of technology that can't be thought by us during a semester. "The Knowledge Exchange Group" is the place where these students get guidance to prepare a workshops on a specific topic. Since autumn 2015 we had workshops about the JavaScript taskrunner Gulp, the service Firebase, parametrical modeling in Rhino using Grasshopper, web development with React, application development with Swift and interactive 3D graphics in the Browser with WebGL. Each workshop was designed for a whole day and took place in the Interface Lab.  
+The K.E.G. is not a seminar like the others. It is a platform for students to teach other students. During their work on their projects some students reach an expertise in specific niche fields of technology that can't be thought by us during a semester. "The Knowledge Exchange Group" is the place where these students get guidance to prepare a workshops on a specific topic. Since autumn 2015 we had workshops about the JavaScript task runner Gulp, the service Firebase, parametrical modeling in Rhino using Grasshopper, web development with React, application development with Swift and interactive 3D graphics in the Browser with WebGL. Each workshop was designed for a whole day and took place in the Interface Lab.  
 
 
 ----
@@ -94,9 +102,7 @@ The K.E.G. is not a seminar like the others. It is a platform for students to te
 
 ### "Doing Papercraft/Projection Mapping"
 
-_(April 2016)_  
-
-In April 2016 I gave two single day crash course about creating simple 3D objects in Blender, unfolding them and preparing them for lasercutting. In the second part these objects where used to do a porjection mapping on them.  As part of the workshops I created extensive documentations. ["Doing Papercraft"](http://fh-potsdam.github.io/doing-papercraft/) and ["Doing Projection Mapping"](https://fh-potsdam.github.io/doing-projection-mapping/). These workshops where part of a series of three warm up workshops for seminar ["Datenobjekte"](https://incom.org/workspace/6559) by Prof. Boris Müller.  
+In April 2016 I gave two single day crash course about creating simple 3D objects in Blender, unfolding them and preparing them for laser cutting. In the second part these objects where used to do a projection mapping on them.  As part of the workshops I created extensive documentations. ["Doing Papercraft"](http://fh-potsdam.github.io/doing-papercraft/) and ["Doing Projection Mapping"](https://fh-potsdam.github.io/doing-projection-mapping/). These workshops where part of a series of three warm up workshops for seminar ["Datenobjekte"](https://incom.org/workspace/6559) by Prof. Boris Müller.  
 
 <div class="thumbs">
 <a href="{{site.baseurl}}assets/images/teaching/papercraft/papercraft-00.jpg"><img src="{{site.baseurl}}assets/images/teaching/papercraft/papercraft-thumb-00.png" alt=""></a>
@@ -126,7 +132,7 @@ In April 2016 I gave two single day crash course about creating simple 3D object
 
 ### "Johnny Five Is Alive"
 
-This was also a project weeks workshop in October 2015 about protoypting connected devices using the Node.js and the Johnny Five framework, Particle Photon boards, IFTTT and the correspoding mobile applications like "Do Button" or "Do Note". After a crash course in creating a simple server and page with Express.js that controlls a Arduino Board over USB or Wifi the students had to come up with a quick project using some or all of the learned technologies.  
+This was also a project weeks workshop in October 2015 about prototyping connected devices using the Node.js and the Johnny Five framework, Particle Photon boards, IFTTT and the corresponding mobile applications like "Do Button" or "Do Note". After a crash course in creating a simple server and page with Express.js that controls a Arduino Board over USB or Wi-Fi the students had to come up with a quick project using some or all of the learned technologies.  
 
 #### M2M Translator by Rahel Flechtner
 
@@ -143,7 +149,7 @@ Take a look at the whole project over [here.](https://github.com/RahelFl/M2M-Tra
 
 #### The Nibble Do List by Lucas Vogel
 
-> The nibble-do list is a website connected with a candy dispenser. The candy dispenser can be placed on a desk next to a user computer. On the website, the user can define tasks on a todo list. When a task is completed, the candy dispenser is automatically made aware of this completion and rewards the user with some candies.  
+> The nibble-do list is a website connected with a candy dispenser. The candy dispenser can be placed on a desk next to a user computer. On the website, the user can define tasks on a to-do list. When a task is completed, the candy dispenser is automatically made aware of this completion and rewards the user with some candies.  
 
 See the whole project description over [here.](https://github.com/vogelino/nibble-do-list)  
 
@@ -258,7 +264,7 @@ In October 2012 I gave a workshop at the University of Applied Sciences Potsdam 
 
 ### Adobe After Effects Tutorials für ae.tuts+
 
-In Oktober 2012 I got approached by ae.tuts+ if I were interested into creating [some tutorial](http://tutsplus.com/authors/fabian-moron-zirfas) that shows the techniques I used in my entry to the "Contest n°8" on [mattrunks.com](https://mattrunks.com/en/contests/8/results)  
+In October 2012 I got approached by ae.tuts+ if I were interested into creating [some tutorial](http://tutsplus.com/authors/fabian-moron-zirfas) that shows the techniques I used in my entry to the "Contest n°8" on [mattrunks.com](https://mattrunks.com/en/contests/8/results)  
 
 #### The Original Mattrunks Video  
 

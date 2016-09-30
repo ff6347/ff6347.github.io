@@ -15,18 +15,18 @@ body {
 }
 #content {
   padding: 2em 3%;
-  padding-top: 2em;
+  padding-top: 3em;
   margin: 0 auto;
   // text-align: left;
   max-width: 50em;
 }
-.content {
-  padding: 2em 3%;
-  padding-top: 2em;
-  margin: 0 auto;
-  // text-align: left;
-  max-width: 50em;
-}
+// .content {
+//   padding: 2em 3%;
+//   padding-top: 3em;
+//   margin: 0 auto;
+//   // text-align: left;
+//   max-width: 50em;
+// }
     [class^="icon-"], [class*=" icon-"] {
     height: 0.99em;
     width: 0.99em;
@@ -86,7 +86,6 @@ li.social {
   text-align: center;
 
   a {
-    text-decoration: overline;
   }
 }
 

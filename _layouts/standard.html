@@ -17,17 +17,18 @@
     <!-- Navigation -->
     <nav id="slide-menu">
       <ul>
-        <li id="home" class="home"><a href="/">Home</a></li>
-        <li id="projects" class="projects"><a href="/projects">Projects</a></li>
-        <li id="work" class="work"><a href="/work">Work</a></li>
-        <li id="teaching" class="teaching"><a href="/teaching">Teaching</a></li>
-        <li id="private" class="private"><a href="/private">Private</a></li>
+        <li id="home" class="home"><a href="/">{% include icon-home.html %} Home</a></li>
+        <li id="projects" class="projects"><a href="/projects">{% include icon-projects.html %} Projects</a></li>
+        <li id="work" class="work"><a href="/work">{% include icon-work.html %} Work</a></li>
+        <li id="teaching" class="teaching"><a href="/teaching">{% include icon-teach.html %} Teaching</a></li>
+        <li id="education" class="education"><a href="/education">{% include icon-edu.html %} Education</a></li>
+        <li id="private" class="private"><a href="/private">{% include icon-private.html %} Private</a></li>
         <li class=""><a href="https://github.com/fabianmoronzirfas">{% include icon-github.html %} github</a></li>
-        <li class=""><a href="https://pinboard.in/u:fabiantheblind">{% include icon-github.html %} pinboard</a></li>
-        <li class=""><a href="mailto:icke@fabianmoronzirfas.me">{% include icon-github.html %} mail</a></li>
+        <li class=""><a href="https://pinboard.in/u:fabiantheblind">{% include icon-pinboard.html %} pinboard</a></li>
+        <li class=""><a href="mailto:icke@fabianmoronzirfas.me">{% include icon-mail.html %} mail</a></li>
         <li class=""><a href="http://twitter.com/fabiantheblind">{% include icon-twitter.html %} twitter</a></li>
-        <li class=""><a href="http://vimeo.com/fabiantheblind">{% include icon-github.html %} vimeo</a></li>
-        <li class=""><a href="{{ site.url }}/atom.xml">{% include icon-github.html %} atom feed</a></li>
+        <li class=""><a href="http://vimeo.com/fabiantheblind">{% include icon-vimeo.html %} vimeo</a></li>
+        <li class=""><a href="{{ site.url }}/atom.xml">{% include icon-rss.html %} atom feed</a></li>
       </ul>
     </nav>
     <noscript>
@@ -63,7 +64,10 @@
         <li id="projects" class="menu-item projects"><a href="/projects">Projects</a></li>
         <li id="work" class="menu-item work"><a href="/work">Work</a></li>
         <li id="teaching" class="menu-item teaching"><a href="/teaching">Teaching</a></li>
-        <li id="private" class="menu-item private"><a href="/private">Private</a></li>
+        <li id="education" class="menu-item education"><a href="/education">Education</a></li>
+        <li id="private" class="menu-item private"><a href="/private">Foo Private</a></li>
+        <li id="seperator" class="menu-item seperator"><a href="/#">–</a></li>
+
       </ul>
     </nav>
     </noscript>
@@ -72,15 +76,17 @@
       <div id="content">
       {{ content }}
     <footer>
-    <ul class="social-links" style="text-align:center;">
-  <li class="social"><a href="https://github.com/fabianmoronzirfas">github</a> || </li>
-  <li class="social"><a href="https://pinboard.in/u:fabiantheblind">pinboard</a> || </li>
-  <li class="social"><a href="mailto:icke@fabianmoronzirfas.me">mail</a> || </li>
-  <li class="social"><a href="http://twitter.com/fabiantheblind">twitter</a> || </li>
-  <li class="social"><a href="http://vimeo.com/fabiantheblind">vimeo</a> || </li>
-  <li class="social"><a href="{{ site.url }}/atom.xml">atom feed</a></li>
-  </ul>
-      <p>Build with <a href="http://jekyllrb.com/" target="blank">jekyll</a> and &hearts;</p>
+<noscript>
+  <ul class="social-links" style="text-align:center;">
+    <li class="social"><a href="https://github.com/fabianmoronzirfas">github</a> || </li>
+    <li class="social"><a href="https://pinboard.in/u:fabiantheblind">pinboard</a> || </li>
+    <li class="social"><a href="mailto:icke@fabianmoronzirfas.me">mail</a> || </li>
+    <li class="social"><a href="http://twitter.com/fabiantheblind">twitter</a> || </li>
+    <li class="social"><a href="http://vimeo.com/fabiantheblind">vimeo</a> || </li>
+    <li class="social"><a href="{{ site.url }}/atom.xml">atom feed</a></li>
+    </ul>
+  </noscript>
+      <p>Build with <a href="http://jekyllrb.com/" target="blank">jekyll</a> and {% include icon-heart.html %}</p>
     </footer>
       </div>
     </div>
