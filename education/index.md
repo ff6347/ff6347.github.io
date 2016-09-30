@@ -12,7 +12,7 @@ title: Education
 * TOC  
 {:toc}
 
-## Study of Media Computer Science M. S.  
+## Study of Media Computer Science M. S. (W.I.P)  
 
 Since October 2015 I am matriculated at the [Beuth University of Applied Sciences](http://www.beuth-hochschule.de/en/3001/) online and working on my masters degree.  
 
