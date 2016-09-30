@@ -45,12 +45,21 @@ Sebastian Meier and I started to write our own presentation tool called [Frontal
 
 Since this summer I started to work on [Basil.js](http://basiljs.ch/) togther with Benedikt Groß, Ted Davis and  Timo Rychert. It is a creative coding framework that ports the spirit of the Processing visualization language to Adobe InDesign. We are working on fixing bugs and implement some additional features to make it more Processing like. This will also be part of my <a href="{{site.url}}/teaching/#gestalten-in-code">Gestalten in Code</a> seminar.  
 
-## Extendscript Organisation
-_(Sommer 2016)_
+## ExtendScript Wiki
 
-## Extendscriptr  
+Since October 2012 I'm assembling a wiki about [ExtendScript](https://en.wikipedia.org/wiki/ExtendScript). It is with around 100 articles one of the largest resources you can find about writing scripts for Adobe applications. Take a look into the [Extendscript Wiki](https://github.com/extendscript/wiki/wiki) 
 
-## Extendscript-bundlr
+## Extendscriptr   
+
+Extendscriptr is NPM CLI module that allows you to benefit of many modern javascript features of es5 and es6 in a es3 ExtendScript environment developed by Lucas Vogel and me.  
+
+[github.com/ExtendScript/extendscriptr](https://github.com/ExtendScript/extendscriptr)
+
+## Extendscript-bundlr  
+
+A tool for bundling Adobe ExtendScripts that use the `//@include 'path/to/file'` or `#include 'path/to/file'` statement.  
+
+[github.com/fabianmoronzirfas/extendscript-bundlr](https://github.com/fabianmoronzirfas/extendscript-bundlr)
 
 ## Is The Lab Open?  
 
@@ -67,6 +76,9 @@ _(Sommer 2016)_
 
 
 ## Bonanza  
+
+Bonanza is a material management system developed for the Interface Lab at the University of Applied Sciences Potsdam (Germany). Programming is done by Phillip Geuder and Stefan Hintz. Design by Sebastian Kaim. Project management by Colette Hampel and me. Currently there is no public source available.  
+
 
 
 
