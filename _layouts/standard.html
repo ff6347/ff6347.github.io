@@ -1,94 +1,97 @@
----
-layout: standard
----
-
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href='https://fonts.googleapis.com/css?family=Vollkorn:400,700,400italic' rel='stylesheet' type='text/css'>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
+    <title>{{ page.title}}</title>
+    <meta name="description" content="Website of Fabian Morón Zirfas">
+    <meta name="author" content="Fabian Morón Zirfas">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body class="fade">
+    <!-- Navigation -->
+    <nav id="slide-menu">
+      <ul>
+        <li id="home" class="home"><a href="/">{% include icon-home.html %} Home</a></li>
+        <li id="projects" class="projects"><a href="/projects">{% include icon-projects.html %} Projects</a></li>
+        <li id="work" class="work"><a href="/work">{% include icon-work.html %} Work</a></li>
+        <li id="teaching" class="teaching"><a href="/teaching">{% include icon-teach.html %} Teaching</a></li>
+        <li id="education" class="education"><a href="/education">{% include icon-edu.html %} Education</a></li>
+        <li id="private" class="private"><a href="/private">{% include icon-private.html %} Private</a></li>
+        <li class=""><a href="https://github.com/fabianmoronzirfas">{% include icon-github.html %} github</a></li>
+        <li class=""><a href="https://pinboard.in/u:fabiantheblind">{% include icon-pinboard.html %} pinboard</a></li>
+        <li class=""><a href="mailto:icke@fabianmoronzirfas.me">{% include icon-mail.html %} mail</a></li>
+        <li class=""><a href="http://twitter.com/fabiantheblind">{% include icon-twitter.html %} twitter</a></li>
+        <li class=""><a href="http://vimeo.com/fabiantheblind">{% include icon-vimeo.html %} vimeo</a></li>
+        <li class=""><a href="{{ site.url }}/atom.xml">{% include icon-rss.html %} atom feed</a></li>
+      </ul>
+    </nav>
+    <noscript>
+<style type="text/css">
+#main{
+  top:44px !important;
+}
+  #menu-list{
+  position:fixed;
+  top:0;
+  left:0;
+  background:white;
+  z-index: 9999;
+  width:100%;
+  text-align: center;
+  }
+  #slide-menu, .menu-trigger{
+    display: none !important;
 
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
-  <style>
-    body {
-      font-family: 'Vollkorn', serif;
-      font-size: 18px;
-      margin: 0 auto;
-      max-width: 50em;
-  line-height: 1.5;
-  padding: 4em 1em;
-  color: #566b78;
-  box-sizing: border-box;
-    }
-h2 {
-  margin-top: 1em;
-  padding-top: 1em;
-}
-a {
-  color: #E96368;
-}
-h1,
-h2,
-strong {
-  color: #333;
-}
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #DFDFDF;
-    margin: 1em 0;
-    padding: 0;
-}
-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 80vw;
-        border-radius: 50%;
+  }
+  nav > ul {
+  text-align: center;
+  }
+  nav > ul > li {
+       float: left;
+    list-style:none;
+    padding-left: 2em;
+  }
+</style>
+    <nav id="menu-list">
+      <ul>
+        <li id="home" class="menu-item home"><a href="/">Home</a></li>
+        <li id="projects" class="menu-item projects"><a href="/projects">Projects</a></li>
+        <li id="work" class="menu-item work"><a href="/work">Work</a></li>
+        <li id="teaching" class="menu-item teaching"><a href="/teaching">Teaching</a></li>
+        <li id="education" class="menu-item education"><a href="/education">Education</a></li>
+        <li id="private" class="menu-item private"><a href="/private">Foo Private</a></li>
+        <li id="seperator" class="menu-item seperator"><a href="/#">–</a></li>
 
-}
-    li.social{
-      display: inline-block; text-align: center;
-    }
-    @media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  {
-h1{
-  max-width:80%;
-  font-size:24px;
-}
-
-}
-
-  </style>
-  <title>{{ page.title}}</title>
-  <meta name="description" content="Website of Fabian Morón Zirfas">
-  <meta name="author" content="Fabian Morón Zirfas">
-
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-</head>
-<body>
-  <div class="main">
-{{ content }}
- </div>
-  <footer>
-  <ul class="social-links">
-<li class="social"><a href="https://github.com/fabianmoronzirfas">github</a> || </li>
-<li class="social"><a href="https://pinboard.in/u:fabiantheblind">pinboard</a> || </li>
-<li class="social"><a href="mailto:icke@fabianmoronzirfas.me">mail</a> || </li>
-<li class="social"><a href="http://twitter.com/fabiantheblind">twitter</a> || </li>
-<li class="social"><a href="http://vimeo.com/fabiantheblind">vimeo</a> || </li>
-<li class="social"><a href="/atom.xml">atom feed</a></li>
-</ul>
-    <p>Build with <a href="http://jekyllrb.com/" target="blank">jekyll</a> and &hearts;</p>
-  </footer>
-  <!-- foo -->
-  <!-- <script type="text/javascript" src="assets/js/scripts.js"></script> -->
-</body>
+      </ul>
+    </nav>
+    </noscript>
+    <div id="main">
+      <div class="menu-trigger"></div>
+      <div id="content">
+      {{ content }}
+    <footer>
+<noscript>
+  <ul class="social-links" style="text-align:center;">
+    <li class="social"><a href="https://github.com/fabianmoronzirfas">github</a> || </li>
+    <li class="social"><a href="https://pinboard.in/u:fabiantheblind">pinboard</a> || </li>
+    <li class="social"><a href="mailto:icke@fabianmoronzirfas.me">mail</a> || </li>
+    <li class="social"><a href="http://twitter.com/fabiantheblind">twitter</a> || </li>
+    <li class="social"><a href="http://vimeo.com/fabiantheblind">vimeo</a> || </li>
+    <li class="social"><a href="{{ site.url }}/atom.xml">atom feed</a></li>
+    </ul>
+  </noscript>
+      <p>Build with <a href="http://jekyllrb.com/" target="blank">jekyll</a> and {% include icon-heart.html %}</p>
+    </footer>
+      </div>
+    </div>
+    <script type="text/javascript" src="{{site.url}}/assets/js/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="{{site.url}}/assets/js/reframe.js"></script> -->
+    <script type="text/javascript" src="{{site.url}}/assets/js/main.js"></script>
+  </body>
 </html>
