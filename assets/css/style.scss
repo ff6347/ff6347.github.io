@@ -118,6 +118,10 @@ li.social {
 .social-links {
   text-align: center;
 }
+
+.scroll-helper{
+ display:none;
+}
 footer {
   border-top: 1px solid $borderColor;
 }
@@ -134,6 +138,7 @@ and (max-device-width:480px) {
 }
 .scroll-helper{
   min-height:3em;
+  clear:both;
 }
 .thumbs {
   iframe {
