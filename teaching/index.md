@@ -48,7 +48,6 @@ Lost in Navigation is an upcoming course by Prof. Myriel Milicevic and me. Can w
 
 <img src="{{site.url}}/assets/images/teaching/didkatik.png">
 </div>
-<img src="">  
 
 The first project, always called "Algorithm", engaged the students with the basic concept of programming. The task was to define an drawing algorithm for humans, execute it, create amended versions until the result is to their liking. These results then got abstracted further using Processing or P5.js.  
 
@@ -91,8 +90,12 @@ You can see the whole documentation of the seminar [here](https://interface.fh-p
 ----
 
 ## Knowledge Exchange Group  
-
+<div class="thumbs">
 <img src="{{site.url}}/assets/images/teaching/keg.png">
+</div>
+<div class="clear-float">
+</div>
+
 The K.E.G. is not a seminar like the others. It is a platform for students to teach other students. During their work on their projects some students reach an expertise in specific niche fields of technology that can't be thought by us during a semester. "The Knowledge Exchange Group" is the place where these students get guidance to prepare a workshops on a specific topic. Since autumn 2015 we had workshops about the JavaScript task runner Gulp, the service Firebase, parametrical modeling in Rhino using Grasshopper, web development with React, application development with Swift and interactive 3D graphics in the Browser with WebGL. Each workshop was designed for a whole day and took place in the Interface Lab.  
 
 
