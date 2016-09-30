@@ -201,9 +201,9 @@ A musical interface controlled by color and hand gestures.
 
 <div class="thumbs">
 <img src="{{site.url}}/assets/images/teaching/blockseminar/homo effectus.png" alt="">
-</div>
 <div class="scroll-helper"></div>
 <iframe src="https://player.vimeo.com/video/113909158?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 <div class="clear-float"></div>
 
 
