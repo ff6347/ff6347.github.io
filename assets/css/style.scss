@@ -137,8 +137,10 @@ and (max-device-width:480px) {
   clear: both;
 }
 .scroll-helper{
-  min-height:3em;
+  // min-height:3em;
+  padding-bottom:3em;
   clear:both;
+  display:block;
 }
 .thumbs {
   iframe {
