@@ -137,6 +137,7 @@ and (max-device-width:480px) {
     max-width: 46%;
     padding: 2%;
     float: left;
+    padding-bottom:2em;
   }
   img {
     max-width: 46%;
@@ -151,6 +152,7 @@ and (max-width:750px) {
     iframe {
       max-width: 100%;
       padding: 5px 0 5px 0;
+      padding-bottom:2em;
       // float: left;
       clear: both;
     }

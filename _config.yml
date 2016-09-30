@@ -9,4 +9,4 @@ exclude: [ignore,user.fabiantheblind.espressostorage,Project.espressostorage,bow
 sass:
     sass_dir: assets/_sass
     style: compressed
-baseurl: /
+# baseurl: /
