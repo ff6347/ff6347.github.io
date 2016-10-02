@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>fabiantheblind's blog</title>
+ <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
+ <link href="http://fabiantheblind.github.io/"/>
+ <updated>2016-10-02T17:04:55+02:00</updated>
+ <id>http://fabiantheblind.github.io/</id>
+ <author>
+   <name>fabiantheblind</name>
+   <email>hello@fabiantheblind.info</email>
+ </author>
+
+ 
+ <entry>
+   <title>Work in Progress</title>
+   <link href="http://fabiantheblind.github.io//2016/09/05/WIP.html"/>
+   <updated>2016-09-05T00:00:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2016/09/05/WIP</id>
+   <content type="html">&lt;p&gt;I actually started working on the site again. I hope to have something till the end of the month. Stay tuned.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>README</title>
+   <link href="http://fabiantheblind.github.io//2016/09/04/README.html"/>
+   <updated>2016-09-04T00:00:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2016/09/04/README</id>
+   <content type="html">&lt;p&gt;This site ist currently under constructions. Needs a full redesign.&lt;br /&gt;
+Thanks for your patience.&lt;/p&gt;
+
+&lt;p&gt;Cheers&lt;br /&gt;
+Fabian&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>projects</title>
+    <meta name="description" content="Website of Fabian Morón Zirfas">
+    <meta name="author" content="Fabian Morón Zirfas">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body class="fade">
+    <!-- Navigation -->
+    <nav id="slide-menu">
+      <ul>
+        <li id="home" class="home"><a href="/"><svg class="icon-home"><use xlink:href="/assets/fonts/icons.svg#icon-home"></use></svg> Home</a></li>
+        <li id="teaching" class="teaching"><a href="/teaching/"><svg class="icon-keyboard-o"><use xlink:href="/assets/fonts/icons.svg#icon-keyboard-o"></use></svg> Teaching</a></li>
+        <li id="work" class="work"><a href="/work/"><svg class="icon-eur"><use xlink:href="/assets/fonts/icons.svg#icon-eur"></use></svg> Work</a></li>
+        <li id="projects" class="projects"><a href="/projects/"><svg class="icon-flask"><use xlink:href="/assets/fonts/icons.svg#icon-flask"></use></svg> Projects</a></li>
+        <li id="education" class="education"><a href="/education/"><svg class="icon-diamond"><use xlink:href="/assets/fonts/icons.svg#icon-diamond"></use></svg> Education</a></li>
+        <li id="personal" class="personal"><a href="/personal/"><svg class="icon-child"><use xlink:href="/assets/fonts/icons.svg#icon-child"></use></svg> Personal</a></li>
+        <li class=""><a href="https://github.com/fabianmoronzirfas"><svg class="icon-github"><use xlink:href="/assets/fonts/icons.svg#icon-github"></use></svg> github</a></li>
+        <li class=""><a href="https://pinboard.in/u:fabiantheblind"><svg class="icon-thumb-tack"><use xlink:href="/assets/fonts/icons.svg#icon-thumb-tack"></use></svg> pinboard</a></li>
+        <li class=""><a href="mailto:icke@fabianmoronzirfas.me"><svg class="icon-envelope"><use xlink:href="/assets/fonts/icons.svg#icon-envelope"></use></svg> mail</a></li>
+        <li class=""><a href="http://twitter.com/fabiantheblind"><svg class="icon-twitter"><use xlink:href="/assets/fonts/icons.svg#icon-twitter"></use></svg> twitter</a></li>
+        <li class=""><a href="http://vimeo.com/fabiantheblind"><svg class="icon-vimeo"><use xlink:href="/assets/fonts/icons.svg#icon-vimeo"></use></svg> vimeo</a></li>
+        <li class=""><a href="/atom.xml"><svg class="icon-rss"><use xlink:href="/assets/fonts/icons.svg#icon-rss"></use></svg> atom feed</a></li>
+      </ul>
+    </nav>
+    <noscript>
+<style type="text/css">
+#main{
+  top:44px !important;
+}
+  #menu-list{
+  position:fixed;
+  top:0;
+  left:0;
+  background:white;
+  z-index: 9999;
+  width:100%;
+  text-align: center;
+  }
+  #slide-menu, .menu-trigger{
+    display: none !important;
+
+  }
+  nav > ul {
+  text-align: center;
+  }
+  nav > ul > li {
+       float: left;
+    list-style:none;
+    padding-left: 2em;
+  }
+</style>
+    <nav id="menu-list">
+      <ul>
+        <li id="home" class="menu-item home"><a href="/">Home</a></li>
+        <li id="projects" class="menu-item projects"><a href="/projects/">Projects</a></li>
+        <li id="work" class="menu-item work"><a href="/work/">Work</a></li>
+        <li id="teaching" class="menu-item teaching"><a href="/teaching/">Teaching</a></li>
+        <li id="education" class="menu-item education"><a href="/education/">Education</a></li>
+        <li id="private" class="menu-item private"><a href="/private/">Foo Private</a></li>
+        <li id="seperator" class="menu-item seperator"><a href="/#">–</a></li>
+
+      </ul>
+    </nav>
+    </noscript>
+    <div id="main">
+      <div class="menu-trigger"></div>
+      <div id="content">
+      <h1 id="projects">Projects</h1>
+
+<p>These are some projects I spend my free time on. Others are part of my work at the University of Applied Sciences Potsdam (Germany) but not related to any seminar.</p>
+
+<hr class="no_toc" />
+
+<h2 class="no_toc" id="table-of-contents">Table Of Contents</h2>
+<ul id="markdown-toc">
+  <li><a href="#projects" id="markdown-toc-projects">Projects</a>    <ul>
+      <li><a href="#script-plugins" id="markdown-toc-script-plugins">Script Plugins</a></li>
+      <li><a href="#frontal" id="markdown-toc-frontal">Frontal</a></li>
+      <li><a href="#basiljs" id="markdown-toc-basiljs">Basil.js</a></li>
+      <li><a href="#extendscript-wiki" id="markdown-toc-extendscript-wiki">ExtendScript Wiki</a></li>
+      <li><a href="#extendscriptr" id="markdown-toc-extendscriptr">Extendscriptr</a></li>
+      <li><a href="#extendscript-bundlr" id="markdown-toc-extendscript-bundlr">Extendscript-bundlr</a></li>
+      <li><a href="#is-the-lab-open" id="markdown-toc-is-the-lab-open">Is The Lab Open?</a></li>
+      <li><a href="#bonanza" id="markdown-toc-bonanza">Bonanza</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="script-plugins">Script Plugins</h2>
+
+<p>Since around 2009 I’ve been writing scripts to automate my design workflows. Some made it to become a integral part of my <a href="/work/">work</a> like the scripts for the mediaplanungonline.de which can be <a href="https://github.com/fabianmoronzirfas/mpo-id-tools">found here</a>. Others became products that I sell on <a href="http://aescripts.com/authors/f-l/fabiantheblind/">aescripts.com</a>. Below you can see some of the demo videos for the later ones.</p>
+
+<div class="thumbs">
+
+<!-- locations -->
+<iframe src="https://player.vimeo.com/video/54717636?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<!-- swissd -->
+<iframe src="https://player.vimeo.com/video/53158182?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<!-- monoline -->
+<iframe src="https://player.vimeo.com/video/64222693?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<!-- aemap -->
+<iframe src="https://player.vimeo.com/video/39960358?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+</div>
+<div class="clear-float">
+</div>
+
+<h2 id="frontal">Frontal</h2>
+
+<p>Sebastian Meier and I started to write our own presentation tool called <a href="http://frontal.io/">Frontal</a> in 2015. It is a Electron based application that allows to write presentations in Markdown. Still a work in progress.</p>
+
+<h2 id="basiljs">Basil.js</h2>
+
+<p>Since this summer I started to work on <a href="http://basiljs.ch/">Basil.js</a> togther with Benedikt Groß, Ted Davis and  Timo Rychert. It is a creative coding framework that ports the spirit of the Processing visualization language to Adobe InDesign. We are working on fixing bugs and implement some additional features to make it more Processing like. This will also be part of my <a href="/teaching/#gestalten-in-code">Gestalten in Code</a> seminar.</p>
+
+<h2 id="extendscript-wiki">ExtendScript Wiki</h2>
+
+<p>Since October 2012 I’m assembling a wiki about <a href="https://en.wikipedia.org/wiki/ExtendScript">ExtendScript</a>. It is with around 100 articles one of the largest resources you can find about writing scripts for Adobe applications. Take a look into the <a href="https://github.com/extendscript/wiki/wiki">Extendscript Wiki</a></p>
+
+<h2 id="extendscriptr">Extendscriptr</h2>
+
+<p>Extendscriptr is NPM CLI module that allows you to benefit of many modern javascript features of es5 and es6 in a es3 ExtendScript environment developed by Lucas Vogel and me.</p>
+
+<p><a href="https://github.com/ExtendScript/extendscriptr">github.com/ExtendScript/extendscriptr</a></p>
+
+<h2 id="extendscript-bundlr">Extendscript-bundlr</h2>
+
+<p>A tool for bundling Adobe ExtendScripts that use the <code class="highlighter-rouge">//@include 'path/to/file'</code> or <code class="highlighter-rouge">#include 'path/to/file'</code> statement.</p>
+
+<p><a href="https://github.com/fabianmoronzirfas/extendscript-bundlr">github.com/fabianmoronzirfas/extendscript-bundlr</a></p>
+
+<h2 id="is-the-lab-open">Is The Lab Open?</h2>
+
+<p><a href="https://interface.fh-potsdam.de/is-the-lab-open/">interface.fh-potsdam.de/is-the-lab-open/</a></p>
+
+<blockquote>
+  <p>what<br />
+This site is an experiment on location based triggers. Whenever a student needs to know if the Interface Lab is open for consultation he just can load the site. It tells you if the lab is open.</p>
+</blockquote>
+
+<blockquote>
+  <p>why<br />
+Short version: “Because we can.” Long version: “It often occurs that students ask per email if the lab is open. This is a simple way to find out. Also it is a test if location based triggers work accurate.</p>
+</blockquote>
+
+<blockquote>
+  <p>how<br />
+On the mobile device of the lab supervisor is a location based trigger installed with <a href="https://ifttt.com">ifttt.com</a>. If he enters the area IFTTT calls the API of the application.The sent value is cached for faster response times. According to the result of the cached data the application presents the information when the user loads the site. For further and deeper insight check out the open source <a href="https://github.com/FH-Potsdam/is-the-lab-open">code at github.com</a></p>
+</blockquote>
+
+<h2 id="bonanza">Bonanza</h2>
+
+<p>Bonanza is a material management system developed for the Interface Lab at the University of Applied Sciences Potsdam (Germany). Programming is done by Phillip Geuder and Stefan Hintz. Design by Sebastian Kaim. Project management by Colette Hampel and me. Currently there is no public source available.</p>
+
+
+    <footer>
+<noscript>
+  <ul class="social-links" style="text-align:center;">
+    <li class="social"><a href="https://github.com/fabianmoronzirfas">github</a> || </li>
+    <li class="social"><a href="https://pinboard.in/u:fabiantheblind">pinboard</a> || </li>
+    <li class="social"><a href="mailto:icke@fabianmoronzirfas.me">mail</a> || </li>
+    <li class="social"><a href="http://twitter.com/fabiantheblind">twitter</a> || </li>
+    <li class="social"><a href="http://vimeo.com/fabiantheblind">vimeo</a> || </li>
+    <li class="social"><a href="/atom.xml">atom feed</a></li>
+    </ul>
+  </noscript>
+      <p>Build with <a href="http://jekyllrb.com/" target="blank">jekyll</a> and <svg class="icon-heart"><use xlink:href="/assets/fonts/icons.svg#icon-heart"></use></svg></p>
+    </footer>
+      </div>
+    </div>
+    <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="/assets/js/reframe.js"></script> -->
+    <script type="text/javascript" src="/assets/js/main.js"></script>
+  </body>
+</html>
