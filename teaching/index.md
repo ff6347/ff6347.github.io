@@ -24,7 +24,7 @@ Since I've been employed at the University of Applied Sciences Potsdam (Germany)
 <img src="{{site.url}}/assets/images/teaching/kanizsastriangle.png">
 </div>
 
-Where is the "Gestalt" in code? Can the Laws of Gestalt be programmed? And what are these laws? In this seminar we will explore the origin, present and possible future of computer art. Based on the Laws of Gestalt we are going to categorize several art works and use these rules to create our own generative design. This seminar will be split into three sprint projects each building on top of its predecessor. The unfinished material collection for the seminar can be found [here](http://fabianmoronzirfas.github.io/gestalten-in-code/).  
+Where is the "Gestalt" in code? Can the Laws of Gestalt be programmed? And what are these laws? In this seminar we will explore the origin, present and possible future of computer art. Based on the Laws of Gestalt we are going to categorize several art works and use these rules to create our own generative design. This seminar will be split into three sprint projects each building on top of its predecessor. The unfinished material collection for the seminar can be found [here](https://interface.fh-potsdam.de/gestalten-in-code/).  
 
 
 ----
