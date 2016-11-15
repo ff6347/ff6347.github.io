@@ -18,7 +18,7 @@ title: work
 
 ## Full time lecturer and lab supervisor  
 
-Since September 2015 im fully employed as research assistant at the FH Potsdam (University of Applied Sciences Potsdam (Germany)). I still do now and then some freelance work but most of my time goes into teaching "Physical Computing" and "Creative Coding". See the <a href="{{site.url}}/teaching/">teaching page</a> for an overview of my seminars.  
+Since September 2015 im fully employed as artistic research assistant at the FH Potsdam (University of Applied Sciences Potsdam (Germany)). I still do now and then some freelance work but most of my time goes into teaching "Physical Computing" and "Creative Coding". See the <a href="{{site.url}}/teaching/">teaching page</a> for an overview of my seminars.  
 
 ## Part Time Lab Supervisor
 

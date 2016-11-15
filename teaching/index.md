@@ -8,7 +8,7 @@ title: Teaching
 
 {: .no_toc} 
 
-Since I've been employed at the University of Applied Sciences Potsdam (Germany) as lab supervisor I started teaching programming and electrical engineering with the focus on Creative Coding and Physical Computing. In the winter semester of 2014 I also started to teach a class in the design fundamentals called "Eingabe/Ausgabe". My aim has always been to teach with a hands on methodology using the concept of cognitive apprenticeship that should develop into self directed problem solving. As soon as possible my students had to build their first, second, third prototypes, read and write code, break it, understand why it is broken and rewrite it. I always try to encourage them to share their projects with an open source license so others can build on their projects, like they do.  
+Since I've been employed at the University of Applied Sciences Potsdam (Germany) as lab supervisor (and later on as artistic and scientific assistant) I started teaching programming and electrical engineering with the focus on Creative Coding and Physical Computing. In the winter semester of 2014 I also started to teach a class in the design fundamentals called "Eingabe/Ausgabe". My aim has always been to teach with a hands on methodology using the concept of cognitive apprenticeship that should develop into self directed problem solving. As soon as possible my students had to build their first, second, third prototypes, read and write code, break it, understand why it is broken and rewrite it. I always try to encourage them to share their projects with an open source license so others can build on their projects, like they do.  
 
 ----
 
@@ -21,10 +21,10 @@ Since I've been employed at the University of Applied Sciences Potsdam (Germany)
 ## Gestalten in Code  
 <div class="img-box">
 
-<img src="{{site.url}}/assets/images/teaching/kanizsastriangle.png">
+<img src="{{site.url}}/assets/images/teaching/gic.png">
 </div>
 
-Where is the "Gestalt" in code? Can the Laws of Gestalt be programmed? And what are these laws? In this seminar we will explore the origin, present and possible future of computer art. Based on the Laws of Gestalt we are going to categorize several art works and use these rules to create our own generative design. This seminar will be split into three sprint projects each building on top of its predecessor. The unfinished material collection for the seminar can be found [here](https://interface.fh-potsdam.de/gestalten-in-code/).  
+Where is the "Gestalt" in code? Can the Laws of Gestalt be programmed? And what are these laws? In this seminar we will explore the origin, present and possible future of computer art. Based on the Laws of Gestalt we are going to categorize several art works and use these rules to create our own generative design. This seminar will be split into three sprint projects each building on top of its predecessor. The site for the seminar can be found [here](https://interface.fh-potsdam.de/gestalten-in-code/).  
 
 
 ----
@@ -42,7 +42,8 @@ Lost in Navigation is an upcoming course by Prof. Myriel Milicevic and me. Can w
 <img src="{{site.url}}/assets/images/teaching/ldr-950w.png">
 </div>
 
-"Eingabe/Ausgabe - Grundlagen der Prozessorientierten Gestaltung" was my seminar in the design fundamentals module for three semesters from winter 2014 to spring 2016. The aim of the seminar was to give the students a first peak into the fields of Creative Coding, Physical Computing and Data Visualization paired with the technical knowledge to develop own projects. The course was split into three sprint projects each around 4 to 5 weeks long. Through the seminar the instructions the students get are reduced so that they will be able to solve their problems at the end. Se my totally scientific chart which illustrates the progress.  
+"Eingabe/Ausgabe - Grundlagen der Prozessorientierten Gestaltung" was my seminar in the design fundamentals module for three semesters from winter 2014 to spring 2016. You can see the whole documentation of the seminar [here](https://interface.fh-potsdam.de/eingabe-ausgabe/).  
+The aim of the seminar was to give the students a first peak into the fields of Creative Coding, Physical Computing and Data Visualization paired with the technical knowledge to develop own projects. The course was split into three sprint projects each around 4 to 5 weeks long. The students also had to give a report on an artist/designer from the field of interest and we had some quests during the interm and final presentation who gave feedback on the students projects as well. Through the seminar the instructions the students get are reduced so that they will be able to solve their problems at the end. Se my totally scientific chart which illustrates the progress.  
 
 <div class="img-box">
 
@@ -93,9 +94,6 @@ The third task was always about Physical Computing. From creating a computerized
 
 <div class="clear-float">
 </div>
-
-You can see the whole documentation of the seminar [here](https://interface.fh-potsdam.de/eingabe-ausgabe/).  
-
 
 ----
 
