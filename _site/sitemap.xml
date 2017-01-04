@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://fabiantheblind.info/2016/12/07/blogging-again.html</loc>
+    </url>
+    
+    <url>
         <loc>http://fabiantheblind.info/2016/09/05/WIP.html</loc>
     </url>
     
@@ -22,7 +26,23 @@
     
     
     <url>
+        <loc>http://fabiantheblind.info/blog.html</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
         <loc>http://fabiantheblind.info/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://fabiantheblind.info/teaching/</loc>
     </url>
     
     
@@ -55,14 +75,6 @@
     
     <url>
         <loc>http://fabiantheblind.info/work/</loc>
-    </url>
-    
-    
-    
-    
-    
-    <url>
-        <loc>http://fabiantheblind.info/teaching/</loc>
     </url>
     
     

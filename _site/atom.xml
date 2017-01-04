@@ -4,13 +4,30 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2016-11-17T08:23:50+01:00</updated>
+ <updated>2017-01-04T09:46:52+01:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
    <email>hello@fabiantheblind.info</email>
  </author>
 
+ 
+ <entry>
+   <title>Blogging Again</title>
+   <link href="http://fabiantheblind.github.io//2016/12/07/blogging-again.html"/>
+   <updated>2016-12-07T00:00:00+01:00</updated>
+   <id>http://fabiantheblind.github.io//2016/12/07/blogging-again</id>
+   <content type="html">&lt;p&gt;Recent events in big data, like the usage of &lt;a href=&quot;https://www.dasmagazin.ch/2016/12/03/ich-habe-nur-gezeigt-dass-es-die-bombe-gibt/&quot;&gt;Michal Kosinski research&lt;/a&gt; for influencing elections, the &lt;a href=&quot;https://www.theguardian.com/technology/2016/dec/04/google-democracy-truth-internet-search-facebook&quot;&gt;“hacking” of Googles search algorithms&lt;/a&gt; for pushing right wing propaganda into search results and the development from &lt;a href=&quot;https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426#.y88r8rsbd&quot;&gt;hyperlinked information to linear TV like consumption&lt;/a&gt; makes me sangry (sad+angry). So I will start blogging. Not on medium, not Tumblr or whatever. It will happen here. Sometimes in English, sometimes German, sometimes in Code. So stay tuned and use the RSS feed.&lt;/p&gt;
+
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dasmagazin.ch/2016/12/03/ich-habe-nur-gezeigt-dass-es-die-bombe-gibt/&quot;&gt;Ich habe nur gezeigt, dass es die Bombe gibt - Das Magazin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.theguardian.com/technology/2016/dec/04/google-democracy-truth-internet-search-facebook&quot;&gt;Google, democracy and the truth about internet search - Technology - The Guardian&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426#.9amrwp6ye&quot;&gt;The Web We Have to Save – Matter – Medium&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Work in Progress</title>
@@ -29,9 +46,6 @@
    <id>http://fabiantheblind.github.io//2016/09/04/README</id>
    <content type="html">&lt;p&gt;This site ist currently under constructions. Needs a full redesign.&lt;br /&gt;
 Thanks for your patience.&lt;/p&gt;
-
-&lt;p&gt;Cheers&lt;br /&gt;
-Fabian&lt;/p&gt;
 </content>
  </entry>
  
