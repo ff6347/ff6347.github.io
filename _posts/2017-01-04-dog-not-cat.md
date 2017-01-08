@@ -2,7 +2,7 @@
 layout: post
 title: Dog not Cat - Colored output in from cat in the terminal
 date: 2017.01.04
-published: False
+published: True
 tags: []
 categories: []
 ---
