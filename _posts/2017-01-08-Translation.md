@@ -9,8 +9,6 @@ categories: [tech]
 
 Writing a blog post each week is hard. Especially when you have a kid, a job, a wife, friends, a hobby and a paper due in 3 weeks. So here is just a quick one for this week.  
 
-So this week I got amazed by two things.
-
 ---
 
 First the overwhelming change in Google Translate (you really should check it out). They applied some neural network magic to it and now have really good translations. This is awesome. It seems also that the AI created its own language.  
@@ -20,15 +18,8 @@ First the overwhelming change in Google Translate (you really should check it ou
 
 There is this article [nytimes.com - The Great A.I. Awakening](http://www.nytimes.com/2016/12/14/magazine/the-great-ai-awakening.html?_r=1) that I really need to read.  
 
----
-
 Second thing is this app: [productiveapp.io](http://productiveapp.io/). I really did drink enough water this week. Also I'm writing this blog post. Ain't I?  
-
----
-
-Third procrastination. I'm good at it. Not writing the paper but a blog post instead, my plants have water the kitchen is clean and so on.  
-
-Well. Then let's get back to work…
+Third procrastination. I'm good at it. Not writing the paper but a blog post instead, my plants have water the kitchen is clean and so on. Well. Then let's get back to work…
 
 ![work](http://i.giphy.com/heK9M5vuUcloY.gif)  
 

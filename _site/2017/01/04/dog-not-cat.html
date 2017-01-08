@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <title>blog</title>
+    <title>Dog not Cat - Colored output in from cat in the terminal</title>
     <meta name="description" content="Website of Fabian Morón Zirfas">
     <meta name="author" content="Fabian Morón Zirfas">
     <!--[if lt IE 9]>
@@ -14,7 +14,7 @@
     <![endif]-->
   </head>
   <body class="fade">
-      <!-- Navigation -->
+    <!-- Navigation -->
     <nav id="slide-menu">
       <ul>
         <li id="home" class="home"><a href="/"><svg class="icon-home"><use xlink:href="/assets/fonts/icons.svg#icon-home"></use></svg> Home</a></li>
@@ -76,36 +76,31 @@
     <div id="main">
       <div class="menu-trigger"></div>
       <div id="content">
-      
-<h2 id="january-04-2017-weekly-round-up---translation-productive-habits-and-procrastinationtech20170104translationhtml">January 04, 2017 <a href="/tech/2017/01/04/Translation.html">Weekly round up - translation, productive habits and procrastination</a></h2>
-<blockquote>
-  <p>Writing a blog post each week is hard. Especially when you have a kid, a job, a wife, friends, a hobby and a paper due…
-<a href="/tech/2017/01/04/Translation.html">Read more</a></p>
-</blockquote>
+      <h1>Dog not Cat - Colored output in from cat in the terminal</h1>
+      <h3>January 04, 2017</h3>
+      <p>How to make <code class="highlighter-rouge">cat</code> have colored output?</p>
 
-<h2 id="january-04-2017-dog-not-cat---colored-output-in-from-cat-in-the-terminal20170104dog-not-cathtml">January 04, 2017 <a href="/2017/01/04/dog-not-cat.html">Dog not Cat - Colored output in from cat in the terminal</a></h2>
-<blockquote>
-  <p>How to make cat have colored output? sudo easy_install Pygments Then edit your .bashrc, .bash_profile or .zshrc and add the following line: alias dog=”pygmentize -g”…
-<a href="/2017/01/04/dog-not-cat.html">Read more</a></p>
-</blockquote>
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo easy_install Pygments
+</code></pre>
+</div>
 
-<h2 id="december-07-2016-blogging-again20161207blogging-againhtml">December 07, 2016 <a href="/2016/12/07/blogging-again.html">Blogging Again</a></h2>
-<blockquote>
-  <p>Recent events in big data, like the usage of Michal Kosinski research for influencing elections, the “hacking” of Googles search algorithms for pushing right wing…
-<a href="/2016/12/07/blogging-again.html">Read more</a></p>
-</blockquote>
+<p>Then edit your <code class="highlighter-rouge">.bashrc</code>, <code class="highlighter-rouge">.bash_profile</code> or <code class="highlighter-rouge">.zshrc</code> and add the following line:</p>
 
-<h2 id="september-05-2016-work-in-progress20160905wiphtml">September 05, 2016 <a href="/2016/09/05/WIP.html">Work in Progress</a></h2>
-<blockquote>
-  <p>I actually started working on the site again. I hope to have something till the end of the month. Stay tuned.</p>
-</blockquote>
+<div class="highlighter-rouge"><pre class="highlight"><code>alias dog="pygmentize -g"
+</code></pre>
+</div>
 
-<h2 id="september-04-2016-readme20160904readmehtml">September 04, 2016 <a href="/2016/09/04/README.html">README</a></h2>
-<blockquote>
-  <p>This site ist currently under constructions. Needs a full redesign.
-Thanks for your patience.</p>
-</blockquote>
+<p>Source it and you are good to go.</p>
 
+<div class="highlighter-rouge"><pre class="highlight"><code>dog myfile
+</code></pre>
+</div>
+
+<p>Will give you colored output. Nice!</p>
+
+<hr />
+
+<p>Found around <a href="http://stackoverflow.com/questions/7851134/syntax-highlighting-colorizing-cat">the web.</a></p>
 
     <footer>
 <noscript>
