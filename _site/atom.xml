@@ -4,7 +4,7 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2017-03-31T11:58:47+02:00</updated>
+ <updated>2017-03-31T12:00:52+02:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
@@ -66,37 +66,6 @@ end
 &lt;/div&gt;
 
 &lt;p&gt;Have fun.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Markdown Preview in the Terminal</title>
-   <link href="http://fabiantheblind.github.io//2017/03/31/markdown-preview-in-the-terminal.html"/>
-   <updated>2017-03-31T00:00:00+02:00</updated>
-   <id>http://fabiantheblind.github.io//2017/03/31/markdown-preview-in-the-terminal</id>
-   <content type="html">&lt;p&gt;How to make &lt;code class=&quot;highlighter-rouge&quot;&gt;cat&lt;/code&gt; have colored output?&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo easy_install Pygments
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Then edit your &lt;code class=&quot;highlighter-rouge&quot;&gt;.bashrc&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.bash_profile&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt; and add the following line:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;alias dog=&quot;pygmentize -g&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Source it and you are good to go.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dog myfile
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Will give you colored output. Nice!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Found around &lt;a href=&quot;http://stackoverflow.com/questions/7851134/syntax-highlighting-colorizing-cat&quot;&gt;the web.&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
