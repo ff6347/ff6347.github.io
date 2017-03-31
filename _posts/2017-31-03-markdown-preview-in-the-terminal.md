@@ -16,41 +16,45 @@ If you are using fish add this to your functions under `.config/fish/functions/m
 There are some sanity checks in there that look if pandoc and lynx are installed.  If not on macOS run `brew update && brew install pandoc lynx`.  
 
 
-    function mdview
-    if set -q argv
-      switch $argv
-        case -h
-          echo "[M↓] Help"
-          echo "call the mdview with a Markdown [M↓] file as argument"
-          echo "this script needs pandoc and lynx installed"
-          echo "on macOS run 'brew install pandoc lynx'"
-        case "*"
-          # check if pandoc is installed
-          if pandoc -v >/dev/null do
-          # check if lynx is installed
-            if lynx -version >/dev/null do
-              # run the magic
-              # pass the file to pandoc
-              # it will be converted to HTML and go to stdout
-              # pipe it into lynx stdin
-              pandoc $argv | lynx -stdin
-            else
-              echo "lynx is not installed"
-            end
-          else
-            echo "pandoc is not installed"
-          end
+```shell
+function mdview
+if set -q argv
+  switch $argv
+    case -h
+      echo "[M↓] Help"
+      echo "call the mdview with a Markdown [M↓] file as argument"
+      echo "this script needs pandoc and lynx installed"
+      echo "on macOS run 'brew install pandoc lynx'"
+    case "*"
+      # check if pandoc is installed
+      if pandoc -v >/dev/null do
+      # check if lynx is installed
+        if lynx -version >/dev/null do
+          # run the magic
+          # pass the file to pandoc
+          # it will be converted to HTML and go to stdout
+          # pipe it into lynx stdin
+          pandoc $argv | lynx -stdin
+        else
+          echo "lynx is not installed"
         end
+      else
+        echo "pandoc is not installed"
       end
     end
+  end
+end
+```
 
 
 For bash/zsh this should be something like this in its simplest form.  
 
-    #!/bin/bash
-    function mdview (){
-        # pipe it into lynx stdin
-        pandoc "$1" | lynx -stdin
-    }
+```shell
+#!/bin/bash
+function mdview (){
+    # pipe it into lynx stdin
+    pandoc "$1" | lynx -stdin
+}
+```
 
 Have fun.  

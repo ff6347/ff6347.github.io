@@ -4,7 +4,7 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2017-03-31T12:00:52+02:00</updated>
+ <updated>2017-03-31T12:05:06+02:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
@@ -25,29 +25,29 @@
 
 &lt;p&gt;There are some sanity checks in there that look if pandoc and lynx are installed.  If not on macOS run &lt;code class=&quot;highlighter-rouge&quot;&gt;brew update &amp;amp;&amp;amp; brew install pandoc lynx&lt;/code&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function mdview
-if set -q argv
-  switch $argv
-    case -h
-      echo &quot;[M↓] Help&quot;
-      echo &quot;call the mdview with a Markdown [M↓] file as argument&quot;
-      echo &quot;this script needs pandoc and lynx installed&quot;
-      echo &quot;on macOS run 'brew install pandoc lynx'&quot;
-    case &quot;*&quot;
-      # check if pandoc is installed
-      if pandoc -v &amp;gt;/dev/null do
-      # check if lynx is installed
-        if lynx -version &amp;gt;/dev/null do
-          # run the magic
-          # pass the file to pandoc
-          # it will be converted to HTML and go to stdout
-          # pipe it into lynx stdin
-          pandoc $argv | lynx -stdin
-        else
-          echo &quot;lynx is not installed&quot;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;function &lt;/span&gt;mdview
+&lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; -q argv
+  switch &lt;span class=&quot;nv&quot;&gt;$argv&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; -h
+      &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;[M↓] Help&quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;call the mdview with a Markdown [M↓] file as argument&quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;this script needs pandoc and lynx installed&quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;on macOS run 'brew install pandoc lynx'&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;*&quot;&lt;/span&gt;
+      &lt;span class=&quot;c&quot;&gt;# check if pandoc is installed&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;pandoc -v &amp;gt;/dev/null &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+      &lt;span class=&quot;c&quot;&gt;# check if lynx is installed&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;lynx -version &amp;gt;/dev/null &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+          &lt;span class=&quot;c&quot;&gt;# run the magic&lt;/span&gt;
+          &lt;span class=&quot;c&quot;&gt;# pass the file to pandoc&lt;/span&gt;
+          &lt;span class=&quot;c&quot;&gt;# it will be converted to HTML and go to stdout&lt;/span&gt;
+          &lt;span class=&quot;c&quot;&gt;# pipe it into lynx stdin&lt;/span&gt;
+          pandoc &lt;span class=&quot;nv&quot;&gt;$argv&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; lynx -stdin
+        &lt;span class=&quot;k&quot;&gt;else
+          &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;lynx is not installed&quot;&lt;/span&gt;
         end
-      else
-        echo &quot;pandoc is not installed&quot;
+      &lt;span class=&quot;k&quot;&gt;else
+        &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;pandoc is not installed&quot;&lt;/span&gt;
       end
     end
   end
@@ -57,7 +57,7 @@ end
 
 &lt;p&gt;For bash/zsh this should be something like this in its simplest form.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;function &lt;/span&gt;mdview &lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
     &lt;span class=&quot;c&quot;&gt;# pipe it into lynx stdin&lt;/span&gt;
     pandoc &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; | lynx -stdin

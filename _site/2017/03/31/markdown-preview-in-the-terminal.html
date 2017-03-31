@@ -86,29 +86,29 @@
 
 <p>There are some sanity checks in there that look if pandoc and lynx are installed.  If not on macOS run <code class="highlighter-rouge">brew update &amp;&amp; brew install pandoc lynx</code>.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>function mdview
-if set -q argv
-  switch $argv
-    case -h
-      echo "[M↓] Help"
-      echo "call the mdview with a Markdown [M↓] file as argument"
-      echo "this script needs pandoc and lynx installed"
-      echo "on macOS run 'brew install pandoc lynx'"
-    case "*"
-      # check if pandoc is installed
-      if pandoc -v &gt;/dev/null do
-      # check if lynx is installed
-        if lynx -version &gt;/dev/null do
-          # run the magic
-          # pass the file to pandoc
-          # it will be converted to HTML and go to stdout
-          # pipe it into lynx stdin
-          pandoc $argv | lynx -stdin
-        else
-          echo "lynx is not installed"
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="k">function </span>mdview
+<span class="k">if </span><span class="nb">set</span> -q argv
+  switch <span class="nv">$argv</span>
+    <span class="k">case</span> -h
+      <span class="nb">echo</span> <span class="s2">"[M↓] Help"</span>
+      <span class="nb">echo</span> <span class="s2">"call the mdview with a Markdown [M↓] file as argument"</span>
+      <span class="nb">echo</span> <span class="s2">"this script needs pandoc and lynx installed"</span>
+      <span class="nb">echo</span> <span class="s2">"on macOS run 'brew install pandoc lynx'"</span>
+    <span class="k">case</span> <span class="s2">"*"</span>
+      <span class="c"># check if pandoc is installed</span>
+      <span class="k">if </span>pandoc -v &gt;/dev/null <span class="k">do</span>
+      <span class="c"># check if lynx is installed</span>
+        <span class="k">if </span>lynx -version &gt;/dev/null <span class="k">do</span>
+          <span class="c"># run the magic</span>
+          <span class="c"># pass the file to pandoc</span>
+          <span class="c"># it will be converted to HTML and go to stdout</span>
+          <span class="c"># pipe it into lynx stdin</span>
+          pandoc <span class="nv">$argv</span> <span class="p">|</span> lynx -stdin
+        <span class="k">else
+          </span><span class="nb">echo</span> <span class="s2">"lynx is not installed"</span>
         end
-      else
-        echo "pandoc is not installed"
+      <span class="k">else
+        </span><span class="nb">echo</span> <span class="s2">"pandoc is not installed"</span>
       end
     end
   end
@@ -118,7 +118,7 @@ end
 
 <p>For bash/zsh this should be something like this in its simplest form.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
 <span class="k">function </span>mdview <span class="o">(){</span>
     <span class="c"># pipe it into lynx stdin</span>
     pandoc <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> | lynx -stdin
