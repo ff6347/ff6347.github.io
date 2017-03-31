@@ -4,13 +4,101 @@
  <title>fabiantheblind's blog</title>
  <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
  <link href="http://fabiantheblind.github.io/"/>
- <updated>2017-03-09T15:44:22+01:00</updated>
+ <updated>2017-03-31T11:55:35+02:00</updated>
  <id>http://fabiantheblind.github.io/</id>
  <author>
    <name>fabiantheblind</name>
    <email>hello@fabiantheblind.info</email>
  </author>
 
+ 
+ <entry>
+   <title>Markdown Preview in the Terminal</title>
+   <link href="http://fabiantheblind.github.io//2017/03/31/markdown-preview-in-the-terminal.html"/>
+   <updated>2017-03-31T00:00:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2017/03/31/markdown-preview-in-the-terminal</id>
+   <content type="html">&lt;p&gt;So how can we preview Markdown files in the terminal? There is of course &lt;a href=&quot;http://brettterpstra.com/projects/mdless/&quot;&gt;mdless by Brett Terpstra&lt;/a&gt;, but what if you don’t want to use a ruby gem (for some kind of wired reason). The best solution I found is a combination of two tools &lt;a href=&quot;http://pandoc.org/&quot;&gt;pandoc&lt;/a&gt; and &lt;a href=&quot;http://lynx.browser.org/&quot;&gt;lynx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Together you can turn them into a handy function to preview your markdown files when you are logged into that machine on the other side of the world.&lt;/p&gt;
+
+&lt;p&gt;If you are using fish add this to your functions under &lt;code class=&quot;highlighter-rouge&quot;&gt;.config/fish/functions/mdview.fish&lt;/code&gt; (mdview is the name of the function and the file you will have to create).&lt;/p&gt;
+
+&lt;p&gt;There are some sanity checks in there that look if pandoc and lynx are installed.  If not on macOS run &lt;code class=&quot;highlighter-rouge&quot;&gt;brew update &amp;amp;&amp;amp; brew install pandoc lynx&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function mdview
+if set -q argv
+  switch $argv
+    case -h
+      echo &quot;[M↓] Help&quot;
+      echo &quot;call the mdview with a Markdown [M↓] file as argument&quot;
+      echo &quot;this script needs pandoc and lynx installed&quot;
+      echo &quot;on macOS run 'brew install pandoc lynx'&quot;
+    case &quot;*&quot;
+      # check if pandoc is installed
+      if pandoc -v &amp;gt;/dev/null do
+      # check if lynx is installed
+        if lynx -version &amp;gt;/dev/null do
+          # run the magic
+          # pass the file to pandoc
+          # it will be converted to HTML and go to stdout
+          # pipe it into lynx stdin
+          pandoc $argv | lynx -stdin
+        else
+          echo &quot;lynx is not installed&quot;
+        end
+      else
+        echo &quot;pandoc is not installed&quot;
+      end
+    end
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For bash/zsh this should be something like this in its simplest form.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;function &lt;/span&gt;mdview &lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# pipe it into lynx stdin&lt;/span&gt;
+    pandoc &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; | lynx -stdin
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Have fun.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Markdown Preview in the Terminal</title>
+   <link href="http://fabiantheblind.github.io//2017/03/31/markdown-preview-in-the-terminal.html"/>
+   <updated>2017-03-31T00:00:00+02:00</updated>
+   <id>http://fabiantheblind.github.io//2017/03/31/markdown-preview-in-the-terminal</id>
+   <content type="html">&lt;p&gt;How to make &lt;code class=&quot;highlighter-rouge&quot;&gt;cat&lt;/code&gt; have colored output?&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo easy_install Pygments
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then edit your &lt;code class=&quot;highlighter-rouge&quot;&gt;.bashrc&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.bash_profile&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt; and add the following line:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;alias dog=&quot;pygmentize -g&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Source it and you are good to go.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dog myfile
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Will give you colored output. Nice!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Found around &lt;a href=&quot;http://stackoverflow.com/questions/7851134/syntax-highlighting-colorizing-cat&quot;&gt;the web.&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Weekly round up - translation, productive habits and procrastination</title>

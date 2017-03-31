@@ -69,7 +69,7 @@ The second task was always a bit more experimental. In each case they had to gen
 <a href="http://projects.kevinschiffer.de/flag-survey-datavis/"><img src="{{site.url}}/assets/images/teaching/io/flags.gif" height="232px" width="500px" alt=""></a>
 <a href="https://github.com/josues/relativity-and-iss"><img src="{{site.url}}/assets/images/teaching/io/relativ-thumb.png" alt=""></a>
 </div>
-<div class="clear-float"></div>
+<div class="clear-float"></div>  
 
 The third task was always about Physical Computing. From creating a computerized representation of binary states in the real world, to motorized posters/objects that react on the passive presence of a spectator to connected objects that talk to one another. Below you will find some highlights of the projects the students created.  
 <div class="thumbs">
