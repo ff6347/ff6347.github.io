@@ -1,26 +1,24 @@
 ---
-layout: nil
-title: blog atom feed
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>fabiantheblind's blog</title>
- <link href="http://fabiantheblind.github.io/atom.xml" rel="self"/>
- <link href="http://fabiantheblind.github.io/"/>
+ <title>fabianmoronzirfas's blog</title>
+ <link href="https://fabianmoronzirfas.me/atom.xml" rel="self"/>
+ <link href="https://fabianmoronzirfas.me/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://fabiantheblind.github.io/</id>
+ <id>https://fabianmoronzirfas.me/</id>
  <author>
-   <name>fabiantheblind</name>
-   <email>hello@fabiantheblind.info</email>
+   <name>fabianmoronzirfas</name>
+   <email>hello@fabianmoronzirfas.info</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://fabiantheblind.github.io/{{ post.url }}"/>
+   <link href="https://fabianmoronzirfas.me/{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://fabiantheblind.github.io/{{ post.id }}</id>
+   <id>https://fabianmoronzirfas.github.io/{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
