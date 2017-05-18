@@ -16,9 +16,9 @@
       "id":"https://fabianmoronzirfas.me/{{ post.url }}",
       "url":"https://fabianmoronzirfas.me/{{ post.url }}",
       "title":"{{ post.title }}",
-      "content_html":"{{ post.content | xml_escape}}",
+      "content_html":"{{ post.content | replace: '"', '\"' | strip_newlines }}",
        "date_published":"{{ post.date | date_to_xmlschema }}"
-    }
+    }{% if forloop.last == false %},{% endif %}
     {% endfor %}
   ]
 }
