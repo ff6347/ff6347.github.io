@@ -8,5 +8,5 @@ Thumbs.db
 _site/
 .rbenv-version
 .rvmrc
-
+.sass-cache/
 bower_components/
