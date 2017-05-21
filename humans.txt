@@ -1,0 +1,19 @@
+/* TEAM */
+
+Everything: Fabian Morón Zirfas
+Contact: fabian.moron.zirfas [at] gmail.com
+Twitter: @fmoronzirfas
+FRom Berlin, Germany
+
+/* THANKS */
+
+Son: Hektor Uhlig
+Wife: Olivia Uhlig
+
+/* SITE */
+
+Last update: 2017.05.21
+Language: English
+IDE: Sublime Text
+Generator: Jekyll
+Hosted on: uberspace.de (Asteroids)
