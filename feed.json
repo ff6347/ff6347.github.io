@@ -4,8 +4,8 @@
   "version": "https://jsonfeed.org/version/1",
   "title": "JSON Feed for fabianmoronzirfas's blog",
   "description": "this is the jsonfeed for my blog. See https://jsonfeed.org for more info on JSON feed",
-  "home_page_url": "{{ site.url }}/",
-  "feed_url": "{{ site.url }}/feed.json",
+  "home_page_url": "https://fabianmoronzirfas.me/",
+  "feed_url": "https://fabianmoronzirfas.me/feed.json",
   "user_comment": "This feed allows you to read the posts from this site in any feed reader that supports the JSON Feed format. To add this feed to your reader, copy the following URL — https://jsonfeed.org/feed.json — and add it your reader.",
   "expired":false,
   "author": {
@@ -14,8 +14,8 @@
   "items":[
     {% for post in site.posts %}
     {
-      "id":"{{site.url}}{{ post.url }}",
-      "url":"{{site.url}}{{ post.url }}",
+      "id":"https://fabianmoronzirfas.me/{{ post.url }}",
+      "url":"https://fabianmoronzirfas.me/{{ post.url }}",
       "title":{{ post.title |smartify |jsonify }},
       "content_html":{{ post.content | smartify | jsonify }},
        "date_published":"{{ post.date | date_to_xmlschema }}"
