@@ -14,8 +14,8 @@
   "items":[
     {% for post in site.posts %}
     {
-      "id":"https://fabianmoronzirfas.me/{{ post.url }}",
-      "url":"https://fabianmoronzirfas.me/{{ post.url }}",
+      "id":"https://fabianmoronzirfas.me{{ post.url }}",
+      "url":"https://fabianmoronzirfas.me{{ post.url }}",
       "title":{{ post.title |smartify |jsonify }},
       "content_html":{{ post.content | smartify | jsonify }},
        "date_published":"{{ post.date | date_to_xmlschema }}"
