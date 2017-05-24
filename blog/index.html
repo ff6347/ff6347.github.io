@@ -1,0 +1,39 @@
+---
+layout: standard
+title: blog
+---
+
+<h1>Fabian blogging the like it was {% raw %}{{Year minus 10}}{% endraw %}</h1>
+
+
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+<h2><a href="{{post.url}}">{{post.title}}</a></h2>
+
+<p><b>{{post.date | date: '%B %d, %Y'}}</b></p>
+<p>
+
+<blockquote>{{ post.content | strip_html | truncatewords:25 }}
+{% if post.excerpt != post.content %}
+<a href="{{ site.baseurl }}{{ post.url }}">Read more → → →</a>
+{% endif %}</blockquote>
+</p>
+
+</p>
+
+
+<hr>
+
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous"> ← ← ← Previous</a>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next → → →</a>
+
+  {% endif %}
+</div>
