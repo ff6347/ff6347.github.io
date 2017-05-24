@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: JSONfeed and real problems
 published: True
 date: 2017.05.24
