@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Awesome Uberspace
+title: Awesome @ubernauten 
 date: 2017.05.30
 published: True
 tags: [hosting, uberspace]
