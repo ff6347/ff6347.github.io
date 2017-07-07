@@ -2,5 +2,5 @@ $textColor: #566b78;
 $linkColor:#E96368;
 $headingColor:#333;
 $headingColorLight: lighten($headingColor, 20%);
-
+$footnoteColor: lighten($textColor, 15%);
 $borderColor:#DFDFDF;

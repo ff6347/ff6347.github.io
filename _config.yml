@@ -2,6 +2,8 @@ markdown: kramdown
 kramdown:
   input: GFM
   auto_ids: true
+  parse_block_html: true
+  footnote_backlink: '↑'
   syntax_highlighter: rouge
 highlighter: rouge
 host: 0.0.0.0
