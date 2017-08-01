@@ -7,5 +7,4 @@ tags: [Terminal, iTerm, ssh, error]
 categories: [tech]
 ---
 
-Does every monday have to start with wired problems? iTerm2 can't connect over ssh to our remote server. Terminal can. After a reboot everything works normal…? WTF? Gremlins?  
-
+Does every Monday have to start with wired problems? iTerm2 can't connect over ssh to our remote server. Terminal can. After a reboot, everything works normally…? WTF? Gremlins?  

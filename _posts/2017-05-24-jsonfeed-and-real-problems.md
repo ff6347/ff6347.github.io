@@ -19,9 +19,7 @@ categories: [tech]
 >["Notes From An Emergency" by Maciej Cegłowski][idle]
 
 
-Yes I also jumped on the JSONfeed train and I still think it is a good idea. Reading the transcript from Maciej made me think a lot on my way home. I guess he's right. It is way easier to build something from scratch that solves a new problem then tackling an existing one. JSON feed versus climate change? That's a tough neighbourhood.  
-
-
+Yes, I also jumped on the JSONfeed train and I still think it is a good idea. Reading the transcript from Maciej made me think a lot on my way home. I guess he's right. It is way easier to build something from scratch that solves a new problem then tackling an existing one. JSON feed versus climate change? That's a tough neighborhood.  
 
 
 [winer]: http://scripting.com/2017/05/21/reEvanWilliamsAndJsonFeed.html

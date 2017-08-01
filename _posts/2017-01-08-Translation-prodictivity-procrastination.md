@@ -18,7 +18,7 @@ First the overwhelming change in Google Translate (you really should check it ou
 
 There is this article [nytimes.com - The Great A.I. Awakening](http://www.nytimes.com/2016/12/14/magazine/the-great-ai-awakening.html?_r=1) that I really need to read.  
 
-Second thing is this app: [productiveapp.io](http://productiveapp.io/). I really did drink enough water this week. Also I'm writing this blog post. Ain't I?  
+Second thing is this app: [productiveapp.io](http://productiveapp.io/). I really did drink enough water this week. Also, I'm writing this blog post. Ain't I?  
 Third procrastination. I'm good at it. Not writing the paper but a blog post instead, my plants have water the kitchen is clean and so on. Well. Then let's get back to work…
 
 ![work](http://i.giphy.com/heK9M5vuUcloY.gif)  

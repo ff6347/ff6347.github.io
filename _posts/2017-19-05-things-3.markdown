@@ -7,9 +7,9 @@ tags: [things, app]
 categories: [tech]
 ---
 
-The people at [Culturecode][culturedcode] updated Things from v2 to v3. There is no upgrade pricing. Which is understandable after so many years of development. I'm asking myself now: “Should I spend the 50€ (macOS + iOS) version?” The thing (lowercase) is I moved on. I didn't start Things (uppercase) for a long time. I moved on to [Taskpaper][taskpaper], but even these are not part of my daily habits. After I first evaluation of the trial app I still wasn't convinced that I should move back.  
+The people at [Culturecode][culturedcode] updated Things from v2 to v3. There is no upgrade pricing. Which is understandable after so many years of development. I'm asking myself now: “Should I spend the 50€ (macOS + iOS) version?” The thing (lowercase) is I moved on. I didn't start Things (upper case) for a long time. I moved on to [Taskpaper][taskpaper], but even these are not part of my daily habits. After I first evaluation of the trial app, I still wasn't convinced that I should move back.  
 
-This seems the biggest challenge for me. The feeling I'm moving backwards.  
+This seems the biggest challenge for me. The feeling I'm moving backward.  
 
 If you have any thoughts on this contact [@fmoronzirfas][twitter] me on Twitter[^1].  
 
