@@ -1,31 +1,7 @@
-<!doctype html>
-<html lang="en">
-  {% include head.html %}
-  <body class="fade">
-  {% include menu.html %}
-    <div id="main">
-      <div class="menu-trigger"></div>
-      <div id="content">
-      <h1>{{page.title}}</h1>
-      <p><b>{{page.date | date: '%B %d, %Y'}}</b></p>
-      {{ content }}
-    <footer>
-<noscript>
-  <ul class="social-links" style="text-align:center;">
-    <li class="social"><a href="https://github.com/fabianmoronzirfas">github</a> || </li>
-    <li class="social"><a href="https://pinboard.in/u:fabiantheblind">pinboard</a> || </li>
-    <li class="social"><a href="mailto:icke@fabianmoronzirfas.me">mail</a> || </li>
-    <li class="social"><a href="http://twitter.com/fmoronzirfas">twitter</a> || </li>
-    <li class="social"><a href="https://vimeo.com/fabianmoronzirfas">vimeo</a> || </li>
-    <li class="social"><a href="{{ site.url }}/atom.xml">atom feed</a></li>
-    </ul>
-  </noscript>
-      <p>Build with <a href="http://jekyllrb.com/" target="blank">jekyll</a> and {% include icon-heart.html %} and hosted on <a href="https://uberspace.de">asteroids!</a></p>
-    </footer>
-      </div>
-    </div>
-    <script type="text/javascript" src="{{site.url}}/assets/js/jquery.min.js"></script>
-    <!-- <script type="text/javascript" src="{{site.url}}/assets/js/reframe.js"></script> -->
-    <script type="text/javascript" src="{{site.url}}/assets/js/main.js"></script>
-  </body>
-</html>
+---
+layout: standard
+---
+
+<h1>{{page.title}}</h1>
+<p><b>{{page.date | date: '%B %d, %Y'}}</b></p>
+{{ content }}

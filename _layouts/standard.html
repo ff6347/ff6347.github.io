@@ -1,12 +1,16 @@
 <!doctype html>
 <html lang="en">
-
   {% include head.html %}
   <body class="fade">
+<!-- <div id="container"> -->
+
+<header>
     {% include menu.html %}
-    <div id="main">
+  </header>
+
+<section>
+<div id="main">
       <div class="menu-trigger"></div>
-      <div id="content">
       {{ content }}
     <footer>
 <noscript>
@@ -19,10 +23,13 @@
     <li class="social"><a href="{{ site.url }}/atom.xml">atom feed</a></li>
     </ul>
   </noscript>
-      <p>Build with <a href="http://jekyllrb.com/" target="blank">jekyll</a> and {% include icon-heart.html %} and hosted on <a href="https://uberspace.de">asteroids!</a></p>
+      <p>Build with <a href="http://jekyllrb.com/" target="blank">jekyll</a>, {% include icon-heart.html %} and hosted on <a href="https://uberspace.de">asteroids!</a> Take a peak into my code projects on <a href="https://github.com/fabianmoronzirfas">{% include icon-github.html %} github</a> and read what I read on <a href="https://pinboard.in/u:fabiantheblind">{% include icon-pinboard.html %} pinboard</a>. Write me a <a href="mailto:icke@fabianmoronzirfas.me">{% include icon-mail.html %} mail</a> or ping me on <a href="http://twitter.com/fmoronzirfas">{% include icon-twitter.html %} twitter</a>. You also can see some of my videos on <a href="https://vimeo.com/fabianmoronzirfas">{% include icon-vimeo.html %} vimeo.</a> If you want to stay up to date subscribe to the <a href="{{ site.url }}/atom.xml">{% include icon-rss.html %} atom</a> or <a href="{{ site.url }}/feed.json">{% include icon-rss.html %} json</a> feed.</p>
     </footer>
-      </div>
-    </div>
+
+    </div> <!-- close main -->
+    </section>
+<!--     </div> close container -->
+
     <script type="text/javascript" src="{{site.url}}/assets/js/jquery.min.js"></script>
     <!-- <script type="text/javascript" src="{{site.url}}/assets/js/reframe.js"></script> -->
     <script type="text/javascript" src="{{site.url}}/assets/js/main.js"></script>

@@ -5,6 +5,7 @@
 */
 
 var menu = function() {
+
   var body = document.body;
   var menu_trigger = body.getElementsByClassName('menu-trigger')[0];
 
@@ -22,7 +23,7 @@ $(document).ready(function() {
 
 
   // ).call(this);
-  menu();
+  // menu();
 
   // if(document.getElementById('avatar') !== null) {
   //   var images = ['avatar-0.JPG', 'avatar-1.JPG', 'avatar-2.JPG', 'avatar-3.JPG',

@@ -179,9 +179,10 @@ See the whole project description over [here.](https://github.com/vogelino/nibbl
 > Since my cats are quite lazy, I had the vision to build a gadget that would make them move more: The idea of a treat spin was born. Simultaneously, I wanted to be able to lean back and use it as easy as possible – from the sofa or while being out and about.  
 
 A Particle Photon powered and IFTTT controlled cat animator. See the full documentation [over here](https://github.com/chrisklement/treat-spin).  
+
 <div class="thumbs">
-    <a href="https://github.com/chrisklement/treat-spin"><img src="{{site.url}}/assets/images/teaching/j5/mockup-thumb.png" alt=""></a>
-    <a href="https://github.com/chrisklement/treat-spin"><img src="{{site.url}}/assets/images/teaching/j5/back-thumb.png" alt=""></a>
+<a href="https://github.com/chrisklement/treat-spin"><img src="{{site.url}}/assets/images/teaching/j5/mockup-thumb.png" alt=""></a>
+<a href="https://github.com/chrisklement/treat-spin"><img src="{{site.url}}/assets/images/teaching/j5/back-thumb.png" alt=""></a>
 </div>
 <div class="clear-float"></div>
 
@@ -209,12 +210,15 @@ A musical interface controlled by color and hand gestures.
 
 A game controller based on Computer Vision.  
 
-<div class="thumbs"><img src="{{site.url}}/assets/images/teaching/blockseminar/hot-sphere-01.png" alt="">
-<img src="{{site.url}}/assets/images/teaching/blockseminar/hot-sphere-02.png" alt=""></div>
+<div class="thumbs">
+<img src="{{site.url}}/assets/images/teaching/blockseminar/hot-sphere-01.png" alt="">
+<img src="{{site.url}}/assets/images/teaching/blockseminar/hot-sphere-02.png" alt="">
+</div>
 
-<div class="thumbs"><img src="{{site.url}}/assets/images/teaching/blockseminar/hot-sphere-03.png" alt="">
-<img src="{{site.url}}/assets/images/teaching/blockseminar/hot-sphere-04.png" alt=""></div>
-
+<div class="thumbs">
+<img src="{{site.url}}/assets/images/teaching/blockseminar/hot-sphere-03.png" alt="">
+<img src="{{site.url}}/assets/images/teaching/blockseminar/hot-sphere-04.png" alt="">
+</div>
 <div class="clear-float"></div>
 
 

@@ -1,23 +1,23 @@
   <!-- Navigation -->
-    <nav id="slide-menu">
-      <ul>
-        <li id="home" class="home"><a href="{{site.url}}/">{% include icon-home.html %} Home</a></li>
-        <li id="teaching" class="teaching"><a href="{{site.url}}/teaching/">{% include icon-teach.html %} Teaching</a></li>
-        <li id="work" class="work"><a href="{{site.url}}/work/">{% include icon-work.html %} Work</a></li>
-        <li id="projects" class="projects"><a href="{{site.url}}/projects/">{% include icon-projects.html %} Projects</a></li>
-        <li id="education" class="education"><a href="{{site.url}}/education/">{% include icon-edu.html %} Education</a></li>
-        <li id="personal" class="personal"><a href="{{site.url}}/personal/">{% include icon-personal.html %} Personal</a></li>
-        <li id="blog" class="blog"><a href="{{site.url}}/blog/">{% include icon-personal.html %} Blog</a></li>
-        <li class=""><a href="https://github.com/fabianmoronzirfas">{% include icon-github.html %} github</a></li>
-        <li class=""><a href="https://pinboard.in/u:fabiantheblind">{% include icon-pinboard.html %} pinboard</a></li>
-        <li class=""><a href="mailto:icke@fabianmoronzirfas.me">{% include icon-mail.html %} mail</a></li>
-        <li class=""><a href="http://twitter.com/fmoronzirfas">{% include icon-twitter.html %} twitter</a></li>
-        <li class=""><a href="https://vimeo.com/fabianmoronzirfas">{% include icon-vimeo.html %} vimeo</a></li>
-        <li class=""><a href="{{ site.url }}/atom.xml">{% include icon-rss.html %} atom feed</a></li>
-        <li class=""><a href="{{ site.url }}/feed.json">{% include icon-rss.html %} json feed</a></li>
+<div class="inner">
+<nav id="menu">
+        <a href="{{ site.baseurl }}" class="logo"></a>
+        <input type="checkbox" id="nav" />
+        <label for="nav"></label>
+      <a href="#" id="menu-icon"></a>
+      <ul id="menu-list">
+        <li id="home" class="menu-item home"><a href="{{site.url}}/">{% include icon-home.html %} Home</a></li>
+        <li id="teaching" class="menu-item teaching"><a href="{{site.url}}/teaching/">{% include icon-teach.html %} Teaching</a></li>
+        <li id="work" class="menu-item work"><a href="{{site.url}}/work/">{% include icon-work.html %} Work</a></li>
+        <li id="projects" class="menu-item projects"><a href="{{site.url}}/projects/">{% include icon-projects.html %} Projects</a></li>
+        <li id="education" class="menu-item education"><a href="{{site.url}}/education/">{% include icon-edu.html %} Education</a></li>
+        <li id="personal" class="menu-item personal"><a href="{{site.url}}/personal/">{% include icon-personal.html %} Personal</a></li>
+        <li id="blog" class="menu-item blog"><a href="{{site.url}}/blog/">{% include icon-personal.html %} Blog</a></li>
+
       </ul>
-    </nav>
-    <noscript>
+    </nav></div>
+<!--
+<noscript>
 <style type="text/css">
 #main{
   top:44px !important;
@@ -58,3 +58,4 @@
       </ul>
     </nav>
     </noscript>
+-->

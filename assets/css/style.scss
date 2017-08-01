@@ -1,9 +1,9 @@
 ---
 ---
-@import 'fonts', 'colors', 'typescale', 'fonts', 'menu', 'fadein';
+@import 'fonts', 'colors', 'typescale', 'fonts', 'fadein';
 
 body {
-  padding: 4em 1em;
+  padding: 0em 1em;
   color: $textColor;
   margin: 0 auto;
 }
@@ -12,6 +12,42 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   box-sizing: border-box;
+}
+
+section{
+  width:100%;
+}
+
+  header{
+
+  // background:$colGrey;
+  margin: 0 auto;
+  }
+
+ #main, #sub-header{
+  margin: 0 auto;
+  max-width: 50em;
+}
+// #container{
+//     display: flex;
+//     flex-direction: row; row is the default
+//     justify-content: space-around;
+// }
+
+nav{
+  input#nav{
+    display:none;
+  }
+  ul{
+  text-align:center;
+    li{
+      list-style:none;
+      padding: 0.3em;
+      font-size:1em;
+     display: inline;
+
+    }
+  }
 }
 #content {
   padding: 2em 3%;
@@ -183,8 +219,21 @@ and (max-device-width:480px) {
     display: inline-block;
   }
 }
+
+
+@media only screen
+and (min-width :750px ) {
+}
+
 @media only screen
 and (max-width:750px) {
+  @import "menu";
+  // #container{
+  //       display: flex;
+  //   flex-direction: column;/* row is the default*/
+  //   justify-content: space-around;
+  // }
+
   .thumbs {
     iframe {
       max-width: 100%;
