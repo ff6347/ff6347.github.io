@@ -7,14 +7,14 @@ tags: [setapp, apps, software, subscription]
 categories: [software]
 ---
 
-The idea of [Setapp][setapp] is great. Having a subscription model for all those lovely apps and just paying 9.99$ per month is very intriguing. My problem is, for the apps that interest me the most in their catalogue I already have a license:  
+The idea of [Setapp][setapp] is great. Having a subscription model for all those lovely apps and just paying 9.99$ per month is very intriguing. My problem is, for the apps that interest me the most in their catalog I already have a license:  
 
 - [Cleanmymac][clean] (Have it, use it, love it.)
 - [Marked][markd] (no [M↓] document is written without it.)
 - [Gemini][gemini] (from time to time I use it but not that often as I should.)
 - [Numi][numi] (Great calculator. It is actually free.)
-- [Betterzip][zip] (Also way better then the built-in archiver. And also free.)
-- [Coderunner][run] (Well this is one of the apps I never use but I love the idea. normally I use the [iTerm][term] and the according REPL.)
+- [Betterzip][zip] (Also way better than the built-in archiver. And also free.)
+- [Coderunner][run] (Well this is one of the apps I never use but I love the idea. normally I use the [iTerm][term] and the REPL.)
 - [Base][base] (Okay this one might come in handy when I actually start using SQLite.)
 - [Yummy FTP][yummy] (I have a license but I use [Transmit][transmit].)
 - [Manuscript][manu] (Bought a license for that one. It really sucked. I hope it improved.)
