@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Rant on Development Practices
-date: 23.07.2017
+date: 01.08.2017
 published: False
 tags: [development, university, rant, javascript]
 categories: [development]
