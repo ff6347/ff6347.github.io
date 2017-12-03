@@ -16,7 +16,11 @@ title: work
 
 ----
 
-## Full time lecturer and lab supervisor  
+##Full Time Creative Technologist @IXDS Berlin
+
+Since September 2017 I'm a creative technologist at [IXDS](https://ixds.com/). More infos are coming soon.  
+
+## Full Time Lecturer And Lab Supervisor
 
 Since September 2015 im fully employed as artistic research assistant at the FH Potsdam (University of Applied Sciences Potsdam (Germany)). I still do now and then some freelance work but most of my time goes into teaching "Physical Computing" and "Creative Coding". See the <a href="{{site.url}}/teaching/">teaching page</a> for an overview of my seminars.  
 
@@ -42,7 +46,7 @@ While working for Mazooka was fun it still was a lot of work in sales. I decided
 
 [Erlebniskontor GmbH](http://www.erlebniskontor.com/), [m.o.l.i.t.o.r GmbH](http://www.molitor-berlin.de/), BMW Welt München, Jacobs, [Deutsches Technikmuseum Berlin](http://www.sdtb.de/), [Klimahaus Bremerhaven](http://www.klimahaus-bremerhaven.de/), [Experimenta Heilbron](http://www.experimenta-heilbronn.de/), [Geysir Zentrum Andernach](http://www.geysir-andernach.de/), [Meyer Werft Papenburg](http://www.meyerwerft.de/de/meyerwerft_de/index.jsp), [Welios Oberöstereich](http://www.welios.at/), [Museum Hameln](http://www.museum-hameln.de/), [Wortreich Bad Hersfeld](http://www.wortreich-badhersfeld.de/), [Mellow Mark (Music Video)](http://www.mellowmark.de/)  
 
-### Selected video works  
+### Selected Video Works  
 
 For all these projects the art direction was done by Sebastian Matthäus, illustration by Ina Dautier, screenplays by Ansgar Ahlers, 3D animations by Darius Poroszewski, audio by Robert Fischer or Jan Doddeman, camera on the Mellow Mark music video by Elias Frobel and 2D animations/motion graphics, character rigging, color grading, compositing by me and if time ran out with support by Sebastian Matthäus.  
 

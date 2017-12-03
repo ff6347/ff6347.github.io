@@ -1,22 +1,24 @@
 /* global window document $ */
-
+document.addEventListener("DOMContentLoaded", function(event) {
+  console.log('ready but nothing to see here :P')
+});
 /*
   Slidemenu
 */
 
-var menu = function() {
+// var menu = function() {
 
-  var body = document.body;
-  var menu_trigger = body.getElementsByClassName('menu-trigger')[0];
+//   var body = document.body;
+//   var menu_trigger = body.getElementsByClassName('menu-trigger')[0];
 
-  if (typeof menu_trigger !== 'undefined') {
-    menu_trigger.addEventListener('click', function() {
-      body.className = (body.className === 'menu-active') ? '' : 'menu-active';
-    });
-  }
-};
+//   if (typeof menu_trigger !== 'undefined') {
+//     menu_trigger.addEventListener('click', function() {
+//       body.className = (body.className === 'menu-active') ? '' : 'menu-active';
+//     });
+//   }
+// };
 
-$(document).ready(function() {
+// $(document).ready(function() {
 
 // window.onload = function() {
 //   (
@@ -37,4 +39,4 @@ $(document).ready(function() {
   //   var selector = Math.floor(Math.random() * images.length);
   //   document.getElementById('avatar').src = '/assets/images/avatar/' + images[selector];
   // }
-});
+// });
