@@ -50,6 +50,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll
   jekyll-paginate (~> 1)
   jekyll-sitemap (~> 1)
 
