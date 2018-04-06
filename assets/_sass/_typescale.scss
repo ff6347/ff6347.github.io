@@ -5,7 +5,7 @@ html {
 }
 body {
   // background-color: white;
-  font-family:'vollkornregular', 'Georgia', serif;
+  font-family:'open sans', 'Helvetica', 'Arial', sans-serif;
   font-weight: 400;
   line-height: 1.45;
   // color: #333;
@@ -19,10 +19,13 @@ h1, h2, h3, h4 {
 h1 {
   margin-top: 0;
   font-size: 1.602em;
-  font-family: 'vollkornbold', 'Georgia', serif;
+  font-family: 'open sans', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 800;
 }
 h2 {
   font-size: 1.424em;
+  font-weight: 600;
+
 }
 h3 {
   font-size: 1.266em;

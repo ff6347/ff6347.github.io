@@ -1,11 +1,14 @@
 ---
 layout: post
 title: My Rant on Development Practices
-date: 01.08.2017
-published: False
-tags: [development, university, rant, javascript]
-categories: [development]
+date: 06.04.2018
+published: true
+tags: [development, university, javascript]
+categories: [rant]
 ---
+
+*!Note: I wrote this actually on 01.08.2017 but never published it. So here it goes!*  
+
 
 There are already a lot of rants about the state of (over)tooling, development style, scalability and what not. This is not news. My rant is aimed at my realm[^8]. The University.  
 

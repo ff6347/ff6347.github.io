@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/fabiantheblind/fabiantheblind.github.com#readme",
   "dependencies": {
-    "jquery": "^3.1.0",
-    "reframe.js": "^0.2.8"
+    "open-sans-fontface": "git+ssh://git@github.com/fabianmoronzirfas/open-sans.git"
   }
 }
