@@ -21,19 +21,25 @@ More technical
 
 The feature is called "App Translocation". The new application gets a xattr flag called com.apple.quarantine. This flag holds information when and with which Browser the app was loaded. The app will be moved on execution to a hidden temp folder and executed there. Having a .dmg with a "Move To Applications" link is not enough. The flag stays. Only when you move the App manually this gets removed. You can also inspect the xattr by running:
 
-    xattr "Fancy ofApp.app"
+```shell
+xattr "Fancy ofApp.app"
+```
 
 This will show you the flag com.apple.quarantine
 
 With
 
-    xattr -p com.apple.quarantine "Fancy ofApp.app"
+```shell
+xattr -p com.apple.quarantine "Fancy ofApp.app"
+```
 
 You can see its content.
 
 To remove this from the commandline use:
 
-    xattr -dr com.apple.quarantine "Fancy ofApp.app"
+```shell
+xattr -dr com.apple.quarantine "Fancy ofApp.app"
+```
 
 You can read some more about this behind those links:
 
