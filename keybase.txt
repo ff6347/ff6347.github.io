@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/fmoronzirfas
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://fabianmoronzirfas.me
+  * I am fmoronzirfas (https://keybase.io/fmoronzirfas) on keybase.
+  * I have a public key ASBm0TMUoEmUmzn6Z_qJBtIaJzZHs3FY8eSKxQW419bmyAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ebcece931e0b3983ffee499aff78249f9799ce3a4ec3f36296e4ce7f9ef72a970a",
+      "host": "keybase.io",
+      "kid": "012066d13314a049949b39fa67fa8906d21a273647b37158f1e48ac505b8d7d6e6c80a",
+      "uid": "1912119d588da038baaec23c0c7cfe19",
+      "username": "fmoronzirfas"
+    },
+    "merkle_root": {
+      "ctime": 1529010526,
+      "hash": "851a492b66a7b2b6b432ceeea6cf6f0c99fe15148ed4690765d3ca1c6d7ae9398958b8423d3133b036c5080c8ee680107a97ea4266ad5ff23d7e46f856e5f0bf",
+      "hash_meta": "eed9817976f194d019336f33028143c7e8e99c095ff2ea6e8c1965ad9a976706",
+      "seqno": 3078705
+    },
+    "service": {
+      "entropy": "a2Jw5CaXqmt3K9z9nrNgoxB3",
+      "hostname": "fabianmoronzirfas.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.49"
+  },
+  "ctime": 1529010569,
+  "expire_in": 504576000,
+  "prev": "2f22ee53b9310c42884779b4473c4431eaa8360ec5b28d80a159d7641ddd8be1",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgZtEzFKBJlJs5+mf6iQbSGic2R7NxWPHkisUFuNfW5sgKp3BheWxvYWTESpcCEMQgLyLuU7kxDEKIR3m0RzxEMeqoNg7Fso2AoVnXZB3di+HEICxSth7yX09+w8ClzdeOBW4TcIvqmkGp0t7Zcv0zjZeOAgHCo3NpZ8RAASk6KRNjJ6/+YJA7ADyMxk1LUMNOKfT3PxV4ckv4JMh6UEbfjFDLp7UtKumBl3YR6jKdvTo/lVEL98eFEEVLCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILLqsLg2r3zSRVWE+Sb/K/O2WItsAGG4zlj1shStFq3Yo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fmoronzirfas
+
+==================================================================
