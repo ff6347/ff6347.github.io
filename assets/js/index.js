@@ -9,16 +9,19 @@ document.addEventListener('DOMContentLoaded', function(event) {
   console.log('Hey. You are peaking into the console? Nice. But there is not a lot going on here. Just some minor JS fiddle. Yes it uses webpack but actually only for fun and experimentation');
   let ele = document.querySelector('span#calced-age');
   // console.log(age);
-  let counter = 0;
-  let interval = setInterval(()=>{
-    if (counter === age){
-      // ele.classList.remove('shake');
-      clearInterval(interval);
-    } else {
-      counter++;
-      ele.innerHTML = counter;
-    }
-  }, 23);
-  // ele.innerHTML = age;
-  // console.log(ele);
+  if (ele !== undefined){
+
+    let counter = 0;
+    let interval = setInterval(()=>{
+      if (counter === age){
+        // ele.classList.remove('shake');
+        clearInterval(interval);
+      } else {
+        counter++;
+        ele.innerHTML = counter;
+      }
+    }, 23);
+    // ele.innerHTML = age;
+    // console.log(ele);
+  }
 });
