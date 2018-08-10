@@ -1,2 +1,0 @@
-#DEPRECATED
-you reached my motiongraphics overview. As I mentioned before already as a child I loved cartoons and animations. When I started studiying at the FHP it was clear to me that creating animations has to be a big part of my curiculuum. Finally I managed to make my living from that.Working together with the group forseesense I deepend my skills with After Effects. Have look at my favorite videos below.  
