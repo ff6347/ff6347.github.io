@@ -1,6 +1,8 @@
+// https://serviceworke.rs/strategy-network-or-cache_service-worker_doc.html
+const CACHE = 'fabianmoronzirfas_v0.1.0';
 self.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open('fabianmoronzirfas').then(function(cache) {
+    caches.open(CACHE).then(function(cache) {
       return cache.addAll([
         'index.html',
         'assets/css/style.css',
@@ -13,17 +15,6 @@ self.addEventListener('install', function(event) {
   );
 });
 
-// self.addEventListener('fetch', function(event) {
-//   event.respondWith(
-//     caches.match(event.request).then(function(response) {
-//       return response || fetch(event.request);
-//     })
-//     .catch(function(error){
-//       console.log(error);
-//       return caches.match('/offline.html');
-//     })
-//   );
-// });
 
 self.addEventListener('fetch', function(event) {
   event.respondWith(caches.match(event.request).then(function(response) {
@@ -38,7 +29,7 @@ self.addEventListener('fetch', function(event) {
         // and serve second one
         let responseClone = response.clone();
         
-        caches.open('fabianmoronzirfas').then(function (cache) {
+        caches.open(CACHE).then(function (cache) {
           cache.put(event.request, responseClone);
         });
         return response;
