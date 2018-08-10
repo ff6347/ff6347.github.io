@@ -7,7 +7,20 @@ kramdown:
   syntax_highlighter: rouge
 highlighter: rouge
 host: 0.0.0.0
-exclude: [ignore,user.fabiantheblind.espressostorage,Project.espressostorage,bower_components,node_modules,vendor]
+exclude: # Files that should be excluded from the Jekyll build.
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - .git
+  - .asset-cache
+  - _static-site
+  - .sass-cache
+  - node_modules
+  - assets/js/index.js
+  - webpack.config.js
+  - package.json
+  - README.md
+  - ignore
 sass:
     sass_dir: assets/_sass
     style: compressed
