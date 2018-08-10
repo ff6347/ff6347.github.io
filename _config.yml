@@ -21,6 +21,7 @@ exclude: # Files that should be excluded from the Jekyll build.
   - package.json
   - README.md
   - ignore
+  - vendor
 sass:
     sass_dir: assets/_sass
     style: compressed
