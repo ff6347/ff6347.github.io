@@ -16,9 +16,9 @@ title: work
 
 ----
 
-##Full Time Creative Technologist @IXDS Berlin
+## Full Time Creative Technologist @IXDS Berlin
 
-Since September 2017 I'm a creative technologist at [IXDS](https://ixds.com/). More infos are coming soon.  
+Since September 2017 I'm building physical and digital prototypes as a creative technologist at [IXDS](https://ixds.com/).  
 
 ## Full Time Lecturer And Lab Supervisor
 
