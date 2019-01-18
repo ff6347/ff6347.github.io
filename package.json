@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/fabiantheblind/fabiantheblind.github.com#readme",
   "dependencies": {
-    "open-sans-fontface": "git+ssh://git@github.com/fabianmoronzirfas/open-sans.git"
+    "open-sans-fontface": "fabianmoronzirfas/open-sans"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0",
