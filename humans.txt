@@ -12,8 +12,7 @@ Wife: Olivia Uhlig
 
 /* SITE */
 
-Last update: 2017.05.21
 Language: English
-IDE: Sublime Text
+IDE: VSCode
 Generator: Jekyll
-Hosted on: uberspace.de (Asteroids)
+Hosted on: GitHub Pages
