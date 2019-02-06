@@ -1,7 +1,7 @@
 ---
 layout: standard
 title: "Going Serverless - Deploying a Site with GitHub, Jekyll and Netlify"
-date: nil
+date: 2017-11-19
 tags: []
 categories: []
 published: False
