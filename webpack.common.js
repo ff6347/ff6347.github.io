@@ -14,6 +14,16 @@ module.exports = {
     path: path.resolve(__dirname, './'),
     filename: './assets/js/[name].bundle.js',
   },
+  module: {
+    rules: [
+      // JavaScript/JSX Files
+      {
+        test: /\.jsx$/,
+        exclude: /node_modules/,
+        use: ['babel-loader'],
+      },
+    ],
+  },
   // if we want to refernce our css within the js this is the way to go
   // but it seems a bit odd to require('style.css') in a css file.
   // Still - this would add the css to the head of the index.html file
