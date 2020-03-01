@@ -16,7 +16,6 @@ exclude: # Files that should be excluded from the Jekyll build.
   - _static-site
   - .sass-cache
   - node_modules
-  - assets/js/index.js
   - webpack.config.js
   - package.json
   - README.md
