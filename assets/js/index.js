@@ -5,10 +5,10 @@ function calculateAge(birthday) {
   return Math.abs(ageDate.getUTCFullYear() - 1970);
 }
 
-document.addEventListener('DOMContentLoaded', function(_event) {
+document.addEventListener('DOMContentLoaded', function (_event) {
   let age = calculateAge(new Date('1979-03-06T10:10:00'));
   console.log(
-    'Hey. You are peaking into the console? Nice. But there is not a lot going on here. Just some minor JS fiddle. Yes it uses webpack but actually only for fun and experimentation',
+    'Hey. You are peaking into the console? Nice. But there is not a lot going on here. Just some minor JS fiddle.',
   );
   let ele = document.querySelector('span#calced-age');
   // console.log(ele);
