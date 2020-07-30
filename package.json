@@ -36,7 +36,7 @@
     "eslint": "7.5.0",
     "eslint-config-unobtrusive": "1.2.5",
     "uglifyjs-webpack-plugin": "2.2.0",
-    "webpack": "4.44.0",
+    "webpack": "4.44.1",
     "webpack-cli": "3.3.12",
     "webpack-dev-server": "3.11.0",
     "webpack-merge": "5.0.9"
