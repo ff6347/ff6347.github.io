@@ -1,7 +1,7 @@
 ---
 layout: standard
 title: "Rename a GitHub Repo with a Linked Netlify Project"
-date: 2019-02-06
+date: 2020-08-05
 tags: [github, netlify]
 categories: [tech]
 published: true
