@@ -24,8 +24,8 @@
     "open-sans-fontface": "github:fabianmoronzirfas/open-sans"
   },
   "devDependencies": {
-    "@babel/cli": "7.11.5",
-    "@babel/core": "7.11.5",
+    "@babel/cli": "7.11.6",
+    "@babel/core": "7.11.6",
     "@babel/node": "7.10.5",
     "@babel/preset-env": "7.11.5",
     "@babel/preset-react": "7.10.4",
