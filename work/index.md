@@ -16,6 +16,10 @@ title: work
 
 ----
 
+## Full Time Creative Technologist @technologiestiftung Berlin
+
+Since January 2019 I'm building prototypes as a creative technologist at [Technologiestiftung Berlin](https://www.technologiestiftung-berlin.de/de/startseite/).
+
 ## Full Time Creative Technologist @IXDS Berlin
 
 Since September 2017 I'm building physical and digital prototypes as a creative technologist at [IXDS](https://ixds.com/).  
