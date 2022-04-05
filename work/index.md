@@ -26,11 +26,11 @@ Since September 2017 I'm building physical and digital prototypes as a creative 
 
 ## Full Time Lecturer And Lab Supervisor
 
-Since September 2015 im fully employed as artistic research assistant at the FH Potsdam (University of Applied Sciences Potsdam (Germany)). I still do now and then some freelance work but most of my time goes into teaching "Physical Computing" and "Creative Coding". See the <a href="{{site.url}}/teaching/">teaching page</a> for an overview of my seminars.  
+Since September 2015 im fully employed as artistic research assistant at the FH Potsdam (University of Applied Sciences Potsdam (Germany)). I still do now and then some freelance work but most of my time goes into teaching "Physical Computing" and "Creative Coding". See the <a href="/teaching/">teaching page</a> for an overview of my seminars.  
 
 ## Part Time Lab Supervisor
 
-From September 2013 till September 2015 I've been part time employed (first 50% then 75%) as lab supervisor at the FH Potsdam (University of Applied Sciences Potsdam (Germany)). There I started to dive deeper into "Physical Computing", server administration, "Creative Coding" and teaching. Starting from the winter semester 2014/2015 I started to teach in the basics module a full 10 credit point seminar and gave several workshops besides that. See the <a href="{{site.url}}/teaching/">teaching page</a> for an overview of my seminars.  
+From September 2013 till September 2015 I've been part time employed (first 50% then 75%) as lab supervisor at the FH Potsdam (University of Applied Sciences Potsdam (Germany)). There I started to dive deeper into "Physical Computing", server administration, "Creative Coding" and teaching. Starting from the winter semester 2014/2015 I started to teach in the basics module a full 10 credit point seminar and gave several workshops besides that. See the <a href="/teaching/">teaching page</a> for an overview of my seminars.  
 
 ----
 
