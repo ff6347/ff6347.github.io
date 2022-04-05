@@ -21,7 +21,7 @@ Since I've been employed at the University of Applied Sciences Potsdam (Germany)
 ## Gestalten in Code  
 <div class="img-box">
 
-<img src="{{site.url}}/assets/images/teaching/gic.png">
+<img src="/assets/images/teaching/gic.png">
 </div>
 
 Where is the "Gestalt" in code? Can the Laws of Gestalt be programmed? And what are these laws? In this seminar we will explore the origin, present and possible future of computer art. Based on the Laws of Gestalt we are going to categorize several art works and use these rules to create our own generative design. This seminar will be split into three sprint projects each building on top of its predecessor. The site for the seminar can be found [here](https://interface.fh-potsdam.de/gestalten-in-code/).  
@@ -39,7 +39,7 @@ Lost in Navigation is an upcoming course by Prof. Myriel Milicevic and me. Can w
 
 <div class="img-box">
     
-<img src="{{site.url}}/assets/images/teaching/ldr-950w.png">
+<img src="/assets/images/teaching/ldr-950w.png">
 </div>
 
 "Eingabe/Ausgabe - Grundlagen der Prozessorientierten Gestaltung" was my seminar in the design fundamentals module for three semesters from winter 2014 to spring 2016. You can see the whole documentation of the seminar [here](https://interface.fh-potsdam.de/eingabe-ausgabe/).  
@@ -47,16 +47,16 @@ The aim of the seminar was to give the students a first peak into the fields of 
 
 <div class="img-box">
 
-<img src="{{site.url}}/assets/images/teaching/didkatik.png">
+<img src="/assets/images/teaching/didkatik.png">
 </div>
 
 The first project, always called "Algorithm", engaged the students with the basic concept of programming. The task was to define an drawing algorithm for humans, execute it, create amended versions until the result is to their liking. These results then got abstracted further using Processing or P5.js.  
 
 <div class="thumbs">
-<a href="https://github.com/Q-rec/mitte-zur-mitte"><img src="{{site.url}}/assets/images/teaching/io/mitte-mitte-thumb.png" alt=""></a>
-<a href="https://github.com/vogelino/molecular-networks-p5-algorithm"><img src="{{site.url}}/assets/images/teaching/io/molecule-thumb.png" alt=""></a>
-<a href="https://github.com/topada/FHP-IO-topolade-algorithm"><img src="{{site.url}}/assets/images/teaching/io/topolade-thumb.png" alt=""></a>
-<a href="https://github.com/Ninotschka/outlines"><img src="{{site.url}}/assets/images/teaching/io/puzzle-thumb.png" alt=""></a>
+<a href="https://github.com/Q-rec/mitte-zur-mitte"><img src="/assets/images/teaching/io/mitte-mitte-thumb.png" alt=""></a>
+<a href="https://github.com/vogelino/molecular-networks-p5-algorithm"><img src="/assets/images/teaching/io/molecule-thumb.png" alt=""></a>
+<a href="https://github.com/topada/FHP-IO-topolade-algorithm"><img src="/assets/images/teaching/io/topolade-thumb.png" alt=""></a>
+<a href="https://github.com/Ninotschka/outlines"><img src="/assets/images/teaching/io/puzzle-thumb.png" alt=""></a>
 </div>
 <div class="clear-float"></div>
 
@@ -64,10 +64,10 @@ The second task was always a bit more experimental. In each case they had to gen
 
 
 <div class="thumbs">
-<a href="https://github.com/vogelino/explore-with-iss"><img src="{{site.url}}/assets/images/teaching/io/explore-thumb.png" alt=""></a>
-<a href="https://github.com/topada/FHP-IO-galton-board-physarum"><img src="{{site.url}}/assets/images/teaching/io/galton-thumb.png" alt=""></a>
-<a href="http://projects.kevinschiffer.de/flag-survey-datavis/"><img src="{{site.url}}/assets/images/teaching/io/flags.gif" height="232px" width="500px" alt=""></a>
-<a href="https://github.com/josues/relativity-and-iss"><img src="{{site.url}}/assets/images/teaching/io/relativ-thumb.png" alt=""></a>
+<a href="https://github.com/vogelino/explore-with-iss"><img src="/assets/images/teaching/io/explore-thumb.png" alt=""></a>
+<a href="https://github.com/topada/FHP-IO-galton-board-physarum"><img src="/assets/images/teaching/io/galton-thumb.png" alt=""></a>
+<a href="http://projects.kevinschiffer.de/flag-survey-datavis/"><img src="/assets/images/teaching/io/flags.gif" height="232px" width="500px" alt=""></a>
+<a href="https://github.com/josues/relativity-and-iss"><img src="/assets/images/teaching/io/relativ-thumb.png" alt=""></a>
 </div>
 <div class="clear-float"></div>  
 
@@ -99,7 +99,7 @@ The third task was always about Physical Computing. From creating a computerized
 
 ## Knowledge Exchange Group  
 <div class="thumbs">
-<img src="{{site.url}}/assets/images/teaching/keg.png">
+<img src="/assets/images/teaching/keg.png">
 </div>
 <div class="clear-float">
 </div>
@@ -116,25 +116,25 @@ The K.E.G. is not a seminar like the others. It is a platform for students to te
 In April 2016 I gave two single day crash course about creating simple 3D objects in Blender, unfolding them and preparing them for laser cutting. In the second part these objects where used to do a projection mapping on them.  As part of the workshops I created extensive documentations. ["Doing Papercraft"](http://fh-potsdam.github.io/doing-papercraft/) and ["Doing Projection Mapping"](https://fh-potsdam.github.io/doing-projection-mapping/). These workshops where part of a series of three warm up workshops for seminar ["Datenobjekte"](https://incom.org/workspace/6559) by Prof. Boris Müller.  
 
 <div class="thumbs">
-<a href="{{site.url}}/assets/images/teaching/papercraft/papercraft-00.jpg"><img src="{{site.url}}/assets/images/teaching/papercraft/papercraft-thumb-00.png" alt=""></a>
-<a href="{{site.url}}/assets/images/teaching/papercraft/papercraft-01.jpg"><img src="{{site.url}}/assets/images/teaching/papercraft/papercraft-thumb-01.png" alt=""></a>
+<a href="/assets/images/teaching/papercraft/papercraft-00.jpg"><img src="/assets/images/teaching/papercraft/papercraft-thumb-00.png" alt=""></a>
+<a href="/assets/images/teaching/papercraft/papercraft-01.jpg"><img src="/assets/images/teaching/papercraft/papercraft-thumb-01.png" alt=""></a>
 </div>
 <div class="clear-float"></div>
 <div class="thumbs">
-<a href="{{site.url}}/assets/images/teaching/papercraft/papercraft-02.jpg"><img src="{{site.url}}/assets/images/teaching/papercraft/papercraft-thumb-02.png" alt=""></a>
-<a href="{{site.url}}/assets/images/teaching/papercraft/papercraft-03.jpg"><img src="{{site.url}}/assets/images/teaching/papercraft/papercraft-thumb-03.png" alt=""></a>
+<a href="/assets/images/teaching/papercraft/papercraft-02.jpg"><img src="/assets/images/teaching/papercraft/papercraft-thumb-02.png" alt=""></a>
+<a href="/assets/images/teaching/papercraft/papercraft-03.jpg"><img src="/assets/images/teaching/papercraft/papercraft-thumb-03.png" alt=""></a>
 </div>
 <div class="clear-float"></div>
 
 <div class="thumbs">
-<a href="{{site.url}}/assets/images/teaching/projection/projection-01.jpg"><img src="{{site.url}}/assets/images/teaching/projection/projection-thumb-01.png"></a>
-<a href="{{site.url}}/assets/images/teaching/projection/projection-02.jpg"><img src="{{site.url}}/assets/images/teaching/projection/projection-thumb-02.png"></a>
+<a href="/assets/images/teaching/projection/projection-01.jpg"><img src="/assets/images/teaching/projection/projection-thumb-01.png"></a>
+<a href="/assets/images/teaching/projection/projection-02.jpg"><img src="/assets/images/teaching/projection/projection-thumb-02.png"></a>
 </div>
 <div class="clear-float"></div>
 <div class="thumbs">
 
-<a href="{{site.url}}/assets/images/teaching/projection/projection-03.jpg"><img src="{{site.url}}/assets/images/teaching/projection/projection-thumb-03.png"></a>
-<a href="{{site.url}}/assets/images/teaching/projection/projection-04.jpg"><img src="{{site.url}}/assets/images/teaching/projection/projection-thumb-04.png"></a>
+<a href="/assets/images/teaching/projection/projection-03.jpg"><img src="/assets/images/teaching/projection/projection-thumb-03.png"></a>
+<a href="/assets/images/teaching/projection/projection-04.jpg"><img src="/assets/images/teaching/projection/projection-thumb-04.png"></a>
 </div>
 <div class="clear-float"></div>
 
@@ -152,7 +152,7 @@ This was also a project weeks workshop in October 2015 about prototyping connect
 Take a look at the whole project over [here.](https://github.com/RahelFl/M2M-Translator)  
 
 <div class="thumbs">
-<a href="https://github.com/RahelFl/M2M-Translator"><img src="{{site.url}}/assets/images/teaching/j5/m2m-thumb.png" alt=""></a>
+<a href="https://github.com/RahelFl/M2M-Translator"><img src="/assets/images/teaching/j5/m2m-thumb.png" alt=""></a>
 <div class="scroll-helper"></div>
 <iframe src="https://player.vimeo.com/video/144001575" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
@@ -166,7 +166,7 @@ Take a look at the whole project over [here.](https://github.com/RahelFl/M2M-Tra
 See the whole project description over [here.](https://github.com/vogelino/nibble-do-list)  
 
 <div class="thumbs">
-<a href="https://github.com/vogelino/nibble-do-list"><img src="{{site.url}}/assets/images/teaching/j5/nibble-thumb.png" alt=""></a>
+<a href="https://github.com/vogelino/nibble-do-list"><img src="/assets/images/teaching/j5/nibble-thumb.png" alt=""></a>
 <div class="scroll-helper"></div>
 <iframe src="https://player.vimeo.com/video/143141941?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
@@ -181,8 +181,8 @@ See the whole project description over [here.](https://github.com/vogelino/nibbl
 A Particle Photon powered and IFTTT controlled cat animator. See the full documentation [over here](https://github.com/chrisklement/treat-spin).  
 
 <div class="thumbs">
-<a href="https://github.com/chrisklement/treat-spin"><img src="{{site.url}}/assets/images/teaching/j5/mockup-thumb.png" alt=""></a>
-<a href="https://github.com/chrisklement/treat-spin"><img src="{{site.url}}/assets/images/teaching/j5/back-thumb.png" alt=""></a>
+<a href="https://github.com/chrisklement/treat-spin"><img src="/assets/images/teaching/j5/mockup-thumb.png" alt=""></a>
+<a href="https://github.com/chrisklement/treat-spin"><img src="/assets/images/teaching/j5/back-thumb.png" alt=""></a>
 </div>
 <div class="clear-float"></div>
 
@@ -199,7 +199,7 @@ In the project weeks in October 2014 I gave this seminar about touch and touch l
 A musical interface controlled by color and hand gestures.  
 
 <div class="thumbs">
-<img src="{{site.url}}/assets/images/teaching/blockseminar/homo effectus.png" alt="">
+<img src="/assets/images/teaching/blockseminar/homo effectus.png" alt="">
 <div class="scroll-helper"></div>
 <iframe src="https://player.vimeo.com/video/113909158?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
@@ -211,13 +211,13 @@ A musical interface controlled by color and hand gestures.
 A game controller based on Computer Vision.  
 
 <div class="thumbs">
-<img src="{{site.url}}/assets/images/teaching/blockseminar/hot-sphere-01.png" alt="">
-<img src="{{site.url}}/assets/images/teaching/blockseminar/hot-sphere-02.png" alt="">
+<img src="/assets/images/teaching/blockseminar/hot-sphere-01.png" alt="">
+<img src="/assets/images/teaching/blockseminar/hot-sphere-02.png" alt="">
 </div>
 
 <div class="thumbs">
-<img src="{{site.url}}/assets/images/teaching/blockseminar/hot-sphere-03.png" alt="">
-<img src="{{site.url}}/assets/images/teaching/blockseminar/hot-sphere-04.png" alt="">
+<img src="/assets/images/teaching/blockseminar/hot-sphere-03.png" alt="">
+<img src="/assets/images/teaching/blockseminar/hot-sphere-04.png" alt="">
 </div>
 <div class="clear-float"></div>
 
@@ -233,8 +233,8 @@ Starting with my work as lab supervisor in 2013 I also started to give a six day
 Generate quartets cards based on your Spotify playlist.  
 
 <div class="thumbs">
-<img src="{{site.url}}/assets/images/teaching/blockseminar/quartet-jk-01.png" alt="quartet jk" />  
-<a href="{{site.url}}/assets/images/teaching/blockseminar/quartet-02.png"><img src="{{site.url}}/assets/images/teaching/blockseminar/quartet-jk-02.png" alt="quartet jk" /></a>  
+<img src="/assets/images/teaching/blockseminar/quartet-jk-01.png" alt="quartet jk" />  
+<a href="/assets/images/teaching/blockseminar/quartet-02.png"><img src="/assets/images/teaching/blockseminar/quartet-jk-02.png" alt="quartet jk" /></a>  
 </div>
 <div class="clear-float"></div>  
 
@@ -244,8 +244,8 @@ Generate quartets cards based on your Spotify playlist.
 An Origami folded plant that reacts on presence.  
 
 <div class="thumbs">
-<img src="{{site.url}}/assets/images/teaching/blockseminar/interactive-plant-cs.gif">
-<img src="{{site.url}}/assets/images/teaching/blockseminar/interactive-plant-cs-01.png">
+<img src="/assets/images/teaching/blockseminar/interactive-plant-cs.gif">
+<img src="/assets/images/teaching/blockseminar/interactive-plant-cs-01.png">
 </div>
 <div class="clear-float"></div>
 
@@ -255,8 +255,8 @@ An Origami folded plant that reacts on presence.
 An Arduino powered XXO game.  
 
 <div class="thumbs">
-<img src="{{site.url}}/assets/images/teaching/blockseminar/xxo-ab-01.png">
-<img src="{{site.url}}/assets/images/teaching/blockseminar/xxo-ab-02.png">
+<img src="/assets/images/teaching/blockseminar/xxo-ab-01.png">
+<img src="/assets/images/teaching/blockseminar/xxo-ab-02.png">
 </div>
 <div class="clear-float"></div>
 
@@ -268,13 +268,13 @@ An Arduino powered XXO game.
 In October 2012 I gave a workshop at the University of Applied Sciences Potsdam (Germany) about ["Typography and Automation"](http://fabianmoronzirfas.github.io/Typography-And-Automation/). The goal of this workshop was to teach the fundamentals of JavaScript/Extendscript in Adobe InDesign and apply this knowledge to a small project. Most of the students had no prior programming skill.  
 
 <div class="thumbs">
-<a href="http://fabianmoronzirfas.github.io/Typography-And-Automation/"><img src="{{site.url}}/assets/images/teaching/auto-typo/auto-typo-01-splash.png" alt=""></a>
-<a href="http://fabianmoronzirfas.github.io/Typography-And-Automation/skaim.html"><img src="{{site.url}}/assets/images/teaching/auto-typo/auto-typo-03-splash.png" alt=""></a>
+<a href="http://fabianmoronzirfas.github.io/Typography-And-Automation/"><img src="/assets/images/teaching/auto-typo/auto-typo-01-splash.png" alt=""></a>
+<a href="http://fabianmoronzirfas.github.io/Typography-And-Automation/skaim.html"><img src="/assets/images/teaching/auto-typo/auto-typo-03-splash.png" alt=""></a>
 </div>
 <div class="clear-float"></div>
 <div class="thumbs">
-<a href="http://fabianmoronzirfas.github.io/Typography-And-Automation/johannahoeflich.html"><img src="{{site.url}}/assets/images/teaching/auto-typo/auto-typo-06-splash.png" alt=""></a>
-<a href="http://fabianmoronzirfas.github.io/Typography-And-Automation/schlompf.html"><img src="{{site.url}}/assets/images/teaching/auto-typo/auto-typo-07-splash.png" alt=""></a>
+<a href="http://fabianmoronzirfas.github.io/Typography-And-Automation/johannahoeflich.html"><img src="/assets/images/teaching/auto-typo/auto-typo-06-splash.png" alt=""></a>
+<a href="http://fabianmoronzirfas.github.io/Typography-And-Automation/schlompf.html"><img src="/assets/images/teaching/auto-typo/auto-typo-07-splash.png" alt=""></a>
 </div>
 <div class="clear-float"></div>
 
