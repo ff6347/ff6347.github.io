@@ -96,19 +96,19 @@ The third task was always about Physical Computing. From creating a computerized
 <!-- transl8tr -->
 <div class="scroll-helper"></div>
 
-<iframe src="https://player.vimeo.com/video/157480156?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/157480156?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <div class="scroll-helper"></div>
 
 <!-- das bild hängt schief -->
-<iframe src="https://player.vimeo.com/video/123418651?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/123418651?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <div class="scroll-helper"></div>
 
 <!-- coin flip -->
-<iframe src="https://player.vimeo.com/video/123883583?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/123883583?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <!-- hidden labyrinth -->
 <div class="scroll-helper"></div>
 
-<iframe src="https://player.vimeo.com/video/122587435?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/122587435?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 <div class="scroll-helper"></div>
 
@@ -174,7 +174,7 @@ Take a look at the whole project over [here.](https://github.com/RahelFl/M2M-Tra
 <div class="thumbs">
 <a href="https://github.com/RahelFl/M2M-Translator"><img src="/assets/images/teaching/j5/m2m-thumb.png" alt=""></a>
 <div class="scroll-helper"></div>
-<iframe src="https://player.vimeo.com/video/144001575" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/144001575" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
 <div class="clear-float"></div>
@@ -188,7 +188,7 @@ See the whole project description over [here.](https://github.com/vogelino/nibbl
 <div class="thumbs">
 <a href="https://github.com/vogelino/nibble-do-list"><img src="/assets/images/teaching/j5/nibble-thumb.png" alt=""></a>
 <div class="scroll-helper"></div>
-<iframe src="https://player.vimeo.com/video/143141941?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/143141941?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 <div class="clear-float"></div>
 
@@ -217,7 +217,7 @@ A musical interface controlled by color and hand gestures.
 <div class="thumbs">
 <img src="/assets/images/teaching/blockseminar/homo effectus.png" alt="">
 <div class="scroll-helper"></div>
-<iframe src="https://player.vimeo.com/video/113909158?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/113909158?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 <div class="clear-float"></div>
 
@@ -297,17 +297,17 @@ In October 2012 I got approached by ae.tuts+ if I were interested into creating 
 
 #### The Original Mattrunks Video
 
-<div class="thumbs"><iframe src="https://player.vimeo.com/video/48392006?loop=1&byline=0&portrait=0" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <div class="scroll-helper"></div>
+<div class="thumbs"><iframe src="https://player.vimeo.com/video/48392006?loop=1&byline=0&portrait=0" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <div class="scroll-helper"></div>
  </div>
 <div class="clear-float"></div>
 
 #### The Tutorials
 
 <div class="thumbs">
-<iframe width="500" height="232" src="https://www.youtube-nocookie.com/embed/sNCSl9P846k?rel=0" frameborder="0" allowfullscreen></iframe>  
+<iframe width="100%" height="232" src="https://www.youtube-nocookie.com/embed/sNCSl9P846k?rel=0" frameborder="0" allowfullscreen></iframe>  
 <div class="scroll-helper"></div>
 
-<iframe width="500" height="232" src="https://www.youtube-nocookie.com/embed/GtcaV2fyQgc?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="232" src="https://www.youtube-nocookie.com/embed/GtcaV2fyQgc?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
 <div class="scroll-helper"></div>
 

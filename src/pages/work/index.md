@@ -94,16 +94,16 @@ For all these projects the art direction was done by Sebastian Matthäus, illust
 #### Welios Science Center Österreich
 
 <div class="thumbs">
-<iframe src="https://player.vimeo.com/video/51341021?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/51341021?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <div class="scroll-helper"></div>
 
-<iframe src="https://player.vimeo.com/video/51340544?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/51340544?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <div class="scroll-helper"></div>
 
-<iframe src="https://player.vimeo.com/video/51344629?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/51344629?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <div class="scroll-helper"></div>
 
-<iframe src="https://player.vimeo.com/video/51345846?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/51345846?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <div class="scroll-helper"></div>
 
 </div>
@@ -114,14 +114,14 @@ For all these projects the art direction was done by Sebastian Matthäus, illust
 
 <div class="thumbs">
 <!-- Wortreich Die Evolution der Sprache -->
-<iframe src="https://player.vimeo.com/video/48441056?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/48441056?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <div class="scroll-helper"></div>
 <!-- Wortreich Paarungsverhalten der Tiere 2011 -->
-<iframe src="https://player.vimeo.com/video/48191744?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/48191744?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <div class="scroll-helper"></div>
-<iframe src="https://player.vimeo.com/video/52693277?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/52693277?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <div class="scroll-helper"></div>
-<iframe src="https://player.vimeo.com/video/52693276?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/52693276?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <div class="scroll-helper"></div>
 </div>
 <div class="clear-float">
@@ -134,19 +134,19 @@ These are some works that are not connected to an exhibition but are nice to see
 <div class="thumbs">
 
 <!-- showreel 2012 -->
-<iframe src="https://player.vimeo.com/video/56188646?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/56188646?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <div class="scroll-helper"></div>
 
 <!-- gender trouble experimenta heilbron -->
-<iframe src="https://player.vimeo.com/video/153989274?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/153989274?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <div class="scroll-helper"></div>
 
 <!-- Meereis -->
-<iframe src="https://player.vimeo.com/video/52081478?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/52081478?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <div class="scroll-helper"></div>
 
 <!-- Mellow Mark -->
-<iframe src="https://player.vimeo.com/video/51274805?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/51274805?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <div class="scroll-helper"></div>
 
 </div>

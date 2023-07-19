@@ -32,13 +32,13 @@ Since around 2009 I've been writing scripts to automate my design workflows. Som
 <div class="thumbs">
 
 <!-- locations -->
-<iframe src="https://player.vimeo.com/video/54717636?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/54717636?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <!-- swissd -->
-<iframe src="https://player.vimeo.com/video/53158182?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/53158182?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <!-- monoline -->
-<iframe src="https://player.vimeo.com/video/64222693?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/64222693?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <!-- aemap -->
-<iframe src="https://player.vimeo.com/video/39960358?loop=1" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/39960358?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 </div>
 <div class="clear-float">
