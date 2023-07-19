@@ -1,0 +1,46 @@
+// ----- Type scale --------
+html {
+  font-size: 1.125em;
+}
+body {
+  // background-color: white;
+  // font-family:'open sans', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  // color: #333;
+}
+p {margin-bottom:1.3em;}
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+h1 {
+  margin-top: 0;
+  font-size: 1.602em;
+  // font-family: 'open sans', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 800;
+}
+h2 {
+  font-size: 1.424em;
+  font-weight: 600;
+
+}
+h3 {
+  font-size: 1.266em;
+}
+h4 {
+  font-size: 1.125em;
+}
+
+h5{
+  font-size:1em;
+}
+
+h6{
+  font-size:1em;
+}
+small, .font_small {
+  font-size: 0.889em;
+}
+// -------- End of Type scale --------

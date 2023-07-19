@@ -1,0 +1,26 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>fabianmoronzirfas's blog</title>
+ <link href="https://fabianmoronzirfas.me/atom.xml" rel="self"/>
+ <link href="https://fabianmoronzirfas.me/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>https://fabianmoronzirfas.me/</id>
+ <author>
+   <name>fabianmoronzirfas</name>
+   <email>hello@fabianmoronzirfas.info</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="https://fabianmoronzirfas.me/{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>https://fabianmoronzirfas.github.io/{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+
+</feed>
