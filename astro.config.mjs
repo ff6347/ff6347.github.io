@@ -7,7 +7,7 @@ export default defineConfig({
 	integrations: [solid()],
 	site: "https://fabianmoronzirfas.me",
 	markdown: {
-    // Can be 'shiki' (default), 'prism' or false to disable highlighting
-    syntaxHighlight: 'prism',
-  },
+		// Can be 'shiki' (default), 'prism' or false to disable highlighting
+		syntaxHighlight: "prism",
+	},
 });

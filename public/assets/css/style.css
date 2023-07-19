@@ -1,19 +1,20 @@
 body {
 	margin: 0 auto;
 	max-width: 50em;
-	font-family: Rockwell, 'Rockwell Nova', 'Roboto Slab', 'DejaVu Serif', 'Sitka Small', serif;
+	font-family: Rockwell, "Rockwell Nova", "Roboto Slab", "DejaVu Serif",
+		"Sitka Small", serif;
 	line-height: 1.5;
-padding: 4em 1em;
-color: #555;
+	padding: 4em 1em;
+	color: #555;
 }
 h2 {
-margin-top: 1em;
-padding-top: 1em;
+	margin-top: 1em;
+	padding-top: 1em;
 }
 h1,
 h2,
 strong {
-color: #333;
+	color: #333;
 }
 /* code,
 pre {
@@ -29,10 +30,10 @@ vertical-align: text-bottom;
 padding: 1em;
 } */
 a {
-color: #ff6347;
+	color: #ff6347;
 }
 body {
-color: #566b78;
+	color: #566b78;
 }
 
 /* code,
@@ -43,17 +44,17 @@ color: #a7adba;
 } */
 
 pre {
-border-left: 2px solid #69c;
+	border-left: 2px solid #69c;
 }
 
-img{
-width: 100%;
+img {
+	width: 100%;
 }
 
-[class^='icon-'],
-[class*=' icon-'] {
-height: 14px;
-width: 14px;
-display: inline-block;
-fill: #a7adba;
+[class^="icon-"],
+[class*=" icon-"] {
+	height: 14px;
+	width: 14px;
+	display: inline-block;
+	fill: #a7adba;
 }
