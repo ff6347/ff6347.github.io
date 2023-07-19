@@ -19,7 +19,7 @@ function getExcerpt(text: string) {
 <Layout title="Hello Blog">
 
 	<ul>
-		{blog.map(blogPostEntry => (
+		{blog.reverse().map(blogPostEntry => (
 			<li>
 				<time datetime={blogPostEntry.data.pubDate.toISOString()}>
 					{blogPostEntry.data.pubDate.toDateString()}
