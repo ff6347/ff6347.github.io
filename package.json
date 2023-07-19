@@ -1,7 +1,7 @@
 {
-	"name": "next",
+	"name": "@ff6347/fabianmoronzirfas.me",
 	"type": "module",
-	"version": "0.0.1",
+	"version": "3.0.0",
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",
