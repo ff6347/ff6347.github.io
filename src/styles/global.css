@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+	--text-color: #566b78;
+	--highlight-color: #ff6347;
+	--secondary-color: #69c;
+	--strong-color: #333;
+	--background-color: #f5f7f9;
+
+}
+
+@layer base{
+	body{
+		@apply m-auto max-w-screen-md font-sans leading-normal p-10 text-gray-700;
+		color: var(--text-color) !important;
+		background-color: var(--background-color) !important;
+
+	}
+
+	a {
+		color: var(--highlight-color) !important;
+		text-decoration: underline !important;
+	}
+	h2 {
+		margin-top: 1em !important;
+		padding-top: 1em !important;
+	}
+	h1,
+	h2,
+	strong {
+		color: var(--strong-color) !important;
+	}
+	ul > li {
+		list-style-type: '☛' !important;
+		@apply ml-4 pl-2;
+
+	}
+	td{
+		padding-left: 0.5rem !important;
+		padding-right: 0.5rem !important;
+
+	}
+	img{
+		@apply w-auto h-auto my-6 shadow-md align-middle;
+	}
+	/* nav > ul {
+		@apply flex justify-between items-center text-lg;
+
+	}
+	nav > ul > li {
+		list-style-type: none !important;
+	}
+	footer{
+		@apply text-center text-sm py-5;
+	} */
+}
+
+
+
+
+/* body {
+	margin: 0 auto;
+	max-width: 50em;
+	font-family: Rockwell, "Rockwell Nova", "Roboto Slab", "DejaVu Serif",
+		"Sitka Small", serif;
+	line-height: 1.5;
+	padding: 4em 1em;
+	color: #555;
+}
+ h2 {
+	margin-top: 1em;
+	padding-top: 1em;
+}
+h1,
+h2,
+strong {
+	color: #333;
+}
+ code,
+pre {
+background: #eee;
+}
+
+code {
+padding: 2px 4px;
+vertical-align: text-bottom;
+}
+
+ pre {
+padding: 1em;
+}
+a {
+	color: #ff6347;
+}
+
+
+ code,
+pre {
+background: #f5f7f9;
+border-bottom: 1px solid #ff6347;
+color: #a7adba;
+}
+
+pre {
+	border-left: 2px solid #69c;
+}
+
+img, iframe {
+	width: 100%;
+}
+*/
+
+html {font-size: 100% !important; } /*16px*/
+
+
+
+p {margin-bottom: 1rem !important;}
+
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 1.38rem !important;
+  font-weight: 400 !important;
+  line-height: 1.3 !important;
+}
+
+h1 {
+  margin-top: 0 !important;
+  font-size: 2.488rem !important;
+}
+
+h2 {font-size: 2.074rem !important;}
+
+h3 {font-size: 1.728rem !important;}
+
+h4 {font-size: 1.44rem !important;}
+
+h5 {font-size: 1.2rem !important;}
+
+small, .text_small {font-size: 0.833rem !important;}
+
+ [class^="icon-"],
+[class*=" icon-"] {
+	height: 14px;
+	fill: var(--secondary-color);
+	width: 14px;
+	display: inline-block;
+}
+
+
+
+/* tr:nth-child(even) {
+	background-color: #333aaaaa;
+}
+tr:nth-child(od) {
+
+} */
+
+.thumbs{
+	display: flex !important;
+	justify-content: center !important;
+
+}
+.thumbs > a{
+	margin: 0.5rem !important;
+}
+

@@ -7,6 +7,7 @@ import IconPinboard from "../components/icon-pinboard"
 import IconMail from "../components/icon-mail"
 import IconTwitter from "../components/icon-twitter"
 import IconVimeo from "../components/icon-vimeo"
+import "../styles/global.css"
 ---
 
 <html lang="en">
@@ -16,7 +17,8 @@ import IconVimeo from "../components/icon-vimeo"
 		<title>{title}</title>
     <meta name="description" content="Website of Fabian Morón Zirfas">
     <meta name="author" content="Fabian Morón Zirfas">
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+    <!-- <link rel="stylesheet" href={Astro.resolve('../styles/global.css')}> -->
+    <!-- <link rel="stylesheet" href="/assets/css/style.css" type="text/css" /> -->
     <link rel="stylesheet" href="/assets/css/prism-vs.css" type="text/css" />
     <link rel="alternate" type="application/rss+xml"
   title="RSS feed for fabianmoronzirfas.me"
@@ -24,18 +26,21 @@ import IconVimeo from "../components/icon-vimeo"
 
     </style>
   </head>
-  <body>
+  <body class="m-auto max-w-screen-md font-sans leading-normal p-10 text-gray-700">
     <nav>
-      <a href="/">Home</a>
-      <a href="/blog">Blog</a>
-      <a href="/projects">Projects</a>
-      <a href="/teaching">Teaching</a>
-      <a href="/work">Work</a>
-      <a href="/education">Education</a>
+      <ul>
+
+        <a href="/">Home</a>
+        <a href="/blog">Blog</a>
+        <a href="/projects">Projects</a>
+        <a href="/teaching">Teaching</a>
+        <a href="/work">Work</a>
+        <a href="/education">Education</a>
+      </ul>
 
 
     </nav>
-    <h1>{title}</h1>
+    <h1 class="mt-4 pt-4">{title}</h1>
     <article>
       <slot /> <!-- your content is injected here -->
     </article>

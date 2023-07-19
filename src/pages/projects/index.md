@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/standard.astro
-title: projects
+title: Projects
 ---
 
 These are some projects I spend my free time on. Others are part of my work at the University of Applied Sciences Potsdam (Germany) but not related to any seminar.
