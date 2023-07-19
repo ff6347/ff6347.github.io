@@ -1,0 +1,63 @@
+---
+// Component Imports
+import Counter from '../components/Counter';
+import Layout from '../layouts/standard.astro';
+
+const title = "About ☛ Fabian Morón Zirfas"
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+
+<Layout title={title}>
+	<main>
+
+<p>
+  My name is Fabian Morón Zirfas and I'm a <span id="calced-age">44</span> year old father, creative technologist at <a href="https://www.technologiestiftung-berlin.de/de/startseite/">Technologie Stiftung Berlin</a>, formerly <a href="http://ixds.com/">@IXDS</a>, formerly <a href="https://interface.fh-potsdam.de">FH Potsdam (Interface Design Department)</a> formerly freelancer and lecturer, coder, tinkerer, designer, <del> server administrator</del><sup><a href="#fn1" id="ref1">1</a></sup>, <del>media computer science</del><sup><a href="#fn2" id="ref2">2</a></sup> and Kung Fu student living in Berlin who occasionally does stuff that involves things. We  work on projects like <a href="https://www.giessdenkiez.de">giessdenkiez.de</a> or  <a href="https://stadtpuls.com">stadtpuls.com</a>. You can see the projects of my lectures <a href="https://interface.fh-potsdam.de/eingabe-ausgabe/">"Eingabe/Ausgabe"</a> or, <a href="https://interface.fh-potsdam.de/gestalten-in-code/">"Gestalten in Code"</a> at the University of Applied Sciences Potsdam (Germany). Snoop around in the <a href="https://github.com/ExtendScript/wiki/wiki">ExtendScript Wiki</a> while <a href="https://www.npmjs.com/package/extendscript-bundlr">bundling your ExtendScript</a>. There was also a lot going on with <a href="http://basiljs.ch/">Basil.js</a>. We are (stuck) in the middle of creating version 2.0 with more goodness and less bugs. Maybe you are more into motion graphics? Then <a href="http://aescripts.com/authors/f-l/fabian-moron-zirfas/">these tools on aescripts.com</a> might be something for you. If you want to know even more checkout the <a href="/teaching/">teaching</a>, <a href="/work/">work</a>, <a href="/education/">education</a> and <a href="/projects/">project</a> pages or visit one of the social networks and ping me there.<br>
+  <p> Oh. If you like you can take a look at my <a href="/blog/">blog</a>. Awesome 🤘🏾</p>
+  <hr> <br>
+  Fabian Morón Zirfas<br>
+  lat 52<br>
+  lon 13<br>
+  <a href="/keys/ickeATfabianmoronzirfas.me.asc">gpg key</a><br>
+  <hr>
+</p>
+<p>
+  <sup id="fn1">1. Wooohooo \o/. We managed to move all the content to the IT department of the FHP. No more logwatching for me…<a href="#ref1" title="No more sys admin?">↩</a></sup><br>
+  <sup id="fn2">2. I stopped studying at the Beuth University. I don't feel it anymore. It takes to much time of my life for something that does not feel right. Maybe I do someday some Design Master. We will see…<a href="#ref2" title="No more computer sience?">↩</a></sup>
+</p>
+
+
+	</main>
+</Layout>
+
+<script>
+	function calculateAge(birthday) {
+  // birthday is a date
+  var ageDifMs = Date.now() - birthday.getTime();
+  var ageDate = new Date(ageDifMs); // miliseconds from epoch
+  return Math.abs(ageDate.getUTCFullYear() - 1970);
+}
+
+document.addEventListener('DOMContentLoaded', function (_event) {
+  let age = calculateAge(new Date('1979-03-06T10:10:00'));
+  console.log(
+    'Hey. You are peaking into the console? Nice. But there is not a lot going on here. Just some minor JS fiddle.',
+  );
+  let ele = document.querySelector('span#calced-age');
+  // console.log(ele);
+  if (ele !== null) {
+    let counter = 0;
+    let interval = setInterval(() => {
+      if (counter === age) {
+        // ele.classList.remove('shake');
+        clearInterval(interval);
+      } else {
+        counter++;
+        ele.innerHTML = `${counter}`;
+      }
+    }, 23);
+    // ele.innerHTML = age;
+    // console.log(ele);
+  }
+});
+</script>
