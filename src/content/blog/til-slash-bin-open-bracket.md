@@ -15,7 +15,7 @@ Today I learned:
 When you write a script like this:
 
 ```bash
-If [ a = b ]; then
+if [ a = b ]; then
 	echo "a equal to b"
 fi
 ```
@@ -25,7 +25,7 @@ You don't use a language built in expression. You run with the executable `/bin/
 So the script above could also be :
 
 ```bash
-If test a = b; then
+if test a = b; then
 	echo "a equal to b"
 fi
 ```
