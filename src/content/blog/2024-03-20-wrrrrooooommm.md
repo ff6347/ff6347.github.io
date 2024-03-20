@@ -1,4 +1,3 @@
-
 ---
 layout: ../../layouts/post.astro
 title: "Wroooooomm"
