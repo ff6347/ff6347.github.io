@@ -19,7 +19,13 @@ function getExcerpt(text: string) {
 <Layout title="Hello Blog">
 
 	<ul>
-		{blog.reverse().map(blogPostEntry => (
+		{blog.sort((a,b) =>{
+			const dateA = new Date(a.data.pubDate);
+			const dateB = new Date(b.data.pubDate);
+			if(dateA < dateB) return 1;
+			if(dateA > dateB) return -1;
+			return 0;
+		}).map(blogPostEntry => (
 			<li>
 				<time datetime={blogPostEntry.data.pubDate.toISOString()}>
 					{blogPostEntry.data.pubDate.toDateString()}
