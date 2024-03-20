@@ -33,7 +33,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.7.0
         with:
-          node-version-file: .nvmrc    
+          node-version-file: .nvmrc
       - name: run astro
         run: npm ci && npm run build
       - name: Upload artifact

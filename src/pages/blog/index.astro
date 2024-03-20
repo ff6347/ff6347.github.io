@@ -1,37 +1,43 @@
 ---
-import Layout from "../../layouts/standard.astro"
-import { getCollection } from 'astro:content';
-const  blog = await getCollection('blog');
+import Layout from "../../layouts/standard.astro";
+import { getCollection } from "astro:content";
+const blog = await getCollection("blog");
 function getExcerpt(text: string) {
-    let excerpt = text.slice(0,50);
-    let lastIndex = excerpt.lastIndexOf('.');
+	let excerpt = text.slice(0, 50);
+	let lastIndex = excerpt.lastIndexOf(".");
 
-    if(lastIndex !== -1) {
-        return excerpt.slice(0, lastIndex + 1);
-    } else {
-        return excerpt;
-    }
+	if (lastIndex !== -1) {
+		return excerpt.slice(0, lastIndex + 1);
+	} else {
+		return excerpt;
+	}
 }
-
 ---
 
-
 <Layout title="Hello Blog">
-
 	<ul>
-		{blog.sort((a,b) =>{
-			const dateA = new Date(a.data.pubDate);
-			const dateB = new Date(b.data.pubDate);
-			if(dateA < dateB) return 1;
-			if(dateA > dateB) return -1;
-			return 0;
-		}).map(blogPostEntry => (
-			<li>
-				<time datetime={blogPostEntry.data.pubDate.toISOString()}>
-					{blogPostEntry.data.pubDate.toDateString()}
-				</time>
-				<a href={`/blog/${blogPostEntry.slug}`}>{blogPostEntry.data.title}</a>
-				{blogPostEntry.data.description &&<p>{blogPostEntry.data.description}</p>}
-			</li>
-		))}
-	</ul></Layout>
+		{
+			blog
+				.sort((a, b) => {
+					const dateA = new Date(a.data.pubDate);
+					const dateB = new Date(b.data.pubDate);
+					if (dateA < dateB) return 1;
+					if (dateA > dateB) return -1;
+					return 0;
+				})
+				.map((blogPostEntry) => (
+					<li>
+						<time datetime={blogPostEntry.data.pubDate.toISOString()}>
+							{blogPostEntry.data.pubDate.toDateString()}
+						</time>
+						<a href={`/blog/${blogPostEntry.slug}`}>
+							{blogPostEntry.data.title}
+						</a>
+						{blogPostEntry.data.description && (
+							<p>{blogPostEntry.data.description}</p>
+						)}
+					</li>
+				))
+		}
+	</ul>
+</Layout>
