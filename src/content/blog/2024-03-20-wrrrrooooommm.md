@@ -1,3 +1,13 @@
+
+---
+layout: ../../layouts/post.astro
+title: "Wroooooomm"
+pubDate: 2024-03-20
+tags: [misc]
+categories: [misc]
+published: true
+---
+
 # Deutsche Bahn
 
 I don't have a drivers license but the last few month commuting with the Deutsche Bahn from Berlin to Braunschweig makes regret that decision. 
