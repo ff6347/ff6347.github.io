@@ -9,5 +9,7 @@ export default defineConfig({
 	markdown: {
 		// Can be 'shiki' (default), 'prism' or false to disable highlighting
 		syntaxHighlight: "prism",
+		smartypants: true,
+		gfm: true,
 	},
 });
