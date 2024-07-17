@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/standard.astro
-title: private
+title: Personal
 ---
 
 ## Father

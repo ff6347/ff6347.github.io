@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/standard.astro
-title: projects
+title: Projects
 ---
 
 These are some projects I spend my free time on. Others are part of my work at the University of Applied Sciences Potsdam (Germany) but not related to any seminar.
@@ -15,7 +15,6 @@ These are some projects I spend my free time on. Others are part of my work at t
 
 - [Table Of Contents](#table-of-contents)
 - [Script Plugins](#script-plugins)
-- [Frontal](#frontal)
 - [Basil.js](#basiljs)
 - [ExtendScript Wiki](#extendscript-wiki)
 - [Extendscriptr](#extendscriptr)
@@ -43,10 +42,6 @@ Since around 2009 I've been writing scripts to automate my design workflows. Som
 </div>
 <div class="clear-float">
 </div>
-
-## Frontal
-
-Sebastian Meier and I started to write our own presentation tool called [Frontal](http://frontal.io/) in 2015. It is a Electron based application that allows to write presentations in Markdown. Still a work in progress.
 
 ## Basil.js
 
