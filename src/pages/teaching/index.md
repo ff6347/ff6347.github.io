@@ -5,8 +5,6 @@ title: Teaching
 
 Since I've been employed at the University of Applied Sciences Potsdam (Germany) as lab supervisor (and later on as artistic and scientific assistant) I started teaching programming and electrical engineering with the focus on Creative Coding and Physical Computing. In the winter semester of 2014 I also started to teach a class in the design fundamentals called "Eingabe/Ausgabe". My aim has always been to teach with a hands on methodology using the concept of cognitive apprenticeship that should develop into self directed problem solving. As soon as possible my students had to build their first, second, third prototypes, read and write code, break it, understand why it is broken and rewrite it. I always try to encourage them to share their projects with an open source license so others can build on their projects, like they do. See [lehrveranstaltungen.md](/teaching/lehrveranstaltungen) for a list of all my courses.
 
----
-
 ## Table Of Contents
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
@@ -14,6 +12,9 @@ Since I've been employed at the University of Applied Sciences Potsdam (Germany)
 <!-- code_chunk_output -->
 
 - [Table Of Contents](#table-of-contents)
+- [Fundamentals of Digital Communication](#fundamentals-of-digital-communication)
+- [The Useless Web](#the-useless-web)
+- [](#)
 - [Gestalten in Code](#gestalten-in-code)
 - [Lost in Navigation](#lost-in-navigation)
 - [Input/Output - Fundamentals of Process-Oriented Design](#inputoutput---fundamentals-of-process-oriented-design)
@@ -38,6 +39,26 @@ Since I've been employed at the University of Applied Sciences Potsdam (Germany)
 
 <!-- /code_chunk_output -->
 
+## Fundamentals of Digital Communication
+
+**Creative Technologies - Physical Computing and Fundamentals of Generative Design on the Web @HBK Univiersity of Art Braunschweig.**
+The term "Creative Technologist" and the concept of "Creative Technologies" describe professions and areas where art, design, and technology merge. These roles utilize technology creatively and highlight the combination of innovative technical skills with artistic and design practices. To develop an understanding of these intersections, we will explore, among other things, small projects with themes such as form, color, typography, movement, and interaction on the web. We will learn the basics of semantic HTML, CSS, and JavaScript with the Creative Coding library p5.js and the methods of generative design. Additionally, we will explore the intersections of digital and physical worlds with microcontrollers like Arduino. We will also take a look at modern web development, the prevailing paradigms on the web, and acquire the skills to bring our own pages to the web, going beyond the purely digital realm.
+
+See some results [here](https://rundgang2024.qawsed.site/).
+
+## The Useless Web
+
+**Fundamentals of Coding @HAWK the University of Applied Science and Art in Hildesheim.**
+Over the past 30 years, the World Wide Web has developed rapidly. From electronic hypertext documents linking to each other, to the Dotcom Bubble, through Flash and Java Applets, to JavaScript-based Single Page Applications.
+
+What was an experimental playground by the beach three decades ago is now a CI/CD container harbor, determined by UX, bounce rates, First Contentful Paint, and metrics, leaving little room for splashing around.
+
+In the seminar "Useless Web" within the Generative Design module, we want to return to this playground and develop parametric micro-sites to gain insight into programming with JavaScript and the Creative Coding library P5.js. Starting with finger exercises on topics such as color, form, typography, grid, iteration, movement, and interaction, we will acquire the basic knowledge to bring our own useless pages to the web.
+
+See the results of the seminar [here](https://hawk22.qawsed.site/).
+
+##
+
 ## Gestalten in Code
 
 <div class="img-box">
@@ -45,15 +66,21 @@ Since I've been employed at the University of Applied Sciences Potsdam (Germany)
 <img src="/assets/images/teaching/gic.png">
 </div>
 
-Where is the "Gestalt" in code? Can the Laws of Gestalt be programmed? And what are these laws? In this seminar we will explore the origin, present and possible future of computer art. Based on the Laws of Gestalt we are going to categorize several art works and use these rules to create our own generative design. This seminar will be split into three sprint projects each building on top of its predecessor. The site for the seminar can be found [here](https://interface.fh-potsdam.de/gestalten-in-code/).
-
----
+**Design Fundamentals - Elementary Design Basics - Fundamentals of Digital Representation @FHP University of Applied Sciences Potsdam.**
+Where is the "Gestalt" in code? Can the Laws of Gestalt be programmed? And what are these laws? In this seminar we will explore the origin, present and possible future of computer art. Based on the Laws of Gestalt we are going to categorize several art works and use these rules to create our own generative design. This seminar will be split into three sprint projects each building on top of its predecessor. The site for the seminar can be found [here](https://gestalten-in-code.qawsed.site/).
 
 ## Lost in Navigation
 
-Lost in Navigation is an upcoming course by Prof. Myriel Milicevic and me. Can we navigate by emotion? And how might a emotional map look like? Can a machine guide us and express those emotions? In this seminar we are going to build our own navigation systems with an focus on an emotional expression of machines.
+**Design Fundamentals - Elementary Design Process - Fundamentals of Surface and Structure @FHP University of Applied Sciences Potsdam.**
+The everyday use of navigation systems and vector-based street maps with live positioning shaped our image and spatial understanding of routes, urban spaces, orientation, and movement. Standardized representations helped us quickly find our way in unfamiliar metropolises, but different places, with recommendations for the same coffee shops, also became increasingly similar.
 
----
+"Lost in Translation" described, in English, the loss of meaning when translating from one language to another. Similarly, when translating an environment through a navigation system, subtle, individual, and special dimensions were often lost, becoming "Lost in Navigation."
+
+In this course, we aimed to break with expectations and build our own navigation systems. We engaged in experimental mapping and spatial perception, playing with various navigation parameters. What did it mean to be guided by machines? Were we still allowed to get lost and take detours? What would a navigation device look like that reacted emotionally and guided us through the world based on entirely unexpected criteria?
+
+The course consisted of both a design-conceptual exploration of the topic and its technical implementation. In the first half of the semester, fundamentals for building simple navigation systems were taught. In the second part, the focus was on the emotional expressions of machines. Since we did not use screens with conventional map displays, new forms were required for how a personal navigation system could indicate direction or lead its user off the chosen path. The workshop practice 14W4D-IL was integrated into the seminar.
+
+Instructors: Myriel Milicevic + Fabian Morón Zirfas
 
 ## Input/Output - Fundamentals of Process-Oriented Design
 
@@ -115,8 +142,6 @@ The third task was always about Physical Computing. From creating a computerized
 <div class="clear-float">
 </div>
 
----
-
 ## Knowledge Exchange Group
 
 <div class="thumbs">
@@ -126,8 +151,6 @@ The third task was always about Physical Computing. From creating a computerized
 </div>
 
 The K.E.G. is not a seminar like the others. It is a platform for students to teach other students. During their work on their projects some students reach an expertise in specific niche fields of technology that can't be thought by us during a semester. "The Knowledge Exchange Group" is the place where these students get guidance to prepare a workshops on a specific topic. Since autumn 2015 we had workshops about the JavaScript task runner Gulp, the service Firebase, parametrical modeling in Rhino using Grasshopper, web development with React, application development with Swift and interactive 3D graphics in the Browser with WebGL. Each workshop was designed for a whole day and took place in the Interface Lab.
-
----
 
 ## Workshops
 
@@ -158,8 +181,6 @@ In April 2016 I gave two single day crash course about creating simple 3D object
 
 </div>
 <div class="clear-float"></div>
-
----
 
 ### "Johnny Five Is Alive"
 
@@ -204,8 +225,6 @@ A Particle Photon powered and IFTTT controlled cat animator. See the full docume
 </div>
 <div class="clear-float"></div>
 
----
-
 ### "DIY (Multi) Touch (less) Human Computer Interaction"
 
 In the project weeks in October 2014 I gave this seminar about touch and touch less human computer interaction. In the first week the students got a quick introduction into building their own touch interfaces using just a cheap USB camera and Computer Vision in Processing, how to hack USB cameras to make them just see infrared light and how to map this data with OSC to sounds. In the second week they had to think a quick group project to use the introduced techniques.
@@ -235,8 +254,6 @@ A game controller based on Computer Vision.
 <img src="/assets/images/teaching/blockseminar/hot-sphere-04.png" alt="">
 </div>
 <div class="clear-float"></div>
-
----
 
 ### Interface Lab Seminar
 
@@ -272,8 +289,6 @@ An Arduino powered XXO game.
 </div>
 <div class="clear-float"></div>
 
----
-
 ### Typography and Automation
 
 In October 2012 I gave a workshop at the University of Applied Sciences Potsdam (Germany) about ["Typography and Automation"](http://fabianmoronzirfas.github.io/Typography-And-Automation/). The goal of this workshop was to teach the fundamentals of JavaScript/Extendscript in Adobe InDesign and apply this knowledge to a small project. Most of the students had no prior programming skill.
@@ -288,8 +303,6 @@ In October 2012 I gave a workshop at the University of Applied Sciences Potsdam 
 <a href="http://fabianmoronzirfas.github.io/Typography-And-Automation/schlompf.html"><img src="/assets/images/teaching/auto-typo/auto-typo-07-splash.png" alt=""></a>
 </div>
 <div class="clear-float"></div>
-
----
 
 ### Adobe After Effects Tutorials für ae.tuts+
 
