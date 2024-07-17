@@ -1,8 +1,15 @@
+html {
+	font-size: 18px;
+}
+* {
+	box-sizing: border-box;
+}
 body {
 	margin: 0 auto;
 	max-width: 50em;
-	font-family: Rockwell, "Rockwell Nova", "Roboto Slab", "DejaVu Serif",
-		"Sitka Small", serif;
+	font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro,
+		sans-serif;
+	font-weight: normal;
 	line-height: 1.5;
 	padding: 4em 1em;
 	color: #555;
@@ -15,6 +22,10 @@ h1,
 h2,
 strong {
 	color: #333;
+}
+
+code {
+	font-size: 0.89rem;
 }
 /* code,
 pre {
@@ -32,8 +43,12 @@ padding: 1em;
 a {
 	color: #ff6347;
 }
+a:hover {
+	color: #a01800;
+}
 body {
-	color: #566b78;
+	color: #2d383f;
+	background-color: #fdfdfd;
 }
 
 /* code,
