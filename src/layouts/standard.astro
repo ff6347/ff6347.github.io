@@ -1,49 +1,73 @@
 ---
-const { title } = Astro.props.frontmatter || Astro.props
-import IconRss from "../components/icon-rss"
-import IconHeart from "../components/icon-heart"
-import IconGithub from "../components/icon-github"
-import IconPinboard from "../components/icon-pinboard"
-import IconMail from "../components/icon-mail"
-import IconTwitter from "../components/icon-twitter"
-import IconVimeo from "../components/icon-vimeo"
-import IconBluesky from "../components/icon-bluesky"
-import IconMastodon from "../components/icon-mastodon"
-
+const { title } = Astro.props.frontmatter || Astro.props;
+import IconRss from "../components/icon-rss";
+import IconHeart from "../components/icon-heart";
+import IconGithub from "../components/icon-github";
+import IconPinboard from "../components/icon-pinboard";
+import IconMail from "../components/icon-mail";
+import IconTwitter from "../components/icon-twitter";
+import IconVimeo from "../components/icon-vimeo";
+import IconBluesky from "../components/icon-bluesky";
+import IconMastodon from "../components/icon-mastodon";
+import "../../public/assets/css/style.css";
+import "../../public/assets/css/prism-vs.css";
 ---
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>{title}</title>
-    <meta name="description" content="Website of Fabian Morón Zirfas">
-    <meta name="author" content="Fabian Morón Zirfas">
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
-    <link rel="stylesheet" href="/assets/css/prism-vs.css" type="text/css" />
-    <link rel="alternate" type="application/rss+xml"
-  title="RSS feed for fabianmoronzirfas.me"
-  href="/rss.xml" />
+		<meta name="description" content="Website of Fabian Morón Zirfas" />
+		<meta name="author" content="Fabian Morón Zirfas" />
+		<!-- <link rel="stylesheet" href="/assets/css/style.css" type="text/css" /> -->
+		<!-- <link rel="stylesheet" href="/assets/css/prism-vs.css" type="text/css" /> -->
+		<link
+			rel="alternate"
+			type="application/rss+xml"
+			title="RSS feed for fabianmoronzirfas.me"
+			href="/rss.xml"
+		/>
+	</head>
 
-    </style>
-  </head>
-  <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/blog">Blog</a>
-      <a href="/projects">Projects</a>
-      <a href="/teaching">Teaching</a>
-      <a href="/work">Work</a>
-      <a href="/education">Education</a>
-
-
-    </nav>
-    <h1>{title}</h1>
-    <article>
-      <slot /> <!-- your content is injected here -->
-    </article>
-    <footer>
-    <p>Build with <a href="http://astro.build/" target="blank">Astro</a>, {<IconHeart />} and hosted on <a href="https://www.netlify.com/">Netlify</a>. Take a peak into my code projects on <a href="https://github.com/ff6347">{<IconGithub />} github</a> and read what I read on <a href="https://pinboard.in/u:fabianmoronzirfas/">{<IconPinboard />} pinboard</a>. Write me a <a href="mailto:icke@fabianmoronzirfas.me">{<IconMail />} mail</a> or ping me on <a href="http://twitter.com/fmoronzirfas">{<IconTwitter />} X</a> (meh), <a href="https://hachyderm.io/@ff6347">{<IconMastodon />} Mastodon</a> or <a href="https://bsky.app/profile/ff6347.bsky.social">{<IconBluesky />} Bluesky</a>. You also can see some of my (oooold) videos on <a href="https://vimeo.com/fabianmoronzirfas">{<IconVimeo />} vimeo.</a> If you want to stay up to date subscribe to the <a href="/rss.xml">{<IconRss />} RSS Feed</a></p>
-  </footer>
-  </body>
+	<body>
+		<nav>
+			<a href="/">Home</a> &#xbb;
+			<a href="/blog">Blog</a> &#xbb;
+			<a href="/projects">Projects</a> &#xbb;
+			<a href="/teaching">Teaching</a> &#xbb;
+			<a href="/work">Work</a> &#xbb;
+			<a href="/education">Education</a>
+		</nav>
+		<h1>{title}</h1>
+		<article>
+			<slot />
+			<!-- your content is injected here -->
+		</article>
+		<footer>
+			<p>
+				Build with <a href="http://astro.build/" target="blank">Astro</a>, {
+					(<IconHeart />)
+				} and hosted on <a href="https://www.netlify.com/">Netlify</a>. Take a
+				peak into my code projects on <a href="https://github.com/ff6347"
+					>{(<IconGithub />)} github</a
+				> and read what I read on <a
+					href="https://pinboard.in/u:fabianmoronzirfas/"
+					>{(<IconPinboard />)} pinboard</a
+				>. Write me a <a href="mailto:icke@fabianmoronzirfas.me"
+					>{(<IconMail />)} mail</a
+				> or ping me on <a href="http://twitter.com/fmoronzirfas"
+					>{(<IconTwitter />)} X</a
+				> (meh), <a href="https://hachyderm.io/@ff6347"
+					>{(<IconMastodon />)} Mastodon</a
+				> or <a href="https://bsky.app/profile/ff6347.bsky.social"
+					>{(<IconBluesky />)} Bluesky</a
+				>. You also can see some of my (oooold) videos on <a
+					href="https://vimeo.com/fabianmoronzirfas">{(<IconVimeo />)} vimeo.</a
+				> If you want to stay up to date subscribe to the <a href="/rss.xml"
+					>{(<IconRss />)} RSS Feed</a
+				>
+			</p>
+		</footer>
+	</body>
 </html>

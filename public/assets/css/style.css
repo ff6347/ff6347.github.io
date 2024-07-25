@@ -1,30 +1,75 @@
+/* color variables */
+:root {
+	--body-bg: #fbfbfb;
+	--text-color: #403f53;
+	--link-color: #ff6347;
+	--link-hover-color: #004466;
+	--link-visited-color: #440099;
+	--link-visited-hover-color: #220066;
+	--border-color: #282828;
+	--code-bg: #f6f6f6;
+	--code-color: #403f53;
+	--code-border-color: #282828;
+}
+
 html {
 	font-size: 18px;
 }
 * {
 	box-sizing: border-box;
+	font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro,
+		sans-serif;
+
+	font-weight: normal;
 }
 body {
 	margin: 0 auto;
-	max-width: 50em;
-	font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro,
-		sans-serif;
-	font-weight: normal;
+	max-width: 70ch;
+
 	line-height: 1.5;
-	padding: 4em 1em;
+	padding: 4rem 1rem;
 	color: #555;
 }
-h2 {
-	margin-top: 1em;
-	padding-top: 1em;
+h1 {
+	font-size: 2rem;
 }
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h3 {
+	font-size: 1.17rem;
+}
+
+h4 {
+	font-size: 1rem;
+}
+
+h5 {
+	font-size: 0.83rem;
+}
+
+h6 {
+	font-size: 0.67rem;
+}
+
+h2 {
+	margin-top: 1rem;
+	padding-top: 1rem;
+}
+
 h1,
 h2,
 strong {
 	color: #333;
+	font-weight: bold;
 }
 
 code {
+	font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
+		"DejaVu Sans Mono", monospace;
+	font-weight: normal;
 	font-size: 0.89rem;
 }
 /* code,
@@ -38,17 +83,17 @@ vertical-align: text-bottom;
 } */
 
 /* pre {
-padding: 1em;
+padding: 1rem;
 } */
 a {
-	color: #ff6347;
+	color: var(--link-color);
 }
 a:hover {
 	color: #a01800;
 }
 body {
 	color: #2d383f;
-	background-color: #fdfdfd;
+	background-color: var(--body-bg);
 }
 
 /* code,
@@ -61,9 +106,21 @@ color: #a7adba;
 pre {
 	border-left: 2px solid #69c;
 }
+pre {
+	white-space: pre-wrap;
+}
 
-img {
+.thumbs {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+img,
+iframe {
 	width: 100%;
+	height: auto;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 [class^="icon-"],
@@ -72,4 +129,13 @@ img {
 	width: 14px;
 	display: inline-block;
 	fill: #a7adba;
+}
+
+@media (max-width: 800px) {
+	body {
+		padding: 1.5rem 1rem;
+	}
+	h1 {
+		font-size: 1.5rem;
+	}
 }

@@ -14,7 +14,6 @@ Since I've been employed at the University of Applied Sciences Potsdam (Germany)
 - [Table Of Contents](#table-of-contents)
 - [Fundamentals of Digital Communication](#fundamentals-of-digital-communication)
 - [The Useless Web](#the-useless-web)
-- [](#)
 - [Gestalten in Code](#gestalten-in-code)
 - [Lost in Navigation](#lost-in-navigation)
 - [Input/Output - Fundamentals of Process-Oriented Design](#inputoutput---fundamentals-of-process-oriented-design)
@@ -56,8 +55,6 @@ What was an experimental playground by the beach three decades ago is now a CI/C
 In the seminar "Useless Web" within the Generative Design module, we want to return to this playground and develop parametric micro-sites to gain insight into programming with JavaScript and the Creative Coding library P5.js. Starting with finger exercises on topics such as color, form, typography, grid, iteration, movement, and interaction, we will acquire the basic knowledge to bring our own useless pages to the web.
 
 See the results of the seminar [here](https://hawk22.qawsed.site/).
-
-##
 
 ## Gestalten in Code
 
@@ -139,15 +136,10 @@ The third task was always about Physical Computing. From creating a computerized
 </div>
 <div class="scroll-helper"></div>
 
-<div class="clear-float">
-</div>
-
 ## Knowledge Exchange Group
 
 <div class="thumbs">
 <img src="/assets/images/teaching/keg.png">
-</div>
-<div class="clear-float">
 </div>
 
 The K.E.G. is not a seminar like the others. It is a platform for students to teach other students. During their work on their projects some students reach an expertise in specific niche fields of technology that can't be thought by us during a semester. "The Knowledge Exchange Group" is the place where these students get guidance to prepare a workshops on a specific topic. Since autumn 2015 we had workshops about the JavaScript task runner Gulp, the service Firebase, parametrical modeling in Rhino using Grasshopper, web development with React, application development with Swift and interactive 3D graphics in the Browser with WebGL. Each workshop was designed for a whole day and took place in the Interface Lab.
