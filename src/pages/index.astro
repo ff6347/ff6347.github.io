@@ -1,6 +1,5 @@
 ---
 // Component Imports
-import Counter from "../components/Counter";
 import Layout from "../layouts/standard.astro";
 
 const title = "About ☛ Fabian Morón Zirfas";
@@ -12,10 +11,10 @@ const title = "About ☛ Fabian Morón Zirfas";
 	<main>
 		<p>
 			My name is Fabian Morón Zirfas and I'm a <span id="calced-age">44</span>
-			year old father, administrator of the professorship in "Fundamentals of
+			 year old father, administrator of the professorship in "Fundamentals of
 			Visual Communication" with the focus on digital communication at the <a
 				href="https://www.hbk-bs.de/">Braunschweig University of Art (HBK)</a
-			>, senior creative technologist at <a
+			>, formerly senior creative technologist at <a
 				href="https://www.technologiestiftung-berlin.de/de/startseite/"
 				>Technologie Stiftung Berlin</a
 			>, formerly <a href="http://ixds.com/">@IXDS</a>, formerly <a
@@ -28,6 +27,8 @@ const title = "About ☛ Fabian Morón Zirfas";
 			><sup><a href="#fn2" id="ref2">2</a></sup> and Kung Fu student living in
 			Berlin who occasionally does stuff that involves things. We work on
 			projects like <a href="https://www.giessdenkiez.de">giessdenkiez.de</a> or
+
+
 			<a href="https://stadtpuls.com">stadtpuls.com</a>. You can see the
 			projects of my lectures <a
 				href="https://interface.fh-potsdam.de/eingabe-ausgabe/"
@@ -83,7 +84,7 @@ const title = "About ☛ Fabian Morón Zirfas";
 </Layout>
 
 <script>
-	function calculateAge(birthday) {
+	function calculateAge(birthday: Date) {
 		// birthday is a date
 		var ageDifMs = Date.now() - birthday.getTime();
 		var ageDate = new Date(ageDifMs); // miliseconds from epoch
