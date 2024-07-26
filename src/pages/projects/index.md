@@ -14,6 +14,8 @@ These are some projects I spend my free time on. Others are part of my work at t
 <!-- code_chunk_output -->
 
 - [Table Of Contents](#table-of-contents)
+- [P5 Codesandbox](#p5-codesandbox)
+- [Notes](#notes)
 - [Script Plugins](#script-plugins)
 - [Basil.js](#basiljs)
 - [ExtendScript Wiki](#extendscript-wiki)
@@ -23,6 +25,14 @@ These are some projects I spend my free time on. Others are part of my work at t
 - [Bonanza](#bonanza)
 
 <!-- /code_chunk_output -->
+
+## P5 Codesandbox
+
+To iterate quickly on some p5.js snippets I built a live coding environment based on the Monaco Editor and the p5.js library. It is a simple way to write and run p5.js code in the browser with direct feedback. !Warning there is no infinite loop protection! You can find it [here](https://p5.inpyjamas.dev/).
+
+## Notes
+
+To quickly write down some notes I built this small app. It uses content editable divs and saves the content to local storage. You can find it [here](https://notes.inpyjamas.dev/).
 
 ## Script Plugins
 
