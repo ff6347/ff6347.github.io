@@ -7,35 +7,7 @@ Currently at the Technologiestiftung Berlin as senior creative technologist work
 
 ---
 
-## Table Of Contents
-
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
-- [Table Of Contents](#table-of-contents)
-- [Administration Professorship at the Hochschule für Bildende Künste Braunschweig (HBK)](#administration-professorship-at-the-hochschule-für-bildende-künste-braunschweig-hbk)
-- [Lecturer at Kunsthochschule Weissensee for Physical Computing](#lecturer-at-kunsthochschule-weissensee-for-physical-computing)
-- [Lecturer at HAWK Hildesheim for Creative coding](#lecturer-at-hawk-hildesheim-for-creative-coding)
-- [Lecturer at the FH Potsdam for Physical Computing and Creative Coding](#lecturer-at-the-fh-potsdam-for-physical-computing-and-creative-coding)
-- [Full Time Creative Technologist @technologiestiftung Berlin](#full-time-creative-technologist-technologiestiftung-berlin)
-- [Full Time Creative Technologist @IXDS Berlin](#full-time-creative-technologist-ixds-berlin)
-- [Full Time Lecturer And Lab Supervisor](#full-time-lecturer-and-lab-supervisor)
-- [Part Time Lab Supervisor](#part-time-lab-supervisor)
-- [Freelancer](#freelancer)
-- [Forseesense \& Grenzfarben](#forseesense--grenzfarben)
-  - [Customers](#customers)
-  - [Selected Video Works](#selected-video-works)
-    - [Welios Science Center Österreich](#welios-science-center-österreich)
-    - [Wortreich Bad Hersfeld](#wortreich-bad-hersfeld)
-    - [Mixed Nuts](#mixed-nuts)
-- [Mazooka](#mazooka)
-- [Community Service](#community-service)
-- [No Limits](#no-limits)
-
-<!-- /code_chunk_output -->
-
----
+## Contents
 
 ## Administration Professorship at the Hochschule für Bildende Künste Braunschweig (HBK)
 

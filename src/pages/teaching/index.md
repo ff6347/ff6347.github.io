@@ -5,38 +5,7 @@ title: Teaching
 
 Since I've been employed at the University of Applied Sciences Potsdam (Germany) as lab supervisor (and later on as artistic and scientific assistant) I started teaching programming and electrical engineering with the focus on Creative Coding and Physical Computing. In the winter semester of 2014 I also started to teach a class in the design fundamentals called "Eingabe/Ausgabe". My aim has always been to teach with a hands on methodology using the concept of cognitive apprenticeship that should develop into self directed problem solving. As soon as possible my students had to build their first, second, third prototypes, read and write code, break it, understand why it is broken and rewrite it. I always try to encourage them to share their projects with an open source license so others can build on their projects, like they do. See [lehrveranstaltungen.md](/teaching/lehrveranstaltungen) for a list of all my courses.
 
-## Table Of Contents
-
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
-- [Table Of Contents](#table-of-contents)
-- [Fundamentals of Digital Communication](#fundamentals-of-digital-communication)
-- [The Useless Web](#the-useless-web)
-- [Gestalten in Code](#gestalten-in-code)
-- [Lost in Navigation](#lost-in-navigation)
-- [Input/Output - Fundamentals of Process-Oriented Design](#inputoutput---fundamentals-of-process-oriented-design)
-- [Knowledge Exchange Group](#knowledge-exchange-group)
-- [Workshops](#workshops)
-  - ["Doing Papercraft/Projection Mapping"](#doing-papercraftprojection-mapping)
-  - ["Johnny Five Is Alive"](#johnny-five-is-alive)
-    - [M2M Translator by Rahel Flechtner](#m2m-translator-by-rahel-flechtner)
-    - [The Nibble Do List by Lucas Vogel](#the-nibble-do-list-by-lucas-vogel)
-    - [TreatSpin by Christoper Klement](#treatspin-by-christoper-klement)
-  - ["DIY (Multi) Touch (less) Human Computer Interaction"](#diy-multi-touch-less-human-computer-interaction)
-    - [Homo Effectus by Flavio Gortana, Fabian Dinklage and Caspar Kirsch](#homo-effectus-by-flavio-gortana-fabian-dinklage-and-caspar-kirsch)
-    - [Hot Sphere by Alexander Käßner, Alvaro Garcia and Kevin Schiffer](#hot-sphere-by-alexander-käßner-alvaro-garcia-and-kevin-schiffer)
-  - [Interface Lab Seminar](#interface-lab-seminar)
-    - [Playlist Quartet by Jonathan Kloß](#playlist-quartet-by-jonathan-kloß)
-    - [Interactive Plant by Carla Schewe](#interactive-plant-by-carla-schewe)
-    - [Play with me XXO by Andrea Biedermann](#play-with-me-xxo-by-andrea-biedermann)
-  - [Typography and Automation](#typography-and-automation)
-  - [Adobe After Effects Tutorials für ae.tuts+](#adobe-after-effects-tutorials-für-aetuts)
-    - [The Original Mattrunks Video](#the-original-mattrunks-video)
-    - [The Tutorials](#the-tutorials)
-
-<!-- /code_chunk_output -->
+## Contents
 
 ## Fundamentals of Digital Communication
 

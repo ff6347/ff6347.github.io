@@ -7,20 +7,7 @@ What to say about education? I could have done more but did not have the cash.
 
 ---
 
-## Table Of Contents
-
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
-- [Table Of Contents](#table-of-contents)
-- [Study of Communication Design B. A.](#study-of-communication-design-b-a)
-- [Advanced Technical College Entrance Qualification](#advanced-technical-college-entrance-qualification)
-- [Apprenticeship as Salesman in Retail](#apprenticeship-as-salesman-in-retail)
-- [School Part of the College Entrance Qualification](#school-part-of-the-college-entrance-qualification)
-- [Before Gymansium](#before-gymansium)
-
-<!-- /code_chunk_output -->
+## Contents
 
 ## Study of Communication Design B. A.
 

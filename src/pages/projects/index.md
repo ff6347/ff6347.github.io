@@ -7,24 +7,7 @@ These are some projects I spend my free time on. Others are part of my work at t
 
 ---
 
-## Table Of Contents
-
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
-- [Table Of Contents](#table-of-contents)
-- [P5 Codesandbox](#p5-codesandbox)
-- [Notes](#notes)
-- [Script Plugins](#script-plugins)
-- [Basil.js](#basiljs)
-- [ExtendScript Wiki](#extendscript-wiki)
-- [Extendscriptr](#extendscriptr)
-- [Extendscript-bundlr](#extendscript-bundlr)
-- [Is The Lab Open?](#is-the-lab-open)
-- [Bonanza](#bonanza)
-
-<!-- /code_chunk_output -->
+## Contents
 
 ## P5 Codesandbox
 
