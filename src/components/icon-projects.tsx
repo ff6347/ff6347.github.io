@@ -1,6 +1,6 @@
 const IconProjects = () => (
-	<svg class="icon-flask">
-		<use xlink: href="/assets/fonts/icons.svg#icon-flask"></use>
+	<svg className="icon-flask">
+		<use xlinkHref="/assets/fonts/icons.svg#icon-flask"></use>
 	</svg>
 );
 

@@ -1,6 +1,6 @@
 const IconHome = () => (
-	<svg class="icon-home">
-		<use xlink: href="/assets/fonts/icons.svg#icon-home"></use>
+	<svg className="icon-home">
+		<use xlinkHref="/assets/fonts/icons.svg#icon-home"></use>
 	</svg>
 );
 export default IconHome;

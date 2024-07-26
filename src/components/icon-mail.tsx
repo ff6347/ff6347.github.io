@@ -1,6 +1,6 @@
 const IconMail = () => (
-	<svg class="icon-envelope">
-		<use xlink: href="/assets/fonts/icons.svg#icon-envelope"></use>
+	<svg className="icon-envelope">
+		<use xlinkHref="/assets/fonts/icons.svg#icon-envelope"></use>
 	</svg>
 );
 export default IconMail;
