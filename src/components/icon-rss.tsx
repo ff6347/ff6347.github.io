@@ -1,6 +1,6 @@
 const IconRss = () => (
-	<svg class="icon-rss">
-		<use xlink: href="/assets/fonts/icons.svg#icon-rss"></use>
+	<svg className="icon-rss">
+		<use xlinkHref="/assets/fonts/icons.svg#icon-rss"></use>
 	</svg>
 );
 export default IconRss;

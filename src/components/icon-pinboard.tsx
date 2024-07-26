@@ -1,6 +1,6 @@
 const IconPinboard = () => (
-	<svg class="icon-thumb-tack">
-		<use xlink: href="/assets/fonts/icons.svg#icon-thumb-tack"></use>
+	<svg className="icon-thumb-tack">
+		<use xlinkHref="/assets/fonts/icons.svg#icon-thumb-tack"></use>
 	</svg>
 );
 export default IconPinboard;

@@ -10,10 +10,13 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"@astrojs/rss": "2.4.3",
-		"@astrojs/solid-js": "^2.2.0",
-		"astro": "^2.8.4",
-		"solid-js": "^1.7.6",
+		"@astrojs/react": "3.6.0",
+		"@astrojs/rss": "4.0.7",
+		"@types/react": "18.3.3",
+		"@types/react-dom": "18.3.0",
+		"astro": "4.12.2",
+		"react": "^19.0.0-beta",
+		"react-dom": "^19.0.0-beta",
 		"tailwindcss": "3.3.3"
 	},
 	"devDependencies": {

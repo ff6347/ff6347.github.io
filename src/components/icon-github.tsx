@@ -1,6 +1,6 @@
 const IconGithub = () => (
-	<svg class="icon-github">
-		<use xlink:href="/assets/fonts/icons.svg#icon-github"></use>
+	<svg className="icon-github">
+		<use xlinkHref="/assets/fonts/icons.svg#icon-github"></use>
 	</svg>
 );
 export default IconGithub;
