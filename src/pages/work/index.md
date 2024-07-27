@@ -3,7 +3,7 @@ layout: ../../layouts/standard.astro
 title: Work
 ---
 
-Currently at the Technologiestiftung Berlin as senior creative technologist working in the CityLAB project with the best team I've ever had the chance to work with. Looking forward to the next years with them. Also big news, I will be teaching digital basics again at the Braunschweig University of Art in the bachelors course visual communication. Totally looking forward to it.
+I used to be quite some time at the Technologiestiftung Berlin as senior creative technologist working in the CityLAB project with the best team I've ever had the chance to work with. Currently I hold a administrative professorship in basics of visual communication with an emphasis on digital communication at the University of Art Braunschweig.
 
 ---
 

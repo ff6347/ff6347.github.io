@@ -9,6 +9,14 @@ These are some projects I spend my free time on. Others are part of my work at t
 
 ## Contents
 
+## To Markdown CLI (html2md)
+
+A Node.js CLI tool to convert HTML to Markdown. It uses Turndown as parse. You can find the repo [here](https://github.com/ff6347/to-markdown-cli).
+
+## TIL (Today I Learned)
+
+A small CLI written in Go to collect TILs. This started out as a finger exercise to learn Go using ChatGPT as pair programmer. It did not get further. Coming back after a few months makes jumping back onto a language I don't use daily pretty hard. Still I learned some things. Mostly how to setup a CI/CD pipeline for Go and how to publish using Homewebrew. You can find the repo [here](https://github.com/ff6347/til).
+
 ## P5 Codesandbox
 
 To iterate quickly on some p5.js snippets I built a live coding environment based on the Monaco Editor and the p5.js library. It is a simple way to write and run p5.js code in the browser with direct feedback. !Warning there is no infinite loop protection! You can find it [here](https://p5.inpyjamas.dev/).
