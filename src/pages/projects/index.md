@@ -7,24 +7,15 @@ These are some projects I spend my free time on. Others are part of my work at t
 
 ---
 
-## Table Of Contents
+## Contents
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
+## To Markdown CLI (html2md)
 
-<!-- code_chunk_output -->
+A Node.js CLI tool to convert HTML to Markdown. It uses Turndown as parse. You can find the repo [here](https://github.com/ff6347/to-markdown-cli).
 
-- [Table Of Contents](#table-of-contents)
-- [P5 Codesandbox](#p5-codesandbox)
-- [Notes](#notes)
-- [Script Plugins](#script-plugins)
-- [Basil.js](#basiljs)
-- [ExtendScript Wiki](#extendscript-wiki)
-- [Extendscriptr](#extendscriptr)
-- [Extendscript-bundlr](#extendscript-bundlr)
-- [Is The Lab Open?](#is-the-lab-open)
-- [Bonanza](#bonanza)
+## TIL (Today I Learned)
 
-<!-- /code_chunk_output -->
+A small CLI written in Go to collect TILs. This started out as a finger exercise to learn Go using ChatGPT as pair programmer. It did not get further. Coming back after a few months makes jumping back onto a language I don't use daily pretty hard. Still I learned some things. Mostly how to setup a CI/CD pipeline for Go and how to publish using Homewebrew. You can find the repo [here](https://github.com/ff6347/til).
 
 ## P5 Codesandbox
 

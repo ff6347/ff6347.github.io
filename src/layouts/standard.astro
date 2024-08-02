@@ -33,12 +33,16 @@ import "../../public/assets/css/prism-vs.css";
 
 	<body>
 		<nav>
-			<a href="/">Home</a> &#xbb;
-			<a href="/blog">Blog</a> &#xbb;
-			<a href="/projects">Projects</a> &#xbb;
-			<a href="/teaching">Teaching</a> &#xbb;
-			<a href="/work">Work</a> &#xbb;
-			<a href="/education">Education</a>
+			<input type="checkbox" id="hamburger" class="hamburger-menu" />
+			<label for="hamburger" class="menu-toggle">☰</label>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="/projects">Projects</a></li>
+				<li><a href="/teaching">Teaching</a></li>
+				<li><a href="/work">Work</a></li>
+				<li><a href="/education">Education</a></li>
+			</ul>
 		</nav>
 		<h1>{title}</h1>
 		<article>
