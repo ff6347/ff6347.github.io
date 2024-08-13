@@ -46,11 +46,11 @@ Since around 2009 I've been writing scripts to automate my design workflows. Som
 
 ## Basil.js
 
-Since this summer I started to work on [Basil.js](http://basiljs.ch/) togther with Benedikt Groß, Ted Davis and Timo Rychert. It is a creative coding framework that ports the spirit of the Processing visualization language to Adobe InDesign. We are working on fixing bugs and implement some additional features to make it more Processing like. This will also be part of my <a href="/teaching/#gestalten-in-code">Gestalten in Code</a> seminar.
+From 2014 to around 2020 I worked on [Basil.js](http://basiljs.ch/) together with Benedikt Groß, Ted Davis and Timo Rychert. It is a creative coding framework that ports the spirit of the Processing visualization language to Adobe InDesign. We have been working on fixing bugs and implement some additional features to make it more Processing like. Find the source code on [github.com/basiljs/basil.js](https://github.com/basiljs/basil.js). Unfortunately the development stalled and the project.
 
 ## ExtendScript Wiki
 
-Since October 2012 I'm assembling a wiki about [ExtendScript](https://en.wikipedia.org/wiki/ExtendScript). It is with around 100 articles one of the largest resources you can find about writing scripts for Adobe applications. Take a look into the [Extendscript Wiki](https://github.com/extendscript/wiki/wiki)
+Since October 2012 I'm assembling a wiki about [ExtendScript](https://en.wikipedia.org/wiki/ExtendScript). It was with around 100 articles one of the largest resources you can find about writing scripts for Adobe applications. Take a look into the [Extendscript Wiki](https://github.com/extendscript/wiki/wiki)
 
 ## Extendscriptr
 
