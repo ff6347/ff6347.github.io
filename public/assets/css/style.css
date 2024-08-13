@@ -166,9 +166,15 @@ iframe {
 	h1 {
 		font-size: 1.5rem;
 	}
+	.thumbs {
+		flex-direction: column;
+	}
 }
 
 @media (max-width: 600px) {
+	.thumbs {
+		flex-direction: column;
+	}
 	.menu-toggle {
 		display: block;
 		cursor: pointer;
