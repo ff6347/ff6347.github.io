@@ -1,0 +1,44 @@
+---
+import { differenceInDays } from "date-fns";
+import * as Plot from "@observablehq/plot";
+
+import { getCollection } from "astro:content";
+const getData = async () => {
+	const blog = await getCollection("blog");
+
+	const entries = blog.map((entry) => ({
+		pubDate: entry.data.pubDate,
+		title: entry.data.title,
+	}));
+
+	return entries;
+};
+const posts = await getData();
+posts.sort((a, b) => new Date(a.pubDate) - new Date(b.pubDate));
+
+// Calculate intervals in days
+const intervals = posts
+	.slice(1)
+	.map((post, index) =>
+		differenceInDays(new Date(post.pubDate), new Date(posts[index].pubDate)),
+	);
+
+// Calculate median
+intervals.sort((a, b) => a - b);
+const mid = Math.floor(intervals.length / 2);
+const medianInterval =
+	intervals.length % 2
+		? intervals[mid]
+		: (intervals[mid - 1] + intervals[mid]) / 2;
+
+console.log(`Median posting interval: ${medianInterval.toFixed(1)} days`);
+const p = Plot.line(intervals).plot();
+console.log(p);
+---
+
+<div>
+	<ul>
+		<li>Median posting interval: {medianInterval.toFixed(1)} days</li>
+		<li>Number of posts: {posts.length}</li>
+	</ul>
+</div>
