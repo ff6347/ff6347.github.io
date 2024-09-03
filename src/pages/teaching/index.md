@@ -252,16 +252,16 @@ An Arduino powered XXO game.
 
 ### Typography and Automation
 
-In October 2012 I gave a workshop at the University of Applied Sciences Potsdam (Germany) about ["Typography and Automation"](http://fabianmoronzirfas.github.io/Typography-And-Automation/). The goal of this workshop was to teach the fundamentals of JavaScript/Extendscript in Adobe InDesign and apply this knowledge to a small project. Most of the students had no prior programming skill.
+In October 2012 I gave a workshop at the University of Applied Sciences Potsdam (Germany) about ["Typography and Automation"](http://ff6347.github.io/Typography-And-Automation/). The goal of this workshop was to teach the fundamentals of JavaScript/Extendscript in Adobe InDesign and apply this knowledge to a small project. Most of the students had no prior programming skill.
 
 <div class="thumbs">
-<a href="http://fabianmoronzirfas.github.io/Typography-And-Automation/"><img src="/assets/images/teaching/auto-typo/auto-typo-01-splash.png" alt=""></a>
-<a href="http://fabianmoronzirfas.github.io/Typography-And-Automation/skaim.html"><img src="/assets/images/teaching/auto-typo/auto-typo-03-splash.png" alt=""></a>
+<a href="http://ff6347.github.io/Typography-And-Automation/"><img src="/assets/images/teaching/auto-typo/auto-typo-01-splash.png" alt=""></a>
+<a href="http://ff6347.github.io/Typography-And-Automation/skaim.html"><img src="/assets/images/teaching/auto-typo/auto-typo-03-splash.png" alt=""></a>
 </div>
 <div class="clear-float"></div>
 <div class="thumbs">
-<a href="http://fabianmoronzirfas.github.io/Typography-And-Automation/johannahoeflich.html"><img src="/assets/images/teaching/auto-typo/auto-typo-06-splash.png" alt=""></a>
-<a href="http://fabianmoronzirfas.github.io/Typography-And-Automation/schlompf.html"><img src="/assets/images/teaching/auto-typo/auto-typo-07-splash.png" alt=""></a>
+<a href="http://ff6347.github.io/Typography-And-Automation/johannahoeflich.html"><img src="/assets/images/teaching/auto-typo/auto-typo-06-splash.png" alt=""></a>
+<a href="http://ff6347.github.io/Typography-And-Automation/schlompf.html"><img src="/assets/images/teaching/auto-typo/auto-typo-07-splash.png" alt=""></a>
 </div>
 <div class="clear-float"></div>
 
