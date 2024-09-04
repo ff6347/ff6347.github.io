@@ -16,12 +16,6 @@ const title = "About ☛ Fabian Morón Zirfas";
 			src={avatarImage}
 			alt="square black and white portrait with rounded corners an the upper left and lower right of the person called Fabian Morón Zirfas looking to the side"
 		/>
-		{
-			/* <img
-			src="assets/images/avatar/me-again-again-2-square.jpg"
-			alt="square black and white image of the person called Fabian Morón Zirfas looking to the right"
-		/> */
-		}
 	</header>
 	<main>
 		<p>
@@ -117,10 +111,10 @@ const title = "About ☛ Fabian Morón Zirfas";
 	document.addEventListener("DOMContentLoaded", function (_event) {
 		let age = calculateAge(new Date("1979-03-06T10:10:00"));
 		console.log(
-			"Hey. You are peaking into the console? Nice. But there is not a lot going on here. Just some minor JS fiddle.",
+			"Hey. You are peaking into the console? Nice. But there is not a lot going on here. Just some minor JS fiddle to make the numbers go brooom on first load. But since you are here, have a secret link to some personal stuff: https://fabianmoronzirfas.me/personal/",
 		);
 		let ele = document.querySelector("span#calced-age");
-		// console.log(ele);
+
 		if (ele !== null) {
 			let counter = 0;
 			let interval = setInterval(() => {
