@@ -1,0 +1,20 @@
+---
+layout: ../../layouts/post.astro
+pubDate: 2025-03-27
+title: "Design Mode (TIL)"
+description: "Design Mode in the browser"
+tags: [design, development, code]
+categories: [tech]
+published: true
+---
+
+import Url from '../../components/design-mode-url.astro';
+
+
+There is something in the browser called "Design Mode". **Nice one!** You can enable it by running:
+
+```js
+document.designMode = "on"
+```
+
+To test this load this page (or others here in <Url client:load />) using the search params `?designmode=on`. {}
