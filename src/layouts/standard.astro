@@ -135,5 +135,11 @@ import "../../public/assets/css/prism-vs.css";
 				>
 			</p>
 		</footer>
+		<script is:inline>
+			const params = new URLSearchParams(window.location.search);
+			if (params.has("designmode") && params.get("designmode") === "on") {
+				document.designMode = "on";
+			}
+		</script>
 	</body>
 </html>
