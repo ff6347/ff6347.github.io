@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/post.astro
+
 title: "CustomEvent"
 pubDate: 2025-04-02
 tags: [til]

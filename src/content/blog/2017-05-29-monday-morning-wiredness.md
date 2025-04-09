@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/post.astro
+
 title: No Monday morning without wired problems…
 pubDate: 2017-05-29
 published: True

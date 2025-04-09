@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/post.astro
+
 title: "Raycast Extension - CSS Color Names"
 pubDate: 2024-09-17
 tags: [raycast,css]

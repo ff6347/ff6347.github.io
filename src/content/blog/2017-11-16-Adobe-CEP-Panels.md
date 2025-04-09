@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/post.astro
+
 title: About CEP Panels
 pubDate: 2017-11-18
 published: True

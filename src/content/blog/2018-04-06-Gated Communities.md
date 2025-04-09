@@ -1,6 +1,6 @@
 ---
 title: Gated Communities
-layout: ../../layouts/post.astro
+
 pubDate: 2018-04-06
 published: True
 tags: [communities, woods, metaphor, rant, facebook]

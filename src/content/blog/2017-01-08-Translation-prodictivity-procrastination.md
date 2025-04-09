@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/post.astro
+
 title: Weekly round up - translation, productive habits and procrastination
 pubDate: 2017-01-04
 published: True

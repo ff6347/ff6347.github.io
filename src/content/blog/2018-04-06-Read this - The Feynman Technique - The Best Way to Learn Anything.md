@@ -1,6 +1,6 @@
 ---
 title: "The Feynman Technique: The Best Way to Learn Anything"
-layout: ../../layouts/post.astro
+
 pubDate: 2018-04-06
 published: True
 tags: [learning, reading, Feynman]

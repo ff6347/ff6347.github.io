@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/post.astro
+
 title: "Rename a GitHub Repo with a Linked Netlify Project"
 pubDate: 2020-08-05
 tags: [github, netlify]

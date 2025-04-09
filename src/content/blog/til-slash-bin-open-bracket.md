@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/post.astro
+
 title: "Today I Learned about /bin/["
 pubDate: 2023-11-26
 tags: [til]

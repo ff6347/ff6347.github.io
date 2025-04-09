@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/post.astro
+
 title: "Emile Leary"
 pubDate: 2025-04-09
 tags: []

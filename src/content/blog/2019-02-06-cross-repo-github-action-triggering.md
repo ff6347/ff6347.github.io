@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/post.astro
+
 title: "Cross Repository Action Triggers Using GitHub Actions"
 pubDate: 2019-02-06
 tags: [github, actions, automation]

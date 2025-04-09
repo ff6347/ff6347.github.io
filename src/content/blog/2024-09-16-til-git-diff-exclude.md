@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/post.astro
+
 title: "Exclude files from git diff"
 pubDate: 2024-09-16
 tags: [git]
