@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/post.astro
+
 title: "So you know what I did this summer?"
 pubDate: 2024-10-01
 tags: [life]

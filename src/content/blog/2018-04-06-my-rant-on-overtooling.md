@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/post.astro
+
 title: My Rant on Development Practices
 pubDate: 2018-04-06
 published: true

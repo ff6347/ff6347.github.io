@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/post.astro
+
 title: "Fabian Morón Surfers"
 pubDate: 2025-03-30
 tags: []
