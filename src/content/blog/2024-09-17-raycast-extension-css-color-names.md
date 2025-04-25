@@ -4,7 +4,7 @@ title: "Raycast Extension - CSS Color Names"
 pubDate: 2024-09-17
 tags: [raycast,css]
 categories: [misc]
-published: false
+published: true
 ---
 
 I've been wanting to built this [Raycast](https://www.raycast.com/) extension for quite some time from my Alfred extension that does the same. So here it is! Woohoo \o/
