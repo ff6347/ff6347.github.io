@@ -14,4 +14,4 @@ What I want to say with this is: it's 7:20 in the morning, and I am having a cof
 
 xo[1] fab
 
-[1]: Do kids still use this? Or is it <fill in word for embarrassing parents trying to stay cool>?
+[1]: Do kids still use this? Or is it `<fill in word for embarrassing parents trying to stay cool>`?
