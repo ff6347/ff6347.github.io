@@ -9,8 +9,9 @@ import IconTwitter from "../components/icon-twitter";
 import IconVimeo from "../components/icon-vimeo";
 import IconBluesky from "../components/icon-bluesky";
 import IconMastodon from "../components/icon-mastodon";
-import "../assets/css/style.css";
-import "../assets/css/prism-vs.css";
+import "../styles/global.css";
+import "../styles/style.css";
+import "../styles/prism-vs.css";
 ---
 
 <html lang="en">
@@ -106,10 +107,10 @@ import "../assets/css/prism-vs.css";
 			</ul>
 		</nav>
 		<h1>{title}</h1>
-		<article>
+		<main>
 			<slot />
 			<!-- your content is injected here -->
-		</article>
+		</main>
 		<footer>
 			<p>
 				Build with <a href="http://astro.build/" target="blank">Astro</a>, {
