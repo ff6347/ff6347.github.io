@@ -13,9 +13,11 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<"blog">;
 
 const post = Astro.props;
+const { title } = post.data;
+console.log(title, "in slug templare");
 const { Content } = await post.render();
 ---
 
-<BlogLayout>
+<BlogLayout title={title}>
 	<Content />
 </BlogLayout>

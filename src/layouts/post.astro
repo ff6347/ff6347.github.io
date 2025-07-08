@@ -1,8 +1,9 @@
 ---
-const { title } = Astro.props.frontmatter || Astro.props
-import Layout from './standard.astro'
+const { title } = Astro.props.frontmatter || Astro.props;
+import Layout from "./standard.astro";
+console.log(Astro.props);
 ---
 
 <Layout title={title}>
-  <slot />
+	<slot />
 </Layout>
