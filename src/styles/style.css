@@ -13,6 +13,10 @@
 	--border: 1px solid var(--border-color);
 }
 
+html,
+body {
+	height: 100%;
+}
 html {
 	font-size: 18px;
 }
@@ -74,6 +78,10 @@ code {
 	font-size: 0.89rem;
 }
 
+p + p {
+	margin-top: 1rlh;
+}
+
 a {
 	color: var(--link-color);
 }
@@ -85,6 +93,10 @@ body {
 	background-color: var(--body-bg);
 }
 
+main {
+	max-width: 70ch;
+	margin: 0 auto;
+}
 pre {
 	border-left: 2px solid #69c;
 }
@@ -100,13 +112,27 @@ hr {
 .thumbs {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	gap: 1rem;
+	margin-bottom: 1rem;
 }
 
-img,
 iframe {
 	width: 100%;
 	height: auto;
+	display: block;
+}
+
+.thumbs > * {
+	flex: 1 1 0;
+	max-width: 100%;
+}
+.thumbs img {
+	width: 100%;
+	height: auto;
+	display: block;
+	max-height: 200px;
+	object-fit: cover;
 }
 
 [class^="icon-"],

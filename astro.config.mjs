@@ -5,27 +5,35 @@ import mdx from "@astrojs/mdx";
 
 import netlify from "@astrojs/netlify";
 
+import tailwindcss from "@tailwindcss/vite";
+
 // https://astro.build/config
 export default defineConfig({
-	output: "static",
-	integrations: [react(), mdx()],
-	site: "https://fabianmoronzirfas.me",
-	markdown: {
-		remarkPlugins: [
-			[
-				remarkToc,
-				{
-					heading: "Contents",
-					tight: true,
-					maxDepth: 3,
-					ordered: false,
-				},
-			],
-		],
-		// Can be 'shiki' (default), 'prism' or false to disable highlighting
-		syntaxHighlight: "prism",
-		smartypants: true,
-		gfm: true,
+  output: "static",
+  integrations: [react(), mdx()],
+  site: "https://fabianmoronzirfas.me",
+
+  markdown: {
+      remarkPlugins: [
+          [
+              remarkToc,
+              {
+                  heading: "Contents",
+                  tight: true,
+                  maxDepth: 3,
+                  ordered: false,
+              },
+          ],
+      ],
+      // Can be 'shiki' (default), 'prism' or false to disable highlighting
+      syntaxHighlight: "prism",
+      smartypants: true,
+      gfm: true,
 	},
-	adapter: netlify(),
+
+  adapter: netlify(),
+
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });
