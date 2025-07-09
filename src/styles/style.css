@@ -1,0 +1,160 @@
+/* color variables */
+:root {
+	--body-bg: #fbfbfb;
+	--text-color: #403f53;
+	--link-color: #ff6347;
+	--link-hover-color: #004466;
+	--link-visited-color: #440099;
+	--link-visited-hover-color: #220066;
+	--border-color: #ddd;
+	--code-bg: #f6f6f6;
+	--code-color: #403f53;
+	--code-border-color: #282828;
+	--border: 1px solid var(--border-color);
+}
+
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 18px;
+}
+* {
+	box-sizing: border-box;
+	font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro,
+		sans-serif;
+
+	font-weight: normal;
+}
+body {
+	margin: 0 auto;
+	max-width: 70ch;
+
+	line-height: 1.5;
+	padding: 4rem 1rem;
+	color: #555;
+}
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h3 {
+	font-size: 1.17rem;
+}
+
+h4 {
+	font-size: 1rem;
+}
+
+h5 {
+	font-size: 0.83rem;
+}
+
+h6 {
+	font-size: 0.67rem;
+}
+
+h2 {
+	margin-top: 1rem;
+	padding-top: 1rem;
+}
+
+h1,
+h2,
+strong {
+	color: #333;
+	font-weight: bold;
+}
+
+code {
+	font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
+		"DejaVu Sans Mono", monospace;
+	font-weight: normal;
+	font-size: 0.89rem;
+}
+
+p + p {
+	margin-top: 1rlh;
+}
+
+a {
+	color: var(--link-color);
+}
+a:hover {
+	color: #a01800;
+}
+body {
+	color: #2d383f;
+	background-color: var(--body-bg);
+}
+
+main {
+	max-width: 70ch;
+	margin: 0 auto;
+}
+pre {
+	border-left: 2px solid #69c;
+}
+pre {
+	white-space: pre-wrap;
+}
+
+hr {
+	border: 0;
+	border-top: var(--border);
+}
+
+.thumbs {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+
+iframe {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.thumbs > * {
+	flex: 1 1 0%;
+	max-width: 100%;
+}
+.thumbs img {
+	width: 100% !important;
+	height: auto !important;
+	display: block;
+	max-height: 200px;
+	object-fit: cover;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	height: 14px;
+	width: 14px;
+	display: inline-block;
+	fill: #a7adba;
+}
+
+footer {
+	border-top: var(--border);
+}
+
+@media (max-width: 800px) {
+	body {
+		padding: 1.5rem 1rem;
+	}
+	h1 {
+		font-size: 1.5rem;
+	}
+	.thumbs {
+		flex-direction: column;
+	}
+}
