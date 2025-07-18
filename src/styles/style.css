@@ -158,3 +158,50 @@ footer {
 		flex-direction: column;
 	}
 }
+
+nav ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+nav ul li::before {
+	content: none;
+}
+
+ul {
+	list-style: none;
+	/* how to use my own list style ☛ */
+	padding-left: 1rem;
+}
+
+ul li::before {
+	content: "> ";
+	margin-left: -1rem;
+	font-size: 0.8rem;
+	position: relative;
+	top: -0.1em;
+}
+
+ul ul {
+	list-style: none;
+}
+
+ul ul ul {
+	list-style: none;
+}
+
+ul ul li::before {
+	content: "  > ";
+	margin-left: -1rem;
+	font-size: 0.8rem;
+	position: relative;
+	top: -0.1em;
+}
+
+ul ul ul li::before {
+	content: "    > ";
+	margin-left: -1rem;
+	font-size: 0.8rem;
+	position: relative;
+	top: -0.1em;
+}
