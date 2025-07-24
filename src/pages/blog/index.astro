@@ -15,7 +15,7 @@ function getExcerpt(text: string) {
 ---
 
 <Layout title="Hello Blog">
-	<ul>
+	<ul class="blog-list">
 		{
 			blog
 				.sort((a, b) => {
@@ -26,11 +26,14 @@ function getExcerpt(text: string) {
 					return 0;
 				})
 				.map((blogPostEntry) => (
-					<li>
-						<time datetime={blogPostEntry.data.pubDate.toISOString()}>
-							{blogPostEntry.data.pubDate.toDateString()}
+					<li class="blog-item">
+						<time
+							datetime={blogPostEntry.data.pubDate.toISOString()}
+							class="blog-date"
+						>
+							{blogPostEntry.data.pubDate.toISOString().split("T")[0]}
 						</time>
-						<a href={`/blog/${blogPostEntry.slug}`}>
+						<a href={`/blog/${blogPostEntry.slug}`} class="blog-title">
 							{blogPostEntry.data.title}
 						</a>
 						{blogPostEntry.data.description && (
@@ -41,3 +44,35 @@ function getExcerpt(text: string) {
 		}
 	</ul>
 </Layout>
+
+<style>
+	.blog-list {
+		list-style: none;
+		padding: 0;
+		font-family: monospace;
+	}
+
+	.blog-item {
+		display: flex;
+		align-items: baseline;
+		margin-bottom: 0.5rem;
+	}
+
+	.blog-date {
+		flex-shrink: 0;
+		width: 6rem;
+		margin-right: 1rem;
+		font-weight: normal;
+		color: #666;
+	}
+
+	.blog-title {
+		flex-grow: 1;
+		/* text-decoration: none; */
+		/* color: inherit; */
+	}
+
+	.blog-title:hover {
+		/* text-decoration: underline; */
+	}
+</style>
