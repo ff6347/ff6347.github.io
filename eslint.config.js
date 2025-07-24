@@ -1,4 +1,5 @@
 import eslintPluginAstro from "eslint-plugin-astro";
+import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 import js from "@eslint/js";
 import globals from "globals";
 import tseslint from "typescript-eslint";
@@ -9,6 +10,7 @@ import css from "@eslint/css";
 import { defineConfig } from "eslint/config";
 
 export default defineConfig([
+	eslintPluginPrettierRecommended,
 	{
 		// Note: there should be no other properties in this object
 		ignores: [
