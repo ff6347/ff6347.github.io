@@ -22,8 +22,8 @@ html {
 }
 * {
 	box-sizing: border-box;
-	font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro,
-		sans-serif;
+	font-family:
+		Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
 
 	font-weight: normal;
 }
@@ -72,7 +72,8 @@ strong {
 }
 
 code {
-	font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
+	font-family:
+		ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
 		"DejaVu Sans Mono", monospace;
 	font-weight: normal;
 	font-size: 0.89rem;
@@ -84,9 +85,14 @@ p + p {
 
 a {
 	color: var(--link-color);
+	/*how to offset the underline?*/
+	text-decoration-thickness: 0.06em;
+	text-underline-offset: 0.1em;
+	text-decoration: underline;
 }
 a:hover {
 	color: #a01800;
+	text-decoration: none;
 }
 body {
 	color: #2d383f;
