@@ -18,7 +18,7 @@ body {
 	height: 100%;
 }
 html {
-	font-size: 18px;
+	font-size: 110%;
 }
 * {
 	box-sizing: border-box;
@@ -60,7 +60,7 @@ h6 {
 }
 
 h2 {
-	margin-top: 1rem;
+	/* margin-top: 1rem; */
 	padding-top: 1rem;
 }
 
@@ -69,6 +69,17 @@ h2,
 strong {
 	color: #333;
 	font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	line-height: 1.1em;
 }
 
 code {
@@ -80,7 +91,7 @@ code {
 }
 
 p + p {
-	margin-top: 1rlh;
+	padding-top: 1rem;
 }
 
 a {
@@ -102,6 +113,7 @@ body {
 main {
 	max-width: 70ch;
 	margin: 0 auto;
+	padding-bottom: 1rem;
 }
 pre {
 	border-left: 2px solid #69c;
@@ -113,6 +125,8 @@ pre {
 hr {
 	border: 0;
 	border-top: var(--border);
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 .thumbs {
@@ -120,7 +134,7 @@ hr {
 	justify-content: center;
 	align-items: center;
 	gap: 1rem;
-	margin-bottom: 1rem;
+	padding-bottom: 1rem;
 }
 
 iframe {
@@ -151,27 +165,7 @@ iframe {
 
 footer {
 	border-top: var(--border);
-}
-
-@media (max-width: 800px) {
-	body {
-		padding: 2rem 1.5rem;
-	}
-	h1 {
-		font-size: 1.5rem;
-	}
-	.thumbs {
-		flex-direction: column;
-	}
-}
-
-@media (max-width: 480px) {
-	body {
-		padding: 1.5rem 1.25rem;
-	}
-	html {
-		font-size: 16px;
-	}
+	padding-bottom: 2rem;
 }
 
 nav ul {
@@ -219,4 +213,25 @@ ul ul ul li::before {
 	font-size: 0.8rem;
 	position: relative;
 	top: -0.1em;
+}
+
+@media (max-width: 800px) {
+	body {
+		padding: 2rem 1.5rem;
+	}
+	h1 {
+		font-size: 1.5rem;
+	}
+	.thumbs {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 480px) {
+	body {
+		padding: 1.5rem 1.25rem;
+	}
+	html {
+		font-size: 16px;
+	}
 }

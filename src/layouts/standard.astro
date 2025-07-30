@@ -12,6 +12,7 @@ import IconMastodon from "../components/icon-mastodon";
 import "../styles/global.css";
 import "../styles/style.css";
 import "../styles/prism-vs.css";
+import "../styles/nav.css";
 ---
 
 <html lang="en">
@@ -30,7 +31,7 @@ import "../styles/prism-vs.css";
 			href="/rss.xml"
 		/>
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-		<style>
+		<!-- <style>
 			.hamburger-menu {
 				display: none;
 			}
@@ -45,25 +46,7 @@ import "../styles/prism-vs.css";
 				content: " ⛌"; /* Icon when menu is expanded */
 			}
 
-			nav ul {
-				list-style-type: none;
-				padding: 0;
-				margin: 0;
-				display: flex;
-			}
-			nav li {
-				margin: 10px;
-			}
-			nav a {
-				text-decoration: none;
-				/* color: #333; */
-				padding: 5px 10px;
-				border-radius: 0px;
-				transition: background-color 0.3s;
-			}
-			nav a:hover {
-				background-color: #e9ecef;
-			}
+
 
 			@media (max-width: 600px) {
 				.thumbs {
@@ -77,15 +60,11 @@ import "../styles/prism-vs.css";
 					border: none;
 					font-size: 2rem;
 				}
-				nav ul {
-					display: none;
-					flex-direction: column;
-				}
 				.hamburger-menu:checked + .menu-toggle + ul {
 					display: flex;
 				}
 			}
-		</style>
+		</style> -->
 		<script
 			defer
 			is:inline
@@ -95,8 +74,8 @@ import "../styles/prism-vs.css";
 
 	<body>
 		<nav>
-			<input type="checkbox" id="hamburger" class="hamburger-menu" />
-			<label for="hamburger" class="menu-toggle"></label>
+			<!-- <input type="checkbox" id="hamburger" class="hamburger-menu" /> -->
+			<!-- <label for="hamburger" class="menu-toggle"></label> -->
 			<ul>
 				<li><a href="/">Home</a></li>
 				<li><a href="/blog">Blog</a></li>
