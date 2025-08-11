@@ -1,5 +1,4 @@
 ---
-
 title: "openFrameworks - App Crashes After Transfer to Another Computer"
 pubDate: 2018-04-06
 tags: [openFrameworks, App, macOS, Gatekeeper]

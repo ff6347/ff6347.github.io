@@ -1,5 +1,4 @@
 ---
-
 title: "Read this: Notes From An Emergency"
 pubDate: 2017-11-18
 published: True

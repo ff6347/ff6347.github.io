@@ -5,6 +5,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Project Overview
 
 This is a personal website/blog built with Astro, React, and Tailwind CSS. It's a static site hosted on Netlify that includes:
+
 - Personal portfolio sections (work, education, projects, resume)
 - Blog functionality with MDX support
 - Teaching materials and resources
@@ -33,26 +34,31 @@ npm run astro
 ## Code Architecture
 
 ### Content Management
+
 - **Blog Posts**: Located in `src/content/blog/` with frontmatter schema validation
 - **Content Schema**: Defined in `src/content/config.ts` using Zod for type safety
 - **MDX Support**: Blog posts can use `.mdx` extension for React components
 
 ### Routing & Pages
+
 - **File-based routing**: Pages in `src/pages/` directory
 - **Dynamic routes**: Blog posts use `[...slug].astro` pattern
 - **API routes**: JSON endpoints in `src/pages/api/`
 
 ### Styling
+
 - **Tailwind CSS**: Configured via Vite plugin in `astro.config.mjs`
 - **Global styles**: Located in `src/styles/`
 - **Prism syntax highlighting**: Custom theme in `src/styles/prism-vs.css`
 
 ### Components
+
 - **Astro components**: `.astro` files for server-side rendering
 - **React components**: `.tsx` files with React 19 beta
 - **Icons**: Custom icon components in `src/components/`
 
 ### Configuration
+
 - **Prettier**: Uses tabs, configured for Astro files
 - **TypeScript**: Strict mode with React JSX transform
 - **Netlify**: Static deployment with build command in `netlify.toml`
@@ -68,6 +74,7 @@ npm run astro
 ## Content Structure
 
 Blog posts require frontmatter with:
+
 - `title` (string)
 - `pubDate` (date)
 - `published` (boolean)

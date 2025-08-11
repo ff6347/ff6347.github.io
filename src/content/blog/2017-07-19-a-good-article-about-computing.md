@@ -1,5 +1,4 @@
 ---
-
 title: About Computing
 pubDate: 2017-11-18
 published: True

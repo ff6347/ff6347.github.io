@@ -1,5 +1,4 @@
 ---
-
 title: Dog not Cat - Colored output in from cat in the terminal
 pubDate: 2017-01-04
 published: True
