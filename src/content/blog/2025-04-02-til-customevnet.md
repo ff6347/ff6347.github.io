@@ -1,9 +1,8 @@
 ---
-
 title: "CustomEvent"
 pubDate: 2025-04-02
 tags: [til]
-categories: [coding,dev]
+categories: [coding, dev]
 published: true
 ---
 

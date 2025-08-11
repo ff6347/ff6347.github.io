@@ -1,5 +1,4 @@
 ---
-
 title: Markdown Preview in the Terminal
 pubDate: 2017-03-31
 published: True

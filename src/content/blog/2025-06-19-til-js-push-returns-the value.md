@@ -8,7 +8,6 @@ published: true
 
 I never thought about what this might return nor that it even should return something. Today I learned that it is the new length of the array. So the code below return `1`.
 
-
 ```js
 console.log([].push(4));
 ```

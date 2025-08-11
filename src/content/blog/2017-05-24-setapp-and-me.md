@@ -1,5 +1,4 @@
 ---
-
 title: "My thing with Setapp is…"
 pubDate: 2017-05-24
 published: True

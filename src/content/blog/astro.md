@@ -1,5 +1,4 @@
 ---
-
 title: "Moving to Astro"
 pubDate: 2023-07-19
 tags: [dev]

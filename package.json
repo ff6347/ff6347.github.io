@@ -7,7 +7,10 @@
 		"start": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
-		"astro": "astro"
+		"astro": "astro",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"format": "prettier --write ."
 	},
 	"dependencies": {
 		"@astrojs/mdx": "4.3.1",
@@ -19,8 +22,16 @@
 		"date-fns": "4.1.0",
 		"react": "19.1.0",
 		"react-dom": "19.1.0",
+		"rehype-raw": "7.0.0",
+		"rehype-stringify": "10.0.0",
+		"remark-gfm": "4.0.0",
+		"remark-mdx": "3.1.0",
+		"remark-parse": "11.0.0",
+		"remark-rehype": "11.1.0",
 		"remark-toc": "9.0.0",
-		"tailwindcss": "4.1.11"
+		"tailwindcss": "4.1.11",
+		"unified": "11.0.5",
+		"unist-util-visit": "5.0.0"
 	},
 	"devDependencies": {
 		"@eslint/css": "0.10.0",

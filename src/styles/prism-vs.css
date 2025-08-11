@@ -6,7 +6,8 @@
 code[class*="language-"],
 pre[class*="language-"] {
 	color: #393a34;
-	font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
+	font-family:
+		ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
 		"DejaVu Sans Mono", monospace;
 	font-weight: normal;
 	direction: ltr;
