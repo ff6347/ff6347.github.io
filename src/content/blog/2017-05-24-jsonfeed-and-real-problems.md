@@ -1,5 +1,4 @@
 ---
-
 title: JSONfeed and real problems
 published: True
 pubDate: 2017-05-24

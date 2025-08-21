@@ -3,52 +3,51 @@ layout: ../../layouts/standard.astro
 title: Teaching
 ---
 
-import { Image } from 'astro:assets';
+import { Image } from "astro:assets";
 
-import gic from '../../assets/images/teaching/gic.png';
-import ldr from '../../assets/images/teaching/ldr-950w.png';
-import didkatik from '../../assets/images/teaching/didkatik.png';
-import mitte from '../../assets/images/teaching/io/mitte-mitte-thumb.png';
-import molecule from '../../assets/images/teaching/io/molecule-thumb.png';
-import topolade from '../../assets/images/teaching/io/topolade-thumb.png';
-import puzzle from '../../assets/images/teaching/io/puzzle-thumb.png';
-import keg from '../../assets/images/teaching/keg.png';
-import papercraft from '../../assets/images/teaching/papercraft/papercraft-00.jpg';
-import papercraft2 from '../../assets/images/teaching/papercraft/papercraft-01.jpg';
-import papercraft3 from '../../assets/images/teaching/papercraft/papercraft-02.jpg';
-import papercraft4 from '../../assets/images/teaching/papercraft/papercraft-03.jpg';
-import projection from '../../assets/images/teaching/projection/projection-01.jpg';
-import projection2 from '../../assets/images/teaching/projection/projection-02.jpg';
-import projection3 from '../../assets/images/teaching/projection/projection-03.jpg';
-import projection4 from '../../assets/images/teaching/projection/projection-04.jpg';
-import j5 from '../../assets/images/teaching/j5/m2m-thumb.png';
-import j5nibble from '../../assets/images/teaching/j5/nibble-thumb.png';
-import j5mockup from '../../assets/images/teaching/j5/mockup-thumb.png';
-import j5back from '../../assets/images/teaching/j5/back-thumb.png';
-import homoeffectus from '../../assets/images/teaching/blockseminar/homo effectus.png';
-import hotsphere from '../../assets/images/teaching/blockseminar/hot-sphere-01.png';
-import hotsphere2 from '../../assets/images/teaching/blockseminar/hot-sphere-02.png';
-import hotsphere3 from '../../assets/images/teaching/blockseminar/hot-sphere-03.png';
-import hotsphere4 from '../../assets/images/teaching/blockseminar/hot-sphere-04.png';
-import quartet from '../../assets/images/teaching/blockseminar/quartet-jk-01.png';
-import quartet2 from '../../assets/images/teaching/blockseminar/quartet-02.png';
-import interactiveplant from '../../assets/images/teaching/blockseminar/interactive-plant-cs.gif';
-import interactiveplant2 from '../../assets/images/teaching/blockseminar/interactive-plant-cs-01.png';
-import xxo from '../../assets/images/teaching/blockseminar/xxo-ab-01.png';
-import xxo2 from '../../assets/images/teaching/blockseminar/xxo-ab-02.png';
-import auto from '../../assets/images/teaching/auto-typo/auto-typo-01-splash.png';
-import auto2 from '../../assets/images/teaching/auto-typo/auto-typo-03-splash.png';
-import auto6 from '../../assets/images/teaching/auto-typo/auto-typo-06-splash.png';
-import auto8 from '../../assets/images/teaching/auto-typo/auto-typo-07-splash.png';
-import explore from '../../assets/images/teaching/io/explore-thumb.png';
-import galton from '../../assets/images/teaching/io/galton-thumb.png';
-import flags from '../../assets/images/teaching/io/flags.gif';
-import relativ from '../../assets/images/teaching/io/relativ-thumb.png';
-import m2m from '../../assets/images/teaching/j5/m2m-thumb.png';
-import nibble from '../../assets/images/teaching/j5/nibble-thumb.png';
-import mockup from '../../assets/images/teaching/j5/mockup-thumb.png';
-import back from '../../assets/images/teaching/j5/back-thumb.png';
-
+import gic from "../../assets/images/teaching/gic.png";
+import ldr from "../../assets/images/teaching/ldr-950w.png";
+import didkatik from "../../assets/images/teaching/didkatik.png";
+import mitte from "../../assets/images/teaching/io/mitte-mitte-thumb.png";
+import molecule from "../../assets/images/teaching/io/molecule-thumb.png";
+import topolade from "../../assets/images/teaching/io/topolade-thumb.png";
+import puzzle from "../../assets/images/teaching/io/puzzle-thumb.png";
+import keg from "../../assets/images/teaching/keg.png";
+import papercraft from "../../assets/images/teaching/papercraft/papercraft-00.jpg";
+import papercraft2 from "../../assets/images/teaching/papercraft/papercraft-01.jpg";
+import papercraft3 from "../../assets/images/teaching/papercraft/papercraft-02.jpg";
+import papercraft4 from "../../assets/images/teaching/papercraft/papercraft-03.jpg";
+import projection from "../../assets/images/teaching/projection/projection-01.jpg";
+import projection2 from "../../assets/images/teaching/projection/projection-02.jpg";
+import projection3 from "../../assets/images/teaching/projection/projection-03.jpg";
+import projection4 from "../../assets/images/teaching/projection/projection-04.jpg";
+import j5 from "../../assets/images/teaching/j5/m2m-thumb.png";
+import j5nibble from "../../assets/images/teaching/j5/nibble-thumb.png";
+import j5mockup from "../../assets/images/teaching/j5/mockup-thumb.png";
+import j5back from "../../assets/images/teaching/j5/back-thumb.png";
+import homoeffectus from "../../assets/images/teaching/blockseminar/homo effectus.png";
+import hotsphere from "../../assets/images/teaching/blockseminar/hot-sphere-01.png";
+import hotsphere2 from "../../assets/images/teaching/blockseminar/hot-sphere-02.png";
+import hotsphere3 from "../../assets/images/teaching/blockseminar/hot-sphere-03.png";
+import hotsphere4 from "../../assets/images/teaching/blockseminar/hot-sphere-04.png";
+import quartet from "../../assets/images/teaching/blockseminar/quartet-jk-01.png";
+import quartet2 from "../../assets/images/teaching/blockseminar/quartet-02.png";
+import interactiveplant from "../../assets/images/teaching/blockseminar/interactive-plant-cs.gif";
+import interactiveplant2 from "../../assets/images/teaching/blockseminar/interactive-plant-cs-01.png";
+import xxo from "../../assets/images/teaching/blockseminar/xxo-ab-01.png";
+import xxo2 from "../../assets/images/teaching/blockseminar/xxo-ab-02.png";
+import auto from "../../assets/images/teaching/auto-typo/auto-typo-01-splash.png";
+import auto2 from "../../assets/images/teaching/auto-typo/auto-typo-03-splash.png";
+import auto6 from "../../assets/images/teaching/auto-typo/auto-typo-06-splash.png";
+import auto8 from "../../assets/images/teaching/auto-typo/auto-typo-07-splash.png";
+import explore from "../../assets/images/teaching/io/explore-thumb.png";
+import galton from "../../assets/images/teaching/io/galton-thumb.png";
+import flags from "../../assets/images/teaching/io/flags.gif";
+import relativ from "../../assets/images/teaching/io/relativ-thumb.png";
+import m2m from "../../assets/images/teaching/j5/m2m-thumb.png";
+import nibble from "../../assets/images/teaching/j5/nibble-thumb.png";
+import mockup from "../../assets/images/teaching/j5/mockup-thumb.png";
+import back from "../../assets/images/teaching/j5/back-thumb.png";
 
 Since I've been employed at the University of Applied Sciences Potsdam (Germany) as lab supervisor (and later on as artistic and scientific assistant) I started teaching programming and electrical engineering with the focus on Creative Coding and Physical Computing. In the winter semester of 2014 I also started to teach a class in the design fundamentals called "Eingabe/Ausgabe". My aim has always been to teach with a hands on methodology using the concept of cognitive apprenticeship that should develop into self directed problem solving. As soon as possible my students had to build their first, second, third prototypes, read and write code, break it, understand why it is broken and rewrite it. I always try to encourage them to share their projects with an open source license so others can build on their projects, like they do. See [lehrveranstaltungen.md](/teaching/lehrveranstaltungen) for a list of all my courses.
 
@@ -62,7 +61,7 @@ Since I've been employed at the University of Applied Sciences Potsdam (Germany)
 
 The term "Creative Technologist" and the concept of "Creative Technologies" describe professions and areas where art, design, and technology merge. These roles utilize technology creatively and highlight the combination of innovative technical skills with artistic and design practices. To develop an understanding of these intersections, we will explore, among other things, small projects with themes such as form, color, typography, movement, and interaction on the web. We will learn the basics of semantic HTML, CSS, and JavaScript with the Creative Coding library p5.js and the methods of generative design. Additionally, we will explore the intersections of digital and physical worlds with microcontrollers like Arduino. We will also take a look at modern web development, the prevailing paradigms on the web, and acquire the skills to bring our own pages to the web, going beyond the purely digital realm.
 
-See the results [from the class of 2023](https://rundgang2024.qawsed.site/) and the [projects from the class of 2024](https://rundgang2025.qawsed.site/).  
+See the results [from the class of 2023](https://rundgang2024.qawsed.site/) and the [projects from the class of 2024](https://rundgang2025.qawsed.site/).
 
 The students started out with mostly no prior knowledge of programming. Each hat to build around 10 projects. In the first semester starting with manual algorithms based on the idea of [Sol LeWitt's](https://en.wikipedia.org/wiki/Sol_LeWitt) wall drawings where the art work of the algorithm is the art work through sketches on p5.js with the focus on form, color, interaction and motion. In the second semester we used Google Teachable machine to train models for object recognition, sound or pose detection. We took a trip to the northern sea to observe patterns in nature and translate them into code inspired by the works of [Daniel Shiffman](https://en.wikipedia.org/wiki/Daniel_Shiffman). We used large language models (llm) to create web applications that go beyond the chat interface paradigm. At the end the students created graphic novels using generative text to image and image to image models. Coding agents where banned in the first semester and incorporated in the second semester.
 
@@ -78,7 +77,7 @@ In the seminar "Useless Web" within the Generative Design module, we want to ret
 
 See the results of the seminar [here](https://hawk22.qawsed.site/).
 
-## Prototyping Machines 
+## Prototyping Machines
 
 **Prototyping Machines @FHP University of Applied Sciences Potsdam.**
 
@@ -112,8 +111,14 @@ Instructors: Myriel Milicevic + Fabian Morón Zirfas
 ## Input/Output - Fundamentals of Process-Oriented Design
 
 <div class="img-box">
-    
-<Image src={ldr} alt="Eingabe/Ausgabe" width={800} height={600} quality={80} format="webp" />
+	<Image
+		src={ldr}
+		alt="Eingabe/Ausgabe"
+		width={800}
+		height={600}
+		quality={80}
+		format="webp"
+	/>
 </div>
 
 "Eingabe/Ausgabe - Grundlagen der Prozessorientierten Gestaltung" was my seminar in the design fundamentals module for three semesters from winter 2014 to spring 2016. You can see the whole documentation of the seminar [here](https://interface.fh-potsdam.de/eingabe-ausgabe/).  
@@ -127,32 +132,123 @@ The aim of the seminar was to give the students a first peak into the fields of 
 The first project, always called "Algorithm", engaged the students with the basic concept of programming. The task was to define an drawing algorithm for humans, execute it, create amended versions until the result is to their liking. These results then got abstracted further using Processing or P5.js.
 
 <div class="thumbs">
-<a href="https://github.com/Q-rec/mitte-zur-mitte"><Image src={mitte} alt="Mitte zur Mitte" width={400} height={300} quality={80} format="webp" /></a>
-<a href="https://github.com/vogelino/molecular-networks-p5-algorithm"><Image src={molecule} alt="Molecular Networks" width={400} height={300} quality={80} format="webp" /></a>
-<a href="https://github.com/topada/FHP-IO-topolade-algorithm"><Image src={topolade} alt="Topolade" width={400} height={300} quality={80} format="webp" /></a>
-<a href="https://github.com/Ninotschka/outlines"><Image src={puzzle} alt="Puzzle" width={400} height={300} quality={80} format="webp" /></a>
+	<a href="https://github.com/Q-rec/mitte-zur-mitte">
+		<Image
+			src={mitte}
+			alt="Mitte zur Mitte"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
+	<a href="https://github.com/vogelino/molecular-networks-p5-algorithm">
+		<Image
+			src={molecule}
+			alt="Molecular Networks"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
+	<a href="https://github.com/topada/FHP-IO-topolade-algorithm">
+		<Image
+			src={topolade}
+			alt="Topolade"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
+	<a href="https://github.com/Ninotschka/outlines">
+		<Image
+			src={puzzle}
+			alt="Puzzle"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
 </div>
-
 
 The second task was always a bit more experimental. In each case they had to generate a visualization of data. In the first seminar by defining a question, creating a survey, collecting the data and creating visual representation. The second seminar was all about slime molds and their behavior. The students had to define an experiment designed to take advantage of the slime molds properties. Create a setup to nurture and record their movement and afterwards create an analysis of that recorded data. In the third semester it was all about the International Space Station using. The range here went from posters about the relativity of time to web applications that track the ISS in real time and use their position as "filter" to gather data from other APIs.
 
 <div class="thumbs">
-<a href="https://github.com/vogelino/explore-with-iss"><Image src={explore} alt="Explore with ISS" width={400} height={300} quality={80} format="webp" /></a>
-<a href="https://github.com/topada/FHP-IO-galton-board-physarum"><Image src={galton} alt="Galton Board Physarum" width={400} height={300} quality={80} format="webp" /></a>
-<a href="http://projects.kevinschiffer.de/flag-survey-datavis/"><Image src={flags} alt="Flags" width={400} height={300} quality={80} format="webp" /></a>
-<a href="https://github.com/josues/relativity-and-iss"><Image src={relativ} alt="Relativity and ISS" width={400} height={300} quality={80} format="webp" /></a>
+	<a href="https://github.com/vogelino/explore-with-iss">
+		<Image
+			src={explore}
+			alt="Explore with ISS"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
+	<a href="https://github.com/topada/FHP-IO-galton-board-physarum">
+		<Image
+			src={galton}
+			alt="Galton Board Physarum"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
+	<a href="http://projects.kevinschiffer.de/flag-survey-datavis/">
+		<Image
+			src={flags}
+			alt="Flags"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
+	<a href="https://github.com/josues/relativity-and-iss">
+		<Image
+			src={relativ}
+			alt="Relativity and ISS"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
 </div>
-
 
 The third task was always about Physical Computing. From creating a computerized representation of binary states in the real world, to motorized posters/objects that react on the passive presence of a spectator to connected objects that talk to one another. Below you will find some highlights of the projects the students created.
 
 <div class="thumbs flex flex-wrap">
 
-<iframe src="https://player.vimeo.com/video/157480156?loop=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen height="200"></iframe>
+<iframe
+	src="https://player.vimeo.com/video/157480156?loop=1"
+	frameborder="0"
+	webkitallowfullscreen
+	mozallowfullscreen
+	allowfullscreen
+	height="200"
+></iframe>
 
-<iframe src="https://player.vimeo.com/video/123418651?loop=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen height="200"></iframe>
+<iframe
+	src="https://player.vimeo.com/video/123418651?loop=1"
+	frameborder="0"
+	webkitallowfullscreen
+	mozallowfullscreen
+	allowfullscreen
+	height="200"
+></iframe>
 
-<iframe src="https://player.vimeo.com/video/123883583?loop=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen height="200"></iframe>
+<iframe
+	src="https://player.vimeo.com/video/123883583?loop=1"
+	frameborder="0"
+	webkitallowfullscreen
+	mozallowfullscreen
+	allowfullscreen
+	height="200"
+></iframe>
 
 <iframe src="https://player.vimeo.com/video/122587435?loop=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen height="200"></iframe>
 </div>
@@ -160,7 +256,14 @@ The third task was always about Physical Computing. From creating a computerized
 ## Knowledge Exchange Group
 
 <div class="thumbs">
-<Image src={keg} alt="K.E.G." width={600} height={400} quality={80} format="webp" />
+	<Image
+		src={keg}
+		alt="K.E.G."
+		width={600}
+		height={400}
+		quality={80}
+		format="webp"
+	/>
 </div>
 
 The K.E.G. is not a seminar like the others. It is a platform for students to teach other students. During their work on their projects some students reach an expertise in specific niche fields of technology that can't be thought by us during a semester. "The Knowledge Exchange Group" is the place where these students get guidance to prepare a workshops on a specific topic. Since autumn 2015 we had workshops about the JavaScript task runner Gulp, the service Firebase, parametrical modeling in Rhino using Grasshopper, web development with React, application development with Swift and interactive 3D graphics in the Browser with WebGL. Each workshop was designed for a whole day and took place in the Interface Lab.
@@ -172,30 +275,98 @@ The K.E.G. is not a seminar like the others. It is a platform for students to te
 In April 2016 I gave two single day crash course about creating simple 3D objects in Blender, unfolding them and preparing them for laser cutting. In the second part these objects where used to do a projection mapping on them. As part of the workshops I created extensive documentations. ["Doing Papercraft"](http://fh-potsdam.github.io/doing-papercraft/) and ["Doing Projection Mapping"](https://fh-potsdam.github.io/doing-projection-mapping/). These workshops where part of a series of three warm up workshops for seminar ["Datenobjekte"](https://incom.org/workspace/6559) by Prof. Boris Müller.
 
 <div class="thumbs">
-<a href="/assets/images/teaching/papercraft/papercraft-00.jpg"><Image src={papercraft} alt="Papercraft" width={400} height={300} quality={80} format="webp" /></a>
-<a href="/assets/images/teaching/papercraft/papercraft-01.jpg"><Image src={papercraft2} alt="Papercraft" width={400} height={300} quality={80} format="webp" /></a>
+	<a href="/assets/images/teaching/papercraft/papercraft-00.jpg">
+		<Image
+			src={papercraft}
+			alt="Papercraft"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
+	<a href="/assets/images/teaching/papercraft/papercraft-01.jpg">
+		<Image
+			src={papercraft2}
+			alt="Papercraft"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
 </div>
 
 <div class="thumbs">
-<a href="/assets/images/teaching/papercraft/papercraft-02.jpg"><Image src={papercraft3} alt="Papercraft" width={400} height={300} quality={80} format="webp" /></a>
-<a href="/assets/images/teaching/papercraft/papercraft-03.jpg"><Image src={papercraft4} alt="Papercraft" width={400} height={300} quality={80} format="webp" /></a>
+	<a href="/assets/images/teaching/papercraft/papercraft-02.jpg">
+		<Image
+			src={papercraft3}
+			alt="Papercraft"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
+	<a href="/assets/images/teaching/papercraft/papercraft-03.jpg">
+		<Image
+			src={papercraft4}
+			alt="Papercraft"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
 </div>
-
 
 <div class="thumbs">
-<a href="/assets/images/teaching/projection/projection-01.jpg"><Image src={projection} alt="Projection" width={400} height={300} quality={80} format="webp" /></a>
-<a href="/assets/images/teaching/projection/projection-02.jpg"><Image src={projection2} alt="Projection" width={400} height={300} quality={80} format="webp" /></a>
+	<a href="/assets/images/teaching/projection/projection-01.jpg">
+		<Image
+			src={projection}
+			alt="Projection"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
+	<a href="/assets/images/teaching/projection/projection-02.jpg">
+		<Image
+			src={projection2}
+			alt="Projection"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
 </div>
 
 <div class="thumbs">
 
-<a href="/assets/images/teaching/projection/projection-03.jpg"><Image src={projection3} alt="Projection" width={400} height={300} quality={80} format="webp" /></a>
-<a href="/assets/images/teaching/projection/projection-04.jpg"><Image src={projection4} alt="Projection" width={400} height={300} quality={80} format="webp" /></a>
+<a href="/assets/images/teaching/projection/projection-03.jpg">
+	<Image
+		src={projection3}
+		alt="Projection"
+		width={400}
+		height={300}
+		quality={80}
+		format="webp"
+	/>
+</a>
+<a href="/assets/images/teaching/projection/projection-04.jpg">
+	<Image
+		src={projection4}
+		alt="Projection"
+		width={400}
+		height={300}
+		quality={80}
+		format="webp"
+	/>
+</a>
 
 </div>
-
-
-
 
 ### "Johnny Five Is Alive"
 
@@ -208,11 +379,26 @@ This was also a project weeks workshop in October 2015 about prototyping connect
 Take a look at the whole project over [here.](https://github.com/RahelFl/M2M-Translator)
 
 <div class="thumbs">
-<a href="https://github.com/RahelFl/M2M-Translator"><Image src={m2m} alt="M2M Translator" width={400} height={300} quality={80} format="webp" /></a>
-<iframe src="https://player.vimeo.com/video/144001575" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	<a href="https://github.com/RahelFl/M2M-Translator">
+		<Image
+			src={m2m}
+			alt="M2M Translator"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
+	<iframe
+		src="https://player.vimeo.com/video/144001575"
+		width="100%"
+		height="232"
+		frameborder="0"
+		webkitallowfullscreen
+		mozallowfullscreen
+		allowfullscreen
+	></iframe>
 </div>
-
-
 
 #### The Nibble Do List by Lucas Vogel
 
@@ -221,11 +407,27 @@ Take a look at the whole project over [here.](https://github.com/RahelFl/M2M-Tra
 See the whole project description over [here.](https://github.com/vogelino/nibble-do-list)
 
 <div class="thumbs">
-<a href="https://github.com/vogelino/nibble-do-list"><Image src={nibble} alt="Nibble Do List" width={400} height={300} quality={80} format="webp" /></a>
+	<a href="https://github.com/vogelino/nibble-do-list">
+		<Image
+			src={nibble}
+			alt="Nibble Do List"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
 </div>
 
-<iframe src="https://player.vimeo.com/video/143141941?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+<iframe
+	src="https://player.vimeo.com/video/143141941?loop=1"
+	width="100%"
+	height="232"
+	frameborder="0"
+	webkitallowfullscreen
+	mozallowfullscreen
+	allowfullscreen
+></iframe>
 
 #### TreatSpin by Christoper Klement
 
@@ -234,10 +436,27 @@ See the whole project description over [here.](https://github.com/vogelino/nibbl
 A Particle Photon powered and IFTTT controlled cat animator. See the full documentation [over here](https://github.com/chrisklement/treat-spin).
 
 <div class="thumbs">
-<a href="https://github.com/chrisklement/treat-spin"><Image src={mockup} alt="Mockup" width={400} height={300} quality={80} format="webp" /></a>
-<a href="https://github.com/chrisklement/treat-spin"><Image src={back} alt="Back" width={400} height={300} quality={80} format="webp" /></a>
+	<a href="https://github.com/chrisklement/treat-spin">
+		<Image
+			src={mockup}
+			alt="Mockup"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
+	<a href="https://github.com/chrisklement/treat-spin">
+		<Image
+			src={back}
+			alt="Back"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
 </div>
-
 
 ### "DIY (Multi) Touch (less) Human Computer Interaction"
 
@@ -248,25 +467,66 @@ In the project weeks in October 2014 I gave this seminar about touch and touch l
 A musical interface controlled by color and hand gestures.
 
 <div class="thumbs">
-<Image src={homoeffectus} alt="Homo Effectus" width={600} height={400} quality={80} format="webp" />
+	<Image
+		src={homoeffectus}
+		alt="Homo Effectus"
+		width={600}
+		height={400}
+		quality={80}
+		format="webp"
+	/>
 </div>
-<iframe src="https://player.vimeo.com/video/113909158?loop=1" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+<iframe
+	src="https://player.vimeo.com/video/113909158?loop=1"
+	width="100%"
+	height="232"
+	frameborder="0"
+	webkitallowfullscreen
+	mozallowfullscreen
+	allowfullscreen
+></iframe>
 
 #### Hot Sphere by Alexander Käßner, Alvaro Garcia and Kevin Schiffer
 
 A game controller based on Computer Vision.
 
 <div class="thumbs">
-<Image src={hotsphere} alt="Hot Sphere" width={400} height={300} quality={80} format="webp" />
-<Image src={hotsphere2} alt="Hot Sphere" width={400} height={300} quality={80} format="webp" />
+	<Image
+		src={hotsphere}
+		alt="Hot Sphere"
+		width={400}
+		height={300}
+		quality={80}
+		format="webp"
+	/>
+	<Image
+		src={hotsphere2}
+		alt="Hot Sphere"
+		width={400}
+		height={300}
+		quality={80}
+		format="webp"
+	/>
 </div>
 
 <div class="thumbs">
-<Image src={hotsphere3} alt="Hot Sphere" width={400} height={300} quality={80} format="webp" />
-<Image src={hotsphere4} alt="Hot Sphere" width={400} height={300} quality={80} format="webp" />
+	<Image
+		src={hotsphere3}
+		alt="Hot Sphere"
+		width={400}
+		height={300}
+		quality={80}
+		format="webp"
+	/>
+	<Image
+		src={hotsphere4}
+		alt="Hot Sphere"
+		width={400}
+		height={300}
+		quality={80}
+		format="webp"
+	/>
 </div>
-
 
 ### Interface Lab Seminar
 
@@ -277,45 +537,121 @@ Starting with my work as lab supervisor in 2013 I also started to give a six day
 Generate quartets cards based on your Spotify playlist.
 
 <div class="thumbs flex flex-wrap">
-<Image src={quartet} alt="quartet jk" width={400} height={300} quality={80} format="webp" />  
-<a href="/assets/images/teaching/blockseminar/quartet-02.png"><Image src={quartet2} alt="quartet jk" width={400} height={300} quality={80} format="webp" /></a>  
+	<Image
+		src={quartet}
+		alt="quartet jk"
+		width={400}
+		height={300}
+		quality={80}
+		format="webp"
+	/>
+	<a href="/assets/images/teaching/blockseminar/quartet-02.png">
+		<Image
+			src={quartet2}
+			alt="quartet jk"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
 </div>
-
 
 #### Interactive Plant by Carla Schewe
 
 An Origami folded plant that reacts on presence.
 
 <div class="thumbs">
-<Image src={interactiveplant} alt="Interactive Plant" width={400} height={300} quality={80} format="webp" />
-<Image src={interactiveplant2} alt="Interactive Plant" width={400} height={300} quality={80} format="webp" />
+	<Image
+		src={interactiveplant}
+		alt="Interactive Plant"
+		width={400}
+		height={300}
+		quality={80}
+		format="webp"
+	/>
+	<Image
+		src={interactiveplant2}
+		alt="Interactive Plant"
+		width={400}
+		height={300}
+		quality={80}
+		format="webp"
+	/>
 </div>
-
 
 #### Play with me XXO by Andrea Biedermann
 
 An Arduino powered XXO game.
 
 <div class="thumbs">
-<Image src={xxo} alt="XXO" width={400} height={300} quality={80} format="webp" />
-<Image src={xxo2} alt="XXO" width={400} height={300} quality={80} format="webp" />
+	<Image
+		src={xxo}
+		alt="XXO"
+		width={400}
+		height={300}
+		quality={80}
+		format="webp"
+	/>
+	<Image
+		src={xxo2}
+		alt="XXO"
+		width={400}
+		height={300}
+		quality={80}
+		format="webp"
+	/>
 </div>
-
 
 ### Typography and Automation
 
 In October 2012 I gave a workshop at the University of Applied Sciences Potsdam (Germany) about ["Typography and Automation"](http://ff6347.github.io/Typography-And-Automation/). The goal of this workshop was to teach the fundamentals of JavaScript/Extendscript in Adobe InDesign and apply this knowledge to a small project. Most of the students had no prior programming skill.
 
 <div class="thumbs">
-<a href="http://ff6347.github.io/Typography-And-Automation/"><Image src={auto} alt="Typography and Automation" width={400} height={300} quality={80} format="webp" /></a>
-<a href="http://ff6347.github.io/Typography-And-Automation/skaim.html"><Image src={auto2} alt="Typography and Automation" width={400} height={300} quality={80} format="webp" /></a>
+	<a href="http://ff6347.github.io/Typography-And-Automation/">
+		<Image
+			src={auto}
+			alt="Typography and Automation"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
+	<a href="http://ff6347.github.io/Typography-And-Automation/skaim.html">
+		<Image
+			src={auto2}
+			alt="Typography and Automation"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
 </div>
 
 <div class="thumbs">
-<a href="http://ff6347.github.io/Typography-And-Automation/johannahoeflich.html"><Image src={auto6} alt="Typography and Automation" width={400} height={300} quality={80} format="webp" /></a>
-<a href="http://ff6347.github.io/Typography-And-Automation/schlompf.html"><Image src={auto8} alt="Typography and Automation" width={400} height={300} quality={80} format="webp" /></a>
+	<a href="http://ff6347.github.io/Typography-And-Automation/johannahoeflich.html">
+		<Image
+			src={auto6}
+			alt="Typography and Automation"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
+	<a href="http://ff6347.github.io/Typography-And-Automation/schlompf.html">
+		<Image
+			src={auto8}
+			alt="Typography and Automation"
+			width={400}
+			height={300}
+			quality={80}
+			format="webp"
+		/>
+	</a>
 </div>
-
 
 ### Adobe After Effects Tutorials für ae.tuts+
 
@@ -324,15 +660,21 @@ In October 2012 I got approached by ae.tuts+ if I were interested into creating 
 #### The Original Mattrunks Video
 
 <div class="thumbs">
-<iframe src="https://player.vimeo.com/video/48392006?loop=1&byline=0&portrait=0" width="100%" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>  </div>
-
+	<iframe
+		src="https://player.vimeo.com/video/48392006?loop=1&byline=0&portrait=0"
+		width="100%"
+		height="232"
+		frameborder="0"
+		webkitallowfullscreen
+		mozallowfullscreen
+		allowfullscreen
+	></iframe>{" "}
+</div>
 
 #### The Tutorials
 
 <div class="thumbs">
-<iframe width="100%" height="232" src="https://www.youtube-nocookie.com/embed/sNCSl9P846k?rel=0" frameborder="0" allowfullscreen></iframe>  
+<iframe width="100%" height="232" src="https://www.youtube-nocookie.com/embed/sNCSl9P846k?rel=0" frameborder="0" allowfullscreen></iframe>
 
 </div>
 <iframe width="100%" height="232" src="https://www.youtube-nocookie.com/embed/GtcaV2fyQgc?rel=0" frameborder="0" allowfullscreen></iframe>
-
-

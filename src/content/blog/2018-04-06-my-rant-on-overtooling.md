@@ -1,5 +1,4 @@
 ---
-
 title: My Rant on Development Practices
 pubDate: 2018-04-06
 published: true
@@ -69,11 +68,19 @@ P.P.S. You feel like this is aimed at you? Well maybe…
 <!-- footnotes -->
 
 [^0]: Insert value here.
+
 [^1]: Of course still in alpha!
+
 [^2]: Or maybe it is the tongue of Mordor in Elvish script? I can't tell.
+
 [^3]: Did I mention that your tiny Processing app does not work because you are so accustomed to leaving them out.
+
 [^4]: Which is an [issue](https://github.com/fabianmoronzirfas/fabianmoronzirfas.github.io/issues/4).
+
 [^5]: I'm actually not sure if these are the right questions. Educate me if you want.
+
 [^6]: I know [commit message quality](https://xkcd.com/1296/) tend to decline over time, still…
+
 [^7]: Actually not a flavor more some sort of esoteric way of writing JS like [jsfuck.com](http://www.jsfuck.com/). Or [Hieroglyphy](http://patriciopalladino.com/files/hieroglyphy/). See [this](https://gist.githubusercontent.com/fabianmoronzirfas/cb08fb6dadd29fa8d5bdf20a8e017486/raw/7175a2ec3d9b4935a02d40f08f65d276997415e7/alert-hello-world.js) and paste it into your console. I dare you.
+
 [^8]: At least this will be my realm until the end of August. But more about that in a later post.

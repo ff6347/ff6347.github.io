@@ -1,5 +1,4 @@
 ---
-
 title: "Cross Repository Action Triggers Using GitHub Actions"
 pubDate: 2019-02-06
 tags: [github, actions, automation]
@@ -130,5 +129,7 @@ sh -c "git push https://${PA_TOKEN}@github.com/fabianmoronzirfas/target.git"
 As soon as GitHub Actions are out of beta I will make these repos public so you can take a look at the source.
 
 [^actions]: GitHub Actions are in beta while I am writing this (07. Jan 2019).
+
 [^secret]: You can set your secrets under this url https://github.com/[YOUR USER NAME]/[YOUR REPO NAME]/settings/secrets
+
 [^mainwf]: You will find your main.workflow here https://github.com/[YOUR USER NAME]/[YOUR REPO NAME]/blob/master/.github/main.workflow
