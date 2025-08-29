@@ -77,7 +77,7 @@ h3,
 h4,
 h5,
 h6 {
-	padding-top: 1em;
+	padding-top: 1em !important;
 	padding-bottom: 0.5em;
 	line-height: 1.1em;
 }
@@ -90,8 +90,13 @@ code {
 	font-size: 0.89rem;
 }
 
-p + p {
+/*p + p {
 	padding-top: 1rem;
+}*/
+
+* + *:not(nav > ul > li) {
+	padding-top: 0.5rem;
+	padding-top: 0.25rlh;
 }
 
 a {
@@ -213,6 +218,11 @@ ul ul ul li::before {
 	font-size: 0.8rem;
 	position: relative;
 	top: -0.1em;
+}
+
+blockquote {
+	padding-left: 1rem;
+	border-left: dashed 1px var(--border-color);
 }
 
 @media (max-width: 800px) {
