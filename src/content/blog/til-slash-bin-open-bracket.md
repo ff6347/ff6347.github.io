@@ -4,6 +4,7 @@ pubDate: 2023-11-26
 tags: [til]
 categories: [tech]
 published: true
+description: "The /bin/[ command is an alias for /bin/test"
 ---
 
 Once I saw in `/bin` a file `[`. Since I don't want to destroy the fabric of my little unixiverse I thought: Maybe some leftover of some command gone wrong or whatever. I did a `¯\_(ツ)_/¯` and moved on.

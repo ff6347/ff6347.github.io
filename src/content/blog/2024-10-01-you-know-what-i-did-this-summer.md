@@ -4,6 +4,7 @@ pubDate: 2024-10-01
 tags: [life]
 categories: [misc]
 published: true
+description: "So what did I do in the summer of 2024? Here is a recap."
 ---
 
 So I had some time since I left the Technologiestiftung. The next semester is about to start in two weeks. Here is a recap of my summer not in chronological order

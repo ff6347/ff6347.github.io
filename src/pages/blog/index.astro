@@ -27,17 +27,21 @@ function getExcerpt(text: string) {
 				})
 				.map((blogPostEntry) => (
 					<li class="blog-item">
-						<time
-							datetime={blogPostEntry.data.pubDate.toISOString()}
-							class="blog-date"
-						>
-							{blogPostEntry.data.pubDate.toISOString().split("T")[0]}
-						</time>
-						<a href={`/blog/${blogPostEntry.slug}`} class="blog-title">
-							{blogPostEntry.data.title}
-						</a>
+						<div class="blog-item-required">
+							<time
+								datetime={blogPostEntry.data.pubDate.toISOString()}
+								class="blog-date"
+							>
+								{blogPostEntry.data.pubDate.toISOString().split("T")[0]}
+							</time>
+							<a href={`/blog/${blogPostEntry.slug}`} class="blog-title">
+								{blogPostEntry.data.title}
+							</a>
+						</div>
 						{blogPostEntry.data.description && (
-							<p>{blogPostEntry.data.description}</p>
+							<p class="blog-item-description">
+								{blogPostEntry.data.description}
+							</p>
 						)}
 					</li>
 				))
@@ -48,21 +52,40 @@ function getExcerpt(text: string) {
 <style>
 	.blog-list {
 		list-style: none;
-		font-family: monospace;
 	}
 
 	.blog-item {
 		display: flex;
 		align-items: baseline;
-		margin-bottom: 0.5rem;
+		flex-direction: column;
+	}
+
+	.blog-item-required {
+		/*display: flex;*/
+		align-items: baseline;
+		position: relative;
+	}
+
+	.blog-item::before {
+		content: none;
+	}
+
+	.blog-item-required::before {
+		content: "> ";
+		margin-left: -1rem;
+		font-size: 0.8rem;
+		position: relative;
+		top: -0.1em;
+		padding-right: 0.3rem;
 	}
 
 	.blog-date {
 		flex-shrink: 0;
-		width: 6rem;
-		margin-right: 1rem;
-		font-weight: normal;
-		color: #666;
+		margin-right: 0.5rem;
+
+		text-decoration-thickness: 0.06em;
+		text-underline-offset: 0.1em;
+		text-decoration: underline;
 	}
 
 	.blog-title {
@@ -73,5 +96,10 @@ function getExcerpt(text: string) {
 
 	.blog-title:hover {
 		/* text-decoration: underline; */
+	}
+	.blog-item-description {
+		margin: 0.2rem 0 1rem 1.5rem;
+		color: var(--text-color-light);
+		font-style: italic;
 	}
 </style>

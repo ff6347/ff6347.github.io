@@ -1,7 +1,9 @@
 /* color variables */
 :root {
 	--body-bg: #fbfbfb;
-	--text-color: #403f53;
+	--text-color: hsl(245, 15%, 29%);
+	--text-color-light: hsl(245, 15%, 49%); /* fallback */
+	--text-color-light: hsl(from var(--text-color) h s calc(l + 20%));
 	--link-color: #ff6347;
 	--link-hover-color: #004466;
 	--link-visited-color: #440099;
@@ -20,14 +22,13 @@ body {
 html {
 	font-size: 110%;
 }
-* {
+
+body {
 	box-sizing: border-box;
 	font-family:
 		Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
 
 	font-weight: normal;
-}
-body {
 	margin: 0 auto;
 	max-width: 70ch;
 
@@ -218,6 +219,15 @@ ul ul ul li::before {
 	font-size: 0.8rem;
 	position: relative;
 	top: -0.1em;
+}
+
+ol {
+	list-style-type: decimal;
+	padding-left: 2rem;
+}
+
+ol li {
+	margin-bottom: 0.25rem;
 }
 
 blockquote {

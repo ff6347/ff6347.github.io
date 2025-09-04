@@ -4,6 +4,7 @@ pubDate: 2025-04-09
 tags: []
 categories: [notes, random]
 published: true
+description: "Some crazy dude built a motorcycle in the desert"
 ---
 
 https://en.m.wikipedia.org/wiki/Emile_Leray

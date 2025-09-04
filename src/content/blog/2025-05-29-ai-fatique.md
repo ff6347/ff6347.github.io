@@ -4,6 +4,7 @@ pubDate: 2025-05-29
 tags: [ai]
 categories: [misc]
 published: true
+description: "AI everywhere. Are we already bored by it?"
 ---
 
 In the beginning of the current AI wave, everything that came made us go "ooohhhh" and "aaaah". We made it through the first year and generated images with a median of 12.42 fingers per person and were happy about it. We were okay to "delve" into the depths of poorly written content and saw a utopian future where none of us would have to work anymore, while the doomers were prepping their tinfoil hats and pulling their fillings so Skynet wouldn't get them.

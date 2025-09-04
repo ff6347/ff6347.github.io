@@ -4,6 +4,7 @@ pubDate: 2025-06-24
 tags: [search, ai, programming]
 categories: [programming]
 published: true
+description: "A proof of concept for an agentic search using OpenAI and Brave Search API. Nothing special. I just wanted to find out how it could be done."
 ---
 
 I have been tinkering (semi vibe coding) an agentic search using OpenAI and the Brave Search API over the weekend. I am sure there are some problems and edge cases but I am pretty happy with the result. I thought there is more to it.
