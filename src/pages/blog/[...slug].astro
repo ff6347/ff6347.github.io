@@ -13,10 +13,28 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<"blog">;
 
 const post = Astro.props;
-const { title } = post.data;
+const { title, pubDate, description } = post.data;
+
 const { Content } = await post.render();
 ---
 
 <BlogLayout title={title}>
+	<published-date>
+		<span>Published on &ndash;</span>
+		<time datetime={pubDate.toISOString()} class="post-date">
+			{pubDate.toISOString().split("T")[0]}
+		</time>
+	</published-date>
+	<tl-dr>
+		{description && <p class="post-description">tl;dr &ndash; {description}</p>}
+	</tl-dr>
+	<hr />
 	<Content />
 </BlogLayout>
+
+<style>
+	published-date,
+	tl-dr {
+		font-style: italic;
+	}
+</style>
