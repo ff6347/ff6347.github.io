@@ -9,10 +9,26 @@ const title = "About ☛ Fabian Morón Zirfas";
 // https://docs.astro.build/core-concepts/astro-components/
 ---
 
+<style>
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	.avatar {
+	}
+	.avatar {
+		animation: fadeIn 1s ease-in-out forwards;
+	}
+</style>
 <Layout title={title}>
 	<header>
 		<Image
 			style={{ borderRadius: "50% 0 50% 0" }}
+			class="avatar"
 			src={avatarImage}
 			alt="square black and white portrait with rounded corners an the upper left and lower right of the person called Fabian Morón Zirfas looking to the side"
 		/>
