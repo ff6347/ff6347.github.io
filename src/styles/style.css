@@ -163,9 +163,9 @@ iframe {
 
 [class^="icon-"],
 [class*=" icon-"] {
-	height: 14px;
-	width: 14px;
-	display: inline-block;
+	height: 1em;
+	width: 1em;
+	display: inline;
 	fill: #a7adba;
 }
 
