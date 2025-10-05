@@ -9,6 +9,10 @@ What to say about education? I could have done more but did not have the cash.
 
 ## Contents
 
+## Study of Speculative Sofware Design M. A.
+
+I just started. It in October 2025. We will see how this plays out.
+
 ## Study of Communication Design B. A.
 
 From October 2004 to July 2012 I've been matriculated at [the University of Applied Sciences Potsdam (Germany)](http://www.fh-potsdam.de/) in the field of communication design and have a bachelor of arts degree in this field.
