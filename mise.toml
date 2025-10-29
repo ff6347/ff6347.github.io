@@ -1,2 +1,10 @@
 [tools]
-node = "24.3.0"
+node = "24"
+
+[tasks.dev]
+run = "npm run dev"
+description = "Start the development server"
+
+[tasks.build]
+run = "npm run build"
+description = "Build the project for production"
