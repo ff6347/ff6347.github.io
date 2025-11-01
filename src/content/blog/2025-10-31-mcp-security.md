@@ -97,7 +97,6 @@ The great thing about them is that we not only isolate the application, but we c
             "--rm",
             "--volume", "<absolute path to folder you want your LLM to have access to>:/usr/project",
             "--workdir", "/usr/project",
-            "--user", "node",
             "node:24-bookworm-slim",
             "npx",
             "-y",
@@ -119,7 +118,11 @@ The great thing about them is that we not only isolate the application, but we c
 - After the `:` is the path inside the container.
 - If you want to be even more secure, you can restrict the container's access to your host to be read-only by adding `:ro` at the end of it all.
 - `--workdir` tells the container to start in a specific directory, which is `/usr/project` in this case.
-- `--user` This tells the container to run as a specific user, in this case, `node`, which is a non-root user in the container. This is also a security measure to prevent potential exploits.
+<!---
+I think this created an error.
+`--user` This tells the container to run as a specific user, in this case, `node`, which is a non-root user in the container. This is also a security measure to prevent potential exploits.
+
+-->
 - `node:24-bookworm-slim` This is the Docker image we are running our container from. You can choose a different version if you prefer. I just recommend using the [latest long term support (LTS) version of Node.js](https://nodejs.org/en/about/previous-releases). Take a look at <https://hub.docker.com/_/node>](https://hub.docker.com/_/node). There you can find a long list of available versions.
 - Finally, we reached the point where we are at the same command as we had it before. We run `npx` but now it is properly sandboxed in a container.
 - `-y` tells `npx` to automatically answer "yes" to any prompts, which is needed for the MCP server not to hang on prompts.
