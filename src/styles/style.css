@@ -9,8 +9,8 @@
 	--link-visited-color: #440099;
 	--link-visited-hover-color: #220066;
 	--border-color: #ddd;
-	--code-bg: #f6f6f6;
-	--code-color: #403f53;
+	--code-bg: #403f53;
+	--code-color: #f6f6f6;
 	--code-border-color: #282828;
 	--border: 1px solid var(--border-color);
 }
@@ -46,6 +46,7 @@ h2 {
 
 h3 {
 	font-size: 1.17rem;
+	font-style: italic;
 }
 
 h4 {
@@ -83,14 +84,6 @@ h6 {
 	line-height: 1.1em;
 }
 
-code {
-	font-family:
-		ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
-		"DejaVu Sans Mono", monospace;
-	font-weight: normal;
-	font-size: 0.89rem;
-}
-
 /*p + p {
 	padding-top: 1rem;
 }*/
@@ -121,8 +114,24 @@ main {
 	margin: 0 auto;
 	padding-bottom: 1rem;
 }
+
+code {
+	font-family:
+		ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
+		"DejaVu Sans Mono", monospace;
+	font-weight: normal;
+	font-size: 0.89rem;
+	background-color: var(--code-bg);
+	color: var(--code-color);
+	padding: 0 0.3em !important;
+}
+pre code {
+	color: inherit;
+	background-color: transparent;
+}
+
 pre {
-	border-left: 2px solid #69c;
+	border-left: 2px solid var(--code-border-color);
 }
 pre {
 	white-space: pre-wrap;
