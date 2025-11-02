@@ -174,6 +174,6 @@ Yes. This was a long one. I hope you found it informative and you could follow a
 
 * * *
 
-[^shaihulud]: Yes, pretty nerdy name, but we bless the worm and his maker.
+[^shaihulud]: Yes, pretty nerdy name, but we bless the maker and his water.
 [^transitive]: Transitive means if my module A depends on module B and B depends on C, C is a transitive dependency of A.
 [^poddocker]: The big difference between Docker and Podman is that the latter does not need root access to run containers. This makes it even more secure.
