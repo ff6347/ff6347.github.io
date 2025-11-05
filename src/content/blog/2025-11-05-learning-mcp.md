@@ -1,9 +1,9 @@
 ---
 title: "Learning MCP"
 pubDate: 2025-11-05
-tags: [mcp, learning, discussion, llm]
+tags: [mcp, learning, discussion, llm, master]
 categories: [learning]
-published: false
+published: true
 description: "This is a loose collection of notes about MCP. I might circle back to this later and expand it."
 ---
 
