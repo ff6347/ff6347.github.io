@@ -2,6 +2,7 @@
 import Layout from "../../layouts/standard.astro";
 import { getCollection } from "astro:content";
 const blog = await getCollection("blog");
+const isDev = import.meta.env.DEV;
 function getExcerpt(text: string) {
 	let excerpt = text.slice(0, 50);
 	let lastIndex = excerpt.lastIndexOf(".");
@@ -18,7 +19,7 @@ function getExcerpt(text: string) {
 	<ul class="blog-list">
 		{
 			blog
-				.filter((blogPostEntry) => blogPostEntry.data.published)
+				.filter((blogPostEntry) => isDev || blogPostEntry.data.published)
 				.sort((a, b) => {
 					const dateA = new Date(a.data.pubDate);
 					const dateB = new Date(b.data.pubDate);
