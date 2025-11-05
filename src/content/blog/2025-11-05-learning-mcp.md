@@ -57,9 +57,9 @@ Here are the three most interesting (code) snippets to understand MCP.
 
 ```js
 // host.js - LLM host with OpenAI integration
-const { spawn } = require("child_process");
-const readline = require("readline");
-const https = require("https");
+import { spawn } from "child_process";
+import { createInterface } from "readline";
+import https from "https";
 
 class LLMHost {
   constructor(apiKey) {
@@ -74,7 +74,7 @@ class LLMHost {
     // Start MCP server
     this.client = spawn("node", ["server.js"]);
 
-    const rl = readline.createInterface({
+    const rl = createInterface({
       input: this.client.stdout,
       crlfDelay: Infinity
     });
@@ -203,7 +203,7 @@ if (!apiKey) {
   process.exit(1);
 }
 
-new LLMHost(apiKey).start();
+await new LLMHost(apiKey).start();
 
 ```
 
@@ -300,10 +300,10 @@ client.cleanup();
 ### server.js
 
 ```js
-const readline = require("readline");
+import { createInterface } from "readline";
 
 // Setup stdin/stdout communication
-const rl = readline.createInterface({
+const rl = createInterface({
   input: process.stdin,
   output: process.stdout,
   terminal: false
