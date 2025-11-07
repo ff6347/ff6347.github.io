@@ -73,6 +73,15 @@ strong {
 	font-weight: bold;
 }
 
+section.footnotes {
+	border-top: var(--border);
+	margin-top: 2rlh;
+}
+section.footnotes h2 {
+	font-size: 1rem;
+	font-style: italic;
+}
+
 h1,
 h2,
 h3,
@@ -83,10 +92,6 @@ h6 {
 	padding-bottom: 0.5em;
 	line-height: 1.1em;
 }
-
-/*p + p {
-	padding-top: 1rem;
-}*/
 
 * + *:not(nav > ul > li) {
 	padding-top: 0.5rem;
@@ -242,6 +247,17 @@ ol li {
 blockquote {
 	padding-left: 1rem;
 	border-left: dashed 1px var(--border-color);
+}
+
+figure {
+	margin: 0;
+	margin-bottom: 1rlh;
+}
+figcaption {
+	font-size: 0.9rem;
+	color: var(--text-color-light);
+	text-align: center;
+	padding-top: 0.5rem;
 }
 
 @media (max-width: 800px) {
