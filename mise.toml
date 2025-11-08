@@ -1,5 +1,6 @@
 [tools]
 node = "24"
+pnpm = "10"
 
 [tasks.dev]
 run = "npm run dev"
