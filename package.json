@@ -10,7 +10,8 @@
 		"astro": "astro",
 		"lint": "eslint .",
 		"lint:fix": "eslint . --fix",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"new-post": "cd scripts/new-blog-post && npm run build && node dist/cli.js"
 	},
 	"dependencies": {
 		"@astrojs/mdx": "4.3.1",
@@ -20,6 +21,7 @@
 		"@observablehq/plot": "0.6.17",
 		"@tailwindcss/vite": "4.1.11",
 		"date-fns": "4.1.0",
+		"ink": "6.4.0",
 		"react": "19.1.0",
 		"react-dom": "19.1.0",
 		"rehype-raw": "7.0.0",
@@ -34,6 +36,7 @@
 		"unist-util-visit": "5.0.0"
 	},
 	"devDependencies": {
+		"@babel/preset-react": "7.28.5",
 		"@eslint/css": "0.10.0",
 		"@eslint/json": "0.13.1",
 		"@eslint/markdown": "7.1.0",
