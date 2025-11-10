@@ -11,7 +11,8 @@
 		"lint": "eslint .",
 		"lint:fix": "eslint . --fix",
 		"format": "prettier --write .",
-		"new-post": "cd scripts/new-blog-post && npm run build && node dist/cli.js"
+		"new-post": "cd scripts/new-blog-post && npm run build && node dist/cli.js",
+		"test": "vitest"
 	},
 	"dependencies": {
 		"@astrojs/mdx": "4.3.1",
@@ -52,6 +53,7 @@
 		"netlify-cli": "22.4.0",
 		"prettier": "3.6.2",
 		"prettier-plugin-astro": "0.14.1",
-		"typescript-eslint": "8.38.0"
+		"typescript-eslint": "8.38.0",
+		"vitest": "4.0.8"
 	}
 }
