@@ -47,7 +47,7 @@ describe('normalizeTagForUrl', () => {
 	it('should handle multiple consecutive spaces', () => {
 		expect(normalizeTagForUrl('multiple   spaces')).toBe('multiple-spaces');
 		expect(normalizeTagForUrl('  leading and trailing  ')).toBe(
-			'-leading-and-trailing-',
+			'leading-and-trailing',
 		);
 	});
 
