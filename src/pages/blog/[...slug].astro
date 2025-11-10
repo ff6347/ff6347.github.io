@@ -13,12 +13,12 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<"blog">;
 
 const post = Astro.props;
-const { title, pubDate, description } = post.data;
+const { title, pubDate, description, tags } = post.data;
 
 const { Content } = await post.render();
 ---
 
-<BlogLayout title={title}>
+<BlogLayout title={title} tags={tags}>
 	<published-date>
 		<span>Published on &ndash;</span>
 		<time datetime={pubDate.toISOString()} class="post-date">

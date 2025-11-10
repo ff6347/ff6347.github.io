@@ -1,8 +1,51 @@
 ---
-const { title } = Astro.props.frontmatter || Astro.props;
 import Layout from "./standard.astro";
+import { normalizeTagForUrl } from "../lib/tags";
+
+const { title, tags } = Astro.props.frontmatter || Astro.props;
 ---
 
 <Layout title={title}>
+	{tags && tags.length > 0 && (
+		<div class="post-tags">
+			<span class="tags-label">Tagged:</span>
+			{tags.map((tag: string) => (
+				<a
+					href={`/blog/tags/${normalizeTagForUrl(tag)}`}
+					class="tag-badge"
+				>
+					{tag}
+				</a>
+			))}
+		</div>
+	)}
 	<slot />
 </Layout>
+
+<style>
+	.post-tags {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: 0.5rem;
+		margin: 0 0 1.5rem 0;
+		font-size: 0.9em;
+	}
+
+	.tags-label {
+		color: var(--text-color-light);
+		font-weight: normal;
+	}
+
+	.tag-badge {
+		padding: 0.1rem 0.4rem;
+		background: var(--bg-color-secondary, #f5f5f5);
+		border-radius: 3px;
+		text-decoration: none;
+		color: var(--text-color-light);
+	}
+
+	.tag-badge:hover {
+		text-decoration: underline;
+	}
+</style>
