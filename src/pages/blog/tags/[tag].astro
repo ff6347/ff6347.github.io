@@ -8,9 +8,7 @@ import { getAllTags, getPostsByTag } from "../../../lib/tags";
 export async function getStaticPaths() {
 	const blog = await getCollection("blog");
 	const isDev = import.meta.env.DEV;
-	const publishedPosts = blog.filter(
-		(post) => isDev || post.data.published,
-	);
+	const publishedPosts = blog.filter((post) => isDev || post.data.published);
 
 	const allTags = getAllTags(publishedPosts);
 
@@ -27,9 +25,9 @@ const { tag, posts } = Astro.props;
 ---
 
 <Layout title={`Posts tagged "${tag}"`}>
-	<h1>Posts tagged "{tag}"</h1>
 	<p class="tag-meta">
-		{posts.length} {posts.length === 1 ? "post" : "posts"}
+		{posts.length}
+		{posts.length === 1 ? "post" : "posts"}
 	</p>
 
 	<ul class="blog-list">
@@ -37,10 +35,7 @@ const { tag, posts } = Astro.props;
 			posts.map((post) => (
 				<li class="blog-item">
 					<div class="blog-item-required">
-						<time
-							datetime={post.data.pubDate.toISOString()}
-							class="blog-date"
-						>
+						<time datetime={post.data.pubDate.toISOString()} class="blog-date">
 							{post.data.pubDate.toISOString().split("T")[0]}
 						</time>
 						<a href={`/blog/${post.slug}`} class="blog-title">
@@ -48,9 +43,7 @@ const { tag, posts } = Astro.props;
 						</a>
 					</div>
 					{post.data.description && (
-						<p class="blog-item-description">
-							{post.data.description}
-						</p>
+						<p class="blog-item-description">{post.data.description}</p>
 					)}
 				</li>
 			))

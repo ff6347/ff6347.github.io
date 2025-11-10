@@ -13,9 +13,9 @@ const allTags = getAllTags(publishedPosts);
 ---
 
 <Layout title="All Tags">
-	<h1>All Tags</h1>
 	<p class="tag-count">
-		{allTags.length} {allTags.length === 1 ? "tag" : "tags"}
+		{allTags.length}
+		{allTags.length === 1 ? "tag" : "tags"}
 	</p>
 
 	<ul class="tags-list">
@@ -70,5 +70,10 @@ const allTags = getAllTags(publishedPosts);
 
 	.back-link {
 		margin-top: 2rem;
+	}
+
+	* + :not(nav > ul > li) {
+		padding-top: 0;
+		padding-top: 0;
 	}
 </style>
