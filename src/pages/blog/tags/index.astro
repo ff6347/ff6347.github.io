@@ -1,0 +1,79 @@
+---
+// ABOUTME: Tags overview page displaying all available tags
+// ABOUTME: Shows alphabetically sorted tags with post counts and links
+import Layout from "../../../layouts/standard.astro";
+import { getCollection } from "astro:content";
+import { getAllTags } from "../../../lib/tags";
+
+const blog = await getCollection("blog");
+const isDev = import.meta.env.DEV;
+const publishedPosts = blog.filter((post) => isDev || post.data.published);
+
+const allTags = getAllTags(publishedPosts);
+---
+
+<Layout title="All Tags">
+	<p class="tag-count">
+		{allTags.length}
+		{allTags.length === 1 ? "tag" : "tags"}
+	</p>
+
+	<ul class="tags-list">
+		{
+			allTags.map((tagInfo) => (
+				<li class="tag-item">
+					<a href={`/blog/tags/${tagInfo.slug}`} class="tag-link">
+						{tagInfo.tag}
+					</a>
+					<span class="tag-count-badge">({tagInfo.count})</span>
+				</li>
+			))
+		}
+	</ul>
+
+	<p class="back-link">
+		<a href="/blog">← Back to blog</a>
+	</p>
+</Layout>
+
+<style>
+	.tag-count {
+		color: var(--text-color-light);
+		margin: 0.5rem 0 1.5rem 0;
+	}
+
+	.tags-list {
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+
+	.tag-item {
+		display: flex;
+		align-items: baseline;
+		gap: 0.25rem;
+	}
+
+	.tag-item::before {
+		content: none;
+	}
+
+	.tag-link {
+		text-decoration: underline;
+	}
+
+	.tag-count-badge {
+		font-size: 0.85em;
+		color: var(--text-color-light);
+	}
+
+	.back-link {
+		margin-top: 2rem;
+	}
+
+	* + :not(nav > ul > li) {
+		padding-top: 0;
+		padding-top: 0;
+	}
+</style>

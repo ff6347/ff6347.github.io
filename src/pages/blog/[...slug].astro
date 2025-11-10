@@ -2,6 +2,7 @@
 import type { CollectionEntry } from "astro:content";
 import { getCollection } from "astro:content";
 import BlogLayout from "../../layouts/post.astro";
+import { normalizeTagForUrl } from "../../lib/tags";
 
 export async function getStaticPaths() {
 	const posts = await getCollection("blog");
@@ -13,7 +14,7 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<"blog">;
 
 const post = Astro.props;
-const { title, pubDate, description } = post.data;
+const { title, pubDate, description, tags } = post.data;
 
 const { Content } = await post.render();
 ---
@@ -25,6 +26,21 @@ const { Content } = await post.render();
 			{pubDate.toISOString().split("T")[0]}
 		</time>
 	</published-date>
+
+	<used-tags>
+		{
+			tags && tags.length > 0 && (
+				<div class="post-tags">
+					<span class="tags-label">Tagged &ndash;</span>
+					{tags.map((tag: string) => (
+						<a href={`/blog/tags/${normalizeTagForUrl(tag)}`} class="tag-badge">
+							{tag}
+						</a>
+					))}
+				</div>
+			)
+		}
+	</used-tags>
 	<tl-dr>
 		{description && <p class="post-description">tl;dr &ndash; {description}</p>}
 	</tl-dr>
@@ -34,7 +50,36 @@ const { Content } = await post.render();
 
 <style>
 	published-date,
-	tl-dr {
+	tl-dr,
+	used-tags {
 		font-style: italic;
+	}
+</style>
+
+<style>
+	.post-tags {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: 0.5rem;
+		margin: 0 0 1.5rem 0;
+		font-size: 0.9em;
+	}
+
+	.tags-label {
+		color: var(--text-color-light);
+		font-weight: normal;
+	}
+
+	.tag-badge {
+		padding: 0.1rem 0.4rem;
+		background: var(--bg-color-secondary, #f5f5f5);
+		border-radius: 3px;
+		text-decoration: none;
+		color: var(--text-color-light);
+	}
+
+	.tag-badge:hover {
+		text-decoration: underline;
 	}
 </style>

@@ -1,6 +1,7 @@
 ---
 import Layout from "../../layouts/standard.astro";
 import { getCollection } from "astro:content";
+import { normalizeTagForUrl } from "../../lib/tags";
 const blog = await getCollection("blog");
 const isDev = import.meta.env.DEV;
 function getExcerpt(text: string) {
@@ -40,6 +41,18 @@ function getExcerpt(text: string) {
 								{blogPostEntry.data.title}
 							</a>
 						</div>
+						{blogPostEntry.data.tags && blogPostEntry.data.tags.length > 0 && (
+							<div class="blog-tags">
+								{blogPostEntry.data.tags.map((tag) => (
+									<a
+										href={`/blog/tags/${normalizeTagForUrl(tag)}`}
+										class="tag-badge"
+									>
+										{tag}
+									</a>
+								))}
+							</div>
+						)}
 						{blogPostEntry.data.description && (
 							<p class="blog-item-description">
 								{blogPostEntry.data.description}
@@ -103,5 +116,25 @@ function getExcerpt(text: string) {
 		margin: 0.2rem 0 1rem 0;
 		color: var(--text-color-light);
 		font-style: italic;
+	}
+
+	.blog-tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		margin: 0.3rem 0 0 0;
+		font-size: 0.85em;
+	}
+
+	.tag-badge {
+		padding: 0.1rem 0.4rem;
+		background: var(--bg-color-secondary, #f5f5f5);
+		border-radius: 3px;
+		text-decoration: none;
+		color: var(--text-color-light);
+	}
+
+	.tag-badge:hover {
+		text-decoration: underline;
 	}
 </style>

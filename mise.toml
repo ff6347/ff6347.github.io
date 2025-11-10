@@ -3,9 +3,9 @@ node = "24"
 pnpm = "10"
 
 [tasks.dev]
-run = "npm run dev"
+run = "pnpm run dev"
 description = "Start the development server"
 
 [tasks.build]
-run = "npm run build"
+run = "pnpm run build"
 description = "Build the project for production"

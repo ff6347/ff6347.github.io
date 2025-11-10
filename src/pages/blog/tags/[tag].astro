@@ -1,0 +1,113 @@
+---
+// ABOUTME: Dynamic tag page for filtering blog posts by tag
+// ABOUTME: Generates static pages at build time for each unique tag
+import Layout from "../../../layouts/standard.astro";
+import { getCollection } from "astro:content";
+import { getAllTags, getPostsByTag } from "../../../lib/tags";
+
+export async function getStaticPaths() {
+	const blog = await getCollection("blog");
+	const isDev = import.meta.env.DEV;
+	const publishedPosts = blog.filter((post) => isDev || post.data.published);
+
+	const allTags = getAllTags(publishedPosts);
+
+	return allTags.map((tagInfo) => ({
+		params: { tag: tagInfo.slug },
+		props: {
+			tag: tagInfo.tag,
+			posts: getPostsByTag(publishedPosts, tagInfo.slug),
+		},
+	}));
+}
+
+const { tag, posts } = Astro.props;
+---
+
+<Layout title={`Posts tagged "${tag}"`}>
+	<p class="tag-meta">
+		{posts.length}
+		{posts.length === 1 ? "post" : "posts"}
+	</p>
+
+	<ul class="blog-list">
+		{
+			posts.map((post) => (
+				<li class="blog-item">
+					<div class="blog-item-required">
+						<time datetime={post.data.pubDate.toISOString()} class="blog-date">
+							{post.data.pubDate.toISOString().split("T")[0]}
+						</time>
+						<a href={`/blog/${post.slug}`} class="blog-title">
+							{post.data.title}
+						</a>
+					</div>
+					{post.data.description && (
+						<p class="blog-item-description">{post.data.description}</p>
+					)}
+				</li>
+			))
+		}
+	</ul>
+
+	<p class="back-link">
+		<a href="/blog/tags">← All tags</a>
+	</p>
+</Layout>
+
+<style>
+	.tag-meta {
+		color: var(--text-color-light);
+		margin: 0.5rem 0 1.5rem 0;
+	}
+
+	.blog-list {
+		list-style: none;
+	}
+
+	.blog-item {
+		display: flex;
+		align-items: baseline;
+		flex-direction: column;
+	}
+
+	.blog-item-required {
+		align-items: baseline;
+		position: relative;
+	}
+
+	.blog-item::before {
+		content: none;
+	}
+
+	.blog-item-required::before {
+		content: "> ";
+		margin-left: -1rem;
+		font-size: 0.8rem;
+		position: relative;
+		top: -0.1em;
+		padding-right: 0.3rem;
+	}
+
+	.blog-date {
+		flex-shrink: 0;
+		margin-right: 0.5rem;
+		text-decoration-thickness: 0.06em;
+		text-underline-offset: 0.1em;
+		text-decoration: underline;
+	}
+
+	.blog-title {
+		flex-grow: 1;
+	}
+
+	.blog-item-description {
+		margin: 0.2rem 0 1rem 0;
+		color: var(--text-color-light);
+		font-style: italic;
+	}
+
+	.back-link {
+		margin-top: 2rem;
+	}
+</style>
