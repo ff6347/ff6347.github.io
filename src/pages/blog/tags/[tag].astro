@@ -1,4 +1,6 @@
 ---
+// ABOUTME: Dynamic tag page for filtering blog posts by tag
+// ABOUTME: Generates static pages at build time for each unique tag
 import Layout from "../../../layouts/standard.astro";
 import { getCollection } from "astro:content";
 import { getAllTags, getPostsByTag } from "../../../lib/tags";
