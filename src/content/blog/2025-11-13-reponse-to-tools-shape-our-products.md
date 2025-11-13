@@ -17,7 +17,7 @@ It looks more like this:
 
 ![An image of MacOS Terminal with iTerm2 and fish shell loaded](/assets/images/blog/terminal.png)
 
-And also the editor. We are not using the plaines of plain text.
+And also the editor. We are not using the plainest of plain text.
 
 ![An image of an empty text editor with the hello world in JavaScript](/assets/images/blog/not-like-this-editor.png)
 
