@@ -16,11 +16,12 @@ When I open a Terminal. It does not look like this anymore:
 It looks more like this:
 
 ![An image of MacOS Terminal with iTerm2 and fish shell loaded](/assets/images/blog/terminal.png)
-t of plain text.
+
+And also the editor. We are not using the plaines of plain text.
 
 ![An image of an empty text editor with the hello world in JavaScript](/assets/images/blog/not-like-this-editor.png)
 
-It is acutually more like this.
+It is actually more like this.
 
 ![An image of VSCode with debugger and chat open](/assets/images/blog/editor.png)
 
