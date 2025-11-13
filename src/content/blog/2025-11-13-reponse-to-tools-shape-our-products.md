@@ -19,11 +19,11 @@ It looks more like this:
 
 And also the editor. We are not using the plaines of plain text.
 
-![](/assets/images/blog/not-like-this-editor.png)
+![An image of an empty text editor with the hello world in JavaScript](/assets/images/blog/not-like-this-editor.png)
 
 It is acutually more like this.
 
-![](/assets/images/blog/editor.png)
+![An image of VSCode with debugger and chat open](/assets/images/blog/editor.png)
 
 There is so much information and tooling to make my life easier. Debuggers, Breakpoints, Linters, Code Formatters, Static Typing, Code Generators. The list goes on. Even the color of the words I type contain information about what I am doing. when I type the application suggest what I could type next based on context.
 
