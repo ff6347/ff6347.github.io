@@ -1,5 +1,5 @@
 ---
-title: "reponse-to-tools-shape-our-products"
+title: "reponse to: Tools Shape Our Products by Boris Müller"
 pubDate: 2025-11-13
 tags: ["master", "response", "opinion", "programming"]
 categories: []
