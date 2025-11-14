@@ -258,6 +258,7 @@ figcaption {
 	color: var(--text-color-light);
 	text-align: center;
 	padding-top: 0.5rem;
+	font-style: italic;
 }
 
 @media (max-width: 800px) {

@@ -2,6 +2,7 @@ import { defineConfig } from "astro/config";
 import react from "@astrojs/react";
 import remarkToc from "remark-toc";
 import mdx from "@astrojs/mdx";
+import rehypeFigure from "@microflash/rehype-figure";
 
 import netlify from "@astrojs/netlify";
 
@@ -25,6 +26,7 @@ export default defineConfig({
 				},
 			],
 		],
+		rehypePlugins: [rehypeFigure],
 		// Can be 'shiki' (default), 'prism' or false to disable highlighting
 		syntaxHighlight: "prism",
 		smartypants: true,
