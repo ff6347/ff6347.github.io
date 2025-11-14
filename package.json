@@ -19,6 +19,7 @@
 		"@astrojs/netlify": "6.5.3",
 		"@astrojs/react": "4.3.0",
 		"@astrojs/rss": "4.0.12",
+		"@microflash/rehype-figure": "2.1.4",
 		"@observablehq/plot": "0.6.17",
 		"@tailwindcss/vite": "4.1.11",
 		"date-fns": "4.1.0",

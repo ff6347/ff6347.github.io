@@ -20,6 +20,9 @@ importers:
       '@astrojs/rss':
         specifier: 4.0.12
         version: 4.0.12
+      '@microflash/rehype-figure':
+        specifier: 2.1.4
+        version: 2.1.4
       '@observablehq/plot':
         specifier: 0.6.17
         version: 0.6.17
@@ -932,6 +935,9 @@ packages:
 
   '@mdx-js/mdx@3.1.0':
     resolution: {integrity: sha512-/QxEhPAvGwbQmy1Px8F899L5Uc2KZ6JtXwlCgJmjSTBedwOZkByYcBG4GceIGPXRDsmfxhHazuS+hlOShRLeDw==}
+
+  '@microflash/rehype-figure@2.1.4':
+    resolution: {integrity: sha512-57mUABQ2gEGoqZda+P2TawIpneQ37+dKglspet9o4otlw4PSLodvNtikhtFGLjRf7ODsy3IVRcqL823eKp6Czw==}
 
   '@netlify/api@14.0.3':
     resolution: {integrity: sha512-iFYqSYBnn34Fx3eVOH7sG52f/xcyB9or2yjn486d3ZqLk6OJGFZstxjY4LfTv8chCT1HeSVybIvnCqsHsvrzJQ==}
@@ -3656,6 +3662,9 @@ packages:
   hastscript@8.0.0:
     resolution: {integrity: sha512-dMOtzCEd3ABUeSIISmrETiKuyydk1w0pa+gE/uormcTpSYuaNJPbX1NU3JLyscSLjwAQM8bWMhhIlnCqnRvDTw==}
 
+  hastscript@9.0.1:
+    resolution: {integrity: sha512-g7df9rMFX/SPi34tyGCyUBREQoKkapwdY/T04Qn9TDWfHhAYt4/I0gMVirzK5wEzeUqIjEB+LXC/ypb7Aqno5w==}
+
   hosted-git-info@7.0.2:
     resolution: {integrity: sha512-puUZAUKT5m8Zzvs72XWy3HtvVbTWljRE66cP60bxJzAqf2DgICo7lYTY2IHUmLnNpjYvw5bvmoHvPc0QO2a62w==}
     engines: {node: ^16.14.0 || >=18.0.0}
@@ -6135,6 +6144,9 @@ packages:
   unist-util-remove-position@5.0.0:
     resolution: {integrity: sha512-Hp5Kh3wLxv0PHj9m2yZhhLt58KzPtEYKQQ4yxfYFEO7EvHwzyDYnduhHnY1mDxoqr7VUwVuHXk9RXKIiYS1N8Q==}
 
+  unist-util-remove@4.0.0:
+    resolution: {integrity: sha512-b4gokeGId57UVRX/eVKej5gXqGlc9+trkORhFJpu9raqZkZhU0zm8Doi05+HaiBsMEIJowL+2WtQ5ItjsngPXg==}
+
   unist-util-stringify-position@4.0.0:
     resolution: {integrity: sha512-0ASV06AAoKCDkS2+xw5RXJywruurpbC4JZSm7nr7MOt1ojAzvyyaO+UxZf18j8FCF6kmzCZKcAgN/yu2gm2XgQ==}
 
@@ -7429,6 +7441,13 @@ snapshots:
     transitivePeerDependencies:
       - acorn
       - supports-color
+
+  '@microflash/rehype-figure@2.1.4':
+    dependencies:
+      hast-util-whitespace: 3.0.0
+      hastscript: 9.0.1
+      unist-util-remove: 4.0.0
+      unist-util-visit: 5.0.0
 
   '@netlify/api@14.0.3':
     dependencies:
@@ -10825,6 +10844,14 @@ snapshots:
       property-information: 6.5.0
       space-separated-tokens: 2.0.2
 
+  hastscript@9.0.1:
+    dependencies:
+      '@types/hast': 3.0.4
+      comma-separated-tokens: 2.0.3
+      hast-util-parse-selector: 4.0.0
+      property-information: 7.0.0
+      space-separated-tokens: 2.0.2
+
   hosted-git-info@7.0.2:
     dependencies:
       lru-cache: 10.4.3
@@ -13930,6 +13957,12 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.2
       unist-util-visit: 5.0.0
+
+  unist-util-remove@4.0.0:
+    dependencies:
+      '@types/unist': 3.0.2
+      unist-util-is: 6.0.0
+      unist-util-visit-parents: 6.0.1
 
   unist-util-stringify-position@4.0.0:
     dependencies:
