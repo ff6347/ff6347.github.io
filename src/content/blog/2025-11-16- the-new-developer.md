@@ -3,7 +3,7 @@ title: "The New (Old) Developer"
 pubDate: 2025-11-16
 tags: [programming,ai,development,opinion]
 categories: [opinion]
-published: false
+published: true
 description: "Sunday morning musings about developing with AI and why automating the juniors away is a bad idea."
 ---
 
