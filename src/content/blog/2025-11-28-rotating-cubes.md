@@ -1,8 +1,8 @@
 ---
 title: "Rotating Cubes"
 pubDate: 2025-11-25
-tags: ["master", "3D", "threejs", "sketch", "creative-coding"]
-categories: []
+tags: ["master", "3D", "threejs", "sketch", "creative coding", "design artifact"]
+categories: ["artifacts"]
 published: true
 description: "Quick sketch from the top of my head based on other students results"
 ---
