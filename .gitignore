@@ -25,3 +25,4 @@ pnpm-debug.log*
 
 # Git worktrees
 .worktrees/
+.claude/settings.local.json
