@@ -13,7 +13,7 @@ tags:
   - ai
 
 categories: []
-published: false
+published: true
 description: "A summary about what happened in the last 45 days. Mostly master related and of course missing some things here."
 ---
 
