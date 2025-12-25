@@ -14,7 +14,7 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<"blog">;
 
 const post = Astro.props;
-const { title, pubDate, description, tags } = post.data;
+const { title, pubDate, description, tags, updateDate } = post.data;
 
 const { Content } = await post.render();
 ---
@@ -26,6 +26,16 @@ const { Content } = await post.render();
 			{pubDate.toISOString().split("T")[0]}
 		</time>
 	</published-date>
+	{
+		updateDate && (
+			<updated-on>
+				<span> | Updated on &ndash;</span>
+				<time datetime={updateDate.toISOString()} class="post-update-date">
+					{updateDate.toISOString().split("T")[0]}
+				</time>
+			</updated-on>
+		)
+	}
 
 	<used-tags>
 		{
@@ -50,6 +60,7 @@ const { Content } = await post.render();
 
 <style>
 	published-date,
+	updated-on,
 	tl-dr,
 	used-tags {
 		font-style: italic;
