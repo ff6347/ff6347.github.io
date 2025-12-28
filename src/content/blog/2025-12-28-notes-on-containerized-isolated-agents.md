@@ -1,5 +1,5 @@
 ---
-title: "Notes on Containerized Agents"
+title: "Notes on Containerized/Isolated Agents"
 pubDate: 2025-12-28
 tags:
   - agents
@@ -11,7 +11,7 @@ tags:
 categories:
   - tech
 published: true
-description: "Some notes and links on containerized coding agents - bonus: my docker sandbox recipe"
+description: "Some notes and links on containerized/isolated coding agents - bonus: my docker sandbox recipe"
 ---
 I have to put my money where my mouth is. Since I've been ranting about MCP and security in the post about ["MCP in experimentation or how I trust the trust of others"](https://fabianmoronzirfas.me/blog/2025-10-31-mcp-security/). Having a docker container where I run the MCP tool in was not as straight forward as I thought. It worked somehow but also became annoying to maintain volumes in that one string to make this feasible. I dropped that and went on with my live. 
 
