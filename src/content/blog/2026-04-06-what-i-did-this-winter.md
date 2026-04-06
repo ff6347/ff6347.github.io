@@ -3,7 +3,7 @@ title: "What I did this Winter"
 pubDate: 2026-04-06
 tags: ["projects", "master", "speculative", "software", "slm", "lupus"]
 categories: ["master", "lupus", "speculative", "work"]
-published: false
+published: true
 description: "A summary of what happend and why it gotten so silent around here. Bonanza, Flarelines, Colony"
 ---
 

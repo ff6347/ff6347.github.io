@@ -3,7 +3,7 @@ title: "Flarelines - A Speculative Software Project"
 pubDate: 2026-04-06
 tags: ["projects", "master", "speculative", "software", "slm", "lupus", "health", "journaling", "symptom tracking", "Flarelines"]
 categories: ["master", "lupus", "speculative", "work"]
-published: false
+published: true
 description: "Introduction of the project »Flarelines«, a symptom tracking app for Lupus patients using small language models on device."
 ---
 
