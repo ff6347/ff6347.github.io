@@ -38,7 +38,7 @@ const { tag, posts } = Astro.props;
 						<time datetime={post.data.pubDate.toISOString()} class="blog-date">
 							{post.data.pubDate.toISOString().split("T")[0]}
 						</time>
-						<a href={`/blog/${post.slug}`} class="blog-title">
+						<a href={`/blog/${post.id}`} class="blog-title">
 							{post.data.title}
 						</a>
 					</div>

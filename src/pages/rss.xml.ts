@@ -81,7 +81,7 @@ export async function GET(context: APIContext) {
 			pubDate: post.data.pubDate,
 			// Compute RSS link from post `slug`
 			// This example assumes all posts are rendered as `/blog/[slug]` routes
-			link: `/blog/${post.slug}/`,
+			link: `/blog/${post.id}/`,
 			// HTML content for feed readers
 			content: html,
 		};

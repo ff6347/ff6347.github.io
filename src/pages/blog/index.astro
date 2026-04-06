@@ -37,7 +37,7 @@ function getExcerpt(text: string) {
 							>
 								{blogPostEntry.data.pubDate.toISOString().split("T")[0]}
 							</time>
-							<a href={`/blog/${blogPostEntry.slug}`} class="blog-title">
+							<a href={`/blog/${blogPostEntry.id}`} class="blog-title">
 								{blogPostEntry.data.title}
 							</a>
 						</div>
