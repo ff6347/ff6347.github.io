@@ -24,4 +24,4 @@ I developed some nice agent skills on the way to the v2. We are still in implici
 On other news I released two projects. They are still work in progress but in a state where I can start talking about them. 
 
 - First one is Flarelines. See it at [flarelines.cc](https://flarelines.cc/). Read more about it in [this blog post](/blog/2026-04-06-flarelines).
-- Second project from last semesters Studio Seminar is Colony [c010ny.cc](https://c010ny.cc/). You can read more about it over in [this blog post](/blog/2026-04-06-colony).
+- Second project from last semesters Studio Seminar is Colony [c010ny.cc](https://c010ny.cc/). You can read more about it over in [that blog post](/blog/2026-04-06-colony).
