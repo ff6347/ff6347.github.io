@@ -3,7 +3,7 @@ title: "Prototyping Mode"
 pubDate: 2026-07-01
 tags: [master,prototyping]
 categories: [misc]
-published: false
+published: true
 description: "About prototyping mode"
 ---
 
