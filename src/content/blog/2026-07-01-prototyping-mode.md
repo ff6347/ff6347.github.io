@@ -4,7 +4,7 @@ pubDate: 2026-07-01
 tags: [master,prototyping]
 categories: [misc]
 published: false
-description: ""
+description: "About prototyping mode"
 ---
 
 Yesterday I had a consultation with my professor, do you have mentor and friend Boris Müller.
