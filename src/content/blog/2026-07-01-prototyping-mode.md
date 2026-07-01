@@ -7,9 +7,9 @@ published: true
 description: "About prototyping mode"
 ---
 
-Yesterday I had a consultation with my professor, do you have mentor and friend Boris Müller.
+Yesterday I had a consultation with my professor, mentor and friend Boris Müller.
 
-It was something like this.
+It went something like this.
 
 F: I am still in prototyping mode.
 B: You never left prototyping mode.
