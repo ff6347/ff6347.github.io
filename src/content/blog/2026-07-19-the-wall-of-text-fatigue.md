@@ -3,7 +3,7 @@ title: "The Wall of Text Fatigue"
 pubDate: 2026-07-19
 tags: [llm, opinion, plea]
 categories: [opinion]
-published: false
+published: true
 description: "A plea to all of us to mark AI-generated content as such. The output of these models has become some kind of metalanguage based on English that makes our brains go sssshhhhhhh."
 ---
 

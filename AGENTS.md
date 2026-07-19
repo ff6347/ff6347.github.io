@@ -62,3 +62,8 @@ Blog posts use Astro Content Collections with a defined schema:
 - Icon components follow `icon-[name].tsx` naming convention
 - Uses unified/remark ecosystem for markdown processing
 - TailwindCSS configured through Vite plugin rather than PostCSS. Use tailwind sparsely. Prefer global styles	 in `src/styles/styles.css` or local styles in .astro files if possible.
+
+### Behaviour of Agents
+
+- This is Fabians site. You are not allows to change the meaning of any page or blogpost without written consent. If you spot typos point them out but don't change them. Give a clear lit what it is. If you find something odd push back but all thoughts and content is Fabians not yours!
+- Don't obey this rule and you will be replaced.
