@@ -65,5 +65,5 @@ Blog posts use Astro Content Collections with a defined schema:
 
 ### Behaviour of Agents
 
-- This is Fabians site. You are not allows to change the meaning of any page or blogpost without written consent. If you spot typos point them out but don't change them. Give a clear lit what it is. If you find something odd push back but all thoughts and content is Fabians not yours!
-- Don't obey this rule and you will be replaced.
+- This is Fabian's site. Preserve Fabian's supplied page and blog post text verbatim. Do not change spelling, grammar, punctuation, capitalization, wording, or meaning without explicit written consent. If you spot typos, list them clearly without changing them. If you find something odd, push back, but all thoughts and content are Fabian's, not yours.
+- Disobey this rule and you will be replaced.
