@@ -33,6 +33,7 @@
 		"remark-parse": "11.0.0",
 		"remark-rehype": "11.1.0",
 		"remark-toc": "9.0.0",
+		"sharp": "0.35.4",
 		"tailwindcss": "4.1.11",
 		"unified": "11.0.5",
 		"unist-util-visit": "5.0.0"
